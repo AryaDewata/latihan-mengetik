@@ -12,33 +12,26 @@
 
     <!-- Style -->
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-        [class~=container],
-        * {
+        *,
+        [class~=container] {
             padding-left: 0;
+        }
+
+        #header {
+            padding-left: .208333333in;
         }
 
         * {
             padding-bottom: 0;
         }
 
-        *,
-        [class~=container] {
-            padding-right: 0;
-        }
-
-        *,
-        [class~=container] {
-            padding-top: 0;
-        }
-
-        #header {
-            padding-left: 1.25pc;
-        }
-
+        [class~=container],
         * {
-            margin-left: 0;
+            padding-right: 0;
         }
 
         #header {
@@ -46,27 +39,24 @@
         }
 
         #header {
-            padding-right: 1.25pc;
+            padding-right: .208333333in;
         }
 
+        [class~=container],
         * {
-            margin-bottom: 0;
+            padding-top: 0;
         }
 
         #header {
             padding-top: 11.25pt;
         }
 
-        * {
-            margin-right: 0;
+        body {
+            overflow-x: hidden;
         }
 
-        [class~=container] {
-            padding-bottom: 3.125pc;
-        }
-
-        #header,
-        [class~=vertical-center] {
+        [class~=vertical-center],
+        #header {
             display: flex;
         }
 
@@ -75,7 +65,55 @@
         }
 
         * {
+            margin-left: 0;
+        }
+
+        * {
+            margin-bottom: 0;
+        }
+
+        #header p {
+            font-size: .125in;
+        }
+
+        #header {
+            gap: 15px;
+        }
+
+        #header p {
+            color: white;
+        }
+
+        * {
+            margin-right: 0;
+        }
+
+        * {
             margin-top: 0;
+        }
+
+        [class~=container] {
+            padding-bottom: 37.5pt;
+        }
+
+        #header {
+            background: rgba(0, 0, 0, .5);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #header {
+            border-bottom-width: .0625pc;
+        }
+
+        * {
+            outline: none;
+        }
+
+        #header {
+            border-bottom-style: solid;
         }
 
         [class~=container] {
@@ -86,8 +124,12 @@
             background: rgba(190, 230, 250, .7);
         }
 
-        * {
-            box-sizing: border-box;
+        #header {
+            border-bottom-color: black;
+        }
+
+        #header {
+            border-image: none;
         }
 
         [class~=vertical-center] {
@@ -98,20 +140,8 @@
             justify-content: center;
         }
 
-        * {
-            outline: none;
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-
-        #header {
-            gap: 15px;
-        }
-
         [class~=header-text] {
-            font-size: 1.125pc;
+            font-size: 18px;
         }
 
         [class~=header-text] {
@@ -119,47 +149,19 @@
         }
 
         [class~=header-text] {
-            letter-spacing: 1.5pt;
-        }
-
-        [class~=header-text] {
-            text-decoration: none;
-        }
-
-        #header {
-            background: rgba(0, 0, 0, .5);
-        }
-
-        #header {
-            border-bottom-width: .0625pc;
-        }
-
-        #header {
-            border-bottom-style: solid;
+            letter-spacing: .125pc;
         }
 
         body {
             background: url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
         }
 
-        #header p {
-            font-size: 9pt;
+        [class~=header-text] {
+            text-decoration: none;
         }
 
         body {
             font-family: "Roboto";
-        }
-
-        #header {
-            border-bottom-color: black;
-        }
-
-        #header p {
-            color: white;
-        }
-
-        #header {
-            border-image: none;
         }
 
         @media (max-width: 480px) {
@@ -167,13 +169,22 @@
                 flex-direction: column;
             }
 
-            [class~=header-text] {
-                font-size: 16px;
+            .header-text {
+                font-size: .166666667in;
             }
 
             #header {
-                gap: .375pc;
+                gap: 4.5pt;
             }
+        }
+
+        .reset-btn:hover,
+        [class~=time-countdown]:hover {
+            opacity: 90%;
+        }
+
+        #main {
+            padding-left: 1.25pc;
         }
 
         [class~=words] {
@@ -188,24 +199,45 @@
             cursor: default;
         }
 
-        #main {
-            padding-left: 1.25pc;
-        }
-
         [class~=words] {
             padding-left: .125in;
-        }
-
-        [class~=words] {
-            padding-bottom: 6pt;
         }
 
         table {
             font-size: .145833333in;
         }
 
+        [class~=words] {
+            padding-bottom: 6pt;
+        }
+
+        #main {
+            padding-bottom: .104166667in;
+        }
+
+        td,
         tr {
             padding-left: 0;
+        }
+
+        #main {
+            padding-right: 1.25pc;
+        }
+
+        tr,
+        td {
+            padding-bottom: 3.75pt;
+        }
+
+        [class~=words] span {
+            font-size: .291666667in;
+        }
+
+        tr,
+        #main,
+        td,
+        #stat {
+            padding-top: .104166667in;
         }
 
         [class~=words] {
@@ -214,14 +246,6 @@
 
         [class~=words] {
             padding-top: 6pt;
-        }
-
-        #main {
-            padding-bottom: .625pc;
-        }
-
-        #main {
-            padding-right: 1.25pc;
         }
 
         [class~=words] {
@@ -240,21 +264,42 @@
             margin-top: .375pc;
         }
 
+        footer a {
+            color: gold;
+        }
+
         [class~=words] {
             width: 85%;
         }
 
-        [class~=words] {
-            height: 5pc;
+        #main {
+            margin-left: 0;
         }
 
-        [class~=words],
-        [class~=word-input] {
-            border-radius: .03125in;
+        #main {
+            margin-bottom: 15pt;
+        }
+
+        td,
+        tr {
+            padding-right: 30px;
+        }
+
+        [class~=words] {
+            height: 80px;
+        }
+
+        [class~=word-input],
+        [class~=words] {
+            border-radius: 2.25pt;
         }
 
         [class~=words] {
             border-left-width: .75pt;
+        }
+
+        #main {
+            margin-right: 0;
         }
 
         [class~=words] {
@@ -269,11 +314,6 @@
             border-top-width: .75pt;
         }
 
-        tr,
-        #main {
-            padding-top: .625pc;
-        }
-
         [class~=words] {
             border-left-style: solid;
         }
@@ -282,13 +322,17 @@
             border-bottom-style: solid;
         }
 
+        #main {
+            margin-top: 15pt;
+        }
+
         [class~=words] {
             border-right-style: solid;
         }
 
-        td,
-        tr {
-            padding-bottom: 3.75pt;
+        #mengetik,
+        #main {
+            display: flex;
         }
 
         [class~=words] {
@@ -311,49 +355,78 @@
             border-top-color: grey;
         }
 
-        td,
-        tr {
-            padding-right: .3125in;
-        }
-
         [class~=words] {
             border-image: none;
         }
 
-        .words span {
-            font-size: .291666667in;
+        #main {
+            flex-direction: column;
+        }
+
+        #mengetik {
+            margin-left: auto;
+        }
+
+        #mengetik {
+            margin-bottom: 10px;
         }
 
         [class~=words] {
             background: white;
         }
 
+        [class~=words] span,
+        [class~=word-input] {
+            font-family: serif;
+        }
+
         [class~=words] {
-            word-spacing: 1.125pc;
+            word-spacing: 13.5pt;
         }
 
         [class~=word-input] {
-            padding-left: 7.5pt;
+            padding-left: .625pc;
         }
 
-        [class~=word-input],
-        [class~=time-countdown],
-        [class~=reset-btn] {
+        #mengetik {
+            margin-right: auto;
+        }
+
+        [class~=word-input] {
             padding-bottom: 0;
         }
 
-        [class~=word-input] {
-            padding-right: 7.5pt;
+        [class~=words] span {
+            color: #242424;
         }
 
-        [class~=word-input],
-        [class~=reset-btn],
-        [class~=time-countdown] {
+        footer {
+            position: fixed;
+        }
+
+        footer {
+            bottom: 0;
+        }
+
+        [class~=word-input] {
+            padding-right: .625pc;
+        }
+
+        [class~=word-input] {
             padding-top: 0;
         }
 
         [class~=word-input] {
             width: 75%;
+        }
+
+        #stat,
+        footer {
+            padding-left: 0;
+        }
+
+        #mengetik {
+            margin-top: 10px;
         }
 
         [class~=word-input] {
@@ -364,6 +437,14 @@
             border-bottom-width: .0625pc;
         }
 
+        #mengetik {
+            width: 95%;
+        }
+
+        #mengetik {
+            height: .520833333in;
+        }
+
         [class~=word-input] {
             border-right-width: .0625pc;
         }
@@ -372,28 +453,29 @@
             border-top-width: .0625pc;
         }
 
-        #main {
-            margin-left: 0;
-        }
-
-        #main {
-            margin-bottom: 15pt;
-        }
-
         [class~=word-input] {
             border-left-style: solid;
+        }
+
+        #stat,
+        footer {
+            padding-bottom: 7.5pt;
         }
 
         [class~=word-input] {
             border-bottom-style: solid;
         }
 
-        #main {
-            margin-right: 0;
-        }
-
         [class~=word-input] {
             border-right-style: solid;
+        }
+
+        #mengetik {
+            justify-content: center;
+        }
+
+        #mengetik {
+            gap: 10px;
         }
 
         [class~=word-input] {
@@ -404,6 +486,10 @@
             border-left-color: #96c8fa;
         }
 
+        #mengetik {
+            line-height: .520833333in;
+        }
+
         [class~=word-input] {
             border-bottom-color: #96c8fa;
         }
@@ -412,16 +498,13 @@
             border-right-color: #96c8fa;
         }
 
-        #main {
-            margin-top: 15pt;
-        }
-
         [class~=word-input] {
             border-top-color: #96c8fa;
         }
 
-        #main {
-            display: flex;
+        footer,
+        #stat {
+            padding-right: 0;
         }
 
         [class~=word-input] {
@@ -429,83 +512,138 @@
         }
 
         [class~=word-input] {
-            box-shadow: inset .75pt .75pt 2px black;
+            box-shadow: inset .0625pc .0625pc .020833333in black;
         }
 
-        [class~=time-countdown],
-        [class~=word-input],
-        [class~=reset-btn] {
-            font-size: 1.625pc;
-        }
-
-        .words span,
+        .time-countdown,
         [class~=word-input] {
-            font-family: serif;
+            font-size: 26px;
+        }
+
+        #stat {
+            display: flex;
         }
 
         [class~=word-input] {
             color: #424242;
         }
 
-        [class~=word-input] {
-            letter-spacing: .75pt;
+        footer {
+            padding-top: 7.5pt;
         }
 
-        [class~=time-countdown] {
+        [class~=words] span,
+        [class~=word-input] {
+            letter-spacing: .010416667in;
+        }
+
+        #stat {
+            justify-content: space-evenly;
+        }
+
+        #curve_chart {
+            width: 50%;
+        }
+
+        footer {
+            width: 100%;
+        }
+
+        #curve_chart {
+            height: 150pt;
+        }
+
+        footer {
+            background: #1e1e1e;
+        }
+
+        .time-countdown {
             cursor: default;
         }
 
-        [class~=time-countdown],
+        .time-countdown,
         [class~=reset-btn] {
-            padding-left: 11.25pt;
+            padding-left: .15625in;
         }
 
-        [class~=time-countdown],
-        [class~=reset-btn] {
-            padding-right: 11.25pt;
+        #curve_chart {
+            overflow: hidden;
         }
 
-        td,
+        .time-countdown,
+        [class~=reset-btn] {
+            padding-bottom: 0;
+        }
+
+        .time-countdown,
+        [class~=reset-btn] {
+            padding-right: .15625in;
+        }
+
         footer {
-            padding-left: 0;
+            font-size: .125in;
         }
 
         [class~=reset-btn],
-        [class~=time-countdown] {
-            max-width: 10%;
+        .time-countdown,
+        [class~=statistik],
+        #curve_chart {
+            border-radius: .03125in;
         }
 
-        [class~=time-countdown],
-        [class~=statistik],
-        [class~=reset-btn] {
-            width: max-content;
+        #curve_chart {
+            background: white;
         }
 
         [class~=reset-btn],
-        [class~=statistik],
-        [class~=time-countdown] {
-            border-radius: 3px;
+        .time-countdown {
+            padding-top: 0;
         }
 
-        [class~=time-countdown] {
-            background: #3b4f61;
-        }
-
-        [class~=time-countdown],
-        [class~=reset-btn] {
+        [class~=reset-btn],
+        footer,
+        .time-countdown {
             color: white;
         }
 
-        [class~=time-countdown] {
+        footer,
+        .time-countdown {
             text-align: center;
+        }
+
+        .time-countdown,
+        [class~=reset-btn] {
+            max-width: 10%;
+        }
+
+        .time-countdown,
+        [class~=reset-btn],
+        [class~=statistik] {
+            width: max-content;
+        }
+
+        .time-countdown {
+            background: #3b4f61;
+        }
+
+        #curve_chart {
+            border-left-width: .010416667in;
+        }
+
+        #curve_chart {
+            border-bottom-width: .010416667in;
         }
 
         [class~=reset-btn] {
             cursor: pointer;
         }
 
-        .words span {
-            color: #242424;
+        #curve_chart {
+            border-right-width: .010416667in;
+        }
+
+        #curve_chart {
+            border-top-width: .010416667in;
         }
 
         [class~=reset-btn] {
@@ -518,6 +656,14 @@
 
         [class~=reset-btn] {
             border-right-width: medium;
+        }
+
+        #curve_chart {
+            border-left-style: solid;
+        }
+
+        #curve_chart {
+            border-bottom-style: solid;
         }
 
         [class~=reset-btn] {
@@ -544,42 +690,44 @@
             border-left-color: currentColor;
         }
 
-        [class~=reset-btn] {
-            border-bottom-color: currentColor;
+        #curve_chart {
+            border-right-style: solid;
         }
 
-        footer,
-        [class~=statistik],
-        td {
-            padding-top: 10px;
+        [class~=reset-btn] {
+            border-bottom-color: currentColor;
         }
 
         [class~=reset-btn] {
             border-right-color: currentColor;
         }
 
-        footer {
-            position: fixed;
+        #curve_chart {
+            border-top-style: solid;
         }
 
         [class~=reset-btn] {
             border-top-color: currentColor;
         }
 
-        #main {
-            flex-direction: column;
-        }
-
         [class~=reset-btn] {
             border-image: none;
+        }
+
+        #curve_chart {
+            border-left-color: grey;
         }
 
         [class~=reset-btn] {
             background: #428bca;
         }
 
-        footer {
-            bottom: 0;
+        #curve_chart {
+            border-bottom-color: grey;
+        }
+
+        [class~=reset-btn] {
+            font-size: 19.5pt;
         }
 
         [class~=statistik] {
@@ -587,43 +735,31 @@
         }
 
         [class~=statistik] {
-            padding-left: .208333333in;
+            padding-left: 1.25pc;
         }
 
-        [class~=statistik],
-        footer {
+        [class~=statistik] {
             padding-bottom: .104166667in;
         }
 
-        #mengetik,
         [class~=statistik] {
-            margin-left: auto;
+            padding-right: 1.25pc;
         }
 
         [class~=statistik] {
-            padding-right: .208333333in;
-        }
-
-        [class~=statistik] {
-            margin-bottom: 0;
-        }
-
-        [class~=statistik],
-        #mengetik {
-            margin-right: auto;
-        }
-
-        [class~=statistik] {
-            margin-top: 50px;
+            padding-top: .104166667in;
         }
 
         [class~=statistik] {
             border-left-width: .0625pc;
         }
 
-        footer,
-        [class~=total-wpm] {
-            padding-right: 0;
+        #curve_chart {
+            border-right-color: grey;
+        }
+
+        #curve_chart {
+            border-top-color: grey;
         }
 
         [class~=statistik] {
@@ -632,6 +768,10 @@
 
         [class~=statistik] {
             border-right-width: .0625pc;
+        }
+
+        #curve_chart {
+            border-image: none;
         }
 
         [class~=statistik] {
@@ -658,12 +798,12 @@
             border-left-color: #96c8fa;
         }
 
-        [class~=statistik] {
-            border-bottom-color: #96c8fa;
+        #curve_chart {
+            visibility: hidden;
         }
 
-        footer {
-            width: 100%;
+        [class~=statistik] {
+            border-bottom-color: #96c8fa;
         }
 
         [class~=statistik] {
@@ -686,12 +826,12 @@
             padding-left: 0;
         }
 
-        #mengetik {
-            margin-bottom: .625pc;
+        [class~=total-wpm] {
+            padding-bottom: .375pc;
         }
 
         [class~=total-wpm] {
-            padding-bottom: .375pc;
+            padding-right: 0;
         }
 
         [class~=total-wpm] {
@@ -699,7 +839,7 @@
         }
 
         [class~=total-wpm] {
-            border-bottom-width: .010416667in;
+            border-bottom-width: .75pt;
         }
 
         [class~=total-wpm] {
@@ -710,93 +850,42 @@
             border-bottom-color: grey;
         }
 
-        #mengetik {
-            margin-top: .625pc;
-        }
-
         [class~=total-wpm] {
             border-image: none;
         }
 
-        footer {
-            background: #1e1e1e;
-        }
-
         [class~=total-wpm] {
-            font-size: 2.25pc;
+            font-size: 27pt;
         }
 
         [class~=total-wpm] {
             font-weight: bold;
         }
 
-        footer a,
         [class~=total-wpm] {
             color: gold;
         }
 
-        footer {
-            font-size: 9pt;
+        [class~=total-wpm] {
+            text-shadow: 1px 2px black;
         }
 
         [class~=total-wpm] {
-            text-shadow: .75pt 1.5pt black;
+            word-spacing: .020833333in;
         }
 
         [class~=total-wpm] {
-            word-spacing: .125pc;
-        }
-
-        [class~=time-countdown]:hover,
-        [class~=reset-btn]:hover {
-            opacity: 90%;
-        }
-
-        [class~=total-wpm],
-        footer {
             text-align: center;
         }
 
-        .total-correct-words,
-        [class~=correct-keystrokes] {
+        [class~=correct-keystrokes],
+        .total-correct-words {
             color: #00b600;
         }
 
-        #mengetik {
-            width: 95%;
-        }
-
-        [class~=total-wrong-words],
+        .total-wrong-words,
         [class~=wrong-keystrokes] {
             color: #ff5959;
-        }
-
-        footer {
-            color: white;
-        }
-
-        #mengetik {
-            height: 3.125pc;
-        }
-
-        #mengetik {
-            display: flex;
-        }
-
-        #mengetik {
-            justify-content: center;
-        }
-
-        #mengetik {
-            gap: .104166667in;
-        }
-
-        #mengetik {
-            line-height: 37.5pt;
-        }
-
-        .words span {
-            letter-spacing: .010416667in;
         }
     </style>
 
@@ -804,6 +893,9 @@
     <link rel="shortcut icon"
         href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-typing-mobile-app-development-flaticons-lineal-color-flat-icons-4.png"
         type="image/x-icon">
+
+    <!-- Google Chart -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
@@ -843,7 +935,13 @@
             </section>
 
             <!-- Statistik -->
-            <div class="statistik"></div>
+            <section id="stat">
+                <!-- Statistik KPM -->
+                <div class="statistik"></div>
+
+                <!-- Kurva Statistik -->
+                <div id="curve_chart"></div>
+            </section>
 
         </section>
 
@@ -855,7 +953,7 @@
     </div>
 
     <!-- Javascript -->
-    <script>const _0x1431f9 = _0x1bac; function _0x1bac(_0x1c67a2, _0x2376bf) { const _0x1ebdeb = _0x1ebd(); return _0x1bac = function (_0x1bacc6, _0x5defd9) { _0x1bacc6 = _0x1bacc6 - 0xc7; let _0x142ae0 = _0x1ebdeb[_0x1bacc6]; return _0x142ae0; }, _0x1bac(_0x1c67a2, _0x2376bf); } (function (_0x1ff4f9, _0xb01ec0) { const _0x469a3f = _0x1bac, _0xd19ee3 = _0x1ff4f9(); while (!![]) { try { const _0x1737b4 = -parseInt(_0x469a3f(0xf7)) / 0x1 + -parseInt(_0x469a3f(0x11e)) / 0x2 + -parseInt(_0x469a3f(0xe1)) / 0x3 + parseInt(_0x469a3f(0xd4)) / 0x4 + -parseInt(_0x469a3f(0x131)) / 0x5 + -parseInt(_0x469a3f(0x115)) / 0x6 * (-parseInt(_0x469a3f(0x13e)) / 0x7) + -parseInt(_0x469a3f(0xfb)) / 0x8 * (-parseInt(_0x469a3f(0xf0)) / 0x9); if (_0x1737b4 === _0xb01ec0) break; else _0xd19ee3['push'](_0xd19ee3['shift']()); } catch (_0xc6a2c9) { _0xd19ee3['push'](_0xd19ee3['shift']()); } } }(_0x1ebd, 0x7349a), $(document)[_0x1431f9(0xee)](_0x1431f9(0xdb), function (_0x2f9e48) { return ![]; }), $(document)['on'](_0x1431f9(0x12c), function (_0x2a9028) { const _0x1a4cf8 = _0x1431f9; if (_0x2a9028[_0x1a4cf8(0xfd)] == 0x7b) return ![]; if (_0x2a9028[_0x1a4cf8(0x10c)] && _0x2a9028[_0x1a4cf8(0x10a)] && _0x2a9028[_0x1a4cf8(0xfd)] == 'I'[_0x1a4cf8(0xce)](0x0)) return ![]; if (_0x2a9028[_0x1a4cf8(0x10c)] && _0x2a9028[_0x1a4cf8(0x10a)] && _0x2a9028[_0x1a4cf8(0xfd)] == 'C'[_0x1a4cf8(0xce)](0x0)) return ![]; if (_0x2a9028[_0x1a4cf8(0x10c)] && _0x2a9028[_0x1a4cf8(0x10a)] && _0x2a9028[_0x1a4cf8(0xfd)] == 'J'['charCodeAt'](0x0)) return ![]; if (_0x2a9028[_0x1a4cf8(0x10c)] && _0x2a9028[_0x1a4cf8(0xfd)] == 'U'['charCodeAt'](0x0)) return ![]; })); let word = [_0x1431f9(0x13c), _0x1431f9(0xda), _0x1431f9(0x10b), _0x1431f9(0xde), _0x1431f9(0xf8), _0x1431f9(0x113), 'tapi', 'dengan', _0x1431f9(0xd9), _0x1431f9(0xea), _0x1431f9(0x112), _0x1431f9(0x10d), 'malam', _0x1431f9(0xd2), 'memberi', 'seperti', _0x1431f9(0x102), _0x1431f9(0xd8), _0x1431f9(0xc7), _0x1431f9(0xe4), _0x1431f9(0xca), _0x1431f9(0xe3), _0x1431f9(0x123), _0x1431f9(0xf2), _0x1431f9(0x120), 'hal', _0x1431f9(0x10f), _0x1431f9(0xd0), _0x1431f9(0xfa), _0x1431f9(0x11c), 'jenis', _0x1431f9(0xcc), _0x1431f9(0xcd), _0x1431f9(0x13d), _0x1431f9(0x119), _0x1431f9(0x124), 'tengah', _0x1431f9(0x108), _0x1431f9(0x12a), _0x1431f9(0xe6), _0x1431f9(0xf1), _0x1431f9(0x127), _0x1431f9(0x125), 'mana', _0x1431f9(0xff), 'tengah', 'anak', _0x1431f9(0xcb), 'pertama', 'ketika', 'termasuk', _0x1431f9(0x128), _0x1431f9(0xf6), _0x1431f9(0x105), _0x1431f9(0x134), 'bukan', _0x1431f9(0xf9), _0x1431f9(0x106), _0x1431f9(0x12d), 'pusat', _0x1431f9(0xc9), 'setelah', _0x1431f9(0xd7), _0x1431f9(0xd6), _0x1431f9(0xe8), 'ku', _0x1431f9(0x138), _0x1431f9(0x132), 'jadi', 'jalan', _0x1431f9(0xcf), _0x1431f9(0x13a), _0x1431f9(0x11d), _0x1431f9(0x12e), 'ingin', _0x1431f9(0x130), _0x1431f9(0x103), _0x1431f9(0x126), _0x1431f9(0xeb), _0x1431f9(0xe9)], kelipatan = 0x9; const INPUT = document[_0x1431f9(0x122)]('.word-input'), RESET = document['querySelector'](_0x1431f9(0xdf)), MENIT = document[_0x1431f9(0x122)](_0x1431f9(0x110)), DETIK = document[_0x1431f9(0x122)](_0x1431f9(0xed)), STATS = document[_0x1431f9(0x122)](_0x1431f9(0x139)), Timer = 0x3c; let menit = Math[_0x1431f9(0xfc)](Timer / 0x3c), detik = Timer - menit * 0x3c; function _0x1ebd() { const _0x2d30f3 = ['transparent', 'tempat', 'remove', 'cepat', 'lagi', 'sampai', 'punya', 'length', '#second', 'bind', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x22total-wpm\x22>', '8490600tLsSKR', 'secara', 'ini', 'addEventListener', 'Waktu\x20Habis!', 'toFixed', 'pernah', '263628wtPkQd', 'mengatakan', 'sangat', 'sekarang', '8PIJylO', 'floor', 'keyCode', '<span\x20class=\x22kata-', 'itu', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>', 'block', 'kenapa', 'siap', 'random', 'sebelum', 'saat', 'value', 'yang', 'push', 'shiftKey', 'baru', 'ctrlKey', 'salah', '<div\x20class=\x22word-row-', 'berbagai', '#minute', 'join', 'paling', 'jauh', 'filter', '1745406RPzsQg', 'background', '</span>)\x20<span\x20class=\x22keystrokes\x22>', 'rgb(0,\x20182,\x200)', 'telah', '</span>', 'rgb(215,\x20215,\x20215)', 'bersama', 'sambil', '888632ALPLft', 'forEach', 'sekali', 'click', 'querySelector', 'tidur', 'diri', 'selama', 'harus', 'bila', 'memang', 'slice', 'tak', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x22wrong-keystrokes\x22>', 'keydown', 'waktu', 'kami', 'rgb(255,\x2089,\x2089)', 'kerja', '4572080BSUtbJ', 'maka', '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22accuracy\x22>', 'dan', 'style', 'input', 'map', 'perlu', '.statistik', 'belum', '.kata-', 'untuk', 'orang', '7hQhpuI', 'akan', '.word-row-', 'kepala', 'makanan', 'barang', 'mudah', 'ada', 'charCodeAt', 'akibat', 'sini', '\x20WPM</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Keystrokes</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22total-keystrokes\x22>\x20(<span\x20class=\x22correct-keystrokes\x22>', 'nama', 'color', '3589656vHvZZi', 'display', 'kecuali', 'tinggi', 'dia', 'hingga', 'memberikan', 'contextmenu', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22total-wrong-words\x22>', '</div>', 'kepada', '.reset-btn', 'innerHTML', '111411xPCTKn', '.words', 'minuman', 'uang']; _0x1ebd = function () { return _0x2d30f3; }; return _0x1ebd(); } MENIT['innerHTML'] = menit, DETIK['innerHTML'] = detik; function resetTimer() { const _0x26fbf0 = _0x1431f9; menit = Math[_0x26fbf0(0xfc)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x26fbf0(0xe0)] = menit, DETIK[_0x26fbf0(0xe0)] = detik; } let typingTest = ![]; const jumlah_kata = 0xc8; function resetWord() { const _0x3a386c = _0x1431f9; index = 0x0; let _0x39b64d = []; for (let _0x2fd1be = 0x0; _0x2fd1be <= jumlah_kata; _0x2fd1be++) { let _0x3061c0 = word[parseInt(Math[_0x3a386c(0x104)]() * word[_0x3a386c(0xec)])]; _0x39b64d[_0x3a386c(0x109)](_0x3061c0 ? _0x3061c0 : ''); } _0x39b64d = _0x39b64d[_0x3a386c(0x114)](_0x37587c => _0x37587c != '')[_0x3a386c(0x137)]((_0x1ce40e, _0x37f46f) => _0x3a386c(0xfe) + _0x37f46f + '\x22>' + _0x1ce40e + _0x3a386c(0x11a)); let _0x5cc481 = 0x0, _0x39b251 = []; for (let _0x18d9da = 0x0; _0x18d9da < jumlah_kata; _0x18d9da++) { _0x18d9da % kelipatan == kelipatan - 0x1 && (_0x39b251[_0x3a386c(0x109)](_0x39b64d[_0x3a386c(0x129)](_0x5cc481, [_0x18d9da + 0x1])), _0x5cc481 += kelipatan); } _0x39b251[_0x3a386c(0x11f)]((_0x1d749c, _0x40a69c) => { const _0x23bb89 = _0x3a386c; _0x39b251[_0x40a69c] = _0x23bb89(0x10e) + (_0x40a69c + 0x1) + '\x22>' + _0x1d749c[_0x23bb89(0x111)]('\x20') + _0x23bb89(0xdd); }), document[_0x3a386c(0x122)](_0x3a386c(0xe2))[_0x3a386c(0xe0)] = _0x39b251['join']('\x20'), typingTest = ![], resetTimer(); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } function start() { const _0x2df941 = _0x1431f9; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetTimer(), resetStats(), INPUT[_0x2df941(0xf3)](_0x2df941(0x136), function () { const _0x31ba0c = _0x2df941; this[_0x31ba0c(0x107)] == document[_0x31ba0c(0x122)](_0x31ba0c(0x13b) + index)[_0x31ba0c(0xe0)] + '\x20' ? (document['querySelector'](_0x31ba0c(0x13b) + index)[_0x31ba0c(0x135)][_0x31ba0c(0xd3)] = _0x31ba0c(0x118), document[_0x31ba0c(0x122)]('.kata-' + index)['style'][_0x31ba0c(0x116)] = _0x31ba0c(0xe5), this[_0x31ba0c(0x107)] = '', correctWords++, correctChar += document['querySelector']('.kata-' + index)[_0x31ba0c(0xe0)][_0x31ba0c(0xec)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x31ba0c(0x122)](_0x31ba0c(0xc8) + wrIndex)['remove'](), wrIndex++), index++, document[_0x31ba0c(0x122)](_0x31ba0c(0x13b) + index)[_0x31ba0c(0x135)]['background'] = _0x31ba0c(0x11b)) : this[_0x31ba0c(0x107)] != document[_0x31ba0c(0x122)](_0x31ba0c(0x13b) + index)[_0x31ba0c(0xe0)][_0x31ba0c(0x129)](0x0, this[_0x31ba0c(0x107)][_0x31ba0c(0xec)]) ? document[_0x31ba0c(0x122)](_0x31ba0c(0x13b) + index)[_0x31ba0c(0x135)][_0x31ba0c(0x116)] = _0x31ba0c(0x12f) : document[_0x31ba0c(0x122)](_0x31ba0c(0x13b) + index)[_0x31ba0c(0x135)][_0x31ba0c(0x116)] = _0x31ba0c(0x11b), [...this[_0x31ba0c(0x107)]]['includes']('\x20') && (document[_0x31ba0c(0x122)]('.kata-' + index)[_0x31ba0c(0x135)]['background'] = _0x31ba0c(0xe5), document['querySelector'](_0x31ba0c(0x13b) + index)[_0x31ba0c(0x135)][_0x31ba0c(0xd3)] = _0x31ba0c(0x12f), this[_0x31ba0c(0x107)] = '', wrongWords++, wrongChar += document[_0x31ba0c(0x122)]('.kata-' + index)[_0x31ba0c(0xe0)][_0x31ba0c(0xec)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector'](_0x31ba0c(0xc8) + wrIndex)[_0x31ba0c(0xe7)](), wrIndex++), index++, document[_0x31ba0c(0x122)]('.kata-' + index)[_0x31ba0c(0x135)][_0x31ba0c(0x116)] = _0x31ba0c(0x11b)); }); let _0x3a17d8 = setInterval(() => { const _0x4f3936 = _0x2df941; if (typingTest == ![]) return INPUT['value'] = '', resetTimer(), clearInterval(_0x3a17d8), ![]; menit != -0x1 && (detik > 0x1 ? (detik--, DETIK[_0x4f3936(0xe0)] = detik) : menit >= 0x1 ? (menit--, MENIT[_0x4f3936(0xe0)] = menit, detik = 0x3b, DETIK[_0x4f3936(0xe0)] = detik) : (clearInterval(_0x3a17d8), alert(_0x4f3936(0xf4)), resetWord(), typingTest = ![], INPUT[_0x4f3936(0x107)] = '', STATS['style'][_0x4f3936(0xd5)] = _0x4f3936(0x101), STATS[_0x4f3936(0xe0)] = _0x4f3936(0xef) + Math[_0x4f3936(0xfc)]((correctChar + wrongChar) / 0x5 / Math[_0x4f3936(0xfc)](Timer / 0x3c)) + _0x4f3936(0xd1) + correctChar + _0x4f3936(0x12b) + wrongChar + _0x4f3936(0x117) + (correctChar + wrongChar) + _0x4f3936(0x133) + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)[_0x4f3936(0xf5)](0x2) + '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22total-correct-words\x22>' + correctWords + _0x4f3936(0xdc) + wrongWords + _0x4f3936(0x100))); }, 0x3e8); } } INPUT[_0x1431f9(0xf3)](_0x1431f9(0x136), function () { start(Timer); }), RESET[_0x1431f9(0xf3)](_0x1431f9(0x121), function () { resetWord(); }), setTimeout(() => { resetWord(); }, 0x3e8);</script>
+    <script>const _0x531fd3 = _0x14c7; (function (_0x50f644, _0x414f1d) { const _0x293d9a = _0x14c7, _0x5b5f60 = _0x50f644(); while (!![]) { try { const _0x4be76b = -parseInt(_0x293d9a(0x23e)) / 0x1 + -parseInt(_0x293d9a(0x1bd)) / 0x2 + -parseInt(_0x293d9a(0x1c2)) / 0x3 * (parseInt(_0x293d9a(0x237)) / 0x4) + parseInt(_0x293d9a(0x1eb)) / 0x5 + -parseInt(_0x293d9a(0x236)) / 0x6 + parseInt(_0x293d9a(0x231)) / 0x7 + parseInt(_0x293d9a(0x1d9)) / 0x8; if (_0x4be76b === _0x414f1d) break; else _0x5b5f60['push'](_0x5b5f60['shift']()); } catch (_0x366f82) { _0x5b5f60['push'](_0x5b5f60['shift']()); } } }(_0x1000, 0xa83b2), $(document)[_0x531fd3(0x1fd)](_0x531fd3(0x1e2), function (_0x82627) { return ![]; }), $(document)['on'](_0x531fd3(0x1ef), function (_0x35872b) { const _0x115aad = _0x531fd3; if (_0x35872b[_0x115aad(0x238)] == 0x7b) return ![]; if (_0x35872b[_0x115aad(0x20f)] && _0x35872b[_0x115aad(0x21d)] && _0x35872b[_0x115aad(0x238)] == 'I'[_0x115aad(0x20c)](0x0)) return ![]; if (_0x35872b[_0x115aad(0x20f)] && _0x35872b[_0x115aad(0x21d)] && _0x35872b['keyCode'] == 'C'['charCodeAt'](0x0)) return ![]; if (_0x35872b[_0x115aad(0x20f)] && _0x35872b['shiftKey'] && _0x35872b[_0x115aad(0x238)] == 'J'['charCodeAt'](0x0)) return ![]; if (_0x35872b[_0x115aad(0x20f)] && _0x35872b[_0x115aad(0x238)] == 'U'[_0x115aad(0x20c)](0x0)) return ![]; })); function getCookie(_0x144637) { const _0x50fdf5 = _0x531fd3, _0x2f61b3 = ';\x20' + document[_0x50fdf5(0x1ca)], _0x39d473 = _0x2f61b3['split'](';\x20' + _0x144637 + '='); if (_0x39d473[_0x50fdf5(0x233)] === 0x2) return _0x39d473[_0x50fdf5(0x234)]()['split'](';')['shift'](); } let stats_data = [[_0x531fd3(0x1f2), _0x531fd3(0x204)]]; if (getCookie('data_kpm')) { let data_kpm = getCookie(_0x531fd3(0x1c7))['split'](',,')[_0x531fd3(0x1fb)](0x1); data_kpm[_0x531fd3(0x1d0)](_0x2802e3 => { const _0x45caed = _0x531fd3; _0x2802e3 = _0x2802e3[_0x45caed(0x216)](','), stats_data['push'](['', Number(_0x2802e3[0x0])]); }), document[_0x531fd3(0x21f)]('#curve_chart')[_0x531fd3(0x239)]['visibility'] = _0x531fd3(0x1d1), google[_0x531fd3(0x202)][_0x531fd3(0x1cf)]('current', { 'packages': [_0x531fd3(0x1cb)] }), google[_0x531fd3(0x202)][_0x531fd3(0x217)](drawChart); function drawChart() { const _0x4b5411 = _0x531fd3; var _0x22f1f8 = google[_0x4b5411(0x218)][_0x4b5411(0x1ec)](stats_data), _0x68a1f4 = { 'title': '', 'curveType': _0x4b5411(0x241), 'legend': { 'position': _0x4b5411(0x1de) } }, _0x304701 = new google[(_0x4b5411(0x218))][(_0x4b5411(0x22e))](document[_0x4b5411(0x21f)](_0x4b5411(0x222))); _0x304701[_0x4b5411(0x1d7)](_0x22f1f8, _0x68a1f4); } document[_0x531fd3(0x1ca)] = 'data_kpm=' + stats_data; } let word = [_0x531fd3(0x203), _0x531fd3(0x1e1), _0x531fd3(0x235), 'kepada', _0x531fd3(0x20b), _0x531fd3(0x22c), _0x531fd3(0x206), _0x531fd3(0x1c4), _0x531fd3(0x1f9), 'sampai', _0x531fd3(0x215), _0x531fd3(0x200), _0x531fd3(0x1c8), _0x531fd3(0x212), 'memberi', _0x531fd3(0x1c9), _0x531fd3(0x1df), _0x531fd3(0x1dc), 'akan', _0x531fd3(0x213), _0x531fd3(0x205), _0x531fd3(0x1f5), _0x531fd3(0x1e9), _0x531fd3(0x224), 'sekali', 'hal', 'berbagai', _0x531fd3(0x1f7), 'sekarang', _0x531fd3(0x1c6), _0x531fd3(0x1fc), _0x531fd3(0x1e4), _0x531fd3(0x1f0), _0x531fd3(0x1d8), 'telah', 'diri', _0x531fd3(0x221), 'yang', 'tak', _0x531fd3(0x23d), 'secara', _0x531fd3(0x1f1), _0x531fd3(0x223), _0x531fd3(0x21b), _0x531fd3(0x1ce), _0x531fd3(0x221), _0x531fd3(0x240), _0x531fd3(0x1fe), _0x531fd3(0x214), 'ketika', _0x531fd3(0x1ea), _0x531fd3(0x23f), _0x531fd3(0x1be), _0x531fd3(0x20d), _0x531fd3(0x1f4), 'bukan', 'sangat', _0x531fd3(0x20a), 'waktu', 'pusat', _0x531fd3(0x219), _0x531fd3(0x228), _0x531fd3(0x1c5), _0x531fd3(0x1e0), _0x531fd3(0x1c0), 'ku', _0x531fd3(0x209), _0x531fd3(0x229), _0x531fd3(0x1db), _0x531fd3(0x1e3), 'akibat', 'belum', 'sambil', _0x531fd3(0x1e8), _0x531fd3(0x230), _0x531fd3(0x1d6), _0x531fd3(0x22a), _0x531fd3(0x243), 'punya', _0x531fd3(0x1da)], kelipatan = 0x9; const INPUT = document[_0x531fd3(0x21f)](_0x531fd3(0x21a)), RESET = document[_0x531fd3(0x21f)](_0x531fd3(0x21c)), MENIT = document['querySelector'](_0x531fd3(0x1c1)), DETIK = document[_0x531fd3(0x21f)](_0x531fd3(0x225)), STATS = document['querySelector'](_0x531fd3(0x22f)), Timer = 0x3c; let menit = Math['floor'](Timer / 0x3c), detik = Timer - menit * 0x3c; MENIT['innerHTML'] = menit, DETIK[_0x531fd3(0x1e7)] = detik; function _0x14c7(_0x54164b, _0x403a7f) { const _0x1000e5 = _0x1000(); return _0x14c7 = function (_0x14c73a, _0x4533b5) { _0x14c73a = _0x14c73a - 0x1bc; let _0x4f9893 = _0x1000e5[_0x14c73a]; return _0x4f9893; }, _0x14c7(_0x54164b, _0x403a7f); } function resetTimer() { const _0x15731d = _0x531fd3; menit = Math['floor'](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x15731d(0x1e7)] = menit, DETIK[_0x15731d(0x1e7)] = detik; } let typingTest = ![]; const jumlah_kata = 0xc8; function resetWord() { const _0x35e3e9 = _0x531fd3; index = 0x0; let _0xda861c = []; for (let _0x54c125 = 0x0; _0x54c125 <= jumlah_kata; _0x54c125++) { let _0x512550 = word[parseInt(Math['random']() * word[_0x35e3e9(0x233)])]; _0xda861c['push'](_0x512550 ? _0x512550 : ''); } _0xda861c = _0xda861c[_0x35e3e9(0x227)](_0x4c7e13 => _0x4c7e13 != '')[_0x35e3e9(0x232)]((_0x5eaeca, _0x28d693) => '<span\x20class=\x22kata-' + _0x28d693 + '\x22>' + _0x5eaeca + _0x35e3e9(0x1dd)); let _0x45663c = 0x0, _0x16485b = []; for (let _0x48e8db = 0x0; _0x48e8db < jumlah_kata; _0x48e8db++) { _0x48e8db % kelipatan == kelipatan - 0x1 && (_0x16485b[_0x35e3e9(0x220)](_0xda861c[_0x35e3e9(0x1fb)](_0x45663c, [_0x48e8db + 0x1])), _0x45663c += kelipatan); } _0x16485b['forEach']((_0x19d8c1, _0x28fd56) => { const _0x362f7d = _0x35e3e9; _0x16485b[_0x28fd56] = _0x362f7d(0x1f8) + (_0x28fd56 + 0x1) + '\x22>' + _0x19d8c1['join']('\x20') + _0x362f7d(0x1ed); }), document['querySelector'](_0x35e3e9(0x1d2))[_0x35e3e9(0x1e7)] = _0x16485b['join']('\x20'), typingTest = ![], resetTimer(); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function _0x1000() { const _0x16f663 = ['jenis', 'bind', 'barang', 'rgb(215,\x20215,\x20215)', 'salah', 'current', 'charts', 'untuk', 'Bahasa\x20Indonesia', 'makanan', 'tapi', '.word-row-', 'color', 'perlu', 'saat', 'mengatakan', 'charCodeAt', 'sebelum', 'includes', 'ctrlKey', '\x20KPM</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Keystrokes</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22total-keystrokes\x22>\x20(<span\x20class=\x22correct-keystrokes\x22>', 'Waktu\x20Habis!', 'nama', 'uang', 'pertama', 'paling', 'split', 'setOnLoadCallback', 'visualization', 'kepala', '.word-input', 'mana', '.reset-btn', 'shiftKey', 'floor', 'querySelector', 'push', 'tengah', '#curve_chart', 'selama', 'ini', '#second', 'background', 'filter', 'setelah', 'maka', 'siap', 'transparent', 'jauh', 'rgb(255,\x2089,\x2089)', 'LineChart', '.statistik', 'ingin', '9212791QDfbyE', 'map', 'length', 'pop', 'baru', '4365150iFUelK', '4fzZDAn', 'keyCode', 'style', 'addEventListener', 'block', 'rgb(0,\x20182,\x200)', 'tempat', '849986Isruhg', 'memang', 'anak', 'function', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22total-correct-words\x22>', 'harus', 'remove', '2550632PeDPfB', 'pernah', 'visibility', 'cepat', '#minute', '554817AhjRal', 'input', 'dengan', 'tinggi', 'bersama', 'data_kpm', 'malam', 'seperti', 'cookie', 'corechart', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x22wrong-keystrokes\x22>', 'toFixed', 'itu', 'load', 'forEach', 'visible', '.words', 'value', '</span>)\x20<span\x20class=\x22keystrokes\x22>', 'click', 'kerja', 'draw', 'orang', '8857672EKeKWE', 'lagi', 'jadi', 'dia', '</span>', 'bottom', 'kenapa', 'kecuali', 'memberikan', 'contextmenu', 'jalan', 'mudah', 'data_kpm=', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>', 'innerHTML', 'kami', 'tidur', 'termasuk', '6517590BDtHee', 'arrayToDataTable', '</div>', 'display', 'keydown', 'ada', 'bila', 'KPM', '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22accuracy\x22>', 'dan', 'minuman', '.kata-', 'sini', '<div\x20class=\x22word-row-', 'hingga', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22total-wrong-words\x22>', 'slice']; _0x1000 = function () { return _0x16f663; }; return _0x1000(); } function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } function start() { const _0x291dff = _0x531fd3; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetTimer(), resetStats(), INPUT['addEventListener'](_0x291dff(0x1c3), function () { const _0x29f120 = _0x291dff; this[_0x29f120(0x1d3)] == document[_0x29f120(0x21f)]('.kata-' + index)['innerHTML'] + '\x20' ? (document[_0x29f120(0x21f)]('.kata-' + index)[_0x29f120(0x239)][_0x29f120(0x208)] = _0x29f120(0x23c), document[_0x29f120(0x21f)]('.kata-' + index)[_0x29f120(0x239)]['background'] = _0x29f120(0x22b), this['value'] = '', correctWords++, correctChar += document[_0x29f120(0x21f)](_0x29f120(0x1f6) + index)[_0x29f120(0x1e7)][_0x29f120(0x233)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x29f120(0x21f)](_0x29f120(0x207) + wrIndex)[_0x29f120(0x1bc)](), wrIndex++), index++, document[_0x29f120(0x21f)]('.kata-' + index)[_0x29f120(0x239)]['background'] = _0x29f120(0x1ff)) : this['value'] != document[_0x29f120(0x21f)](_0x29f120(0x1f6) + index)[_0x29f120(0x1e7)][_0x29f120(0x1fb)](0x0, this['value'][_0x29f120(0x233)]) ? document['querySelector']('.kata-' + index)[_0x29f120(0x239)][_0x29f120(0x226)] = _0x29f120(0x22d) : document[_0x29f120(0x21f)](_0x29f120(0x1f6) + index)[_0x29f120(0x239)][_0x29f120(0x226)] = _0x29f120(0x1ff), [...this['value']][_0x29f120(0x20e)]('\x20') && (this['value'][_0x29f120(0x233)] <= 0x1 ? (this[_0x29f120(0x1d3)] = '', document[_0x29f120(0x21f)]('.kata-' + index)[_0x29f120(0x239)]['background'] = 'rgb(215,\x20215,\x20215)') : (document['querySelector'](_0x29f120(0x1f6) + index)[_0x29f120(0x239)][_0x29f120(0x226)] = _0x29f120(0x22b), document['querySelector'](_0x29f120(0x1f6) + index)[_0x29f120(0x239)][_0x29f120(0x208)] = _0x29f120(0x22d), this['value'] = '', wrongWords++, wrongChar += document['querySelector'](_0x29f120(0x1f6) + index)['innerHTML'][_0x29f120(0x233)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x29f120(0x21f)]('.word-row-' + wrIndex)[_0x29f120(0x1bc)](), wrIndex++), index++, document[_0x29f120(0x21f)](_0x29f120(0x1f6) + index)[_0x29f120(0x239)][_0x29f120(0x226)] = _0x29f120(0x1ff))); }); let _0x3f49aa = setInterval(() => { const _0x48b096 = _0x291dff; if (typingTest == ![]) return INPUT['value'] = '', resetTimer(), clearInterval(_0x3f49aa), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK[_0x48b096(0x1e7)] = detik; else { if (menit >= 0x1) menit--, MENIT[_0x48b096(0x1e7)] = menit, detik = 0x3b, DETIK[_0x48b096(0x1e7)] = detik; else { clearInterval(_0x3f49aa), alert(_0x48b096(0x211)), document[_0x48b096(0x21f)]('#curve_chart')[_0x48b096(0x239)][_0x48b096(0x1bf)] = _0x48b096(0x1d1), stats_data[_0x48b096(0x220)](['', Math[_0x48b096(0x21e)]((correctChar + wrongChar) / 0x5 / Math[_0x48b096(0x21e)](Timer / 0x3c))]), google['charts'][_0x48b096(0x1cf)](_0x48b096(0x201), { 'packages': [_0x48b096(0x1cb)] }), google[_0x48b096(0x202)][_0x48b096(0x217)](_0x439907); function _0x439907() { const _0x2f9853 = _0x48b096; var _0x114c00 = google[_0x2f9853(0x218)][_0x2f9853(0x1ec)](stats_data), _0x3876cd = { 'title': '', 'curveType': _0x2f9853(0x241), 'legend': { 'position': _0x2f9853(0x1de) } }, _0x400b1a = new google[(_0x2f9853(0x218))][(_0x2f9853(0x22e))](document[_0x2f9853(0x21f)](_0x2f9853(0x222))); _0x400b1a[_0x2f9853(0x1d7)](_0x114c00, _0x3876cd); } document[_0x48b096(0x1ca)] = _0x48b096(0x1e5) + stats_data, resetWord(), typingTest = ![], INPUT[_0x48b096(0x1d3)] = '', STATS[_0x48b096(0x239)][_0x48b096(0x1ee)] = _0x48b096(0x23b), STATS[_0x48b096(0x1e7)] = '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x22total-wpm\x22>' + Math[_0x48b096(0x21e)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)) + _0x48b096(0x210) + correctChar + _0x48b096(0x1cc) + wrongChar + _0x48b096(0x1d4) + (correctChar + wrongChar) + _0x48b096(0x1f3) + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)[_0x48b096(0x1cd)](0x2) + _0x48b096(0x242) + correctWords + _0x48b096(0x1fa) + wrongWords + _0x48b096(0x1e6); } } } }, 0x3e8); } } INPUT[_0x531fd3(0x23a)](_0x531fd3(0x1c3), function () { start(Timer); }), RESET[_0x531fd3(0x23a)](_0x531fd3(0x1d5), function () { resetWord(); }), setTimeout(() => { resetWord(); }, 0x3e8);</script>
 </body>
 
 </html>
