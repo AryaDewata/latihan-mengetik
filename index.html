@@ -16,47 +16,45 @@
         @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+        *,
+        [class~=container] {
+            padding-left: 0;
+        }
+
+        [class~=container] {
+            padding-bottom: .520833333in;
+        }
+
+        #header p {
+            font-size: 12px;
+        }
+
         #header {
             position: relative;
         }
 
-        #header {
-            padding-left: 1.25pc;
+        body {
+            overflow-x: hidden;
         }
 
         #header {
-            padding-bottom: 11.25pt;
-        }
-
-        .container,
-        * {
-            padding-left: 0;
-        }
-
-        .container {
-            padding-bottom: 3.125pc;
-        }
-
-        *,
-        #language-select {
-            padding-bottom: 0;
+            padding-left: .208333333in;
         }
 
         #header {
-            padding-right: 1.25pc;
+            padding-bottom: .15625in;
         }
 
         #header {
-            padding-top: 11.25pt;
+            padding-right: .208333333in;
         }
 
-        *,
-        .container {
-            padding-right: 0;
+        #header {
+            padding-top: .15625in;
         }
 
-        #header,
-        [class~=vertical-center] {
+        [class~=vertical-center],
+        #header {
             display: flex;
         }
 
@@ -64,8 +62,13 @@
             justify-content: left;
         }
 
+        #language-select,
+        * {
+            padding-bottom: 0;
+        }
+
         #header {
-            gap: 11.25pt;
+            gap: 15px;
         }
 
         #header {
@@ -73,7 +76,12 @@
         }
 
         #header {
-            border-bottom-width: .75pt;
+            border-bottom-width: 1px;
+        }
+
+        #header p,
+        #language-select {
+            color: white;
         }
 
         #header {
@@ -84,30 +92,51 @@
             border-bottom-color: black;
         }
 
-        #language-select,
-        *,
-        .container {
-            padding-top: 0;
-        }
-
         #header {
             border-image: none;
-        }
-
-        body {
-            overflow-x: hidden;
         }
 
         #language-select {
             cursor: pointer;
         }
 
+        #language-select {
+            position: absolute;
+        }
+
+        [class~=container],
         * {
-            margin-left: 0;
+            padding-right: 0;
         }
 
         #language-select {
-            position: absolute;
+            right: 15pt;
+        }
+
+        #language-select {
+            padding-left: 7.5pt;
+        }
+
+        #language-select,
+        *,
+        [class~=container] {
+            padding-top: 0;
+        }
+
+        [class~=container] {
+            min-height: 100vh;
+        }
+
+        #language-select {
+            padding-right: 7.5pt;
+        }
+
+        [class~=container] {
+            background: rgba(190, 230, 250, .7);
+        }
+
+        * {
+            margin-left: 0;
         }
 
         * {
@@ -115,23 +144,15 @@
         }
 
         #language-select {
-            right: 15pt;
-        }
-
-        body {
-            background: url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
-        }
-
-        #language-select {
-            padding-left: .625pc;
-        }
-
-        #language-select {
-            padding-right: .625pc;
-        }
-
-        #language-select {
             height: 60%;
+        }
+
+        * {
+            margin-right: 0;
+        }
+
+        * {
+            margin-top: 0;
         }
 
         #language-select {
@@ -143,51 +164,43 @@
         }
 
         * {
-            margin-right: 0;
-        }
-
-        body {
-            font-family: "Roboto";
-        }
-
-        .container {
-            min-height: 100vh;
-        }
-
-        #language-select {
-            border-left-width: .75pt;
-        }
-
-        .container {
-            background: rgba(190, 230, 250, .7);
-        }
-
-        * {
-            margin-top: 0;
-        }
-
-        #language-select {
-            border-bottom-width: .75pt;
-        }
-
-        #language-select {
-            border-right-width: .75pt;
-        }
-
-        * {
             box-sizing: border-box;
         }
 
         #language-select {
-            border-top-width: .75pt;
+            border-left-width: 1px;
+        }
+
+        #language-select {
+            border-bottom-width: 1px;
+        }
+
+        #language-select {
+            border-right-width: 1px;
+        }
+
+        #language-select {
+            border-top-width: 1px;
+        }
+
+        #language-select:hover {
+            background: #71cc71;
         }
 
         #language-select {
             border-left-style: solid;
         }
 
+        [class~=vertical-center] {
+            flex-direction: column;
+        }
+
         #language-select {
             border-bottom-style: solid;
+        }
+
+        [class~=vertical-center] {
+            justify-content: center;
         }
 
         #language-select {
@@ -198,25 +211,20 @@
             border-top-style: solid;
         }
 
-        #header p {
-            font-size: 9pt;
+        [class~=header-text] {
+            font-size: .1875in;
         }
 
         #language-select {
             border-left-color: #1e5a1e;
         }
 
-        #language-select,
-        #header p {
-            color: white;
+        [class~=header-text] {
+            color: gold;
         }
 
         #language-select {
             border-bottom-color: #1e5a1e;
-        }
-
-        [class~=vertical-center] {
-            flex-direction: column;
         }
 
         #language-select {
@@ -240,11 +248,11 @@
         }
 
         #language-select {
-            font-size: .166666667in;
+            font-size: 16px;
         }
 
         #language-select {
-            letter-spacing: .005208333in;
+            letter-spacing: .03125pc;
         }
 
         #language-select * {
@@ -255,28 +263,20 @@
             color: black;
         }
 
-        #language-select:hover {
-            background: #71cc71;
+        [class~=header-text] {
+            letter-spacing: 2px;
         }
 
-        [class~=vertical-center] {
-            justify-content: center;
+        body {
+            background: url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
         }
 
-        .header-text {
-            font-size: 13.5pt;
-        }
-
-        .header-text {
-            color: gold;
-        }
-
-        .header-text {
-            letter-spacing: 1.5pt;
-        }
-
-        .header-text {
+        [class~=header-text] {
             text-decoration: none;
+        }
+
+        body {
+            font-family: "Roboto";
         }
 
         @media (max-width: 480px) {
@@ -285,7 +285,7 @@
             }
 
             #header {
-                gap: .375pc;
+                gap: .0625in;
             }
 
             [class~=header-text] {
@@ -293,77 +293,70 @@
             }
         }
 
-        [class~=words] {
-            user-select: none;
+        #main {
+            padding-left: 1.25pc;
+        }
+
+        [class~=time-countdown]:hover {
+            opacity: 90%;
         }
 
         table {
-            font-size: 14px;
-        }
-
-        tr {
-            padding-left: 0;
-        }
-
-        #main {
-            padding-left: 15pt;
-        }
-
-        [class~=words] {
-            overflow: hidden;
-        }
-
-        [class~=words] {
-            cursor: default;
-        }
-
-        [class~=words] {
-            padding-left: .125in;
-        }
-
-        [class~=words] {
-            padding-bottom: .5pc;
-        }
-
-        [class~=words] {
-            padding-right: .125in;
+            font-size: .145833333in;
         }
 
         #main {
             padding-bottom: .625pc;
         }
 
-        [class~=words] {
-            padding-top: .5pc;
+        .words {
+            user-select: none;
         }
 
-        tr {
-            padding-bottom: .052083333in;
+        .words {
+            overflow: hidden;
+        }
+
+        .words {
+            cursor: default;
+        }
+
+        .words {
+            padding-left: 9pt;
+        }
+
+        .words {
+            padding-bottom: .083333333in;
+        }
+
+        tr,
+        td {
+            padding-left: 0;
+        }
+
+        .words {
+            padding-right: 9pt;
         }
 
         #main {
-            padding-right: 15pt;
+            padding-right: 1.25pc;
         }
 
-        [class~=words] {
-            margin-left: auto;
-        }
-
-        #main,
-        tr {
+        tr,
+        #main {
             padding-top: .625pc;
         }
 
-        [class~=words] {
+        .words {
+            padding-top: .083333333in;
+        }
+
+        .words {
+            margin-left: auto;
+        }
+
+        .words {
             margin-bottom: 4.5pt;
-        }
-
-        [class~=words] {
-            margin-right: auto;
-        }
-
-        [class~=words] {
-            margin-top: 4.5pt;
         }
 
         #main {
@@ -371,476 +364,396 @@
         }
 
         #main {
-            margin-bottom: 1.25pc;
+            margin-bottom: 15pt;
         }
 
-        [class~=words] {
+        .words {
+            margin-right: auto;
+        }
+
+        .words {
+            margin-top: 4.5pt;
+        }
+
+        .words {
             width: 85%;
         }
 
-        [class~=words] {
-            height: 80px;
+        tr,
+        td {
+            padding-bottom: 3.75pt;
         }
 
-        [class~=words],
-        .word-input {
-            border-radius: 3px;
+        tr,
+        td {
+            padding-right: 30px;
+        }
+
+        .words {
+            height: 80px;
         }
 
         #main {
             margin-right: 0;
         }
 
-        #main {
-            margin-top: 1.25pc;
+        [class~=word-input],
+        .words {
+            border-radius: .1875pc;
         }
 
-        #mengetik,
+        .words {
+            border-left-width: .010416667in;
+        }
+
+        .words {
+            border-bottom-width: .010416667in;
+        }
+
+        .words {
+            border-right-width: .010416667in;
+        }
+
         #main {
+            margin-top: 15pt;
+        }
+
+        .words {
+            border-top-width: .010416667in;
+        }
+
+        #main,
+        #mengetik {
             display: flex;
+        }
+
+        .words {
+            border-left-style: solid;
+        }
+
+        .words {
+            border-bottom-style: solid;
+        }
+
+        .words {
+            border-right-style: solid;
+        }
+
+        .words {
+            border-top-style: solid;
         }
 
         #main {
             flex-direction: column;
         }
 
-        [class~=words] {
-            border-left-width: .010416667in;
-        }
-
-        [class~=words] {
-            border-bottom-width: .010416667in;
+        .words {
+            border-left-color: #96c8fa;
         }
 
         #mengetik {
             margin-left: auto;
         }
 
-        [class~=words] {
-            border-right-width: .010416667in;
+        .words {
+            border-bottom-color: #96c8fa;
         }
 
-        [class~=words] {
-            border-top-width: .010416667in;
+        .words {
+            border-right-color: #96c8fa;
         }
 
-        [class~=words] {
-            border-left-style: solid;
+        .words {
+            border-top-color: #96c8fa;
         }
 
-        tr {
-            padding-right: .3125in;
-        }
-
-        [class~=words] {
-            border-bottom-style: solid;
-        }
-
-        [class~=words] {
-            border-right-style: solid;
-        }
-
-        [class~=words] {
-            border-top-style: solid;
-        }
-
-        [class~=words] {
-            border-left-color: grey;
-        }
-
-        #mengetik {
-            margin-bottom: .625pc;
-        }
-
-        [class~=words] {
-            border-bottom-color: grey;
-        }
-
-        [class~=words] {
-            border-right-color: grey;
-        }
-
-        [class~=words] {
-            border-top-color: grey;
-        }
-
-        [class~=words] {
+        .words {
             border-image: none;
         }
 
-        [class~=words] {
+        .words {
             background: white;
         }
 
-        [class~=words] {
-            word-spacing: 13.5pt;
+        .words {
+            word-spacing: 10.5pt;
+        }
+
+        [class~=word-input] {
+            padding-left: .625pc;
+        }
+
+        [class~=word-input],
+        .time-countdown {
+            padding-bottom: 0;
+        }
+
+        [class~=word-input] {
+            padding-right: .625pc;
+        }
+
+        .time-countdown,
+        [class~=word-input] {
+            padding-top: 0;
+        }
+
+        #mengetik {
+            margin-bottom: .104166667in;
         }
 
         #mengetik {
             margin-right: auto;
         }
 
-        [class~=time-countdown]:hover {
-            opacity: 90%;
-        }
-
-        .word-input {
-            padding-left: .625pc;
-        }
-
-        #mengetik {
-            margin-top: .625pc;
-        }
-
-        #mengetik {
-            width: 95%;
-        }
-
-        .word-input,
-        [class~=time-countdown] {
-            padding-bottom: 0;
-        }
-
-        #mengetik {
-            height: 50px;
-        }
-
-        .word-input {
-            padding-right: .625pc;
-        }
-
-        [class~=time-countdown],
-        .word-input {
-            padding-top: 0;
-        }
-
-        .word-input {
+        [class~=word-input] {
             width: 75%;
         }
 
-        td,
-        #stat {
-            padding-left: 0;
-        }
-
-        .word-input {
-            border-left-width: .0625pc;
-        }
-
-        .word-input {
-            border-bottom-width: .0625pc;
-        }
-
-        .word-input {
-            border-right-width: .0625pc;
-        }
-
-        .word-input {
-            border-top-width: .0625pc;
-        }
-
-        #mengetik {
-            justify-content: center;
-        }
-
-        .word-input {
-            border-left-style: solid;
-        }
-
-        .word-input {
-            border-bottom-style: solid;
-        }
-
-        .word-input {
-            border-right-style: solid;
-        }
-
-        [class~=words] span {
-            font-size: .291666667in;
-        }
-
-        .word-input {
-            border-top-style: solid;
-        }
-
-        #mengetik {
-            gap: 7.5pt;
-        }
-
-        .word-input {
-            border-left-color: #96c8fa;
-        }
-
-        .word-input {
-            border-bottom-color: #96c8fa;
-        }
-
-        .word-input {
-            border-right-color: #96c8fa;
-        }
-
-        .word-input {
-            border-top-color: #96c8fa;
-        }
-
-        #mengetik {
-            line-height: 3.125pc;
-        }
-
-        .word-input {
-            border-image: none;
-        }
-
-        td {
-            padding-bottom: .052083333in;
-        }
-
-        .word-input {
-            box-shadow: inset .75pt .010416667in 2px black;
-        }
-
-        footer,
-        #stat {
-            padding-bottom: 7.5pt;
-        }
-
-        #stat {
-            padding-right: 0;
-        }
-
-        .word-input {
-            outline: none;
-        }
-
-        [class~=time-countdown],
-        .word-input {
-            font-size: 19.5pt;
-        }
-
-        .word-input {
-            font-family: serif;
-        }
-
-        .word-input {
-            color: #424242;
-        }
-
-        .word-input {
-            letter-spacing: .75pt;
-        }
-
-        [class~=time-countdown] {
-            cursor: default;
-        }
-
-        td {
-            padding-right: .3125in;
-        }
-
-        [class~=time-countdown],
-        [class~=reset-btn] {
-            padding-left: 15px;
-        }
-
-        td,
-        #stat {
-            padding-top: .625pc;
-        }
-
-        [class~=reset-btn],
-        [class~=time-countdown] {
-            padding-right: 15px;
-        }
-
-        [class~=time-countdown],
-        [class~=reset-btn] {
-            max-width: 10%;
-        }
-
-        #stat {
-            display: flex;
-        }
-
-        [class~=time-countdown],
-        [class~=reset-btn] {
-            width: max-content;
-        }
-
-        [class~=statistik],
-        [class~=time-countdown],
-        #curve_chart,
-        [class~=reset-btn] {
-            border-radius: 3px;
-        }
-
-        [class~=time-countdown] {
-            background: #3b4f61;
-        }
-
-        #stat {
-            justify-content: space-evenly;
-        }
-
-        [class~=reset-btn],
-        [class~=time-countdown] {
-            color: white;
-        }
-
-        [class~=time-countdown] {
-            text-align: center;
-        }
-
-        footer {
-            position: fixed;
-        }
-
-        #curve_chart {
-            width: 50%;
-        }
-
-        [class~=reset-btn] {
-            cursor: pointer;
-        }
-
-        #curve_chart {
-            height: 150pt;
-        }
-
-        [class~=reset-btn] {
-            padding-bottom: 0;
-        }
-
-        #curve_chart {
-            overflow: hidden;
-        }
-
-        footer {
-            bottom: 0;
-        }
-
-        footer {
-            padding-left: 0;
-        }
-
-        #curve_chart {
-            background: white;
-        }
-
-        [class~=reset-btn] {
-            padding-top: 0;
-        }
-
-        #curve_chart {
+        [class~=word-input] {
             border-left-width: .010416667in;
         }
 
-        #curve_chart {
+        [class~=word-input] {
             border-bottom-width: .010416667in;
         }
 
-        footer {
-            padding-right: 0;
-        }
-
-        #curve_chart {
+        [class~=word-input] {
             border-right-width: .010416667in;
         }
 
-        [class~=reset-btn] {
-            border-left-width: medium;
-        }
-
-        [class~=reset-btn] {
-            border-bottom-width: medium;
-        }
-
-        #curve_chart {
+        [class~=word-input] {
             border-top-width: .010416667in;
         }
 
-        [class~=reset-btn] {
-            border-right-width: medium;
-        }
-
-        [class~=reset-btn] {
-            border-top-width: medium;
-        }
-
-        [class~=reset-btn] {
-            border-left-style: none;
-        }
-
-        [class~=statistik],
-        footer {
-            padding-top: .625pc;
-        }
-
-        [class~=reset-btn] {
-            border-bottom-style: none;
-        }
-
-        [class~=reset-btn] {
-            border-right-style: none;
-        }
-
-        footer {
-            width: 100%;
-        }
-
-        [class~=reset-btn] {
-            border-top-style: none;
-        }
-
-        #curve_chart {
+        [class~=word-input] {
             border-left-style: solid;
         }
 
-        #curve_chart {
+        #mengetik {
+            margin-top: .104166667in;
+        }
+
+        [class~=word-input] {
             border-bottom-style: solid;
         }
 
-        #curve_chart {
+        [class~=word-input] {
             border-right-style: solid;
-        }
-
-        #curve_chart {
-            border-top-style: solid;
-        }
-
-        footer {
-            background: #1e1e1e;
-        }
-
-        #curve_chart {
-            border-left-color: grey;
-        }
-
-        [class~=reset-btn] {
-            border-left-color: currentColor;
-        }
-
-        [class~=reset-btn] {
-            border-bottom-color: currentColor;
-        }
-
-        [class~=reset-btn] {
-            border-right-color: currentColor;
-        }
-
-        [class~=reset-btn] {
-            border-top-color: currentColor;
-        }
-
-        [class~=reset-btn] {
-            border-image: none;
         }
 
         [class~=reset-btn]:hover {
             opacity: 90%;
         }
 
-        #curve_chart {
-            border-bottom-color: grey;
+        [class~=word-input] {
+            border-top-style: solid;
+        }
+
+        #mengetik {
+            width: 95%;
+        }
+
+        [class~=word-input] {
+            border-left-color: #6496be;
+        }
+
+        #mengetik {
+            height: 37.5pt;
+        }
+
+        [class~=word-input] {
+            border-bottom-color: #6496be;
+        }
+
+        [class~=word-input] {
+            border-right-color: #6496be;
+        }
+
+        [class~=word-input] {
+            border-top-color: #6496be;
+        }
+
+        [class~=word-input] {
+            border-image: none;
+        }
+
+        [class~=word-input] {
+            box-shadow: inset .0625pc 1px 2px black;
+        }
+
+        [class~=word-input] {
+            outline: none;
+        }
+
+        [class~=word-input],
+        .time-countdown {
+            font-size: .25in;
+        }
+
+        [class~=word-input] {
+            font-family: serif;
+        }
+
+        #stat,
+        td {
+            padding-top: 10px;
+        }
+
+        #mengetik {
+            justify-content: center;
+        }
+
+        [class~=word-input] {
+            color: #424242;
+        }
+
+        footer {
+            position: fixed;
+        }
+
+        #mengetik {
+            gap: .104166667in;
+        }
+
+        [class~=word-input] {
+            letter-spacing: .010416667in;
+        }
+
+        .time-countdown {
+            cursor: default;
+        }
+
+        footer {
+            bottom: 0;
+        }
+
+        [class~=reset-btn],
+        .time-countdown {
+            padding-left: .9375pc;
+        }
+
+        .time-countdown,
+        [class~=reset-btn] {
+            padding-right: .9375pc;
+        }
+
+        [class~=reset-btn],
+        .time-countdown {
+            max-width: 10%;
+        }
+
+        [class~=reset-btn],
+        [class~=statistik],
+        .time-countdown {
+            width: max-content;
+        }
+
+        .time-countdown,
+        #curve_chart,
+        [class~=statistik],
+        [class~=reset-btn] {
+            border-radius: 2.25pt;
+        }
+
+        .time-countdown {
+            background: #3b4f61;
+        }
+
+        .time-countdown,
+        [class~=reset-btn] {
+            color: white;
+        }
+
+        .time-countdown {
+            text-align: center;
+        }
+
+        [class~=reset-btn] {
+            cursor: pointer;
+        }
+
+        [class~=reset-btn] {
+            padding-bottom: 0;
+        }
+
+        [class~=reset-btn] {
+            padding-top: 0;
+        }
+
+        #mengetik {
+            line-height: .520833333in;
+        }
+
+        [class~=reset-btn] {
+            border-left-width: .75pt;
+        }
+
+        [class~=reset-btn] {
+            border-bottom-width: .75pt;
+        }
+
+        [class~=reset-btn] {
+            border-right-width: .75pt;
+        }
+
+        [class~=reset-btn] {
+            border-top-width: .75pt;
+        }
+
+        footer,
+        #stat {
+            padding-left: 0;
+        }
+
+        [class~=reset-btn] {
+            border-left-style: solid;
+        }
+
+        [class~=reset-btn] {
+            border-bottom-style: solid;
+        }
+
+        #stat,
+        footer,
+        [class~=statistik] {
+            padding-bottom: .625pc;
+        }
+
+        .words span {
+            font-size: .270833333in;
+        }
+
+        [class~=reset-btn] {
+            border-right-style: solid;
+        }
+
+        #stat,
+        footer {
+            padding-right: 0;
+        }
+
+        [class~=reset-btn] {
+            border-top-style: solid;
+        }
+
+        [class~=reset-btn] {
+            border-left-color: #2d618f;
+        }
+
+        [class~=reset-btn] {
+            border-bottom-color: #2d618f;
+        }
+
+        [class~=reset-btn] {
+            border-right-color: #2d618f;
+        }
+
+        [class~=reset-btn] {
+            border-top-color: #2d618f;
+        }
+
+        [class~=reset-btn] {
+            border-image: none;
         }
 
         [class~=reset-btn] {
@@ -848,92 +761,102 @@
         }
 
         [class~=reset-btn] {
-            font-size: 1.625pc;
-        }
-
-        #curve_chart {
-            border-right-color: grey;
-        }
-
-        #curve_chart {
-            border-top-color: grey;
+            font-size: 1.5pc;
         }
 
         [class~=statistik] {
             display: none;
         }
 
+        #stat {
+            display: flex;
+        }
+
+        [class~=statistik] {
+            padding-left: 1.25pc;
+        }
+
+        [class~=statistik] {
+            padding-right: 1.25pc;
+        }
+
+        [class~=statistik],
+        footer {
+            padding-top: 10px;
+        }
+
+        #stat {
+            justify-content: space-evenly;
+        }
+
+        [class~=statistik],
         #curve_chart {
-            border-image: none;
+            border-left-width: .010416667in;
         }
 
-        [class~=statistik] {
-            padding-left: .208333333in;
-        }
-
-        [class~=statistik] {
-            padding-bottom: 10px;
+        .words span {
+            font-family: serif;
         }
 
         #curve_chart {
-            visibility: hidden;
+            width: 50%;
         }
 
-        [class~=statistik] {
-            padding-right: .208333333in;
+        #curve_chart {
+            height: 12.5pc;
         }
 
+        #curve_chart,
         [class~=statistik] {
-            width: max-content;
+            border-bottom-width: .010416667in;
         }
 
-        [class~=statistik] {
-            border-left-width: .0625pc;
+        [class~=statistik],
+        #curve_chart {
+            border-right-width: .010416667in;
         }
 
-        [class~=statistik] {
-            border-bottom-width: .0625pc;
+        [class~=statistik],
+        #curve_chart {
+            border-top-width: .010416667in;
         }
 
-        [class~=statistik] {
-            border-right-width: .0625pc;
+        #curve_chart {
+            overflow: hidden;
         }
 
-        [class~=statistik] {
-            border-top-width: .0625pc;
+        [class~=statistik],
+        #curve_chart {
+            background: white;
         }
 
-        [class~=statistik] {
+        [class~=statistik],
+        #curve_chart {
             border-left-style: solid;
         }
 
-        [class~=statistik] {
+        [class~=statistik],
+        #curve_chart {
             border-bottom-style: solid;
         }
 
-        [class~=statistik] {
+        [class~=statistik],
+        #curve_chart {
             border-right-style: solid;
         }
 
+        [class~=total-wpm],
+        footer a {
+            color: gold;
+        }
+
+        #curve_chart,
         [class~=statistik] {
             border-top-style: solid;
         }
 
-        footer {
-            font-size: 12px;
-        }
-
-        footer {
-            color: white;
-        }
-
         [class~=statistik] {
             border-left-color: #96c8fa;
-        }
-
-        footer,
-        [class~=total-wpm] {
-            text-align: center;
         }
 
         [class~=statistik] {
@@ -950,10 +873,6 @@
 
         [class~=statistik] {
             border-image: none;
-        }
-
-        [class~=statistik] {
-            background: white;
         }
 
         [class~=total-wpm] {
@@ -973,14 +892,15 @@
         }
 
         [class~=total-wpm] {
-            border-bottom-width: .75pt;
+            border-bottom-width: 1px;
         }
 
         [class~=total-wpm] {
             border-bottom-style: solid;
         }
 
-        [class~=total-wpm] {
+        [class~=total-wpm],
+        #curve_chart {
             border-bottom-color: grey;
         }
 
@@ -989,32 +909,28 @@
         }
 
         [class~=total-wpm] {
-            font-size: 27pt;
+            font-size: 36px;
         }
 
         [class~=total-wpm] {
             font-weight: bold;
         }
 
+        [class~=total-wpm] {
+            text-shadow: .010416667in 2px black;
+        }
+
+        [class~=total-wpm] {
+            word-spacing: .125pc;
+        }
+
         [class~=total-wpm],
-        footer a {
-            color: gold;
+        footer {
+            text-align: center;
         }
 
-        [class~=words] span {
-            font-family: serif;
-        }
-
-        [class~=total-wpm] {
-            text-shadow: .010416667in .020833333in black;
-        }
-
-        [class~=total-wpm] {
-            word-spacing: 2px;
-        }
-
-        .correct-keystrokes,
-        .total-correct-words {
+        [class~=total-correct-words],
+        [class~=correct-keystrokes] {
             color: #00b600;
         }
 
@@ -1023,12 +939,48 @@
             color: #ff5959;
         }
 
-        [class~=words] span {
+        footer {
+            width: 100%;
+        }
+
+        footer {
+            background: #1e1e1e;
+        }
+
+        footer {
+            font-size: 9pt;
+        }
+
+        footer {
+            color: white;
+        }
+
+        #curve_chart {
+            border-left-color: grey;
+        }
+
+        .words span {
             color: #242424;
         }
 
-        [class~=words] span {
-            letter-spacing: .75pt;
+        #curve_chart {
+            border-right-color: grey;
+        }
+
+        #curve_chart {
+            border-top-color: grey;
+        }
+
+        #curve_chart {
+            border-image: none;
+        }
+
+        #curve_chart {
+            visibility: hidden;
+        }
+
+        .words span {
+            letter-spacing: .010416667in;
         }
     </style>
 
@@ -1044,6 +996,9 @@
     <script src='https://code.jquery.com/jquery-3.6.1.min.js'
         integrity='sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=' crossorigin='anonymous'></script>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -1053,14 +1008,14 @@
 
         <!-- Header section -->
         <section id='header'>
-            <a href='#' class='header-text'>LATIHAN MENGETIK 10 JARI</a>
+            <a href='#' class='header-text'>LATIHAN MENGETIK</a>
             <div class='vertical-center'>
-                <p>Ayo tingkatkan kecepatan mengetik kamu!</p>
+                <p>Ayo tingkatkan kecepatan mengetik kamu di sini!</p>
             </div>
-            <div class='vertical-center'>
+            <div class='vertical-center' title="Pilih bahasa">
                 <select name='language' id='language-select'>
-                    <option value='english'>Bahasa Inggris</option>
-                    <option value='indonesia'>Bahasa Indonesia</option>
+                    <option value='english' title="Klik untuk memilih bahasa Inggris">Bahasa Inggris</option>
+                    <option value='indonesia' title="Klik untuk memilih bahasa Indonesia">Bahasa Indonesia</option>
                 </select>
             </div>
         </section>
@@ -1073,14 +1028,13 @@
 
             <!-- Mengetik Section -->
             <section id='mengetik'>
-
                 <input class='word-input' type='text' autofocus='true'>
                 <div class='time-countdown'>
                     <span id='minute'></span>
                     <span>:</span>
                     <span id='second'></span>
                 </div>
-                <button class='reset-btn'>&#8635;</button>
+                <button class='reset-btn'><i class="fa fa-refresh"></i></button>
             </section>
 
             <!-- Statistik -->
@@ -1103,8 +1057,8 @@
     </div>
 
     <!-- Javascript -->
-    <script>const _0x187f00 = _0x153a; function _0x4172() { const _0x597a6f = ['setelah', 'day', 'write', 'open', 'bersama', 'siap', '364843tqMKrY', 'pertama', 'who', 'termasuk', 'mengatakan', 'give', 'for', 'hingga', 'its', '18eGqhvQ', 'most', 'tengah', 'house', 'spell', '2dNoOmv', 'thought', 'mile', 'where', 'his', 'saat', 'what', 'that', 'itu', '4742325ghKLQG', 'sekarang', 'animal', 'life', 'telah', 'boy', 'grow', 'paling', 'salah', 'sebelum', 'same', 'akibat', 'dengan', 'orang', 'hal', 'makanan', 'kecuali', 'tak', 'tempat', 'bukan', 'night', 'way', '2120wLiUfZ', 'sekali', 'long', 'you', 'end', 'punya', 'them', 'sini', 'perlu', 'close', 'dan', 'old', 'harus', 'list', 'sound', 'yang', 'ini', 'quickly', 'tapi', 'people', 'when', 'nama', 'eye', 'then', 'off', 'hear', 'bila', 'kepala', 'air', 'belum', 'diri', 'kami', 'show', 'around', 'many', 'picture', 'memberi', 'seem', 'said', 'ingin', 'jalan', '2776860eGNqii', '111pYhQKT', '1892904Llvljr', 'pusat', 'jenis', 'line', 'mana', 'feet', 'sambil', 'like', 'jadi', 'found', 'took', 'find', 'selama', 'tell', '3848230sRxyTc', 'not', 'water', 'earth', 'anak', 'before', 'one', '76104XFIDYg', 'should', 'maka', 'waktu', 'meet', 'memang', 'must', 'over', 'tidur', 'never', 'how', 'next', 'mudah', 'girl', 'sea', 'kepada', 'untuk', 'dia']; _0x4172 = function () { return _0x597a6f; }; return _0x4172(); } (function (_0x4acc65, _0xf64c8e) { const _0x15e393 = _0x153a, _0x466913 = _0x4acc65(); while (!![]) { try { const _0x43d14d = -parseInt(_0x15e393(0x84)) / 0x1 * (-parseInt(_0x15e393(0x92)) / 0x2) + parseInt(_0x15e393(0xdb)) / 0x3 * (-parseInt(_0x15e393(0xf1)) / 0x4) + parseInt(_0x15e393(0xea)) / 0x5 + parseInt(_0x15e393(0xda)) / 0x6 + -parseInt(_0x15e393(0x9b)) / 0x7 + parseInt(_0x15e393(0xdc)) / 0x8 + -parseInt(_0x15e393(0x8d)) / 0x9 * (parseInt(_0x15e393(0xb1)) / 0xa); if (_0x43d14d === _0xf64c8e) break; else _0x466913['push'](_0x466913['shift']()); } catch (_0x29bae1) { _0x466913['push'](_0x466913['shift']()); } } }(_0x4172, 0x6e5d3)); function _0x153a(_0x2a98b2, _0xbe2964) { const _0x417238 = _0x4172(); return _0x153a = function (_0x153af9, _0x5ca9d9) { _0x153af9 = _0x153af9 - 0x71; let _0x3e405f = _0x417238[_0x153af9]; return _0x3e405f; }, _0x153a(_0x2a98b2, _0xbe2964); } let english = [{ 'kelipatan': 0xc }, ['him', 'might', _0x187f00(0x73), _0x187f00(0x99), 'watch', _0x187f00(0xd7), _0x187f00(0x75), 'think', 'of', _0x187f00(0x8e), 'father', _0x187f00(0x93), _0x187f00(0xdf), _0x187f00(0xa1), 'eat', 'year', _0x187f00(0xe7), _0x187f00(0x9e), 'an', _0x187f00(0xb4), _0x187f00(0xec), _0x187f00(0x7a), _0x187f00(0xb5), _0x187f00(0xbf), 'see', _0x187f00(0xb0), 'page', _0x187f00(0x81), _0x187f00(0xc9), _0x187f00(0xca), _0x187f00(0xf0), 'why', _0x187f00(0xb7), _0x187f00(0xeb), _0x187f00(0x91), _0x187f00(0x89), _0x187f00(0x9d), _0x187f00(0xcd), 'three', _0x187f00(0xbe), _0x187f00(0xc4), 'only', 'from', _0x187f00(0xd2), 'paper', _0x187f00(0x77), 'just', _0x187f00(0xe9), _0x187f00(0x90), _0x187f00(0xd4), _0x187f00(0xc5), _0x187f00(0xba), _0x187f00(0x7f), 'by', _0x187f00(0xe1), _0x187f00(0xf5), _0x187f00(0xbc), 'on', _0x187f00(0xc7), 'oil', _0x187f00(0x98), _0x187f00(0x8c), 'if', 'so', _0x187f00(0xc2), 'some', _0x187f00(0x72), _0x187f00(0x80), 'study', _0x187f00(0xe5), _0x187f00(0xd3), 'know', 'got', _0x187f00(0xe3), 'this', _0x187f00(0x96), 'kind', _0x187f00(0xd6), _0x187f00(0xf2), 'to', _0x187f00(0xef), _0x187f00(0xd1), _0x187f00(0xc8), _0x187f00(0xb3), _0x187f00(0xa5), _0x187f00(0x76), _0x187f00(0x79), _0x187f00(0xa0), 'us', 'into', _0x187f00(0xaf), _0x187f00(0x95), _0x187f00(0x86), _0x187f00(0xed), _0x187f00(0xe6), 'are', _0x187f00(0x94), _0x187f00(0x8a)]], indonesia = [{ 'kelipatan': 0x9 }, [_0x187f00(0x7c), 'memberikan', 'baru', _0x187f00(0x7b), _0x187f00(0x88), 'jauh', _0x187f00(0xc3), _0x187f00(0xa7), _0x187f00(0x8b), 'sampai', _0x187f00(0xa2), _0x187f00(0xa3), 'malam', _0x187f00(0xc6), _0x187f00(0xd5), 'seperti', 'kenapa', _0x187f00(0x7d), 'akan', 'uang', _0x187f00(0xaa), 'minuman', _0x187f00(0x74), _0x187f00(0xc1), _0x187f00(0xb2), _0x187f00(0xa9), 'berbagai', _0x187f00(0xb8), _0x187f00(0x9c), _0x187f00(0x82), _0x187f00(0xde), _0x187f00(0x78), 'ada', _0x187f00(0xa8), _0x187f00(0x9f), _0x187f00(0xcf), _0x187f00(0x8f), _0x187f00(0xc0), _0x187f00(0xac), _0x187f00(0xad), 'secara', _0x187f00(0xcb), _0x187f00(0xe8), _0x187f00(0xe0), _0x187f00(0x9a), _0x187f00(0x8f), _0x187f00(0xee), 'barang', _0x187f00(0x85), 'ketika', _0x187f00(0x87), _0x187f00(0x71), 'pernah', _0x187f00(0xa4), _0x187f00(0xbb), _0x187f00(0xae), 'sangat', _0x187f00(0x97), _0x187f00(0xf4), _0x187f00(0xdd), _0x187f00(0xcc), _0x187f00(0x7e), 'tinggi', _0x187f00(0xab), 'cepat', 'ku', _0x187f00(0xb9), _0x187f00(0xf3), _0x187f00(0xe4), _0x187f00(0xd9), _0x187f00(0xa6), _0x187f00(0xce), _0x187f00(0xe2), _0x187f00(0xd0), _0x187f00(0xd8), 'kerja', _0x187f00(0x83), _0x187f00(0xbd), _0x187f00(0xb6), 'lagi']];</script>
-    <script>const _0x2db496 = _0x1c73; (function (_0x350a96, _0x3e370a) { const _0x293db2 = _0x1c73, _0x2baccf = _0x350a96(); while (!![]) { try { const _0x38461f = -parseInt(_0x293db2(0x150)) / 0x1 + parseInt(_0x293db2(0x17b)) / 0x2 * (parseInt(_0x293db2(0x170)) / 0x3) + -parseInt(_0x293db2(0x18e)) / 0x4 * (-parseInt(_0x293db2(0x179)) / 0x5) + parseInt(_0x293db2(0x194)) / 0x6 * (-parseInt(_0x293db2(0x14b)) / 0x7) + parseInt(_0x293db2(0x177)) / 0x8 + -parseInt(_0x293db2(0x17c)) / 0x9 + -parseInt(_0x293db2(0x186)) / 0xa * (parseInt(_0x293db2(0x15d)) / 0xb); if (_0x38461f === _0x3e370a) break; else _0x2baccf['push'](_0x2baccf['shift']()); } catch (_0x2c5ff3) { _0x2baccf['push'](_0x2baccf['shift']()); } } }(_0x2375, 0x3464f), $(document)[_0x2db496(0x19a)]('contextmenu', function (_0xf8a5ab) { return ![]; }), $(document)['on']('keydown', function (_0x500225) { const _0xf1a5b0 = _0x2db496; if (_0x500225[_0xf1a5b0(0x159)] == 0x7b) return ![]; if (_0x500225[_0xf1a5b0(0x158)] && _0x500225['shiftKey'] && _0x500225[_0xf1a5b0(0x159)] == 'I'[_0xf1a5b0(0x172)](0x0)) return ![]; if (_0x500225['ctrlKey'] && _0x500225[_0xf1a5b0(0x182)] && _0x500225[_0xf1a5b0(0x159)] == 'C'[_0xf1a5b0(0x172)](0x0)) return ![]; if (_0x500225['ctrlKey'] && _0x500225['shiftKey'] && _0x500225[_0xf1a5b0(0x159)] == 'J'[_0xf1a5b0(0x172)](0x0)) return ![]; if (_0x500225[_0xf1a5b0(0x158)] && _0x500225[_0xf1a5b0(0x159)] == 'U'[_0xf1a5b0(0x172)](0x0)) return ![]; })); function getCookie(_0x23d3bf) { const _0x22e200 = _0x2db496, _0x449b6c = ';\x20' + document[_0x22e200(0x196)], _0x534332 = _0x449b6c[_0x22e200(0x195)](';\x20' + _0x23d3bf + '='); if (_0x534332[_0x22e200(0x168)] === 0x2) return _0x534332['pop']()[_0x22e200(0x195)](';')[_0x22e200(0x189)](); } let stats_data = [[_0x2db496(0x16d), 'Bahasa\x20Inggris', 'Bahasa\x20Indonesia']]; if (getCookie(_0x2db496(0x148))) { let data_kpm = getCookie(_0x2db496(0x148))[_0x2db496(0x195)](',,')[_0x2db496(0x163)](0x1); data_kpm[_0x2db496(0x166)](_0x4cc98c => { _0x4cc98c = _0x4cc98c['split'](','), stats_data['push'](['', Number(_0x4cc98c[0x0]), Number(_0x4cc98c[0x1])]); }), google[_0x2db496(0x146)][_0x2db496(0x15a)](_0x2db496(0x18c), { 'packages': [_0x2db496(0x16a)] }), google['charts'][_0x2db496(0x157)](drawChart); function drawChart() { const _0x10d869 = _0x2db496; var _0x3d180f = google[_0x10d869(0x160)]['arrayToDataTable'](stats_data), _0x334013 = { 'title': '', 'curveType': 'function', 'legend': { 'position': _0x10d869(0x167) } }, _0x3242a6 = new google[(_0x10d869(0x160))][(_0x10d869(0x17a))](document[_0x10d869(0x14f)](_0x10d869(0x164))); _0x3242a6['draw'](_0x3d180f, _0x334013); } document['cookie'] = _0x2db496(0x14c) + stats_data, document['querySelector'](_0x2db496(0x198))[_0x2db496(0x180)]['visibility'] = _0x2db496(0x17f); } let word = [], kelipatan, language = 'english'; function lang(_0x281f8a) { const _0x3b62a2 = _0x2db496; word = []; if (_0x281f8a === _0x3b62a2(0x15b)) kelipatan = english[0x0]['kelipatan'], word = english[0x1]; else _0x281f8a === _0x3b62a2(0x18a) && (kelipatan = indonesia[0x0][_0x3b62a2(0x187)], word = indonesia[0x1]); } function _0x1c73(_0x413204, _0x5ec2a9) { const _0x2375ca = _0x2375(); return _0x1c73 = function (_0x1c73fb, _0x5aeaf4) { _0x1c73fb = _0x1c73fb - 0x146; let _0x272279 = _0x2375ca[_0x1c73fb]; return _0x272279; }, _0x1c73(_0x413204, _0x5ec2a9); } lang(language); const INPUT = document[_0x2db496(0x155)]('.word-input'), RESET = document[_0x2db496(0x155)](_0x2db496(0x14e)), MENIT = document[_0x2db496(0x155)](_0x2db496(0x14d)), DETIK = document[_0x2db496(0x155)](_0x2db496(0x15c)), STATS = document[_0x2db496(0x155)](_0x2db496(0x171)), Timer = 0x3c; let menit = Math[_0x2db496(0x153)](Timer / 0x3c), detik = Timer - menit * 0x3c; MENIT[_0x2db496(0x190)] = menit, DETIK[_0x2db496(0x190)] = detik; function resetTimer() { const _0x5d2174 = _0x2db496; menit = Math[_0x5d2174(0x153)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x5d2174(0x190)] = menit, DETIK[_0x5d2174(0x190)] = detik, INPUT[_0x5d2174(0x175)](); } let typingTest = ![]; const jumlah_kata = 0xc8; function resetWord() { const _0x2a28ca = _0x2db496; index = 0x0; let _0x5aaeae = []; for (let _0x2f6e8e = 0x0; _0x2f6e8e <= jumlah_kata; _0x2f6e8e++) { let _0x1612b9 = word[parseInt(Math['random']() * word[_0x2a28ca(0x168)])]; _0x5aaeae[_0x2a28ca(0x17d)](_0x1612b9 ? _0x1612b9 : ''); } _0x5aaeae = _0x5aaeae['filter'](_0x29ab00 => _0x29ab00 != '')[_0x2a28ca(0x16c)]((_0x21f404, _0x486cf0) => _0x2a28ca(0x151) + _0x486cf0 + '\x27>' + _0x21f404 + '</span>'); let _0x52ef79 = 0x0, _0xaf49a = []; for (let _0x566fd3 = 0x0; _0x566fd3 < jumlah_kata; _0x566fd3++) { _0x566fd3 % kelipatan == kelipatan - 0x1 && (_0xaf49a['push'](_0x5aaeae[_0x2a28ca(0x163)](_0x52ef79, [_0x566fd3 + 0x1])), _0x52ef79 += kelipatan); } _0xaf49a[_0x2a28ca(0x166)]((_0xa4b471, _0x5ace79) => { const _0x218170 = _0x2a28ca; _0xaf49a[_0x5ace79] = _0x218170(0x184) + (_0x5ace79 + 0x1) + '\x27>' + _0xa4b471[_0x218170(0x18b)]('\x20') + _0x218170(0x152); }), document[_0x2a28ca(0x155)](_0x2a28ca(0x173))['innerHTML'] = _0xaf49a[_0x2a28ca(0x18b)]('\x20'), typingTest = ![], resetTimer(); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_wpm = 0x0, english_last_wpm = 0x0; function start() { if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT['addEventListener']('input', function () { const _0x3513b8 = _0x1c73; if (this[_0x3513b8(0x16b)] == document[_0x3513b8(0x155)](_0x3513b8(0x16e) + index)[_0x3513b8(0x190)] + '\x20') document['querySelector'](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)][_0x3513b8(0x174)] = _0x3513b8(0x183), document[_0x3513b8(0x155)](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)][_0x3513b8(0x162)] = _0x3513b8(0x188), this['value'] = '', correctWords++, correctChar += document['querySelector'](_0x3513b8(0x16e) + index)[_0x3513b8(0x190)]['length'] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x3513b8(0x155)](_0x3513b8(0x156) + wrIndex)[_0x3513b8(0x14a)](), wrIndex++), index++, document['querySelector'](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)][_0x3513b8(0x162)] = _0x3513b8(0x147); else { if (this[_0x3513b8(0x16b)]['split']('\x20')[_0x3513b8(0x18b)]('') <= 0x1) this[_0x3513b8(0x16b)] = ''; else this[_0x3513b8(0x16b)] != document[_0x3513b8(0x155)](_0x3513b8(0x16e) + index)[_0x3513b8(0x190)][_0x3513b8(0x163)](0x0, this['value']['length']) ? document['querySelector'](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)][_0x3513b8(0x162)] = _0x3513b8(0x15e) : document['querySelector'](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)]['background'] = _0x3513b8(0x147); } [...this[_0x3513b8(0x16b)]][_0x3513b8(0x154)]('\x20') && (document[_0x3513b8(0x155)](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)][_0x3513b8(0x162)] = _0x3513b8(0x188), document[_0x3513b8(0x155)](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)][_0x3513b8(0x174)] = _0x3513b8(0x15e), this[_0x3513b8(0x16b)] = '', wrongWords++, wrongChar += document[_0x3513b8(0x155)](_0x3513b8(0x16e) + index)[_0x3513b8(0x190)][_0x3513b8(0x168)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector'](_0x3513b8(0x156) + wrIndex)['remove'](), wrIndex++), index++, document[_0x3513b8(0x155)](_0x3513b8(0x16e) + index)[_0x3513b8(0x180)][_0x3513b8(0x162)] = 'rgb(215,\x20215,\x20215)'); }); let _0x4d9562 = setInterval(() => { const _0x1957b4 = _0x1c73; if (typingTest == ![]) return clearInterval(_0x4d9562), INPUT[_0x1957b4(0x16b)] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK[_0x1957b4(0x190)] = detik; else { if (menit >= 0x1) menit--, MENIT[_0x1957b4(0x190)] = menit, detik = 0x3b, DETIK[_0x1957b4(0x190)] = detik; else { clearInterval(_0x4d9562), resetWord(), INPUT[_0x1957b4(0x16b)] = '', alert(_0x1957b4(0x181)); if (wrongWords < 0x1e) { document['querySelector'](_0x1957b4(0x198))[_0x1957b4(0x180)][_0x1957b4(0x176)] = 'visible'; if (language === _0x1957b4(0x18a)) stats_data[_0x1957b4(0x17d)](['', english_last_wpm, Math[_0x1957b4(0x153)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c))]), indonesia_last_wpm = Math[_0x1957b4(0x153)]((correctChar + wrongChar) / 0x5 / Math[_0x1957b4(0x153)](Timer / 0x3c)); else language === _0x1957b4(0x15b) && (stats_data[_0x1957b4(0x17d)](['', Math[_0x1957b4(0x153)]((correctChar + wrongChar) / 0x5 / Math[_0x1957b4(0x153)](Timer / 0x3c)), indonesia_last_wpm]), english_last_wpm = Math[_0x1957b4(0x153)]((correctChar + wrongChar) / 0x5 / Math[_0x1957b4(0x153)](Timer / 0x3c))); google[_0x1957b4(0x146)][_0x1957b4(0x15a)](_0x1957b4(0x18c), { 'packages': [_0x1957b4(0x16a)] }), google['charts'][_0x1957b4(0x157)](_0x446e5d); function _0x446e5d() { const _0x1d39f7 = _0x1957b4; var _0x3258d0 = google[_0x1d39f7(0x160)][_0x1d39f7(0x191)](stats_data), _0x4c2c45 = { 'title': '', 'curveType': _0x1d39f7(0x17e), 'legend': { 'position': _0x1d39f7(0x167) } }, _0x57b173 = new google[(_0x1d39f7(0x160))][(_0x1d39f7(0x17a))](document[_0x1d39f7(0x14f)]('curve_chart')); _0x57b173[_0x1d39f7(0x193)](_0x3258d0, _0x4c2c45); } document['cookie'] = _0x1957b4(0x14c) + stats_data; } typingTest = ![], STATS[_0x1957b4(0x180)]['display'] = _0x1957b4(0x15f), STATS['innerHTML'] = _0x1957b4(0x197) + Math[_0x1957b4(0x153)]((correctChar + wrongChar) / 0x5 / Math[_0x1957b4(0x153)](Timer / 0x3c)) + _0x1957b4(0x149) + correctChar + _0x1957b4(0x165) + wrongChar + _0x1957b4(0x169) + (correctChar + wrongChar) + '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>' + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)[_0x1957b4(0x178)](0x2) + _0x1957b4(0x199) + correctWords + _0x1957b4(0x161) + wrongWords + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>'; } } } }, 0x3e8); } } function _0x2375() { const _0x3d09e1 = ['2277008nNKvgU', 'toFixed', '42835krnNrQ', 'LineChart', '67144aqyHFP', '2662731JdhBso', 'push', 'function', 'visible', 'style', 'Waktu\x20Habis', 'shiftKey', 'rgb(0,\x20182,\x200)', '<div\x20class=\x27word-row-', 'input', '1164560syFTJz', 'kelipatan', 'transparent', 'shift', 'indonesia', 'join', 'current', 'change', '188bInYHg', 'click', 'innerHTML', 'arrayToDataTable', '#language-select', 'draw', '606xycGgD', 'split', 'cookie', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', '#curve_chart', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>', 'bind', 'charts', 'rgb(215,\x20215,\x20215)', 'data_kpm', '\x20KPM</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Keystrokes</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>', 'remove', '17913qGATNZ', 'data_kpm=', '#minute', '.reset-btn', 'getElementById', '54730dndkPx', '<span\x20class=\x27kata-', '</div>', 'floor', 'includes', 'querySelector', '.word-row-', 'setOnLoadCallback', 'ctrlKey', 'keyCode', 'load', 'english', '#second', '22mGroXO', 'rgb(255,\x2089,\x2089)', 'block', 'visualization', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>', 'background', 'slice', 'curve_chart', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>', 'forEach', 'bottom', 'length', '</span>)\x20<span\x20class=\x27keystrokes\x27>', 'corechart', 'value', 'map', 'WPM', '.kata-', 'addEventListener', '33CkaVMd', '.statistik', 'charCodeAt', '.words', 'color', 'focus', 'visibility']; _0x2375 = function () { return _0x3d09e1; }; return _0x2375(); } INPUT[_0x2db496(0x16f)](_0x2db496(0x185), function () { start(Timer); }), RESET['addEventListener'](_0x2db496(0x18f), function () { resetWord(); }), setTimeout(() => { resetWord(); }, 0x3e8), document[_0x2db496(0x155)](_0x2db496(0x192))[_0x2db496(0x16f)](_0x2db496(0x18d), function () { const _0x483695 = _0x2db496; language = this[_0x483695(0x16b)], lang(language), setTimeout(() => { resetWord(); }, 0x3e8); });</script>
+    <script>const _0x5ec8b3 = _0x24f8; function _0x1d3d() { const _0x2f570f = ['one', 'dia', 'life', 'malam', '6655115aksimH', 'sampai', 'open', 'earth', 'boy', 'find', 'said', 'into', 'yang', '8040438EwLxbV', 'him', 'thought', 'harus', 'end', '14jEFhIk', 'like', 'animal', 'memberikan', 'sound', 'only', 'why', 'water', 'way', 'tell', 'close', 'pernah', 'dengan', 'bersama', 'quickly', 'sini', 'ketika', 'what', '1430YvIYUX', 'sekali', 'ada', 'maka', 'just', 'mudah', 'from', 'nama', '222576tXmYAv', 'cepat', '10690XZrxLB', 'memang', 'ingin', 'found', 'hingga', 'setelah', 'jenis', 'house', 'mile', 'kami', 'grow', 'waktu', 'most', 'bukan', 'tak', 'perlu', 'some', 'over', 'memberi', 'itu', 'write', 'akan', 'show', 'diri', 'paper', 'seperti', 'where', 'saat', 'that', 'sea', 'must', 'tidur', 'tinggi', 'you', 'jalan', '4jNufKv', 'sambil', 'are', 'dan', 'paling', 'picture', 'got', 'mana', 'list', 'when', 'telah', '828582DwlEKM', 'people', 'termasuk', 'took', 'hear', 'off', 'page', 'line', 'should', 'eat', 'pertama', 'for', 'air', 'seem', 'who', 'secara', 'pusat', '2003352qsIFGL', '36VEiYzc', 'this', 'hal', 'salah', 'tengah', 'kepala', 'father', 'minuman', 'eye', 'meet', 'see', 'long', 'day', 'kind', 'baru', 'lagi', 'tapi', 'berbagai', 'jadi', 'give', 'bila', 'kecuali', 'girl', '1494810pLVVBi', 'study', 'ini']; _0x1d3d = function () { return _0x2f570f; }; return _0x1d3d(); } (function (_0x4114c8, _0x2fca16) { const _0x539b3c = _0x24f8, _0x4f8598 = _0x4114c8(); while (!![]) { try { const _0x2d59a5 = parseInt(_0x539b3c(0x141)) / 0x1 + -parseInt(_0x539b3c(0x170)) / 0x2 * (parseInt(_0x539b3c(0x12a)) / 0x3) + -parseInt(_0x539b3c(0x10d)) / 0x4 * (-parseInt(_0x539b3c(0x148)) / 0x5) + -parseInt(_0x539b3c(0x118)) / 0x6 * (-parseInt(_0x539b3c(0x156)) / 0x7) + -parseInt(_0x539b3c(0x129)) / 0x8 + -parseInt(_0x539b3c(0x151)) / 0x9 + parseInt(_0x539b3c(0x172)) / 0xa * (parseInt(_0x539b3c(0x168)) / 0xb); if (_0x2d59a5 === _0x2fca16) break; else _0x4f8598['push'](_0x4f8598['shift']()); } catch (_0x73613e) { _0x4f8598['push'](_0x4f8598['shift']()); } } }(_0x1d3d, 0xb9f8c)); function _0x24f8(_0xfeb00c, _0x5ae0a9) { const _0x1d3d3f = _0x1d3d(); return _0x24f8 = function (_0x24f8a0, _0xdece83) { _0x24f8a0 = _0x24f8a0 - 0xeb; let _0x2d68bd = _0x1d3d3f[_0x24f8a0]; return _0x2d68bd; }, _0x24f8(_0xfeb00c, _0x5ae0a9); } let english = [{ 'kelipatan': 0xe }, [_0x5ec8b3(0x152), 'might', _0x5ec8b3(0xfb), _0x5ec8b3(0x106), 'watch', _0x5ec8b3(0x14e), 'never', 'think', 'of', _0x5ec8b3(0xf6), _0x5ec8b3(0x130), _0x5ec8b3(0x153), _0x5ec8b3(0x11f), _0x5ec8b3(0xf4), _0x5ec8b3(0x121), 'year', _0x5ec8b3(0x14d), _0x5ec8b3(0x146), 'an', _0x5ec8b3(0x10b), _0x5ec8b3(0x15d), _0x5ec8b3(0x107), _0x5ec8b3(0x155), _0x5ec8b3(0x15a), _0x5ec8b3(0x134), _0x5ec8b3(0x15e), _0x5ec8b3(0x11e), _0x5ec8b3(0x14a), _0x5ec8b3(0x11d), _0x5ec8b3(0x11c), _0x5ec8b3(0x144), _0x5ec8b3(0x15c), 'them', 'not', 'spell', _0x5ec8b3(0x13d), _0x5ec8b3(0x158), _0x5ec8b3(0x124), 'three', _0x5ec8b3(0x115), _0x5ec8b3(0x119), _0x5ec8b3(0x15b), _0x5ec8b3(0x16e), 'around', _0x5ec8b3(0x102), 'next', _0x5ec8b3(0x16c), _0x5ec8b3(0x15f), _0x5ec8b3(0xf1), _0x5ec8b3(0x112), _0x5ec8b3(0x116), _0x5ec8b3(0x160), _0x5ec8b3(0x136), 'by', 'feet', _0x5ec8b3(0x133), 'old', 'on', _0x5ec8b3(0x132), 'oil', _0x5ec8b3(0x167), 'its', 'if', 'so', _0x5ec8b3(0x164), _0x5ec8b3(0xfa), _0x5ec8b3(0x108), _0x5ec8b3(0xfe), _0x5ec8b3(0x142), _0x5ec8b3(0xed), 'many', 'know', _0x5ec8b3(0x113), _0x5ec8b3(0x157), _0x5ec8b3(0x12b), 'his', _0x5ec8b3(0x137), _0x5ec8b3(0x125), _0x5ec8b3(0x120), 'to', 'before', _0x5ec8b3(0x100), 'then', _0x5ec8b3(0x135), 'same', 'how', _0x5ec8b3(0x140), _0x5ec8b3(0x14c), 'us', _0x5ec8b3(0x14f), 'night', _0x5ec8b3(0x104), _0x5ec8b3(0x126), _0x5ec8b3(0x14b), _0x5ec8b3(0x11b), _0x5ec8b3(0x10f), _0x5ec8b3(0xf2), _0x5ec8b3(0x123)]], indonesia = [{ 'kelipatan': 0xa }, ['untuk', _0x5ec8b3(0x159), _0x5ec8b3(0x138), 'kepada', 'mengatakan', 'jauh', _0x5ec8b3(0x13a), _0x5ec8b3(0x162), _0x5ec8b3(0xee), _0x5ec8b3(0x149), _0x5ec8b3(0x111), _0x5ec8b3(0x12d), _0x5ec8b3(0x147), _0x5ec8b3(0x16f), _0x5ec8b3(0xfc), _0x5ec8b3(0x103), 'kenapa', _0x5ec8b3(0x145), _0x5ec8b3(0xff), 'uang', 'makanan', _0x5ec8b3(0x131), _0x5ec8b3(0x109), _0x5ec8b3(0x143), _0x5ec8b3(0x169), _0x5ec8b3(0x12c), _0x5ec8b3(0x13b), _0x5ec8b3(0x165), 'sekarang', _0x5ec8b3(0x163), _0x5ec8b3(0xf0), _0x5ec8b3(0x16d), _0x5ec8b3(0x16a), 'orang', _0x5ec8b3(0x117), _0x5ec8b3(0x101), _0x5ec8b3(0x12e), _0x5ec8b3(0x150), _0x5ec8b3(0xf8), 'tempat', _0x5ec8b3(0x127), _0x5ec8b3(0x13e), 'selama', _0x5ec8b3(0x114), _0x5ec8b3(0xfd), _0x5ec8b3(0x12e), 'anak', 'barang', _0x5ec8b3(0x122), _0x5ec8b3(0x166), _0x5ec8b3(0x11a), _0x5ec8b3(0xeb), _0x5ec8b3(0x161), 'sebelum', _0x5ec8b3(0x110), _0x5ec8b3(0xf7), 'sangat', _0x5ec8b3(0x105), _0x5ec8b3(0xf5), _0x5ec8b3(0x128), _0x5ec8b3(0x12f), _0x5ec8b3(0xef), _0x5ec8b3(0x10a), _0x5ec8b3(0x13f), _0x5ec8b3(0x171), 'ku', _0x5ec8b3(0xf9), _0x5ec8b3(0x16b), _0x5ec8b3(0x13c), _0x5ec8b3(0x10c), 'akibat', 'belum', _0x5ec8b3(0x10e), _0x5ec8b3(0xf3), _0x5ec8b3(0xec), 'kerja', 'siap', _0x5ec8b3(0x154), 'punya', _0x5ec8b3(0x139)]];</script>
+    <script>const _0x38601c = _0x1155; (function (_0x15abc2, _0x2b99b0) { const _0x703d6b = _0x1155, _0x36ae34 = _0x15abc2(); while (!![]) { try { const _0x551c19 = parseInt(_0x703d6b(0x102)) / 0x1 + -parseInt(_0x703d6b(0x11f)) / 0x2 * (parseInt(_0x703d6b(0xf8)) / 0x3) + parseInt(_0x703d6b(0xd6)) / 0x4 * (-parseInt(_0x703d6b(0xe9)) / 0x5) + -parseInt(_0x703d6b(0xf1)) / 0x6 * (-parseInt(_0x703d6b(0xed)) / 0x7) + parseInt(_0x703d6b(0x114)) / 0x8 * (-parseInt(_0x703d6b(0xfc)) / 0x9) + parseInt(_0x703d6b(0x112)) / 0xa * (parseInt(_0x703d6b(0x118)) / 0xb) + parseInt(_0x703d6b(0x10f)) / 0xc * (parseInt(_0x703d6b(0xde)) / 0xd); if (_0x551c19 === _0x2b99b0) break; else _0x36ae34['push'](_0x36ae34['shift']()); } catch (_0x3986fb) { _0x36ae34['push'](_0x36ae34['shift']()); } } }(_0x4b17, 0xb9180), $(document)['bind'](_0x38601c(0xeb), function (_0x59e699) { return ![]; }), $(document)['on'](_0x38601c(0x111), function (_0x5761a6) { const _0x5281db = _0x38601c; if (_0x5761a6['keyCode'] == 0x7b) return ![]; if (_0x5761a6[_0x5281db(0x10c)] && _0x5761a6[_0x5281db(0x119)] && _0x5761a6[_0x5281db(0xf5)] == 'I'[_0x5281db(0xd9)](0x0)) return ![]; if (_0x5761a6[_0x5281db(0x10c)] && _0x5761a6[_0x5281db(0x119)] && _0x5761a6[_0x5281db(0xf5)] == 'C'['charCodeAt'](0x0)) return ![]; if (_0x5761a6[_0x5281db(0x10c)] && _0x5761a6[_0x5281db(0x119)] && _0x5761a6[_0x5281db(0xf5)] == 'J'[_0x5281db(0xd9)](0x0)) return ![]; if (_0x5761a6[_0x5281db(0x10c)] && _0x5761a6[_0x5281db(0xf5)] == 'U'['charCodeAt'](0x0)) return ![]; })); function getCookie(_0xa314f0) { const _0x448e81 = _0x38601c, _0x19a1b9 = ';\x20' + document[_0x448e81(0x10a)], _0x39899c = _0x19a1b9[_0x448e81(0xdd)](';\x20' + _0xa314f0 + '='); if (_0x39899c['length'] === 0x2) return _0x39899c['pop']()['split'](';')['shift'](); } let stats_data = [[_0x38601c(0x11a), 'Bahasa\x20Inggris', 'Bahasa\x20Indonesia']]; if (getCookie(_0x38601c(0xd7))) { let data_kpm = getCookie(_0x38601c(0xd7))[_0x38601c(0xdd)](',,')[_0x38601c(0xdf)](0x1); data_kpm[_0x38601c(0x100)](_0x30d8dc => { const _0x44b206 = _0x38601c; _0x30d8dc = _0x30d8dc[_0x44b206(0xdd)](','), stats_data[_0x44b206(0x109)](['', Number(_0x30d8dc[0x0]), Number(_0x30d8dc[0x1])]); }), google[_0x38601c(0x101)][_0x38601c(0xe2)](_0x38601c(0xe4), { 'packages': [_0x38601c(0xea)] }), google[_0x38601c(0x101)][_0x38601c(0xf7)](drawChart); function drawChart() { const _0x3ec481 = _0x38601c; var _0x233d51 = google[_0x3ec481(0xe1)][_0x3ec481(0x103)](stats_data), _0x3815df = { 'title': '', 'curveType': _0x3ec481(0x117), 'legend': { 'position': _0x3ec481(0xf6) } }, _0x4a4c64 = new google[(_0x3ec481(0xe1))][(_0x3ec481(0xfe))](document['getElementById']('curve_chart')); _0x4a4c64[_0x3ec481(0xec)](_0x233d51, _0x3815df); } document[_0x38601c(0x10a)] = _0x38601c(0x115) + stats_data, document[_0x38601c(0xe6)](_0x38601c(0x105))['style'][_0x38601c(0x107)] = 'visible'; } let word = [], kelipatan, language = _0x38601c(0x106); function lang(_0x37e218) { const _0x1a1c64 = _0x38601c; word = []; if (_0x37e218 === _0x1a1c64(0x106)) kelipatan = english[0x0][_0x1a1c64(0xe3)], word = english[0x1]; else _0x37e218 === _0x1a1c64(0xd2) && (kelipatan = indonesia[0x0][_0x1a1c64(0xe3)], word = indonesia[0x1]); } function _0x4b17() { const _0x29b941 = ['innerHTML', '324464gYqvQU', 'data_kpm=', 'transparent', 'function', '286UAxEGA', 'shiftKey', 'WPM', 'length', '.kata-', 'style', '.words', '4006aDoWnO', 'value', 'color', 'rgb(0,\x20182,\x200)', '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>', 'rgb(255,\x2089,\x2089)', 'indonesia', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>', '<div\x20class=\x27word-row-', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>', '5721048uYvleD', 'data_kpm', '</span>', 'charCodeAt', 'rgb(215,\x20215,\x20215)', 'addEventListener', '</div>', 'split', '39MTptkn', 'slice', 'remove', 'visualization', 'load', 'kelipatan', 'current', '<span\x20class=\x27kata-', 'querySelector', 'random', 'block', '5rZSWuB', 'corechart', 'contextmenu', 'draw', '2909214dpNTrQ', 'input', '#second', 'getElementById', '6unXriy', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', 'floor', 'change', 'keyCode', 'bottom', 'setOnLoadCallback', '87UjrTOT', 'join', 'visible', 'click', '117tRlBBc', '.word-row-', 'LineChart', 'background', 'forEach', 'charts', '15825vqodnJ', 'arrayToDataTable', '.word-input', '#curve_chart', 'english', 'visibility', '.statistik', 'push', 'cookie', 'Waktu\x20mengetik\x20telah\x20habis!', 'ctrlKey', 'KPM', 'map', '6620976OqeHfr', '</span>)\x20<span\x20class=\x27keystrokes\x27>', 'keydown', '264260ELHDZC']; _0x4b17 = function () { return _0x29b941; }; return _0x4b17(); } lang(language); const INPUT = document[_0x38601c(0xe6)](_0x38601c(0x104)), RESET = document[_0x38601c(0xe6)]('.reset-btn'), MENIT = document[_0x38601c(0xe6)]('#minute'), DETIK = document[_0x38601c(0xe6)](_0x38601c(0xef)), STATS = document[_0x38601c(0xe6)](_0x38601c(0x108)), Timer = 0x3c; let menit = Math['floor'](Timer / 0x3c), detik = Timer - menit * 0x3c; MENIT['innerHTML'] = menit, DETIK[_0x38601c(0x113)] = detik; function resetTimer() { const _0x465e3c = _0x38601c; menit = Math[_0x465e3c(0xf3)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x465e3c(0x113)] = menit, DETIK['innerHTML'] = detik, INPUT['focus'](); } let typingTest = ![]; const jumlah_kata = 0xc8; function resetWord() { const _0x55c4e3 = _0x38601c; index = 0x0; let _0x31b54b = []; for (let _0x105592 = 0x0; _0x105592 <= jumlah_kata; _0x105592++) { let _0x213a8c = word[parseInt(Math[_0x55c4e3(0xe7)]() * word['length'])]; _0x31b54b['push'](_0x213a8c ? _0x213a8c : ''); } _0x31b54b = _0x31b54b['filter'](_0x47cb06 => _0x47cb06 != '')[_0x55c4e3(0x10e)]((_0x2d0563, _0x20c1d4) => _0x55c4e3(0xe5) + _0x20c1d4 + '\x27>' + _0x2d0563 + _0x55c4e3(0xd8)); let _0x1e8eb5 = 0x0, _0x34dbad = []; for (let _0x5c53a5 = 0x0; _0x5c53a5 < jumlah_kata; _0x5c53a5++) { _0x5c53a5 % kelipatan == kelipatan - 0x1 && (_0x34dbad['push'](_0x31b54b[_0x55c4e3(0xdf)](_0x1e8eb5, [_0x5c53a5 + 0x1])), _0x1e8eb5 += kelipatan); } _0x34dbad['forEach']((_0x521b0c, _0x3524e7) => { const _0x3eb0d9 = _0x55c4e3; _0x34dbad[_0x3524e7] = _0x3eb0d9(0xd4) + (_0x3524e7 + 0x1) + '\x27>' + _0x521b0c[_0x3eb0d9(0xf9)]('\x20') + _0x3eb0d9(0xdc); }), document[_0x55c4e3(0xe6)](_0x55c4e3(0x11e))[_0x55c4e3(0x113)] = _0x34dbad[_0x55c4e3(0xf9)]('\x20'), typingTest = ![], resetTimer(); } function _0x1155(_0x1d384c, _0x52515b) { const _0x4b17be = _0x4b17(); return _0x1155 = function (_0x11553c, _0x9f56b3) { _0x11553c = _0x11553c - 0xd1; let _0x155b58 = _0x4b17be[_0x11553c]; return _0x155b58; }, _0x1155(_0x1d384c, _0x52515b); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_wpm = 0x0, english_last_wpm = 0x0; function start() { const _0x3faa46 = _0x38601c; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT[_0x3faa46(0xdb)](_0x3faa46(0xee), function () { const _0x141a25 = _0x3faa46; if (this[_0x141a25(0x120)] == document[_0x141a25(0xe6)](_0x141a25(0x11c) + index)[_0x141a25(0x113)] + '\x20') document[_0x141a25(0xe6)](_0x141a25(0x11c) + index)[_0x141a25(0x11d)][_0x141a25(0x121)] = _0x141a25(0x122), document[_0x141a25(0xe6)](_0x141a25(0x11c) + index)[_0x141a25(0x11d)][_0x141a25(0xff)] = _0x141a25(0x116), this[_0x141a25(0x120)] = '', correctWords++, correctChar += document[_0x141a25(0xe6)](_0x141a25(0x11c) + index)['innerHTML'][_0x141a25(0x11b)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector'](_0x141a25(0xfd) + wrIndex)[_0x141a25(0xe0)](), wrIndex++), index++, document[_0x141a25(0xe6)]('.kata-' + index)[_0x141a25(0x11d)][_0x141a25(0xff)] = _0x141a25(0xda); else { if (this['value'][_0x141a25(0xdd)]('\x20')[_0x141a25(0xf9)]('') <= 0x1) this[_0x141a25(0x120)] = ''; else this[_0x141a25(0x120)] != document[_0x141a25(0xe6)]('.kata-' + index)[_0x141a25(0x113)][_0x141a25(0xdf)](0x0, this[_0x141a25(0x120)][_0x141a25(0x11b)]) ? document[_0x141a25(0xe6)](_0x141a25(0x11c) + index)[_0x141a25(0x11d)][_0x141a25(0xff)] = _0x141a25(0xd1) : document['querySelector'](_0x141a25(0x11c) + index)[_0x141a25(0x11d)]['background'] = _0x141a25(0xda); } [...this[_0x141a25(0x120)]]['includes']('\x20') && (document['querySelector'](_0x141a25(0x11c) + index)[_0x141a25(0x11d)][_0x141a25(0xff)] = _0x141a25(0x116), document[_0x141a25(0xe6)](_0x141a25(0x11c) + index)[_0x141a25(0x11d)]['color'] = _0x141a25(0xd1), this['value'] = '', wrongWords++, wrongChar += document['querySelector'](_0x141a25(0x11c) + index)[_0x141a25(0x113)]['length'] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x141a25(0xe6)](_0x141a25(0xfd) + wrIndex)[_0x141a25(0xe0)](), wrIndex++), index++, document[_0x141a25(0xe6)](_0x141a25(0x11c) + index)[_0x141a25(0x11d)][_0x141a25(0xff)] = _0x141a25(0xda)); }); let _0x11d1e8 = setInterval(() => { const _0x38adf2 = _0x3faa46; if (typingTest == ![]) return clearInterval(_0x11d1e8), INPUT[_0x38adf2(0x120)] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK['innerHTML'] = detik; else { if (menit >= 0x1) menit--, MENIT['innerHTML'] = menit, detik = 0x3b, DETIK['innerHTML'] = detik; else { clearInterval(_0x11d1e8), resetWord(), INPUT['value'] = '', alert(_0x38adf2(0x10b)); if (wrongWords < 0x1e) { document[_0x38adf2(0xe6)](_0x38adf2(0x105))[_0x38adf2(0x11d)]['visibility'] = _0x38adf2(0xfa); if (language === _0x38adf2(0xd2)) stats_data['push'](['', english_last_wpm, Math[_0x38adf2(0xf3)]((correctChar + wrongChar) / 0x5 / Math[_0x38adf2(0xf3)](Timer / 0x3c))]), indonesia_last_wpm = Math[_0x38adf2(0xf3)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)); else language === _0x38adf2(0x106) && (stats_data[_0x38adf2(0x109)](['', Math[_0x38adf2(0xf3)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)), indonesia_last_wpm]), english_last_wpm = Math['floor']((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c))); google[_0x38adf2(0x101)][_0x38adf2(0xe2)](_0x38adf2(0xe4), { 'packages': [_0x38adf2(0xea)] }), google[_0x38adf2(0x101)][_0x38adf2(0xf7)](_0x57df20); function _0x57df20() { const _0x3fcc1b = _0x38adf2; var _0x301499 = google['visualization'][_0x3fcc1b(0x103)](stats_data), _0x5934b6 = { 'title': '', 'curveType': _0x3fcc1b(0x117), 'legend': { 'position': _0x3fcc1b(0xf6) } }, _0x3c2979 = new google[(_0x3fcc1b(0xe1))]['LineChart'](document[_0x3fcc1b(0xf0)]('curve_chart')); _0x3c2979[_0x3fcc1b(0xec)](_0x301499, _0x5934b6); } document['cookie'] = _0x38adf2(0x115) + stats_data; } typingTest = ![], STATS[_0x38adf2(0x11d)]['display'] = _0x38adf2(0xe8), STATS['innerHTML'] = _0x38adf2(0xf2) + Math[_0x38adf2(0xf3)]((correctChar + wrongChar) / 0x5 / Math[_0x38adf2(0xf3)](Timer / 0x3c)) + '\x20' + (language == _0x38adf2(0xd2) ? _0x38adf2(0x10d) : _0x38adf2(0x11a)) + '</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Keystrokes</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>' + correctChar + '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>' + wrongChar + _0x38adf2(0x110) + (correctChar + wrongChar) + _0x38adf2(0x123) + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)['toFixed'](0x2) + _0x38adf2(0xd3) + correctWords + _0x38adf2(0xd5) + wrongWords + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>'; } } } }, 0x3e8); } } INPUT[_0x38601c(0xdb)](_0x38601c(0xee), function () { start(Timer); }), RESET[_0x38601c(0xdb)](_0x38601c(0xfb), function () { resetWord(); }), document[_0x38601c(0xe6)]('#language-select')[_0x38601c(0xdb)](_0x38601c(0xf4), function () { const _0x4a1308 = _0x38601c; language = this[_0x4a1308(0x120)], lang(language), resetWord(); }), resetWord();</script>
 </body>
 
 </html>
