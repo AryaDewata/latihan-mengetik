@@ -17,8 +17,21 @@
         @import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+        [class~=container],
+        * {
+            padding-left: 0;
+        }
+
+        [class~=container] {
+            padding-bottom: 3.125pc;
+        }
+
         #loading {
             position: fixed;
+        }
+
+        #loading img {
+            margin-left: auto;
         }
 
         #loading {
@@ -29,25 +42,48 @@
             height: 100vh;
         }
 
+        [class~=container],
+        * {
+            padding-right: 0;
+        }
+
         #loading {
             width: 100vw;
+        }
+
+        #loading img,
+        * {
+            margin-bottom: 0;
         }
 
         #loading {
             overflow: hidden;
         }
 
+        #loading img {
+            margin-right: auto;
+        }
+
+        *,
+        [class~=container] {
+            padding-top: 0;
+        }
+
         #loading {
             background: rgba(255, 255, 255, .3);
+        }
+
+        * {
+            padding-bottom: 0;
         }
 
         #loading {
             color: #646464;
         }
 
-        [class~=container],
-        * {
-            padding-left: 0;
+        *,
+        #loading img {
+            margin-top: 0;
         }
 
         #loading {
@@ -58,41 +94,44 @@
             cursor: default;
         }
 
+        #loading img {
+            width: 50px;
+        }
+
         #header {
             position: relative;
         }
 
         [class~=container] {
-            padding-bottom: 3.125pc;
+            min-height: 100vh;
+        }
+
+        body {
+            overflow-x: hidden;
         }
 
         #header {
             padding-left: .3125in;
         }
 
-        #loading img {
-            margin-left: auto;
-        }
-
         #header {
             padding-bottom: 10.5pt;
+        }
+
+        #header p {
+            font-size: .8125pc;
         }
 
         #header {
             padding-right: .3125in;
         }
 
-        [class~=container],
-        * {
-            padding-right: 0;
-        }
-
         #header {
             padding-top: 10.5pt;
         }
 
-        [class~=vertical-center],
-        #header {
+        #header,
+        .vertical-center {
             display: flex;
         }
 
@@ -101,42 +140,32 @@
         }
 
         #header {
-            gap: 1.25pc;
+            gap: .208333333in;
         }
 
         #header {
             background: rgba(0, 0, 0, .6);
         }
 
-        [class~=container],
-        *,
+        [class~=container] {
+            background: rgba(190, 230, 250, .7);
+        }
+
+        #header p,
         #language-select {
-            padding-top: 0;
+            color: white;
         }
 
         #header {
-            border-bottom-width: 1px;
+            border-bottom-width: .75pt;
         }
 
         #header {
             border-bottom-style: solid;
         }
 
-        [class~=container] {
-            min-height: 100vh;
-        }
-
-        [class~=container] {
-            background: rgba(190, 230, 250, .7);
-        }
-
         #header {
             border-bottom-color: black;
-        }
-
-        *,
-        #loading img {
-            margin-bottom: 0;
         }
 
         #header {
@@ -152,28 +181,27 @@
         }
 
         #language-select {
-            right: 30px;
+            right: 22.5pt;
         }
 
         #language-select {
-            padding-left: .104166667in;
+            padding-left: .625pc;
         }
 
-        *,
         #language-select {
             padding-bottom: 0;
         }
 
         #language-select {
-            padding-right: 35px;
+            padding-right: .364583333in;
+        }
+
+        #language-select {
+            padding-top: 0;
         }
 
         #language-select {
             height: 60%;
-        }
-
-        #language-select:hover {
-            background: #77ce77;
         }
 
         #language-select {
@@ -185,19 +213,19 @@
         }
 
         #language-select {
-            border-left-width: .75pt;
+            border-left-width: .010416667in;
         }
 
         #language-select {
-            border-bottom-width: .75pt;
-        }
-
-        #loading img {
-            margin-right: auto;
+            border-bottom-width: .010416667in;
         }
 
         #language-select {
-            border-right-width: .75pt;
+            border-right-width: .010416667in;
+        }
+
+        body {
+            background: url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
         }
 
         * {
@@ -205,15 +233,24 @@
         }
 
         #language-select {
-            border-top-width: .75pt;
+            border-top-width: .010416667in;
         }
 
-        body {
-            overflow-x: hidden;
+        #header p,
+        .header-text {
+            text-shadow: .0625pc .75pt black;
+        }
+
+        .vertical-center {
+            flex-direction: column;
         }
 
         #language-select {
             border-left-style: solid;
+        }
+
+        * {
+            margin-right: 0;
         }
 
         #language-select {
@@ -240,41 +277,28 @@
             border-right-color: #204d20;
         }
 
-        #loading img,
-        * {
-            margin-top: 0;
+        .vertical-center {
+            justify-content: center;
+        }
+
+        .header-text {
+            font-family: "Nerko One";
         }
 
         #language-select {
             border-top-color: #204d20;
         }
 
-        [class~=vertical-center] {
-            flex-direction: column;
-        }
-
         #language-select {
             border-image: none;
         }
 
-        #loading img {
-            width: 50px;
-        }
-
-        * {
-            margin-right: 0;
-        }
-
-        [class~=vertical-center] {
-            justify-content: center;
-        }
-
-        [class~=header-text] {
-            font-family: "Nerko One";
-        }
-
         #language-select {
             outline: none;
+        }
+
+        body {
+            font-family: "Open Sans";
         }
 
         #language-select {
@@ -290,32 +314,27 @@
         }
 
         #language-select {
-            background-position: right .375pc center !important;
+            background-position: right .0625in center !important;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         #language-select {
             background-size: 1em !important;
         }
 
-        #language-select,
-        #header p {
-            color: white;
-        }
-
-        [class~=header-text] {
-            font-size: 16.5pt;
+        .header-text {
+            font-size: 1.375pc;
         }
 
         #language-select {
             font-family: "Nunito";
         }
 
-        [class~=header-text] {
+        .header-text {
             color: gold;
-        }
-
-        [class~=header-text] {
-            font-weight: 100;
         }
 
         #language-select {
@@ -323,7 +342,7 @@
         }
 
         #language-select {
-            letter-spacing: .5px;
+            letter-spacing: .03125pc;
         }
 
         #language-select * {
@@ -334,54 +353,45 @@
             color: black;
         }
 
-        #header p,
-        [class~=header-text] {
-            text-shadow: .75pt .0625pc black;
+        .header-text {
+            font-weight: 100;
         }
 
-        #header p {
-            font-size: .135416667in;
+        .header-text {
+            letter-spacing: .25pc;
         }
 
-        [class~=header-text] {
-            letter-spacing: .041666667in;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background: url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
-        }
-
-        body {
-            font-family: "Open Sans";
+        #language-select:hover {
+            background: #77ce77;
         }
 
         @media (max-width: 768px) {
+            [class~=header-text] {
+                letter-spacing: 1.5pt;
+            }
+
+            #header {
+                padding-left: 1.5625pc;
+            }
+
+            #header {
+                padding-bottom: 8px;
+            }
+
+            #header {
+                padding-right: 1.5625pc;
+            }
+
+            #header {
+                padding-top: 8px;
+            }
+
+            #header {
+                gap: .75pc;
+            }
+
             #header p {
-                font-size: 12px;
-            }
-
-            #header {
-                padding-left: .260416667in;
-            }
-
-            #header {
-                padding-bottom: 6pt;
-            }
-
-            #header {
-                padding-right: .260416667in;
-            }
-
-            #header {
-                padding-top: 6pt;
-            }
-
-            #header {
-                gap: 12px;
+                font-size: .75pc;
             }
 
             #language-select {
@@ -395,10 +405,6 @@
             #language-select {
                 font-size: .145833333in;
             }
-
-            [class~=header-text] {
-                letter-spacing: 2px;
-            }
         }
 
         @media (max-width: 480px) {
@@ -407,7 +413,7 @@
             }
 
             #header {
-                gap: .020833333in;
+                gap: 2px;
             }
 
             #language-select {
@@ -423,15 +429,15 @@
             }
 
             #language-select {
-                padding-bottom: .041666667in;
+                padding-bottom: .25pc;
             }
 
             #language-select {
-                padding-right: 1.625pc;
+                padding-right: 19.5pt;
             }
 
             #language-select {
-                padding-top: 4px;
+                padding-top: .041666667in;
             }
 
             #language-select {
@@ -439,7 +445,7 @@
             }
 
             #language-select {
-                margin-bottom: 5px;
+                margin-bottom: .3125pc;
             }
 
             #language-select {
@@ -456,7 +462,7 @@
         }
 
         #main {
-            padding-left: .208333333in;
+            padding-left: 1.25pc;
         }
 
         #main {
@@ -464,7 +470,7 @@
         }
 
         #main {
-            padding-right: .208333333in;
+            padding-right: 1.25pc;
         }
 
         #main {
@@ -476,7 +482,7 @@
         }
 
         #main {
-            margin-bottom: .208333333in;
+            margin-bottom: 15pt;
         }
 
         #main {
@@ -484,7 +490,7 @@
         }
 
         #main {
-            margin-top: .208333333in;
+            margin-top: 15pt;
         }
 
         #main {
@@ -497,19 +503,19 @@
 
         @media (max-width: 768px) {
             #main {
-                padding-left: .625pc;
+                padding-left: 7.5pt;
             }
 
             #main {
-                padding-bottom: .625pc;
+                padding-bottom: 7.5pt;
             }
 
             #main {
-                padding-right: .625pc;
+                padding-right: 7.5pt;
             }
 
             #main {
-                padding-top: .625pc;
+                padding-top: 7.5pt;
             }
 
             #main {
@@ -517,7 +523,7 @@
             }
 
             #main {
-                margin-bottom: .083333333in;
+                margin-bottom: 6pt;
             }
 
             #main {
@@ -525,7 +531,7 @@
             }
 
             #main {
-                margin-top: .083333333in;
+                margin-top: 6pt;
             }
         }
 
@@ -535,7 +541,7 @@
             }
 
             #main {
-                padding-bottom: .625pc;
+                padding-bottom: 7.5pt;
             }
 
             #main {
@@ -543,7 +549,7 @@
             }
 
             #main {
-                padding-top: .625pc;
+                padding-top: 7.5pt;
             }
         }
 
@@ -556,27 +562,31 @@
         }
 
         [class~=words] {
-            padding-left: .125in;
+            padding-left: 9pt;
         }
 
         [class~=words] {
-            padding-bottom: .083333333in;
+            padding-bottom: 6pt;
         }
 
         [class~=words] {
-            padding-right: .125in;
+            padding-right: 9pt;
         }
 
         [class~=words] {
-            padding-top: .083333333in;
+            padding-top: 6pt;
         }
 
         [class~=words] {
             margin-left: auto;
         }
 
+        .words span {
+            font-family: serif;
+        }
+
         [class~=words] {
-            margin-bottom: .083333333in;
+            margin-bottom: .5pc;
         }
 
         [class~=words] {
@@ -584,7 +594,11 @@
         }
 
         [class~=words] {
-            margin-top: .083333333in;
+            margin-top: .5pc;
+        }
+
+        .words span {
+            font-size: 26px;
         }
 
         [class~=words] {
@@ -592,7 +606,7 @@
         }
 
         [class~=words] {
-            height: .78125in;
+            height: 75px;
         }
 
         [class~=words] {
@@ -600,19 +614,23 @@
         }
 
         [class~=words] {
-            border-left-width: .75pt;
+            border-left-width: .0625pc;
+        }
+
+        .words span {
+            color: #303030;
         }
 
         [class~=words] {
-            border-bottom-width: .75pt;
+            border-bottom-width: .0625pc;
         }
 
         [class~=words] {
-            border-right-width: .75pt;
+            border-right-width: .0625pc;
         }
 
         [class~=words] {
-            border-top-width: .75pt;
+            border-top-width: .0625pc;
         }
 
         [class~=words] {
@@ -627,12 +645,12 @@
             border-right-style: solid;
         }
 
-        [class~=words] {
-            border-top-style: solid;
+        .words span {
+            letter-spacing: .010416667in;
         }
 
-        .words span {
-            font-family: serif;
+        [class~=words] {
+            border-top-style: solid;
         }
 
         [class~=words] {
@@ -660,19 +678,7 @@
         }
 
         [class~=words] {
-            word-spacing: 6pt;
-        }
-
-        .words span {
-            font-size: 26px;
-        }
-
-        .words span {
-            color: #303030;
-        }
-
-        .words span {
-            letter-spacing: 1px;
+            word-spacing: .5pc;
         }
 
         @media (max-width: 768px) {
@@ -686,58 +692,50 @@
                 width: 95%;
             }
 
-            [class~=words] span {
-                font-size: .229166667in;
+            [class~=words] {
+                height: 5.625pc;
             }
 
-            [class~=words] {
-                height: 67.5pt;
+            [class~=words] span {
+                font-size: 1.375pc;
             }
         }
 
         [class~=word-input] {
-            padding-left: 7.5pt;
+            padding-left: .104166667in;
         }
 
-        #mengetik {
-            padding-left: 0;
-        }
-
-        .time-countdown,
+        [class~=time-countdown],
         [class~=word-input] {
             padding-bottom: 0;
         }
 
         [class~=word-input] {
-            padding-right: 7.5pt;
+            padding-right: .104166667in;
         }
 
-        .time-countdown,
-        [class~=word-input] {
+        [class~=word-input],
+        [class~=time-countdown] {
             padding-top: 0;
-        }
-
-        #mengetik {
-            padding-bottom: .375pc;
         }
 
         [class~=word-input] {
             width: 50%;
         }
 
-        #mengetik {
-            padding-right: 0;
-        }
-
-        .time-countdown:hover {
+        [class~=time-countdown]:hover {
             background: #4d6275;
         }
 
+        #mengetik {
+            padding-left: 0;
+        }
+
+        [class~=reset-btn],
+        [class~=time-countdown],
         [class~=word-input],
-        #mengetik,
-        .time-countdown,
-        [class~=reset-btn] {
-            border-radius: 2.25pt;
+        #mengetik {
+            border-radius: 3px;
         }
 
         [class~=word-input] {
@@ -748,16 +746,16 @@
             border-bottom-width: .0625pc;
         }
 
-        #mengetik {
-            padding-top: .375pc;
-        }
-
         [class~=word-input] {
             border-right-width: .0625pc;
         }
 
         [class~=word-input] {
             border-top-width: .0625pc;
+        }
+
+        #mengetik {
+            padding-bottom: 4.5pt;
         }
 
         [class~=word-input] {
@@ -768,10 +766,6 @@
             border-bottom-style: solid;
         }
 
-        #mengetik {
-            margin-left: auto;
-        }
-
         [class~=word-input] {
             border-right-style: solid;
         }
@@ -780,8 +774,20 @@
             border-top-style: solid;
         }
 
+        [class~=reset-btn]:hover {
+            background: #519ada;
+        }
+
         [class~=word-input] {
             border-left-color: #969696;
+        }
+
+        #mengetik {
+            padding-right: 0;
+        }
+
+        #mengetik {
+            padding-top: 4.5pt;
         }
 
         [class~=word-input] {
@@ -801,16 +807,16 @@
         }
 
         [class~=word-input] {
-            box-shadow: inset .010416667in .010416667in .125pc black;
+            box-shadow: inset .010416667in .75pt 1.5pt black;
         }
 
         [class~=word-input] {
             outline: none;
         }
 
-        [class~=reset-btn],
-        .time-countdown,
-        [class~=word-input] {
+        [class~=word-input],
+        [class~=time-countdown],
+        [class~=reset-btn] {
             font-size: .25in;
         }
 
@@ -826,23 +832,22 @@
             letter-spacing: .0625pc;
         }
 
+        #mengetik {
+            margin-left: auto;
+        }
+
         [class~=reset-btn],
-        .time-countdown {
+        [class~=time-countdown] {
             cursor: pointer;
         }
 
         [class~=reset-btn],
-        .time-countdown {
-            padding-left: .15625in;
+        [class~=time-countdown] {
+            padding-left: .9375pc;
         }
 
         #mengetik {
             margin-bottom: .625pc;
-        }
-
-        [class~=reset-btn],
-        .time-countdown {
-            padding-right: .15625in;
         }
 
         #mengetik {
@@ -853,78 +858,67 @@
             margin-top: .625pc;
         }
 
+        [class~=reset-btn],
+        [class~=time-countdown] {
+            padding-right: .9375pc;
+        }
+
         #mengetik {
             width: 85%;
         }
 
-        .time-countdown {
+        [class~=time-countdown] {
             background: #3b4f61;
         }
 
         #mengetik {
-            height: .520833333in;
+            height: 3.125pc;
+        }
+
+        [class~=reset-btn],
+        [class~=time-countdown] {
+            color: white;
+        }
+
+        [class~=time-countdown] {
+            text-align: center;
+        }
+
+        [class~=time-countdown],
+        [class~=reset-btn] {
+            text-shadow: .75pt .0625pc black;
+        }
+
+        .hidden-timer {
+            visibility: hidden;
         }
 
         #mengetik {
             box-sizing: content-box;
         }
 
-        #mengetik {
-            display: flex;
-        }
-
-        [class~=reset-btn],
-        .time-countdown {
-            color: white;
-        }
-
-        .time-countdown {
-            text-align: center;
-        }
-
-        .time-countdown,
-        [class~=reset-btn] {
-            text-shadow: .010416667in 1px black;
-        }
-
-        [class~=hidden-timer] {
-            visibility: hidden;
-        }
-
-        #mengetik {
-            justify-content: center;
-        }
-
         [class~=reset-btn] {
             padding-bottom: 0;
-        }
-
-        [class~=reset-btn]:hover {
-            background: #519ada;
         }
 
         [class~=reset-btn] {
             padding-top: 0;
         }
 
-        #mengetik {
-            gap: .0625in;
+        [class~=reset-btn] {
+            border-left-width: .75pt;
         }
 
         [class~=reset-btn] {
-            border-left-width: .0625pc;
+            border-bottom-width: .75pt;
         }
 
         [class~=reset-btn] {
-            border-bottom-width: .0625pc;
+            border-right-width: .75pt;
         }
 
         [class~=reset-btn] {
-            border-right-width: .0625pc;
-        }
-
-        [class~=reset-btn] {
-            border-top-width: .0625pc;
+            border-top-width: .75pt;
         }
 
         [class~=reset-btn] {
@@ -937,6 +931,10 @@
 
         [class~=reset-btn] {
             border-right-style: solid;
+        }
+
+        #mengetik {
+            display: flex;
         }
 
         [class~=reset-btn] {
@@ -968,15 +966,23 @@
         }
 
         #mengetik {
-            line-height: .520833333in;
+            justify-content: center;
         }
 
-        [class~=rotate] {
+        .rotate {
             transform: rotate(365deg);
         }
 
-        [class~=rotate] {
+        .rotate {
             transition: 400ms;
+        }
+
+        #mengetik {
+            gap: 6px;
+        }
+
+        #mengetik {
+            line-height: 50px;
         }
 
         #mengetik {
@@ -989,26 +995,21 @@
             }
 
             #mengetik {
-                gap: .5pc;
+                gap: 8px;
             }
 
-            .word-input {
+            [class~=word-input] {
                 width: 60%;
             }
         }
 
         @media (max-width: 480px) {
-            .word-input {
+            [class~=word-input] {
                 width: 50%;
             }
 
-            .word-input {
+            [class~=word-input] {
                 font-size: 16.5pt;
-            }
-
-            [class~=reset-btn],
-            [class~=time-countdown] {
-                font-size: .1875in;
             }
 
             #mengetik {
@@ -1016,7 +1017,12 @@
             }
 
             #mengetik {
-                gap: 6px;
+                gap: .375pc;
+            }
+
+            [class~=time-countdown],
+            [class~=reset-btn] {
+                font-size: 1.125pc;
             }
         }
 
@@ -1025,59 +1031,23 @@
         }
 
         [class~=statistik] {
-            padding-left: .208333333in;
+            padding-left: 1.25pc;
         }
 
         [class~=statistik] {
-            padding-bottom: .625pc;
-        }
-
-        #stat {
-            position: relative;
-        }
-
-        #stat {
-            margin-left: auto;
-        }
-
-        #stat {
-            margin-bottom: .104166667in;
-        }
-
-        #stat {
-            margin-right: auto;
-        }
-
-        #stat {
-            margin-top: .104166667in;
-        }
-
-        #stat {
-            width: 85%;
+            padding-bottom: 7.5pt;
         }
 
         [class~=statistik] {
-            padding-right: .208333333in;
+            padding-right: 1.25pc;
         }
 
         [class~=statistik] {
-            padding-top: .625pc;
-        }
-
-        #stat {
-            display: flex;
+            padding-top: 7.5pt;
         }
 
         [class~=statistik] {
             width: max-content;
-        }
-
-        #stat {
-            justify-content: space-between;
-        }
-
-        table {
-            font-size: .145833333in;
         }
 
         [class~=statistik],
@@ -1085,50 +1055,50 @@
             border-radius: .03125in;
         }
 
-        #curve_chart {
-            position: absolute;
+        table {
+            font-size: .875pc;
         }
 
-        #curve_chart {
-            right: 0;
-        }
-
-        [class~=statistik],
-        #curve_chart {
-            border-left-width: .010416667in;
+        #stat {
+            position: relative;
         }
 
         [class~=statistik],
         #curve_chart {
-            border-bottom-width: .010416667in;
-        }
-
-        #curve_chart,
-        [class~=statistik] {
-            border-right-width: .010416667in;
-        }
-
-        #curve_chart {
-            width: 50%;
-        }
-
-        #curve_chart,
-        [class~=statistik] {
-            border-top-width: .010416667in;
-        }
-
-        #curve_chart {
-            height: 200px;
-        }
-
-        #curve_chart {
-            overflow: hidden;
+            border-left-width: .75pt;
         }
 
         td,
         tr,
-        .total-wpm {
+        [class~=total-wpm] {
             padding-left: 0;
+        }
+
+        #stat {
+            margin-left: auto;
+        }
+
+        #curve_chart,
+        [class~=statistik] {
+            border-bottom-width: .75pt;
+        }
+
+        #stat {
+            margin-bottom: .104166667in;
+        }
+
+        [class~=statistik],
+        #curve_chart {
+            border-right-width: .75pt;
+        }
+
+        [class~=statistik],
+        #curve_chart {
+            border-top-width: .75pt;
+        }
+
+        #stat {
+            margin-right: auto;
         }
 
         tr,
@@ -1139,6 +1109,10 @@
         #curve_chart,
         [class~=statistik] {
             border-left-style: solid;
+        }
+
+        #stat {
+            margin-top: .104166667in;
         }
 
         #curve_chart,
@@ -1156,14 +1130,22 @@
             border-top-style: solid;
         }
 
-        [class~=statistik],
-        #curve_chart {
+        #curve_chart,
+        [class~=statistik] {
             border-left-color: #969696;
         }
 
-        #curve_chart,
-        [class~=statistik] {
+        [class~=statistik],
+        #curve_chart {
             border-bottom-color: #969696;
+        }
+
+        #stat {
+            width: 85%;
+        }
+
+        #stat {
+            display: flex;
         }
 
         #curve_chart,
@@ -1171,84 +1153,104 @@
             border-right-color: #969696;
         }
 
-        tr,
-        td {
-            padding-right: 18px;
-        }
-
-        [class~=statistik],
-        #curve_chart {
-            background: white;
-        }
-
-        [class~=statistik],
-        #curve_chart {
-            border-top-color: #969696;
-        }
-
-        tr,
-        td {
-            padding-top: 14px;
+        #stat {
+            justify-content: space-between;
         }
 
         #curve_chart,
         [class~=statistik] {
-            border-image: none;
-        }
-
-        .total-wpm {
-            padding-bottom: .375pc;
-        }
-
-        .total-wpm {
-            padding-right: 0;
-        }
-
-        .total-wpm {
-            padding-top: 0;
-        }
-
-        .total-wpm {
-            border-bottom-width: .75pt;
-        }
-
-        .total-wpm {
-            border-bottom-style: solid;
-        }
-
-        .total-wpm {
-            border-bottom-color: #969696;
-        }
-
-        .total-wpm {
-            border-image: none;
-        }
-
-        .total-wpm {
-            font-family: "Roboto";
-        }
-
-        .total-wpm {
-            font-size: 36px;
-        }
-
-        .total-wpm {
-            color: #287828;
-        }
-
-        .total-wpm {
-            font-weight: bold;
+            border-top-color: #969696;
         }
 
         #curve_chart {
-            visibility: hidden;
+            position: absolute;
         }
 
-        .total-wpm {
+        [class~=statistik],
+        #curve_chart {
+            border-image: none;
+        }
+
+        #curve_chart,
+        [class~=statistik] {
+            background: white;
+        }
+
+        tr,
+        td {
+            padding-right: .1875in;
+        }
+
+        [class~=total-wpm] {
+            padding-bottom: 6px;
+        }
+
+        td,
+        tr {
+            padding-top: .875pc;
+        }
+
+        [class~=total-wpm] {
+            padding-right: 0;
+        }
+
+        [class~=total-wpm] {
+            padding-top: 0;
+        }
+
+        [class~=total-wpm] {
+            border-bottom-width: .0625pc;
+        }
+
+        #curve_chart {
+            right: 0;
+        }
+
+        #curve_chart {
+            width: 50%;
+        }
+
+        [class~=total-wpm] {
+            border-bottom-style: solid;
+        }
+
+        #curve_chart {
+            height: 150pt;
+        }
+
+        #curve_chart {
+            overflow: hidden;
+        }
+
+        [class~=total-wpm] {
+            border-bottom-color: #969696;
+        }
+
+        [class~=total-wpm] {
+            border-image: none;
+        }
+
+        [class~=total-wpm] {
+            font-family: "Roboto";
+        }
+
+        [class~=total-wpm] {
+            font-size: 36px;
+        }
+
+        [class~=total-wpm] {
+            color: #287828;
+        }
+
+        [class~=total-wpm] {
+            font-weight: bold;
+        }
+
+        [class~=total-wpm] {
             text-align: center;
         }
 
-        .total-correct-words,
+        [class~=total-correct-words],
         .correct-keystrokes {
             color: #00be00;
         }
@@ -1258,6 +1260,10 @@
             color: #ff7373;
         }
 
+        #curve_chart {
+            visibility: hidden;
+        }
+
         @media (max-width: 768px) {
 
             #curve_chart,
@@ -1265,28 +1271,24 @@
                 position: relative;
             }
 
-            [class~=statistik] {
-                padding-left: .208333333in;
-            }
-
             #curve_chart,
-            #stat,
-            [class~=statistik] {
+            [class~=statistik],
+            #stat {
                 margin-left: auto;
             }
 
             #stat {
-                margin-bottom: .625pc;
+                margin-bottom: .104166667in;
             }
 
+            [class~=statistik],
             #stat,
-            #curve_chart,
-            [class~=statistik] {
+            #curve_chart {
                 margin-right: auto;
             }
 
             #stat {
-                margin-top: .625pc;
+                margin-top: .104166667in;
             }
 
             #stat,
@@ -1294,29 +1296,33 @@
                 width: 90%;
             }
 
+            [class~=statistik] {
+                padding-left: 15pt;
+            }
+
+            [class~=statistik] {
+                padding-bottom: .625pc;
+            }
+
             #stat {
                 flex-direction: column;
             }
 
             [class~=statistik] {
-                padding-bottom: 7.5pt;
+                padding-right: 15pt;
             }
 
+            #curve_chart,
             [class~=statistik] {
-                padding-right: .208333333in;
-            }
-
-            [class~=statistik] {
-                padding-top: 7.5pt;
-            }
-
-            [class~=statistik],
-            #curve_chart {
                 margin-bottom: 0;
             }
 
+            [class~=statistik] {
+                padding-top: .625pc;
+            }
+
             #curve_chart {
-                margin-top: 20px;
+                margin-top: .208333333in;
             }
 
             [class~=statistik] {
@@ -1324,7 +1330,7 @@
             }
 
             [class~=total-wpm] {
-                font-size: 32px;
+                font-size: .333333333in;
             }
         }
 
@@ -1342,7 +1348,7 @@
             }
 
             #curve_chart {
-                margin-top: 15pt;
+                margin-top: .208333333in;
             }
 
             #curve_chart {
@@ -1358,12 +1364,20 @@
             bottom: 0;
         }
 
+        footer a:hover {
+            text-decoration: underline;
+        }
+
         footer {
             padding-left: 0;
         }
 
+        footer a {
+            color: gold;
+        }
+
         footer {
-            padding-bottom: 8px;
+            padding-bottom: .083333333in;
         }
 
         footer {
@@ -1371,7 +1385,7 @@
         }
 
         footer {
-            padding-top: 8px;
+            padding-top: .083333333in;
         }
 
         footer {
@@ -1383,23 +1397,7 @@
         }
 
         footer {
-            font-size: .125in;
-        }
-
-        footer {
-            color: white;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        footer a {
-            color: gold;
-        }
-
-        footer {
-            text-align: center;
+            font-size: 9pt;
         }
 
         footer a {
@@ -1407,7 +1405,15 @@
         }
 
         footer {
-            text-shadow: .75pt 1px black;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        footer {
+            text-shadow: .0625pc .010416667in black;
         }
 
         @media (max-width: 768px) {
@@ -1416,7 +1422,7 @@
             }
 
             footer {
-                padding-bottom: 4.5pt;
+                padding-bottom: .375pc;
             }
 
             footer {
@@ -1424,11 +1430,11 @@
             }
 
             footer {
-                padding-top: 4.5pt;
+                padding-top: .375pc;
             }
 
             footer {
-                font-size: .114583333in;
+                font-size: 8.25pt;
             }
         }
     </style>
@@ -1511,8 +1517,8 @@
     </div>
 
     <!-- Javascript -->
-    <script>const _0x68765f = _0x5b2f; function _0x433e() { const _0x42d55e = ['look', 'sedikit', 'same', 'untuk', 'had', 'above', 'why', '28814MPgzWp', 'when', 'should', 'harus', 'dengan', 'memiliki', 'and', 'which', 'selama', 'might', 'made', 'before', 'hard', 'some', 'put', 'head', 'saat', 'ada', 'paper', 'hari', 'namun', 'apa', 'almost', 'oleh', 'berbagai', 'kepada', 'pulang', 'sebelum', 'pada', 'still', 'where', 'close', 'begin', 'something', 'quick', 'oil', 'water', 'pertama', 'other', 'would', 'tahu', 'new', 'study', 'work', 'mau', 'akibat', 'memberi', 'makanan', 'young', 'how', 'different', 'hati', 'seem', 'into', 'waktu', 'last', 'near', 'part', 'tidur', 'bila', 'mulai', 'earth', 'live', '11405Thbqlr', 'boy', 'cepat', 'sangat', 'karena', 'lagi', 'any', 'America', 'secara', 'question', 'keep', 'think', 'kecuali', 'termasuk', 'night', 'malam', 'you', 'next', 'food', 'merupakan', 'mountain', 'like', 'let', 'itu', 'terhadap', 'what', 'quickly', 'change', 'way', 'terus', 'set', 'sesuatu', 'air', 'pusat', 'kini', 'about', 'eye', 'orang', 'said', 'thing', 'does', 'miss', 'are', 'until', 'belum', 'she', 'later', 'most', 'sini', 'juta', 'banyak', 'our', 'diri', 'people', 'pernah', 'more', 'sering', 'mata', 'mencari', 'tentang', 'even', 'baru', 'old', 'mana', 'siap', '34630EYFqMU', 'uang', 'come', 'don\x27t', 'anda', '10338461xDyDHQ', 'boleh', 'off', 'example', 'see', 'been', 'only', 'well', 'siapa', 'jenis', 'kind', 'eat', 'sedang', 'bagian', 'sendiri', 'then', 'anak', 'that', 'its', 'learn', 'naik', 'barang', 'ini', 'kerja', 'must', 'it\x27s', 'bukan', 'bisa', 'group', 'antara', 'together', 'page', 'sambil', 'here', 'watch', 'show', 'ingin', 'got', 'without', 'always', '162iwEjRJ', 'make', '5018250bJkgls', 'memang', 'world', 'not', 'such', 'face', 'father', 'just', 'tengah', 'minuman', 'end', 'tell', 'jangan', 'melalui', 'who', 'list', 'feet', 'for', 'being', 'try', 'seperti', 'tiba', 'kedua', 'selalu', 'jalan', '188lgzdWK', 'very', 'mudah', 'setiap', 'hingga', 'around', 'maka', 'Indian', 'few', 'tempat', '61526aEUPAf', 'one', 'tak', 'read', 'those', 'hidup', 'harga', 'perlu', 'paling', 'again', 'thought', 'sampai', 'suatu', 'mother', 'life', 'yang', 'sekalipun', 'sejak', 'tetapi', 'talk', 'kemudian', 'tapi', 'sama', 'these', 'want', 'their', 'setelah', 'mungkin', '5912448mNiMLx', 'bersama', 'membuat', 'makan', '8019YiYVjA', 'often']; _0x433e = function () { return _0x42d55e; }; return _0x433e(); } (function (_0x45b630, _0x32e5d8) { const _0x5ff8e1 = _0x5b2f, _0x7851ad = _0x45b630(); while (!![]) { try { const _0xef884c = -parseInt(_0x5ff8e1(0x1fb)) / 0x1 + -parseInt(_0x5ff8e1(0x224)) / 0x2 * (-parseInt(_0x5ff8e1(0x1d6)) / 0x3) + parseInt(_0x5ff8e1(0x1f1)) / 0x4 * (parseInt(_0x5ff8e1(0x263)) / 0x5) + -parseInt(_0x5ff8e1(0x1d8)) / 0x6 + -parseInt(_0x5ff8e1(0x2a9)) / 0x7 + -parseInt(_0x5ff8e1(0x217)) / 0x8 + -parseInt(_0x5ff8e1(0x21b)) / 0x9 * (-parseInt(_0x5ff8e1(0x2a4)) / 0xa); if (_0xef884c === _0x32e5d8) break; else _0x7851ad['push'](_0x7851ad['shift']()); } catch (_0x40e7b5) { _0x7851ad['push'](_0x7851ad['shift']()); } } }(_0x433e, 0xd1306)); function _0x5b2f(_0x4137b7, _0x8c687d) { const _0x433e0c = _0x433e(); return _0x5b2f = function (_0x5b2fd5, _0xcb0275) { _0x5b2fd5 = _0x5b2fd5 - 0x1c3; let _0x33e855 = _0x433e0c[_0x5b2fd5]; return _0x33e855; }, _0x5b2f(_0x4137b7, _0x8c687d); } let english = [{ 'kelipatan': 0xe }, ['him', _0x68765f(0x22d), 'over', _0x68765f(0x2ba), _0x68765f(0x1d0), _0x68765f(0x289), 'never', _0x68765f(0x26e), 'of', _0x68765f(0x292), _0x68765f(0x1de), _0x68765f(0x205), 'line', 'grow', _0x68765f(0x2b4), 'year', 'find', _0x68765f(0x209), 'an', _0x68765f(0x273), _0x68765f(0x248), 'sea', _0x68765f(0x1e2), 'sound', _0x68765f(0x2ad), _0x68765f(0x27f), _0x68765f(0x1cd), 'open', _0x68765f(0x2ab), 'hear', _0x68765f(0x1fc), _0x68765f(0x223), 'them', _0x68765f(0x1db), 'spell', 'give', 'animal', _0x68765f(0x283), 'three', _0x68765f(0x1e7), _0x68765f(0x298), _0x68765f(0x2af), 'from', _0x68765f(0x1f6), _0x68765f(0x236), _0x68765f(0x274), _0x68765f(0x1df), _0x68765f(0x1e3), 'house', 'picture', _0x68765f(0x225), _0x68765f(0x243), 'day', 'by', _0x68765f(0x1e8), 'meet', _0x68765f(0x2a1), 'on', _0x68765f(0x287), _0x68765f(0x247), _0x68765f(0x27c), _0x68765f(0x2bb), 'if', 'so', _0x68765f(0x27d), _0x68765f(0x231), _0x68765f(0x1c6), 'write', _0x68765f(0x24e), 'found', 'many', 'know', _0x68765f(0x1d3), _0x68765f(0x278), 'this', 'his', _0x68765f(0x2b3), _0x68765f(0x258), _0x68765f(0x226), 'to', 'before', _0x68765f(0x1d1), _0x68765f(0x2b8), 'long', _0x68765f(0x21f), _0x68765f(0x255), 'girl', _0x68765f(0x264), 'us', _0x68765f(0x259), _0x68765f(0x271), _0x68765f(0x242), _0x68765f(0x1e6), _0x68765f(0x261), 'took', _0x68765f(0x28d), 'mile', _0x68765f(0x1e9), _0x68765f(0x25c), 'really', _0x68765f(0x212), 'skill', _0x68765f(0x21d), 'as', 'now', _0x68765f(0x24b), _0x68765f(0x1cc), _0x68765f(0x1c7), _0x68765f(0x281), 'ask', _0x68765f(0x1f9), 'is', _0x68765f(0x20e), _0x68765f(0x279), _0x68765f(0x214), _0x68765f(0x25b), _0x68765f(0x254), _0x68765f(0x2b0), _0x68765f(0x2bc), _0x68765f(0x22f), _0x68765f(0x245), _0x68765f(0x208), _0x68765f(0x1dc), _0x68765f(0x1ca), _0x68765f(0x1d7), _0x68765f(0x1dd), _0x68765f(0x256), _0x68765f(0x21c), _0x68765f(0x226), _0x68765f(0x246), _0x68765f(0x28e), 'own', 'point', 'great', _0x68765f(0x23a), _0x68765f(0x22a), 'move', _0x68765f(0x1d5), _0x68765f(0x22b), _0x68765f(0x26d), _0x68765f(0x1ff), _0x68765f(0x22e), 'big', _0x68765f(0x232), _0x68765f(0x1f2), _0x68765f(0x1fe), _0x68765f(0x29f), 'all', _0x68765f(0x28c), _0x68765f(0x2a6), 'two', 'can', _0x68765f(0x296), 'be', _0x68765f(0x24f), _0x68765f(0x1cf), 'home', 'we', 'need', _0x68765f(0x26c), _0x68765f(0x1f8), _0x68765f(0x26a), _0x68765f(0x291), _0x68765f(0x286), _0x68765f(0x244), _0x68765f(0x221), _0x68765f(0x222), _0x68765f(0x24a), _0x68765f(0x275), _0x68765f(0x1d4), _0x68765f(0x28b), _0x68765f(0x204), 'letter', 'plaint', _0x68765f(0x2ac), 'do', _0x68765f(0x27e), _0x68765f(0x230), _0x68765f(0x213), _0x68765f(0x241), 'another', 'me', _0x68765f(0x29a), _0x68765f(0x1eb), _0x68765f(0x1ea), 'he', 'with', _0x68765f(0x290), 'did', _0x68765f(0x24d), _0x68765f(0x233), _0x68765f(0x25d), _0x68765f(0x269), _0x68765f(0x28a), _0x68765f(0x2a7), _0x68765f(0x277), _0x68765f(0x2ae), 'or', _0x68765f(0x1da), _0x68765f(0x262)]], indonesia = [{ 'kelipatan': 0xa }, [_0x68765f(0x220), 'memberikan', _0x68765f(0x2a0), _0x68765f(0x23d), 'mengatakan', 'jauh', _0x68765f(0x210), _0x68765f(0x228), _0x68765f(0x1f5), _0x68765f(0x206), _0x68765f(0x203), 'salah', _0x68765f(0x272), 'nama', _0x68765f(0x252), _0x68765f(0x1ec), 'kenapa', 'dia', 'akan', _0x68765f(0x2a5), _0x68765f(0x253), _0x68765f(0x1e1), _0x68765f(0x25e), _0x68765f(0x1c4), 'sekali', 'hal', _0x68765f(0x23c), _0x68765f(0x293), 'sekarang', _0x68765f(0x218), _0x68765f(0x2b2), _0x68765f(0x1f3), _0x68765f(0x235), _0x68765f(0x288), 'telah', _0x68765f(0x297), _0x68765f(0x1e0), _0x68765f(0x20a), _0x68765f(0x1fd), _0x68765f(0x1fa), _0x68765f(0x26b), _0x68765f(0x25f), _0x68765f(0x22c), _0x68765f(0x2a2), _0x68765f(0x27a), _0x68765f(0x2b9), _0x68765f(0x1c3), _0x68765f(0x249), 'ketika', _0x68765f(0x270), _0x68765f(0x1d9), _0x68765f(0x299), _0x68765f(0x23f), 'dan', _0x68765f(0x1c8), _0x68765f(0x266), _0x68765f(0x234), _0x68765f(0x25a), _0x68765f(0x284), 'kepala', _0x68765f(0x215), 'tinggi', _0x68765f(0x26f), _0x68765f(0x265), 'ku', _0x68765f(0x202), _0x68765f(0x1f7), 'jadi', _0x68765f(0x1f0), _0x68765f(0x251), _0x68765f(0x28f), 'sambil', 'kami', _0x68765f(0x1d2), _0x68765f(0x1c5), _0x68765f(0x2a3), _0x68765f(0x227), 'punya', _0x68765f(0x268), _0x68765f(0x2bd), _0x68765f(0x2b1), _0x68765f(0x250), _0x68765f(0x283), _0x68765f(0x1ef), _0x68765f(0x1e5), _0x68765f(0x20d), 'bagi', 'melakukan', _0x68765f(0x276), _0x68765f(0x2b7), _0x68765f(0x282), _0x68765f(0x294), _0x68765f(0x267), _0x68765f(0x201), _0x68765f(0x2aa), 'sehingga', _0x68765f(0x239), _0x68765f(0x21a), 'biasa', _0x68765f(0x29d), _0x68765f(0x1cb), _0x68765f(0x2a8), 'baik', _0x68765f(0x200), _0x68765f(0x27b), 'sebuah', _0x68765f(0x29b), _0x68765f(0x260), _0x68765f(0x216), _0x68765f(0x1ce), 'sesuai', 'juga', _0x68765f(0x29c), 'sudah', _0x68765f(0x257), 'terlalu', 'kalau', _0x68765f(0x23b), _0x68765f(0x29e), _0x68765f(0x238), _0x68765f(0x2b5), _0x68765f(0x21e), _0x68765f(0x295), _0x68765f(0x20b), _0x68765f(0x207), _0x68765f(0x2b6), 'menurut', _0x68765f(0x23e), _0x68765f(0x20f), _0x68765f(0x1ed), 'kamu', _0x68765f(0x237), _0x68765f(0x24c), _0x68765f(0x1c9), 'bagus', _0x68765f(0x1f4), _0x68765f(0x229), 'sementara', _0x68765f(0x280), _0x68765f(0x1e4), _0x68765f(0x1ee), 'ketiga', _0x68765f(0x285), 'mampu', 'jelas', _0x68765f(0x211), _0x68765f(0x219), _0x68765f(0x240), _0x68765f(0x20c), 'langsung']];</script>
-    <script>const _0x3e4531 = _0x22f7; (function (_0x56cb50, _0x14b1e2) { const _0x584c39 = _0x22f7, _0x498ff9 = _0x56cb50(); while (!![]) { try { const _0x5aa677 = parseInt(_0x584c39(0x83)) / 0x1 + parseInt(_0x584c39(0xda)) / 0x2 + parseInt(_0x584c39(0xb5)) / 0x3 * (parseInt(_0x584c39(0x8a)) / 0x4) + parseInt(_0x584c39(0xcc)) / 0x5 + parseInt(_0x584c39(0x86)) / 0x6 + parseInt(_0x584c39(0xad)) / 0x7 * (-parseInt(_0x584c39(0x89)) / 0x8) + -parseInt(_0x584c39(0xb8)) / 0x9; if (_0x5aa677 === _0x14b1e2) break; else _0x498ff9['push'](_0x498ff9['shift']()); } catch (_0x4fa459) { _0x498ff9['push'](_0x498ff9['shift']()); } } }(_0x3494, 0xb64fd), $(document)['ready'](function () { const _0x10c985 = _0x22f7; $(_0x10c985(0xc5))['remove'](); }), $(document)['bind'](_0x3e4531(0xb9), function (_0x4d29eb) { return ![]; }), $(document)['on'](_0x3e4531(0xd3), function (_0x33addb) { const _0x4a6be4 = _0x3e4531; if (_0x33addb[_0x4a6be4(0x84)] == 0x7b) return ![]; if (_0x33addb[_0x4a6be4(0x99)] && _0x33addb[_0x4a6be4(0x8b)] && _0x33addb[_0x4a6be4(0x84)] == 'I'[_0x4a6be4(0xcd)](0x0)) return ![]; if (_0x33addb[_0x4a6be4(0x99)] && _0x33addb[_0x4a6be4(0x8b)] && _0x33addb[_0x4a6be4(0x84)] == 'C'['charCodeAt'](0x0)) return ![]; if (_0x33addb[_0x4a6be4(0x99)] && _0x33addb[_0x4a6be4(0x8b)] && _0x33addb[_0x4a6be4(0x84)] == 'J'[_0x4a6be4(0xcd)](0x0)) return ![]; if (_0x33addb['ctrlKey'] && _0x33addb['keyCode'] == 'U'[_0x4a6be4(0xcd)](0x0)) return ![]; })); function getCookie(_0x56b83a) { const _0x217533 = _0x3e4531, _0x452ad7 = ';\x20' + document[_0x217533(0x8d)], _0x4baf44 = _0x452ad7[_0x217533(0x87)](';\x20' + _0x56b83a + '='); return _0x4baf44[_0x217533(0xae)]()[_0x217533(0x87)](';')['shift'](); } let stats_data = [[_0x3e4531(0xd8), _0x3e4531(0xa4), _0x3e4531(0xe4)]]; if (getCookie(_0x3e4531(0xd1))) { let data_kpm = getCookie(_0x3e4531(0xd1))['split'](',,')[_0x3e4531(0xb3)](0x1); data_kpm['forEach'](_0x4d23b5 => { const _0x2b87f8 = _0x3e4531; _0x4d23b5 = _0x4d23b5[_0x2b87f8(0x87)](','), stats_data[_0x2b87f8(0xcf)](['', Number(_0x4d23b5[0x0]), Number(_0x4d23b5[0x1])]); }), google[_0x3e4531(0xdb)][_0x3e4531(0xdf)]('current', { 'packages': [_0x3e4531(0x85)] }), google[_0x3e4531(0xdb)]['setOnLoadCallback'](drawChart); function drawChart() { const _0x1483ff = _0x3e4531; var _0x13be88 = google[_0x1483ff(0xb7)][_0x1483ff(0xe2)](stats_data), _0x9b24cd = { 'title': '', 'curveType': _0x1483ff(0xce), 'legend': { 'position': _0x1483ff(0xe1) } }, _0x108da9 = new google[(_0x1483ff(0xb7))]['LineChart'](document[_0x1483ff(0xc0)](_0x1483ff(0xca))); _0x108da9['draw'](_0x13be88, _0x9b24cd); } document[_0x3e4531(0x8d)] = _0x3e4531(0x98) + stats_data, document[_0x3e4531(0xd4)](_0x3e4531(0xe3))['style'][_0x3e4531(0xa1)] = _0x3e4531(0xe5); } let word = [], kelipatan, language = 'english'; function lang(_0x248b72) { const _0x2beb0e = _0x3e4531; word = []; if (_0x248b72 === 'english') kelipatan = english[0x0][_0x2beb0e(0x8e)], word = english[0x1]; else _0x248b72 === _0x2beb0e(0xb0) && (kelipatan = indonesia[0x0]['kelipatan'], word = indonesia[0x1]); } lang(language); const INPUT = document[_0x3e4531(0xd4)](_0x3e4531(0x92)), RESET = document[_0x3e4531(0xd4)](_0x3e4531(0xbd)), MENIT = document[_0x3e4531(0xd4)](_0x3e4531(0xa2)), DETIK = document[_0x3e4531(0xd4)]('#second'), STATS = document[_0x3e4531(0xd4)]('.statistik'); let hidden = ![]; document[_0x3e4531(0xd4)](_0x3e4531(0xaa))[_0x3e4531(0xb1)](_0x3e4531(0xc8), function () { const _0x44a651 = _0x3e4531; !hidden ? (this['title'] = _0x44a651(0xcb), hidden = !![]) : (this[_0x44a651(0xdc)] = _0x44a651(0xd5), hidden = ![]), document[_0x44a651(0xa5)](_0x44a651(0x90))[_0x44a651(0xc6)](_0x2b86c3 => _0x2b86c3[_0x44a651(0xbb)]['toggle'](_0x44a651(0xd0))); }); const Timer = 0x3c; let menit = Math[_0x3e4531(0x91)](Timer / 0x3c), detik = Timer - menit * 0x3c; MENIT['innerHTML'] = menit, DETIK['innerHTML'] = detik; function resetTimer() { const _0x5fed9b = _0x3e4531; menit = Math[_0x5fed9b(0x91)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x5fed9b(0x9a)] = menit, DETIK['innerHTML'] = '00', INPUT[_0x5fed9b(0x9d)](); } function _0x22f7(_0x1196a2, _0x1eb536) { const _0x3494a6 = _0x3494(); return _0x22f7 = function (_0x22f74a, _0x17aab3) { _0x22f74a = _0x22f74a - 0x82; let _0x30221c = _0x3494a6[_0x22f74a]; return _0x30221c; }, _0x22f7(_0x1196a2, _0x1eb536); } let typingTest = ![]; const jumlah_kata = 0xc8; function resetWord() { const _0x4e10db = _0x3e4531; index = 0x0; let _0x31113c = []; for (let _0x31f449 = 0x0; _0x31f449 <= jumlah_kata; _0x31f449++) { let _0x3e86b6 = word[parseInt(Math[_0x4e10db(0xa8)]() * word[_0x4e10db(0xc2)])]; _0x31113c[_0x4e10db(0xcf)](_0x3e86b6 ? _0x3e86b6 : ''); } _0x31113c = _0x31113c[_0x4e10db(0xd2)](_0x1774e8 => _0x1774e8 != '')[_0x4e10db(0xe0)]((_0x5a0b53, _0x239556) => _0x4e10db(0xd6) + _0x239556 + '\x27>' + _0x5a0b53 + _0x4e10db(0x9b)); let _0x4bbbd0 = 0x0, _0x1319c5 = []; for (let _0x83fca0 = 0x0; _0x83fca0 < jumlah_kata; _0x83fca0++) { _0x83fca0 % kelipatan == kelipatan - 0x1 && (_0x1319c5[_0x4e10db(0xcf)](_0x31113c['slice'](_0x4bbbd0, [_0x83fca0 + 0x1])), _0x4bbbd0 += kelipatan); } _0x1319c5[_0x4e10db(0xc6)]((_0x4292c7, _0x52f4e6) => { const _0x485619 = _0x4e10db; _0x1319c5[_0x52f4e6] = _0x485619(0x96) + (_0x52f4e6 + 0x1) + '\x27>' + _0x4292c7[_0x485619(0xdd)]('\x20') + _0x485619(0xba); }), document[_0x4e10db(0xd4)](_0x4e10db(0xc3))['innerHTML'] = _0x1319c5[_0x4e10db(0xdd)]('\x20'), document[_0x4e10db(0xd4)]('.kata-0')[_0x4e10db(0x82)][_0x4e10db(0xa3)] = _0x4e10db(0x95), typingTest = ![], resetTimer(); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_kpm = 0x0, english_last_wpm = 0x0; getCookie('indonesia_last_kpm') && (indonesia_last_kpm = getCookie(_0x3e4531(0xc1))); function _0x3494() { const _0x189282 = ['</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>', 'WPM', 'display', '2602536AxVYtu', 'charts', 'title', 'join', '</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Keystrokes</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>', 'load', 'map', 'bottom', 'arrayToDataTable', '#curve_chart', 'Bahasa\x20Indonesia', 'visible', 'toFixed', 'style', '490309krvrDw', 'keyCode', 'corechart', '5577330QuVUFJ', 'split', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>', '8VcSemX', '4WFsyqk', 'shiftKey', 'remove', 'cookie', 'kelipatan', 'indonesia_last_kpm=', '.timer', 'floor', '.word-input', '.word-row-', 'value', 'rgb(215,\x20215,\x20215)', '<div\x20class=\x27word-row-', 'rgb(255,\x2089,\x2089)', 'data_kpm=', 'ctrlKey', 'innerHTML', '</span>', 'setOnLoadCallback', 'focus', 'draw', 'rgb(0,\x20182,\x200)', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>', 'visibility', '#minute', 'background', 'Bahasa\x20Inggris', 'querySelectorAll', 'english_last_wpm', 'transparent', 'random', '.reset-btn\x20i', '.time-countdown', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>', 'english_last_wpm=', '4947509MCUSAl', 'pop', '</span>)\x20<span\x20class=\x27keystrokes\x27>', 'indonesia', 'addEventListener', '.kata-', 'slice', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', '4067073iAbONX', 'change', 'visualization', '31738482EXFvIp', 'contextmenu', '</div>', 'classList', 'LineChart', '.reset-btn', 'english', 'input', 'getElementById', 'indonesia_last_kpm', 'length', '.words', 'color', '#loading', 'forEach', 'Waktu\x20mengetik\x20telah\x20habis!', 'click', 'KPM', 'curve_chart', 'Klik\x20untuk\x20menampilkan\x20hitungan\x20mundur', '4516055iRdSka', 'charCodeAt', 'function', 'push', 'hidden-timer', 'data_kpm', 'filter', 'keydown', 'querySelector', 'Klik\x20untuk\x20menyembunyikan\x20hitungan\x20mundur', '<span\x20class=\x27kata-']; _0x3494 = function () { return _0x189282; }; return _0x3494(); } getCookie(_0x3e4531(0xa6)) && (english_last_wpm = getCookie(_0x3e4531(0xa6))); function start() { const _0xabe7d6 = _0x3e4531; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT[_0xabe7d6(0xb1)](_0xabe7d6(0xbf), function () { const _0x2e64e3 = _0xabe7d6; if (this[_0x2e64e3(0x94)] == document['querySelector']('.kata-' + index)[_0x2e64e3(0x9a)] + '\x20') document[_0x2e64e3(0xd4)](_0x2e64e3(0xb2) + index)[_0x2e64e3(0x82)]['color'] = _0x2e64e3(0x9f), document[_0x2e64e3(0xd4)](_0x2e64e3(0xb2) + index)[_0x2e64e3(0x82)][_0x2e64e3(0xa3)] = _0x2e64e3(0xa7), this[_0x2e64e3(0x94)] = '', correctWords++, correctChar += document[_0x2e64e3(0xd4)]('.kata-' + index)[_0x2e64e3(0x9a)][_0x2e64e3(0xc2)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector'](_0x2e64e3(0x93) + wrIndex)['remove'](), wrIndex++), index++, document['querySelector'](_0x2e64e3(0xb2) + index)['style'][_0x2e64e3(0xa3)] = _0x2e64e3(0x95); else { if (this['value'][_0x2e64e3(0x87)]('\x20')['join']('') <= 0x1) this[_0x2e64e3(0x94)] = ''; else this[_0x2e64e3(0x94)] != document[_0x2e64e3(0xd4)](_0x2e64e3(0xb2) + index)['innerHTML'][_0x2e64e3(0xb3)](0x0, this['value']['length']) ? document[_0x2e64e3(0xd4)]('.kata-' + index)[_0x2e64e3(0x82)]['background'] = _0x2e64e3(0x97) : document[_0x2e64e3(0xd4)](_0x2e64e3(0xb2) + index)['style'][_0x2e64e3(0xa3)] = _0x2e64e3(0x95); } [...this[_0x2e64e3(0x94)]]['includes']('\x20') && (document[_0x2e64e3(0xd4)](_0x2e64e3(0xb2) + index)[_0x2e64e3(0x82)][_0x2e64e3(0xa3)] = _0x2e64e3(0xa7), document['querySelector'](_0x2e64e3(0xb2) + index)[_0x2e64e3(0x82)][_0x2e64e3(0xc4)] = _0x2e64e3(0x97), this['value'] = '', wrongWords++, wrongChar += document[_0x2e64e3(0xd4)](_0x2e64e3(0xb2) + index)[_0x2e64e3(0x9a)]['length'] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector'](_0x2e64e3(0x93) + wrIndex)[_0x2e64e3(0x8c)](), wrIndex++), index++, document[_0x2e64e3(0xd4)](_0x2e64e3(0xb2) + index)[_0x2e64e3(0x82)][_0x2e64e3(0xa3)] = _0x2e64e3(0x95)); }); let _0x273b53 = setInterval(() => { const _0x297f33 = _0xabe7d6; if (typingTest == ![]) return clearInterval(_0x273b53), INPUT[_0x297f33(0x94)] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK[_0x297f33(0x9a)] = '' + (detik < 0xa ? '0' : '') + detik; else { if (menit >= 0x1) menit--, MENIT[_0x297f33(0x9a)] = menit, detik = 0x3b, DETIK[_0x297f33(0x9a)] = '' + (detik < 0xa ? '0' : '') + detik; else { clearInterval(_0x273b53), resetWord(), INPUT[_0x297f33(0x94)] = '', alert(_0x297f33(0xc7)); if (wrongWords < 0x1e) { document['querySelector'](_0x297f33(0xe3))[_0x297f33(0x82)][_0x297f33(0xa1)] = _0x297f33(0xe5); if (language === _0x297f33(0xb0)) stats_data[_0x297f33(0xcf)](['', english_last_wpm, Math['floor']((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c))]), document[_0x297f33(0x8d)] = _0x297f33(0x8f) + Math[_0x297f33(0x91)]((correctChar + wrongChar) / 0x5 / Math[_0x297f33(0x91)](Timer / 0x3c)); else language === _0x297f33(0xbe) && (stats_data[_0x297f33(0xcf)](['', Math[_0x297f33(0x91)]((correctChar + wrongChar) / 0x5 / Math[_0x297f33(0x91)](Timer / 0x3c)), indonesia_last_kpm]), document[_0x297f33(0x8d)] = _0x297f33(0xac) + Math[_0x297f33(0x91)]((correctChar + wrongChar) / 0x5 / Math[_0x297f33(0x91)](Timer / 0x3c))); google[_0x297f33(0xdb)][_0x297f33(0xdf)]('current', { 'packages': [_0x297f33(0x85)] }), google[_0x297f33(0xdb)][_0x297f33(0x9c)](_0x2cf8a3); function _0x2cf8a3() { const _0x50b377 = _0x297f33; var _0x11a04b = google[_0x50b377(0xb7)][_0x50b377(0xe2)](stats_data), _0x1dc52d = { 'title': '', 'curveType': _0x50b377(0xce), 'legend': { 'position': 'bottom' } }, _0xba0eb = new google[(_0x50b377(0xb7))][(_0x50b377(0xbc))](document['getElementById'](_0x50b377(0xca))); _0xba0eb[_0x50b377(0x9e)](_0x11a04b, _0x1dc52d); } document[_0x297f33(0x8d)] = _0x297f33(0x98) + stats_data; } typingTest = ![], STATS['style'][_0x297f33(0xd9)] = 'block', STATS[_0x297f33(0x9a)] = _0x297f33(0xb4) + Math['floor']((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)) + '\x20' + (language == _0x297f33(0xb0) ? _0x297f33(0xc9) : _0x297f33(0xd8)) + _0x297f33(0xde) + correctChar + _0x297f33(0xab) + wrongChar + _0x297f33(0xaf) + (correctChar + wrongChar) + _0x297f33(0xd7) + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)[_0x297f33(0xe6)](0x2) + _0x297f33(0xa0) + correctWords + _0x297f33(0x88) + wrongWords + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>'; } } } }, 0x3e8); } } INPUT[_0x3e4531(0xb1)](_0x3e4531(0xbf), function () { start(Timer); }), RESET['addEventListener'](_0x3e4531(0xc8), function () { const _0x2b7bc4 = _0x3e4531; document[_0x2b7bc4(0xd4)]('.reset-btn\x20i')[_0x2b7bc4(0xbb)]['add']('rotate'), setTimeout(() => { const _0x38a8e2 = _0x2b7bc4; document['querySelector'](_0x38a8e2(0xa9))[_0x38a8e2(0xbb)][_0x38a8e2(0x8c)]('rotate'); }, 0x190), resetWord(); }), document['querySelector']('#language-select')[_0x3e4531(0xb1)](_0x3e4531(0xb6), function () { const _0x38727a = _0x3e4531; language = this[_0x38727a(0x94)], lang(language), resetWord(); }), resetWord();</script>
+    <script>const _0x44cda7 = _0x1e15; (function (_0xf27e6b, _0x56b9e6) { const _0xfc9bbc = _0x1e15, _0x508285 = _0xf27e6b(); while (!![]) { try { const _0x36dc14 = parseInt(_0xfc9bbc(0x259)) / 0x1 + -parseInt(_0xfc9bbc(0x287)) / 0x2 * (parseInt(_0xfc9bbc(0x226)) / 0x3) + parseInt(_0xfc9bbc(0x271)) / 0x4 * (parseInt(_0xfc9bbc(0x2ab)) / 0x5) + parseInt(_0xfc9bbc(0x298)) / 0x6 * (parseInt(_0xfc9bbc(0x27f)) / 0x7) + -parseInt(_0xfc9bbc(0x2a3)) / 0x8 * (parseInt(_0xfc9bbc(0x29f)) / 0x9) + parseInt(_0xfc9bbc(0x23d)) / 0xa * (-parseInt(_0xfc9bbc(0x1fa)) / 0xb) + parseInt(_0xfc9bbc(0x296)) / 0xc * (parseInt(_0xfc9bbc(0x224)) / 0xd); if (_0x36dc14 === _0x56b9e6) break; else _0x508285['push'](_0x508285['shift']()); } catch (_0x10244f) { _0x508285['push'](_0x508285['shift']()); } } }(_0x2283, 0xcde04)); function _0x1e15(_0x56ffc4, _0x11974d) { const _0x228349 = _0x2283(); return _0x1e15 = function (_0x1e1528, _0x1e116f) { _0x1e1528 = _0x1e1528 - 0x1e1; let _0x120f68 = _0x228349[_0x1e1528]; return _0x120f68; }, _0x1e15(_0x56ffc4, _0x11974d); } let english = [{ 'kelipatan': 0xe }, ['him', 'might', _0x44cda7(0x28c), _0x44cda7(0x207), _0x44cda7(0x2ce), _0x44cda7(0x231), 'never', _0x44cda7(0x2ac), 'of', 'most', _0x44cda7(0x20b), _0x44cda7(0x1ee), 'line', 'grow', _0x44cda7(0x2d8), _0x44cda7(0x237), _0x44cda7(0x269), _0x44cda7(0x299), 'an', 'you', 'water', _0x44cda7(0x2d5), _0x44cda7(0x25c), _0x44cda7(0x2c5), _0x44cda7(0x246), _0x44cda7(0x294), _0x44cda7(0x1f5), 'open', _0x44cda7(0x272), 'hear', _0x44cda7(0x2d9), _0x44cda7(0x2ba), _0x44cda7(0x2c3), _0x44cda7(0x274), _0x44cda7(0x23f), _0x44cda7(0x2d6), _0x44cda7(0x1ff), 'air', _0x44cda7(0x235), _0x44cda7(0x2b0), _0x44cda7(0x216), 'only', 'from', 'around', _0x44cda7(0x21d), _0x44cda7(0x2cb), _0x44cda7(0x2c4), _0x44cda7(0x284), _0x44cda7(0x2db), _0x44cda7(0x26a), _0x44cda7(0x2b9), _0x44cda7(0x270), _0x44cda7(0x2a9), 'by', _0x44cda7(0x24a), 'meet', _0x44cda7(0x1e4), 'on', 'eye', 'oil', _0x44cda7(0x2a8), _0x44cda7(0x24e), 'if', 'so', 'quickly', _0x44cda7(0x2c0), _0x44cda7(0x1f6), _0x44cda7(0x20d), 'study', _0x44cda7(0x1e9), _0x44cda7(0x2d4), _0x44cda7(0x2d0), _0x44cda7(0x233), _0x44cda7(0x1fe), _0x44cda7(0x2de), _0x44cda7(0x2cd), _0x44cda7(0x22e), 'seem', 'should', 'to', 'before', _0x44cda7(0x20a), _0x44cda7(0x24b), _0x44cda7(0x2a7), _0x44cda7(0x264), _0x44cda7(0x275), _0x44cda7(0x26d), _0x44cda7(0x1f4), 'us', 'into', _0x44cda7(0x2c2), _0x44cda7(0x243), _0x44cda7(0x205), _0x44cda7(0x2b3), 'took', 'are', _0x44cda7(0x292), 'for', _0x44cda7(0x2ca), 'really', _0x44cda7(0x267), 'skill', _0x44cda7(0x21c), 'as', 'now', _0x44cda7(0x2cf), _0x44cda7(0x2da), 'it\x27s', _0x44cda7(0x2b5), _0x44cda7(0x280), _0x44cda7(0x24c), 'is', _0x44cda7(0x1e5), _0x44cda7(0x2a2), _0x44cda7(0x230), _0x44cda7(0x27c), 'young', _0x44cda7(0x28b), 'learn', _0x44cda7(0x1f9), _0x44cda7(0x282), _0x44cda7(0x28e), _0x44cda7(0x245), _0x44cda7(0x2cc), _0x44cda7(0x212), 'face', _0x44cda7(0x2d7), 'often', 'should', _0x44cda7(0x1e2), _0x44cda7(0x208), _0x44cda7(0x27d), 'point', _0x44cda7(0x2be), _0x44cda7(0x2a1), _0x44cda7(0x257), _0x44cda7(0x261), _0x44cda7(0x2c7), _0x44cda7(0x2b2), _0x44cda7(0x211), _0x44cda7(0x2b7), _0x44cda7(0x2aa), _0x44cda7(0x1ef), 'put', _0x44cda7(0x232), _0x44cda7(0x225), _0x44cda7(0x266), _0x44cda7(0x2bd), 'miss', _0x44cda7(0x202), _0x44cda7(0x29a), _0x44cda7(0x1e6), 'our', 'be', _0x44cda7(0x23e), _0x44cda7(0x220), _0x44cda7(0x1fd), 'we', _0x44cda7(0x285), 'question', 'Indian', _0x44cda7(0x290), _0x44cda7(0x26e), 'about', _0x44cda7(0x2bf), 'had', _0x44cda7(0x1e7), _0x44cda7(0x255), _0x44cda7(0x25b), 'without', _0x44cda7(0x297), 'again', _0x44cda7(0x28d), _0x44cda7(0x221), _0x44cda7(0x1fc), 'do', _0x44cda7(0x1f8), _0x44cda7(0x20c), 'want', _0x44cda7(0x25f), _0x44cda7(0x289), 'me', _0x44cda7(0x29e), _0x44cda7(0x276), _0x44cda7(0x28f), 'he', _0x44cda7(0x262), _0x44cda7(0x256), _0x44cda7(0x21f), 'new', 'head', _0x44cda7(0x2b1), _0x44cda7(0x22a), _0x44cda7(0x2c1), _0x44cda7(0x25e), _0x44cda7(0x278), 'been', 'or', _0x44cda7(0x227), _0x44cda7(0x244)]], indonesia = [{ 'kelipatan': 0xa }, [_0x44cda7(0x25a), _0x44cda7(0x2dd), _0x44cda7(0x279), 'kepada', _0x44cda7(0x1eb), 'jauh', _0x44cda7(0x25d), _0x44cda7(0x204), _0x44cda7(0x2a4), _0x44cda7(0x21b), _0x44cda7(0x200), _0x44cda7(0x2c6), _0x44cda7(0x29c), 'nama', _0x44cda7(0x249), _0x44cda7(0x26c), 'kenapa', 'dia', _0x44cda7(0x252), 'uang', _0x44cda7(0x251), 'minuman', _0x44cda7(0x1ed), 'ini', _0x44cda7(0x213), _0x44cda7(0x22d), _0x44cda7(0x241), _0x44cda7(0x201), _0x44cda7(0x2d3), 'bersama', _0x44cda7(0x26b), _0x44cda7(0x283), _0x44cda7(0x286), _0x44cda7(0x281), 'telah', _0x44cda7(0x2b6), _0x44cda7(0x22c), _0x44cda7(0x218), _0x44cda7(0x21a), _0x44cda7(0x277), _0x44cda7(0x222), _0x44cda7(0x2a5), _0x44cda7(0x238), _0x44cda7(0x291), _0x44cda7(0x27b), _0x44cda7(0x1ea), 'barang', _0x44cda7(0x1e8), _0x44cda7(0x26f), _0x44cda7(0x223), _0x44cda7(0x228), _0x44cda7(0x27e), _0x44cda7(0x20f), _0x44cda7(0x203), _0x44cda7(0x206), _0x44cda7(0x1f1), _0x44cda7(0x24d), _0x44cda7(0x258), _0x44cda7(0x29b), _0x44cda7(0x210), _0x44cda7(0x2ad), _0x44cda7(0x1e1), 'kecuali', _0x44cda7(0x28a), 'ku', _0x44cda7(0x1f3), 'maka', _0x44cda7(0x295), _0x44cda7(0x288), 'akibat', _0x44cda7(0x20e), _0x44cda7(0x273), 'kami', _0x44cda7(0x242), _0x44cda7(0x2b8), 'siap', _0x44cda7(0x268), _0x44cda7(0x22f), 'lagi', 'naik', _0x44cda7(0x239), _0x44cda7(0x2bb), _0x44cda7(0x2af), 'selalu', _0x44cda7(0x247), _0x44cda7(0x253), 'bagi', _0x44cda7(0x2c8), 'merupakan', _0x44cda7(0x2ae), _0x44cda7(0x2d2), 'juta', _0x44cda7(0x1f0), 'harga', _0x44cda7(0x2d1), _0x44cda7(0x236), 'apa', _0x44cda7(0x22b), _0x44cda7(0x215), _0x44cda7(0x2dc), 'antara', _0x44cda7(0x293), 'baik', _0x44cda7(0x214), 'terhadap', _0x44cda7(0x209), _0x44cda7(0x1f2), _0x44cda7(0x248), _0x44cda7(0x217), 'sambil', 'sesuai', _0x44cda7(0x1f7), 'mata', 'sudah', _0x44cda7(0x2a0), 'terlalu', _0x44cda7(0x23a), _0x44cda7(0x219), 'tentang', 'namun', _0x44cda7(0x1fb), _0x44cda7(0x229), 'banyak', _0x44cda7(0x23b), _0x44cda7(0x260), _0x44cda7(0x24f), _0x44cda7(0x27a), _0x44cda7(0x2a6), _0x44cda7(0x29d), _0x44cda7(0x2bc), 'kamu', 'hari', _0x44cda7(0x263), _0x44cda7(0x2b4), 'bagus', 'setiap', 'memiliki', 'sementara', _0x44cda7(0x265), _0x44cda7(0x21e), _0x44cda7(0x234), 'ketiga', _0x44cda7(0x1e3), _0x44cda7(0x2c9), _0x44cda7(0x1ec), _0x44cda7(0x240), _0x44cda7(0x23c), _0x44cda7(0x254), _0x44cda7(0x250), 'langsung']]; function _0x2283() { const _0x70b079 = ['well', 'over', 'letter', 'mother', 'being', 'America', 'mana', 'mile', 'anda', 'way', 'jadi', '4060272RInQEY', 'does', '1094538dDHCpK', 'life', 'two', 'pusat', 'malam', 'kemudian', 'more', '1494ioUXzl', 'hati', 'almost', 'let', '73672cIcjHT', 'hingga', 'bila', 'pulang', 'long', 'what', 'day', 'made', '5908205WQGWpq', 'think', 'setelah', 'sendiri', 'air', 'list', 'part', 'which', 'earth', 'bisa', 'set', 'diri', 'those', 'kerja', 'when', 'why', 'mau', 'tiba', 'all', 'great', 'begin', 'some', 'thing', 'night', 'them', 'just', 'sound', 'salah', 'always', 'melakukan', 'mampu', 'near', 'next', 'group', 'his', 'watch', 'would', 'know', 'boleh', 'sesuatu', 'sekarang', 'many', 'sea', 'give', 'different', 'eat', 'one', 'together', 'house', 'mencari', 'memberikan', 'this', 'tinggi', 'quick', 'kini', 'old', 'talk', 'can', 'above', 'pertama', 'found', 'anak', 'mengatakan', 'jelas', 'tidur', 'thought', 'big', 'karena', 'sangat', 'sering', 'perlu', 'boy', 'page', 'must', 'juga', 'change', 'before', '3883NcLmZC', 'sedang', 'example', 'home', 'like', 'animal', 'paling', 'sini', 'come', 'dan', 'dengan', 'who', 'bukan', 'that', 'until', 'sebuah', 'show', 'father', 'hard', 'write', 'belum', 'sebelum', 'kepala', 'keep', 'make', 'sekali', 'hidup', 'biasa', 'people', 'mungkin', 'yang', 'oleh', 'tak', 'sampai', 'look', 'paper', 'jangan', 'did', 'here', 'plaint', 'secara', 'termasuk', '39mVScNZ', 'read', '6PWORft', 'world', 'memang', 'sedikit', 'any', 'makan', 'tengah', 'hal', 'kind', 'punya', 'their', 'said', 'very', 'got', 'kedua', 'three', 'sehingga', 'year', 'selama', 'siapa', 'kalau', 'sekalipun', 'membuat', '21790IEJlhE', 'work', 'spell', 'sama', 'berbagai', 'ingin', 'where', 'live', 'such', 'see', 'melalui', 'mulai', 'memberi', 'feet', 'then', 'few', 'saat', 'its', 'bagian', 'sejak', 'makanan', 'akan', 'tetapi', 'pada', 'other', 'she', 'and', 'waktu', '1008712cmqlIa', 'untuk', 'food', 'end', 'tapi', 'don\x27t', 'still', 'suatu', 'move', 'with', 'tahu', 'same', 'terus', 'even', 'these', 'harus', 'find', 'picture', 'jenis', 'seperti', 'girl', 'later', 'ketika', 'close', '4KpXLxR', 'off', 'sambil', 'not', 'how', 'try', 'tempat', 'mountain', 'baru', 'menurut', 'itu', 'last', 'own', 'pernah', '28aXkDKL', 'ask', 'orang', 'something', 'mudah', 'tell', 'need', 'ada', '793964fsjhxc', 'jalan', 'another', 'cepat']; _0x2283 = function () { return _0x70b079; }; return _0x2283(); }</script>
+    <script>const _0x355d5e = _0x335f; (function (_0x61c3fa, _0x4851b2) { const _0x4a470c = _0x335f, _0x1856c8 = _0x61c3fa(); while (!![]) { try { const _0x4ab55e = -parseInt(_0x4a470c(0xbe)) / 0x1 * (-parseInt(_0x4a470c(0xb8)) / 0x2) + -parseInt(_0x4a470c(0xa5)) / 0x3 + parseInt(_0x4a470c(0x7f)) / 0x4 * (-parseInt(_0x4a470c(0xa6)) / 0x5) + parseInt(_0x4a470c(0xc8)) / 0x6 + -parseInt(_0x4a470c(0xbd)) / 0x7 * (parseInt(_0x4a470c(0xb6)) / 0x8) + -parseInt(_0x4a470c(0x91)) / 0x9 * (-parseInt(_0x4a470c(0xd0)) / 0xa) + parseInt(_0x4a470c(0x86)) / 0xb; if (_0x4ab55e === _0x4851b2) break; else _0x1856c8['push'](_0x1856c8['shift']()); } catch (_0x1d508b) { _0x1856c8['push'](_0x1856c8['shift']()); } } }(_0x3954, 0xce08e), $(document)['ready'](function () { const _0x6527c2 = _0x335f; $(_0x6527c2(0xb2))['remove'](); }), $(document)[_0x355d5e(0xa0)](_0x355d5e(0x94), function (_0x48d7fe) { return ![]; }), $(document)['on']('keydown', function (_0x27410d) { const _0x6d807d = _0x355d5e; if (_0x27410d[_0x6d807d(0xc9)] == 0x7b) return ![]; if (_0x27410d[_0x6d807d(0x9f)] && _0x27410d[_0x6d807d(0x95)] && _0x27410d[_0x6d807d(0xc9)] == 'I'[_0x6d807d(0xc1)](0x0)) return ![]; if (_0x27410d[_0x6d807d(0x9f)] && _0x27410d[_0x6d807d(0x95)] && _0x27410d[_0x6d807d(0xc9)] == 'C'['charCodeAt'](0x0)) return ![]; if (_0x27410d[_0x6d807d(0x9f)] && _0x27410d[_0x6d807d(0x95)] && _0x27410d['keyCode'] == 'J'[_0x6d807d(0xc1)](0x0)) return ![]; if (_0x27410d[_0x6d807d(0x9f)] && _0x27410d[_0x6d807d(0xc9)] == 'U'['charCodeAt'](0x0)) return ![]; })); function getCookie(_0x4ea55e) { const _0x6aae9f = _0x355d5e, _0x52e3ad = ';\x20' + document[_0x6aae9f(0xcc)], _0x3a8409 = _0x52e3ad[_0x6aae9f(0xc5)](';\x20' + _0x4ea55e + '='); return _0x3a8409[_0x6aae9f(0xa2)]()[_0x6aae9f(0xc5)](';')['shift'](); } let stats_data = [[_0x355d5e(0xd3), _0x355d5e(0x9b), _0x355d5e(0x80)]]; if (getCookie(_0x355d5e(0xa4))) { let data_kpm = getCookie('data_kpm')[_0x355d5e(0xc5)](',,')[_0x355d5e(0xce)](0x1); data_kpm[_0x355d5e(0xd4)](_0x35f1c3 => { const _0x3a2b4a = _0x355d5e; _0x35f1c3 = _0x35f1c3['split'](','), stats_data[_0x3a2b4a(0xb7)](['', Number(_0x35f1c3[0x0]), Number(_0x35f1c3[0x1])]); }), google[_0x355d5e(0x8e)]['load'](_0x355d5e(0xdf), { 'packages': [_0x355d5e(0x97)] }), google[_0x355d5e(0x8e)][_0x355d5e(0xc6)](drawChart); function drawChart() { const _0x4ebb2b = _0x355d5e; var _0xf94aee = google[_0x4ebb2b(0x99)][_0x4ebb2b(0xb3)](stats_data), _0x48ed46 = { 'title': '', 'curveType': _0x4ebb2b(0x93), 'legend': { 'position': _0x4ebb2b(0xba) } }, _0x54f905 = new google['visualization'][(_0x4ebb2b(0xbc))](document[_0x4ebb2b(0xbf)](_0x4ebb2b(0x8c))); _0x54f905[_0x4ebb2b(0x98)](_0xf94aee, _0x48ed46); } document[_0x355d5e(0xcc)] = _0x355d5e(0xdd) + stats_data, document[_0x355d5e(0x9e)](_0x355d5e(0x8f))[_0x355d5e(0x9a)]['visibility'] = _0x355d5e(0xb1); } let word = [], kelipatan, language = _0x355d5e(0xa8); function lang(_0x1c2fb2) { const _0x32f92d = _0x355d5e; word = []; if (_0x1c2fb2 === _0x32f92d(0xa8)) kelipatan = english[0x0][_0x32f92d(0xc0)], word = english[0x1]; else _0x1c2fb2 === _0x32f92d(0xd9) && (kelipatan = indonesia[0x0][_0x32f92d(0xc0)], word = indonesia[0x1]); } lang(language); function _0x335f(_0x268af2, _0x2a2b79) { const _0x395404 = _0x3954(); return _0x335f = function (_0x335fab, _0x4acdae) { _0x335fab = _0x335fab - 0x7b; let _0x33df4a = _0x395404[_0x335fab]; return _0x33df4a; }, _0x335f(_0x268af2, _0x2a2b79); } const INPUT = document[_0x355d5e(0x9e)](_0x355d5e(0xcb)), RESET = document['querySelector'](_0x355d5e(0xc3)), MENIT = document[_0x355d5e(0x9e)](_0x355d5e(0xc4)), DETIK = document['querySelector'](_0x355d5e(0x8b)), STATS = document[_0x355d5e(0x9e)]('.statistik'); let hidden = ![]; document['querySelector'](_0x355d5e(0x7e))['addEventListener'](_0x355d5e(0x84), function () { const _0x2164c1 = _0x355d5e; !hidden ? (this['title'] = _0x2164c1(0xd2), hidden = !![]) : (this['title'] = _0x2164c1(0x81), hidden = ![]), document[_0x2164c1(0xcf)]('.timer')[_0x2164c1(0xd4)](_0x46cbe8 => _0x46cbe8['classList'][_0x2164c1(0x88)](_0x2164c1(0xad))); }); const Timer = 0x3c; function _0x3954() { const _0x3e5fdd = ['Bahasa\x20Indonesia', 'Klik\x20untuk\x20menyembunyikan\x20hitungan\x20mundur', 'add', '.reset-btn\x20i', 'click', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', '17842660kpXDIk', 'input', 'toggle', 'indonesia_last_kpm', 'remove', '#second', 'curve_chart', '.kata-0', 'charts', '#curve_chart', 'filter', '789606yWvdIZ', '.kata-', 'function', 'contextmenu', 'shiftKey', 'rotate', 'corechart', 'draw', 'visualization', 'style', 'Bahasa\x20Inggris', 'transparent', 'floor', 'querySelector', 'ctrlKey', 'bind', 'display', 'pop', 'value', 'data_kpm', '4699542tNBNVC', '20XOnrvp', '</div>', 'english', '</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Keystrokes</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>', 'join', 'Waktu\x20mengetik\x20telah\x20habis!', 'rgb(255,\x2089,\x2089)', 'hidden-timer', 'background', 'length', 'english_last_wpm', 'visible', '#loading', 'arrayToDataTable', 'addEventListener', 'innerHTML', '4683480LclTiP', 'push', '421558Pghgnl', '.word-row-', 'bottom', 'color', 'LineChart', '7YwoQQK', '1sddZRm', 'getElementById', 'kelipatan', 'charCodeAt', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>', '.reset-btn', '#minute', 'split', 'setOnLoadCallback', 'load', '1856424MEoMig', 'keyCode', 'rgb(0,\x20182,\x200)', '.word-input', 'cookie', '#language-select', 'slice', 'querySelectorAll', '100wKSxhx', '</span>', 'Klik\x20untuk\x20menampilkan\x20hitungan\x20mundur', 'WPM', 'forEach', 'rgb(215,\x20215,\x20215)', '<span\x20class=\x27kata-', '.words', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>', 'indonesia', 'english_last_wpm=', 'classList', 'includes', 'data_kpm=', '</span>)\x20<span\x20class=\x27keystrokes\x27>', 'current', 'indonesia_last_kpm=', 'visibility', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>', '.time-countdown', '23716MuctsC']; _0x3954 = function () { return _0x3e5fdd; }; return _0x3954(); } let menit = Math[_0x355d5e(0x9d)](Timer / 0x3c), detik = Timer - menit * 0x3c; MENIT[_0x355d5e(0xb5)] = menit, DETIK[_0x355d5e(0xb5)] = detik; function resetTimer() { const _0x17384f = _0x355d5e; menit = Math[_0x17384f(0x9d)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x17384f(0xb5)] = menit, DETIK[_0x17384f(0xb5)] = '00', INPUT['focus'](); } let typingTest = ![]; const jumlah_kata = 0xc8; function resetWord() { const _0x56b7fa = _0x355d5e; index = 0x0; let _0x43e3dd = []; for (let _0x501091 = 0x0; _0x501091 <= jumlah_kata; _0x501091++) { let _0xcbaa2c = word[parseInt(Math['random']() * word[_0x56b7fa(0xaf)])]; _0x43e3dd[_0x56b7fa(0xb7)](_0xcbaa2c ? _0xcbaa2c : ''); } _0x43e3dd = _0x43e3dd[_0x56b7fa(0x90)](_0x1968e9 => _0x1968e9 != '')['map']((_0x145314, _0x48fb9f) => _0x56b7fa(0xd6) + _0x48fb9f + '\x27>' + _0x145314 + _0x56b7fa(0xd1)); let _0x27284e = 0x0, _0x4910ea = []; for (let _0x335115 = 0x0; _0x335115 < jumlah_kata; _0x335115++) { _0x335115 % kelipatan == kelipatan - 0x1 && (_0x4910ea[_0x56b7fa(0xb7)](_0x43e3dd[_0x56b7fa(0xce)](_0x27284e, [_0x335115 + 0x1])), _0x27284e += kelipatan); } _0x4910ea[_0x56b7fa(0xd4)]((_0x13e791, _0x1a37ec) => { const _0x34a8ba = _0x56b7fa; _0x4910ea[_0x1a37ec] = '<div\x20class=\x27word-row-' + (_0x1a37ec + 0x1) + '\x27>' + _0x13e791[_0x34a8ba(0xaa)]('\x20') + _0x34a8ba(0xa7); }), document[_0x56b7fa(0x9e)](_0x56b7fa(0xd7))[_0x56b7fa(0xb5)] = _0x4910ea[_0x56b7fa(0xaa)]('\x20'), document[_0x56b7fa(0x9e)](_0x56b7fa(0x8d))[_0x56b7fa(0x9a)][_0x56b7fa(0xae)] = _0x56b7fa(0xd5), typingTest = ![], resetTimer(); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_kpm = 0x0, english_last_wpm = 0x0; getCookie(_0x355d5e(0x89)) && (indonesia_last_kpm = getCookie(_0x355d5e(0x89))); getCookie(_0x355d5e(0xb0)) && (english_last_wpm = getCookie('english_last_wpm')); function start() { const _0x2fc025 = _0x355d5e; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT[_0x2fc025(0xb4)](_0x2fc025(0x87), function () { const _0x4a0949 = _0x2fc025; if (this['value'] == document['querySelector'](_0x4a0949(0x92) + index)[_0x4a0949(0xb5)] + '\x20') document[_0x4a0949(0x9e)]('.kata-' + index)[_0x4a0949(0x9a)]['color'] = _0x4a0949(0xca), document['querySelector']('.kata-' + index)[_0x4a0949(0x9a)][_0x4a0949(0xae)] = _0x4a0949(0x9c), this[_0x4a0949(0xa3)] = '', correctWords++, correctChar += document['querySelector']('.kata-' + index)[_0x4a0949(0xb5)][_0x4a0949(0xaf)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector'](_0x4a0949(0xb9) + wrIndex)[_0x4a0949(0x8a)](), wrIndex++), index++, document[_0x4a0949(0x9e)](_0x4a0949(0x92) + index)['style'][_0x4a0949(0xae)] = _0x4a0949(0xd5); else { if (this[_0x4a0949(0xa3)][_0x4a0949(0xc5)]('\x20')['join']('') <= 0x1) this[_0x4a0949(0xa3)] = ''; else this['value'] != document[_0x4a0949(0x9e)](_0x4a0949(0x92) + index)[_0x4a0949(0xb5)][_0x4a0949(0xce)](0x0, this['value'][_0x4a0949(0xaf)]) ? document[_0x4a0949(0x9e)](_0x4a0949(0x92) + index)['style'][_0x4a0949(0xae)] = 'rgb(255,\x2089,\x2089)' : document[_0x4a0949(0x9e)](_0x4a0949(0x92) + index)[_0x4a0949(0x9a)][_0x4a0949(0xae)] = _0x4a0949(0xd5); } [...this[_0x4a0949(0xa3)]][_0x4a0949(0xdc)]('\x20') && (document[_0x4a0949(0x9e)](_0x4a0949(0x92) + index)['style'][_0x4a0949(0xae)] = _0x4a0949(0x9c), document['querySelector'](_0x4a0949(0x92) + index)['style'][_0x4a0949(0xbb)] = _0x4a0949(0xac), this[_0x4a0949(0xa3)] = '', wrongWords++, wrongChar += document[_0x4a0949(0x9e)](_0x4a0949(0x92) + index)['innerHTML'][_0x4a0949(0xaf)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x4a0949(0x9e)](_0x4a0949(0xb9) + wrIndex)[_0x4a0949(0x8a)](), wrIndex++), index++, document['querySelector']('.kata-' + index)[_0x4a0949(0x9a)]['background'] = 'rgb(215,\x20215,\x20215)'); }); let _0x3e4622 = setInterval(() => { const _0x2c7fb1 = _0x2fc025; if (typingTest == ![]) return clearInterval(_0x3e4622), INPUT[_0x2c7fb1(0xa3)] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK['innerHTML'] = '' + (detik < 0xa ? '0' : '') + detik; else { if (menit >= 0x1) menit--, MENIT[_0x2c7fb1(0xb5)] = menit, detik = 0x3b, DETIK[_0x2c7fb1(0xb5)] = '' + (detik < 0xa ? '0' : '') + detik; else { clearInterval(_0x3e4622), resetWord(), INPUT['value'] = '', alert(_0x2c7fb1(0xab)); if (wrongWords < 0x1e) { document[_0x2c7fb1(0x9e)](_0x2c7fb1(0x8f))[_0x2c7fb1(0x9a)][_0x2c7fb1(0x7c)] = _0x2c7fb1(0xb1); if (language === _0x2c7fb1(0xd9)) stats_data[_0x2c7fb1(0xb7)](['', english_last_wpm, Math['floor']((correctChar + wrongChar) / 0x5 / Math[_0x2c7fb1(0x9d)](Timer / 0x3c))]), document['cookie'] = _0x2c7fb1(0x7b) + Math[_0x2c7fb1(0x9d)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)), indonesia_last_kpm = getCookie(_0x2c7fb1(0x89)); else language === _0x2c7fb1(0xa8) && (stats_data['push'](['', Math['floor']((correctChar + wrongChar) / 0x5 / Math[_0x2c7fb1(0x9d)](Timer / 0x3c)), indonesia_last_kpm]), document[_0x2c7fb1(0xcc)] = _0x2c7fb1(0xda) + Math['floor']((correctChar + wrongChar) / 0x5 / Math[_0x2c7fb1(0x9d)](Timer / 0x3c)), english_last_wpm = getCookie('english_last_wpm')); google[_0x2c7fb1(0x8e)][_0x2c7fb1(0xc7)](_0x2c7fb1(0xdf), { 'packages': [_0x2c7fb1(0x97)] }), google[_0x2c7fb1(0x8e)][_0x2c7fb1(0xc6)](_0x50d171); function _0x50d171() { const _0x4a125c = _0x2c7fb1; var _0x11c0ae = google[_0x4a125c(0x99)]['arrayToDataTable'](stats_data), _0x43937e = { 'title': '', 'curveType': _0x4a125c(0x93), 'legend': { 'position': _0x4a125c(0xba) } }, _0x37aad0 = new google[(_0x4a125c(0x99))]['LineChart'](document[_0x4a125c(0xbf)](_0x4a125c(0x8c))); _0x37aad0[_0x4a125c(0x98)](_0x11c0ae, _0x43937e); } document['cookie'] = _0x2c7fb1(0xdd) + stats_data; } typingTest = ![], STATS['style'][_0x2c7fb1(0xa1)] = 'block', STATS[_0x2c7fb1(0xb5)] = _0x2c7fb1(0x85) + Math['floor']((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)) + '\x20' + (language == _0x2c7fb1(0xd9) ? 'KPM' : _0x2c7fb1(0xd3)) + _0x2c7fb1(0xa9) + correctChar + _0x2c7fb1(0x7d) + wrongChar + _0x2c7fb1(0xde) + (correctChar + wrongChar) + '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>' + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)['toFixed'](0x2) + _0x2c7fb1(0xd8) + correctWords + _0x2c7fb1(0xc2) + wrongWords + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>'; } } } }, 0x3e8); } } INPUT[_0x355d5e(0xb4)](_0x355d5e(0x87), function () { start(Timer); }), RESET[_0x355d5e(0xb4)](_0x355d5e(0x84), function () { const _0x4b6e4d = _0x355d5e; document['querySelector']('.reset-btn\x20i')[_0x4b6e4d(0xdb)][_0x4b6e4d(0x82)](_0x4b6e4d(0x96)), setTimeout(() => { const _0x526a01 = _0x4b6e4d; document[_0x526a01(0x9e)](_0x526a01(0x83))[_0x526a01(0xdb)]['remove']('rotate'); }, 0x190), resetWord(); }), document[_0x355d5e(0x9e)](_0x355d5e(0xcd))['addEventListener']('change', function () { const _0x41b53a = _0x355d5e; language = this[_0x41b53a(0xa3)], lang(language), resetWord(); }), resetWord();</script>
 </body>
 
 </html>
