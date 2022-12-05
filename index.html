@@ -19,12 +19,8 @@
         @import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-        [class~=container] {
-            min-height: 100vh;
-        }
-
-        #header,
-        #loading {
+        #loading,
+        #header {
             position: fixed;
         }
 
@@ -41,33 +37,12 @@
             z-index: 100;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
-
         #loading {
             height: 100vh;
         }
 
-        #header,
-        [class~=vertical-center] {
-            display: flex;
-        }
-
-        * {
-            padding-left: 0;
-        }
-
-        * {
-            padding-bottom: 0;
-        }
-
         #loading {
             width: 100vw;
-        }
-
-        body {
-            overflow-x: hidden;
         }
 
         #loading {
@@ -78,41 +53,53 @@
             background: rgba(255, 255, 255, .5);
         }
 
-        #loading img {
-            margin-left: auto;
+        * {
+            padding-left: 0;
         }
 
         #header {
             cursor: default;
         }
 
+        [class~=vertical-center],
+        #header {
+            display: flex;
+        }
+
         #header {
             z-index: 99;
+        }
+
+        * {
+            padding-bottom: 0;
         }
 
         #header {
             padding-left: .3125in;
         }
 
-        #header {
-            padding-bottom: .75pc;
+        [class~=vertical-center] {
+            flex-direction: column;
         }
 
         #header {
-            padding-right: .3125in;
+            padding-bottom: 9pt;
         }
 
         * {
             padding-right: 0;
         }
 
-        #loading img,
-        * {
-            margin-bottom: 0;
+        #loading img {
+            margin-left: auto;
         }
 
         #header {
-            padding-top: .75pc;
+            padding-right: .3125in;
+        }
+
+        #header {
+            padding-top: 9pt;
         }
 
         #header {
@@ -120,7 +107,7 @@
         }
 
         #header {
-            gap: .291666667in;
+            gap: .229166667in;
         }
 
         #header {
@@ -128,31 +115,36 @@
         }
 
         #header {
-            border-bottom-width: 1px;
+            border-bottom-width: .0625pc;
         }
 
         #header {
             border-bottom-style: solid;
         }
 
+        *,
+        #loading img {
+            margin-bottom: 0;
+        }
+
         #header {
             border-bottom-color: black;
+        }
+
+        #loading img {
+            margin-right: auto;
         }
 
         #header {
             border-image: none;
         }
 
+        #loading img {
+            margin-top: 0;
+        }
+
         #language-select {
             cursor: pointer;
-        }
-
-        [class~=vertical-center] {
-            flex-direction: column;
-        }
-
-        [class~=vertical-center] {
-            justify-content: center;
         }
 
         #language-select {
@@ -160,57 +152,48 @@
         }
 
         #language-select {
-            right: .3125in;
+            right: 30px;
+        }
+
+        #language-select,
+        * {
+            padding-top: 0;
         }
 
         #language-select {
-            padding-left: 10px;
+            padding-left: .625pc;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        [class~=vertical-center] {
+            justify-content: center;
         }
 
         #language-select {
             padding-bottom: 0;
         }
 
-        [class~=header-text] {
-            font-family: "Nerko One";
-        }
-
-        #loading img {
-            margin-right: auto;
-        }
-
-        *,
-        #language-select {
-            padding-top: 0;
-        }
-
         #language-select {
             padding-right: 26.25pt;
         }
 
+        #language-select:hover {
+            background: #77ce77;
+        }
+
         [class~=header-text] {
-            font-size: 16.5pt;
+            font-family: "Nerko One";
+        }
+
+        body {
+            overflow-x: hidden;
         }
 
         #language-select {
             height: 60%;
-        }
-
-        #loading img,
-        * {
-            margin-top: 0;
-        }
-
-        [class~=header-text] {
-            color: gold;
-        }
-
-        [class~=header-text] {
-            font-weight: 300;
-        }
-
-        #language-select:hover {
-            background: #77ce77;
         }
 
         #language-select {
@@ -221,49 +204,32 @@
             background: #67c567;
         }
 
+        #language-select {
+            border-radius: 3px;
+        }
+
+        #language-select {
+            border-left-width: .75pt;
+        }
+
         body {
-            background: linear-gradient(rgba(190, 230, 250, .6), rgba(190, 230, 250, .6)), url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
-        }
-
-        [class~=header-text] {
-            text-shadow: .010416667in .09375pc black;
-        }
-
-        #loading img {
-            width: 3.125pc;
+            background: linear-gradient(rgba(190, 230, 250, .5), rgba(190, 230, 250, .5)), url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
         }
 
         #language-select {
-            border-radius: 2.25pt;
-        }
-
-        #header p {
-            font-size: 9.75pt;
+            border-bottom-width: .75pt;
         }
 
         #language-select {
-            border-left-width: .0625pc;
+            border-right-width: .75pt;
         }
 
-        #header p,
-        #language-select {
-            color: white;
-        }
-
-        #language-select {
-            border-bottom-width: .0625pc;
-        }
-
-        [class~=header-text] {
-            letter-spacing: 1.5pt;
+        * {
+            margin-left: 0;
         }
 
         #language-select {
-            border-right-width: .0625pc;
-        }
-
-        #language-select {
-            border-top-width: .0625pc;
+            border-top-width: .75pt;
         }
 
         #language-select {
@@ -274,16 +240,24 @@
             border-bottom-style: solid;
         }
 
+        body {
+            font-family: "Open Sans";
+        }
+
         #language-select {
             border-right-style: solid;
         }
 
-        * {
-            margin-left: 0;
+        [class~=header-text] {
+            font-size: 16.5pt;
         }
 
         #language-select {
             border-top-style: solid;
+        }
+
+        [class~=header-text] {
+            color: gold;
         }
 
         #language-select {
@@ -292,10 +266,6 @@
 
         #language-select {
             border-bottom-color: #204d20;
-        }
-
-        * {
-            margin-right: 0;
         }
 
         #language-select {
@@ -310,44 +280,53 @@
             border-image: none;
         }
 
+        #loading img {
+            width: 50px;
+        }
+
         #language-select {
             outline: none;
+        }
+
+        [class~=header-text] {
+            font-weight: 300;
         }
 
         #language-select {
             appearance: none;
         }
 
+        * {
+            margin-right: 0;
+        }
+
         #language-select {
             background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'white\' stroke-width=\'3\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3e%3cpolyline points=\'6 9 12 15 18 9\'%3e%3c/polyline%3e%3c/svg%3e") !important;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: "Open Sans";
-        }
-
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-
-        ::-webkit-scrollbar-track {
-            box-shadow: inset .75pt 0 .020833333in black;
         }
 
         #language-select {
             background-repeat: no-repeat !important;
         }
 
+        #header p {
+            font-size: 13px;
+        }
+
+        #header p,
         #language-select {
-            background-position: right .104166667in center !important;
+            color: white;
+        }
+
+        #language-select {
+            background-position: right .625pc center !important;
         }
 
         #language-select {
             background-size: 1em !important;
+        }
+
+        #header p {
+            text-shadow: .0375pc .0375pc black;
         }
 
         #language-select {
@@ -359,7 +338,7 @@
         }
 
         #language-select {
-            letter-spacing: .3px;
+            letter-spacing: .225pt;
         }
 
         #language-select * {
@@ -370,57 +349,45 @@
             color: black;
         }
 
-        ::-webkit-scrollbar-corner {
-            width: .104166667in;
+        [class~=header-text] {
+            text-shadow: .0625pc .09375pc black;
         }
 
-        ::-webkit-scrollbar-corner {
-            overflow: hidden;
+        [class~=header-text] {
+            letter-spacing: 1.5pt;
         }
 
-        #header p {
-            text-shadow: .0625pc 1px black;
+        * {
+            margin-top: 0;
         }
 
-        ::-webkit-scrollbar-corner {
-            box-shadow: inset .75pt 0 .020833333in black;
-        }
-
-        ::-webkit-scrollbar-button {
-            box-shadow: inset .75pt 0 1.5pt black;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #ffdc46;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            box-shadow: inset .010416667in 0 .020833333in black;
+        * {
+            box-sizing: border-box;
         }
 
         @media (max-width: 768px) {
             #header {
-                padding-left: 1.5625pc;
+                padding-left: 18.75pt;
             }
 
             #header {
-                padding-bottom: .5pc;
+                padding-bottom: 6pt;
+            }
+
+            #header {
+                padding-right: 18.75pt;
+            }
+
+            #header {
+                padding-top: 6pt;
+            }
+
+            #language-select {
+                right: .260416667in;
             }
 
             #header p {
                 display: none;
-            }
-
-            #header {
-                padding-right: 1.5625pc;
-            }
-
-            #header {
-                padding-top: .5pc;
-            }
-
-            #language-select {
-                right: 1.5625pc;
             }
 
             #language-select {
@@ -446,27 +413,31 @@
             }
 
             #language-select {
-                padding-left: .5pc;
+                padding-left: 8px;
             }
 
             #language-select {
-                padding-bottom: 3pt;
+                padding-bottom: .041666667in;
             }
 
             #language-select {
-                padding-right: 22.5pt;
+                padding-right: 1.875pc;
             }
 
             #language-select {
-                padding-top: 3pt;
+                padding-top: 4px;
             }
 
             #language-select {
                 margin-left: 0;
             }
 
+            #header p {
+                display: block;
+            }
+
             #language-select {
-                margin-bottom: 4px;
+                margin-bottom: .041666667in;
             }
 
             #language-select {
@@ -474,15 +445,11 @@
             }
 
             #language-select {
-                margin-top: .5pc;
+                margin-top: 6pt;
             }
 
             #language-select {
-                background-position: right 8px center !important;
-            }
-
-            #header p {
-                display: block;
+                background-position: right .083333333in center !important;
             }
         }
 
@@ -499,7 +466,11 @@
         }
 
         #main {
-            padding-top: 4.375pc;
+            padding-top: 52.5pt;
+        }
+
+        #main {
+            min-height: 90vh;
         }
 
         @media (max-width: 768px) {
@@ -516,23 +487,7 @@
             }
 
             #main {
-                padding-top: 50px;
-            }
-
-            #main {
-                margin-left: 0;
-            }
-
-            #main {
-                margin-bottom: .083333333in;
-            }
-
-            #main {
-                margin-right: 0;
-            }
-
-            #main {
-                margin-top: .083333333in;
+                padding-top: .572916667in;
             }
         }
 
@@ -550,8 +505,16 @@
             }
 
             #main {
-                padding-top: 110px;
+                padding-top: 115px;
             }
+        }
+
+        [class~=words] span {
+            padding-left: .125pc;
+        }
+
+        [class~=words] span {
+            padding-bottom: 0;
         }
 
         [class~=words] {
@@ -563,23 +526,31 @@
         }
 
         [class~=words] {
-            padding-bottom: 4.5pt;
+            padding-bottom: .375pc;
+        }
+
+        [class~=words] span {
+            padding-right: .125pc;
+        }
+
+        [class~=words] span {
+            padding-top: 0;
         }
 
         [class~=words] {
             padding-right: .104166667in;
         }
 
-        [class~=words] {
-            padding-top: 4.5pt;
+        [class~=words] span {
+            font-family: serif;
         }
 
         [class~=words] {
-            margin-left: auto;
+            padding-top: .375pc;
         }
 
-        [class~=words] {
-            margin-bottom: .125in;
+        [class~=words] span {
+            font-size: 24px;
         }
 
         [class~=words][class~=nihon] span {
@@ -587,27 +558,35 @@
         }
 
         [class~=words] {
+            margin-left: auto;
+        }
+
+        [class~=words][class~=nihon] span {
+            font-size: 1.25pc;
+        }
+
+        [class~=words] {
+            margin-bottom: 9pt;
+        }
+
+        [class~=words] span {
+            color: #303030;
+        }
+
+        [class~=words] span {
+            letter-spacing: .03125pc;
+        }
+
+        [class~=words] {
             margin-right: auto;
         }
 
         [class~=words] {
-            margin-top: .125in;
-        }
-
-        [class~=words] span {
-            padding-left: 1.5pt;
-        }
-
-        [class~=words] span {
-            padding-bottom: 0;
+            margin-top: 9pt;
         }
 
         [class~=words] {
             width: 75%;
-        }
-
-        [class~=words] span {
-            padding-right: 1.5pt;
         }
 
         [class~=words] {
@@ -618,36 +597,20 @@
             border-radius: 3px;
         }
 
-        [class~=words][class~=nihon] span {
-            font-weight: 100;
+        [class~=words] {
+            border-left-width: .75pt;
         }
 
         [class~=words] {
-            border-left-width: .0625pc;
-        }
-
-        [class~=words] span {
-            padding-top: 0;
+            border-bottom-width: .75pt;
         }
 
         [class~=words] {
-            border-bottom-width: .0625pc;
-        }
-
-        [class~=words] span {
-            font-family: serif;
+            border-right-width: .75pt;
         }
 
         [class~=words] {
-            border-right-width: .0625pc;
-        }
-
-        [class~=words] span {
-            font-size: 24px;
-        }
-
-        [class~=words] {
-            border-top-width: .0625pc;
+            border-top-width: .75pt;
         }
 
         [class~=words] {
@@ -674,10 +637,6 @@
             border-bottom-color: #8cc8fa;
         }
 
-        [class~=words] span {
-            color: #303030;
-        }
-
         [class~=words] {
             border-right-color: #8cc8fa;
         }
@@ -695,56 +654,42 @@
         }
 
         [class~=words] {
-            word-spacing: .375pc;
-        }
-
-        [class~=words] span {
-            letter-spacing: .375pt;
+            word-spacing: .0625in;
         }
 
         @media (max-width: 768px) {
-            [class~=words] {
+            .words {
                 width: 85%;
             }
         }
 
         @media (max-width: 480px) {
-            [class~=words] {
-                width: 95%;
-            }
-
             [class~=words] span {
                 font-size: .229166667in;
+            }
+
+            .words {
+                width: 95%;
             }
         }
 
         [class~=word-input] {
-            padding-left: .104166667in;
+            padding-left: 10px;
         }
 
-        #mengetik {
-            padding-left: 0;
-        }
-
-        [class~=word-input][class~=nihon] {
-            font-family: "Noto Sans JP";
-        }
-
-        #mengetik {
-            padding-bottom: 3pt;
-        }
-
+        [class~=reset-btn],
         [class~=word-input],
         [class~=time-countdown] {
             padding-bottom: 0;
         }
 
         [class~=word-input] {
-            padding-right: .104166667in;
+            padding-right: 10px;
         }
 
-        [class~=time-countdown],
-        [class~=word-input] {
+        [class~=word-input],
+        [class~=reset-btn],
+        [class~=time-countdown] {
             padding-top: 0;
         }
 
@@ -752,13 +697,9 @@
             width: 50%;
         }
 
-        [class~=word-input][class~=nihon] {
-            font-weight: 100;
-        }
-
-        [class~=time-countdown],
-        #mengetik,
         [class~=reset-btn],
+        #mengetik,
+        [class~=time-countdown],
         [class~=word-input] {
             border-radius: 3px;
         }
@@ -795,28 +736,28 @@
             border-top-style: solid;
         }
 
+        #mengetik {
+            padding-left: 0;
+        }
+
         [class~=word-input] {
             border-left-color: #969696;
         }
 
+        .word-input.nihon {
+            font-family: "Noto Sans JP";
+        }
+
         #mengetik {
-            padding-right: 0;
+            padding-bottom: .25pc;
         }
 
         [class~=word-input] {
             border-bottom-color: #969696;
         }
 
-        #mengetik {
-            padding-top: 3pt;
-        }
-
         [class~=word-input] {
             border-right-color: #969696;
-        }
-
-        #mengetik {
-            margin-left: auto;
         }
 
         [class~=word-input] {
@@ -827,30 +768,26 @@
             border-image: none;
         }
 
-        [class~=word-input] {
-            box-shadow: inset .010416667in .010416667in 2px black;
+        #mengetik {
+            padding-right: 0;
         }
 
-        [class~=time-countdown]:hover {
-            background: #45596b;
+        [class~=word-input] {
+            box-shadow: inset .010416667in 1px .125pc black;
         }
 
         [class~=word-input] {
             outline: none;
         }
 
-        [class~=time-countdown],
+        [class~=reset-btn],
         [class~=word-input],
-        [class~=reset-btn] {
-            font-size: 1.5pc;
+        [class~=time-countdown] {
+            font-size: 18pt;
         }
 
         #mengetik {
-            margin-bottom: .125in;
-        }
-
-        #mengetik {
-            margin-right: auto;
+            padding-top: .25pc;
         }
 
         [class~=word-input] {
@@ -861,47 +798,35 @@
             color: #303030;
         }
 
-        .reset-btn:hover {
-            background: #4d92ce;
-        }
-
         [class~=word-input] {
             letter-spacing: .75pt;
         }
 
-        [class~=time-countdown],
-        [class~=reset-btn] {
+        [class~=reset-btn],
+        [class~=time-countdown] {
             cursor: pointer;
         }
 
-        #mengetik {
-            margin-top: .125in;
-        }
-
-        #mengetik {
-            width: 75%;
-        }
-
         [class~=time-countdown],
         [class~=reset-btn] {
-            padding-left: 11.25pt;
+            padding-left: .15625in;
+        }
+
+        .word-input.nihon {
+            font-size: .229166667in;
         }
 
         [class~=reset-btn],
         [class~=time-countdown] {
-            padding-right: 11.25pt;
+            padding-right: .15625in;
         }
 
         [class~=time-countdown] {
             background: #3b4f61;
         }
 
-        #mengetik {
-            height: 37.5pt;
-        }
-
-        [class~=reset-btn],
-        [class~=time-countdown] {
+        [class~=time-countdown],
+        [class~=reset-btn] {
             color: white;
         }
 
@@ -913,45 +838,69 @@
             font-family: "Roboto";
         }
 
-        [class~=time-countdown],
-        [class~=reset-btn] {
-            text-shadow: .0625pc .0625pc black;
+        [class~=reset-btn],
+        [class~=time-countdown] {
+            text-shadow: .010416667in .0625pc black;
         }
 
         [class~=hidden-timer] {
             visibility: hidden;
         }
 
-        [class~=reset-btn] {
-            padding-bottom: 0;
+        #mengetik {
+            margin-left: auto;
         }
 
-        [class~=reset-btn] {
-            padding-top: 0;
+        [class~=time-countdown]:hover {
+            background: #45596b;
         }
 
-        [class~=reset-btn] {
-            border-left-width: .75pt;
-        }
-
-        [class~=reset-btn] {
-            border-bottom-width: .75pt;
-        }
-
-        [class~=reset-btn] {
-            border-right-width: .75pt;
+        [class~=reset-btn]:hover {
+            background: #4d92ce;
         }
 
         #mengetik {
-            box-sizing: content-box;
+            margin-bottom: .125in;
+        }
+
+        #mengetik {
+            margin-right: auto;
         }
 
         [class~=reset-btn] {
-            border-top-width: .75pt;
+            border-left-width: .010416667in;
+        }
+
+        #mengetik {
+            margin-top: .125in;
+        }
+
+        #mengetik {
+            width: 75%;
+        }
+
+        [class~=reset-btn] {
+            border-bottom-width: .010416667in;
+        }
+
+        [class~=reset-btn] {
+            border-right-width: .010416667in;
+        }
+
+        [class~=reset-btn] {
+            border-top-width: .010416667in;
         }
 
         [class~=reset-btn] {
             border-left-style: solid;
+        }
+
+        #mengetik {
+            height: 3.125pc;
+        }
+
+        #mengetik {
+            box-sizing: content-box;
         }
 
         [class~=reset-btn] {
@@ -960,6 +909,10 @@
 
         [class~=reset-btn] {
             border-right-style: solid;
+        }
+
+        #mengetik {
+            display: flex;
         }
 
         [class~=reset-btn] {
@@ -972,10 +925,6 @@
 
         [class~=reset-btn] {
             border-bottom-color: #224d74;
-        }
-
-        #mengetik {
-            display: flex;
         }
 
         [class~=reset-btn] {
@@ -994,24 +943,24 @@
             background: #428bca;
         }
 
+        [class~=rotate] {
+            transform: rotate(365deg);
+        }
+
+        [class~=rotate] {
+            transition: 400ms;
+        }
+
         #mengetik {
             justify-content: center;
         }
 
         #mengetik {
-            gap: .5pc;
-        }
-
-        .rotate {
-            transform: rotate(365deg);
-        }
-
-        .rotate {
-            transition: 400ms;
+            gap: 6pt;
         }
 
         #mengetik {
-            line-height: 3.125pc;
+            line-height: .520833333in;
         }
 
         #mengetik {
@@ -1024,7 +973,7 @@
             }
 
             #mengetik {
-                gap: 6px;
+                gap: .375pc;
             }
         }
 
@@ -1034,12 +983,12 @@
             }
 
             [class~=word-input] {
-                font-size: 22px;
+                font-size: 16.5pt;
             }
 
-            .time-countdown,
+            [class~=time-countdown],
             [class~=reset-btn] {
-                font-size: 13.5pt;
+                font-size: 18px;
             }
 
             #mengetik {
@@ -1056,21 +1005,7 @@
         }
 
         [class~=result] {
-            padding-left: 15pt;
-        }
-
-        table {
-            font-size: 10.5pt;
-        }
-
-        tr,
-        [class~=total-wpm],
-        td {
-            padding-left: 0;
-        }
-
-        #statistik {
-            position: relative;
+            padding-left: 1.25pc;
         }
 
         [class~=total-wpm],
@@ -1079,12 +1014,17 @@
         }
 
         [class~=result],
-        tr {
-            padding-right: 15pt;
+        tr,
+        td {
+            padding-right: 1.25pc;
         }
 
         [class~=result] {
             padding-top: 7.5pt;
+        }
+
+        table {
+            font-size: 10.5pt;
         }
 
         [class~=result] {
@@ -1096,48 +1036,47 @@
             border-radius: 2.25pt;
         }
 
-        #statistik {
-            margin-left: auto;
+        td,
+        [class~=total-wpm],
+        tr {
+            padding-left: 0;
         }
 
         #statistik {
-            margin-bottom: 1.875pc;
-        }
-
-        #statistik {
-            margin-right: auto;
-        }
-
-        #statistik {
-            margin-top: 1.875pc;
-        }
-
-        #statistik {
-            width: 75%;
-        }
-
-        #curve_chart,
-        [class~=result] {
-            border-left-width: .75pt;
-        }
-
-        #statistik {
-            min-height: 200px;
-        }
-
-        #curve_chart,
-        [class~=result] {
-            border-bottom-width: .75pt;
+            position: relative;
         }
 
         [class~=result],
         #curve_chart {
-            border-right-width: .75pt;
+            border-left-width: .010416667in;
         }
 
-        #curve_chart,
-        [class~=result] {
-            border-top-width: .75pt;
+        [class~=result],
+        #curve_chart {
+            border-bottom-width: .010416667in;
+        }
+
+        #statistik {
+            margin-left: auto;
+        }
+
+        tr,
+        td {
+            padding-bottom: 0;
+        }
+
+        [class~=result],
+        #curve_chart {
+            border-right-width: .010416667in;
+        }
+
+        [class~=result],
+        #curve_chart {
+            border-top-width: .010416667in;
+        }
+
+        #statistik {
+            margin-bottom: .3125in;
         }
 
         #curve_chart,
@@ -1145,27 +1084,18 @@
             border-left-style: solid;
         }
 
-        td,
-        tr {
-            padding-bottom: 0;
-        }
-
-        #statistik {
-            display: flex;
-        }
-
-        #statistik {
-            justify-content: space-between;
-        }
-
-        #curve_chart,
-        [class~=result] {
+        [class~=result],
+        #curve_chart {
             border-bottom-style: solid;
         }
 
         [class~=result],
         #curve_chart {
             border-right-style: solid;
+        }
+
+        #statistik {
+            margin-right: auto;
         }
 
         [class~=result],
@@ -1178,9 +1108,54 @@
             border-left-color: #969696;
         }
 
+        #statistik {
+            margin-top: .3125in;
+        }
+
+        td,
+        tr {
+            padding-top: 9pt;
+        }
+
+        #statistik {
+            width: 75%;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            border-bottom-color: #969696;
+        }
+
         [class~=result],
         #curve_chart {
-            border-bottom-color: #969696;
+            border-right-color: #969696;
+        }
+
+        #statistik {
+            min-height: 200px;
+        }
+
+        #statistik {
+            display: flex;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            border-top-color: #969696;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            border-image: none;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            background: white;
+        }
+
+        #statistik {
+            justify-content: space-between;
         }
 
         #curve_chart {
@@ -1191,37 +1166,12 @@
             right: 0;
         }
 
-        [class~=result],
-        #curve_chart {
-            border-right-color: #969696;
-        }
-
-        #curve_chart,
-        [class~=result] {
-            border-top-color: #969696;
-        }
-
         #curve_chart {
             overflow: hidden;
         }
 
         #curve_chart {
             width: max-content;
-        }
-
-        #curve_chart,
-        [class~=result] {
-            border-image: none;
-        }
-
-        [class~=result],
-        #curve_chart {
-            background: white;
-        }
-
-        td,
-        tr {
-            padding-top: 9pt;
         }
 
         [class~=total-wpm] {
@@ -1233,7 +1183,7 @@
         }
 
         [class~=total-wpm] {
-            border-bottom-width: .010416667in;
+            border-bottom-width: .75pt;
         }
 
         [class~=total-wpm] {
@@ -1249,15 +1199,11 @@
         }
 
         [class~=total-wpm] {
-            font-size: 32px;
+            font-size: .333333333in;
         }
 
         [class~=total-wpm] {
             color: #006400;
-        }
-
-        td {
-            padding-right: .208333333in;
         }
 
         [class~=total-wpm] {
@@ -1265,17 +1211,17 @@
         }
 
         .total-correct-words,
-        .correct-keystrokes {
+        [class~=correct-keystrokes] {
             color: #00be00;
+        }
+
+        [class~=wrong-keystrokes],
+        .total-wrong-words {
+            color: #ff7373;
         }
 
         #curve_chart {
             visibility: hidden;
-        }
-
-        [class~=wrong-keystrokes],
-        [class~=total-wrong-words] {
-            color: #ff7373;
         }
 
         @media (max-width: 768px) {
@@ -1283,6 +1229,11 @@
             #curve_chart,
             #statistik {
                 position: relative;
+            }
+
+            #curve_chart,
+            [class~=result] {
+                margin-left: auto;
             }
 
             #statistik {
@@ -1297,23 +1248,18 @@
                 gap: 20px;
             }
 
-            #curve_chart,
-            .result {
-                margin-left: auto;
-            }
-
-            .result,
+            [class~=result],
             #curve_chart {
                 margin-bottom: 0;
             }
 
             #curve_chart,
-            .result {
+            [class~=result] {
                 margin-right: auto;
             }
 
             #curve_chart,
-            .result {
+            [class~=result] {
                 margin-top: 0;
             }
 
@@ -1322,57 +1268,13 @@
             }
         }
 
-        #speed-record tr:nth-child(odd) {
-            background: #e6e6ff;
-        }
-
-        [class~=export-button] {
-            cursor: pointer;
-        }
-
-        #speed-record {
-            cursor: default;
-        }
-
-        #speed-record {
-            margin-left: auto;
-        }
-
-        [class~=export-button] {
-            padding-left: 6pt;
-        }
-
-        [class~=export-button] {
-            padding-bottom: .25pc;
-        }
-
-        #speed-record {
-            margin-bottom: 22.5pt;
-        }
-
-        #speed-record {
-            margin-right: auto;
-        }
-
-        [class~=export-button] {
-            padding-right: 6pt;
-        }
-
-        #speed-record {
-            margin-top: 22.5pt;
-        }
-
-        [class~=export-button] {
-            padding-top: .25pc;
-        }
-
         #speed-record th,
         #speed-record td {
             padding-left: 0;
         }
 
-        #speed-record {
-            width: 75%;
+        [class~=export-button] {
+            cursor: pointer;
         }
 
         #speed-record th,
@@ -1380,13 +1282,13 @@
             padding-bottom: 6pt;
         }
 
-        #speed-record th,
-        #speed-record td {
-            padding-right: 0;
+        #speed-record {
+            cursor: default;
         }
 
-        [class~=export-button] {
-            margin-left: .208333333in;
+        #speed-record td,
+        #speed-record th {
+            padding-right: 0;
         }
 
         #speed-record th,
@@ -1396,7 +1298,11 @@
 
         #speed-record th,
         [class~=export-button] {
-            border-bottom-width: .010416667in;
+            border-bottom-width: .75pt;
+        }
+
+        [class~=export-button] {
+            padding-left: 6pt;
         }
 
         [class~=export-button],
@@ -1404,46 +1310,110 @@
             border-bottom-style: solid;
         }
 
+        [class~=export-button] {
+            padding-bottom: .25pc;
+        }
+
         #speed-record {
-            visibility: hidden;
+            margin-left: auto;
+        }
+
+        [class~=export-button] {
+            padding-right: 6pt;
+        }
+
+        #speed-record {
+            margin-bottom: 30px;
+        }
+
+        [class~=export-button] {
+            padding-top: .25pc;
+        }
+
+        [class~=export-button] {
+            margin-left: 1.25pc;
         }
 
         [class~=export-button] {
             margin-bottom: 0;
         }
 
-        .export-button:hover {
-            background: #77ce77;
-        }
-
-        #speed-record {
-            border-spacing: 0;
-        }
-
-        #speed-record {
-            overflow: hidden;
-        }
-
-        #speed-record,
         [class~=export-button] {
-            border-radius: 2.25pt;
+            margin-right: 1.25pc;
+        }
+
+        #speed-record tr[class~=highest]:hover {
+            background: #ffff50;
+        }
+
+        #speed-record {
+            margin-right: auto;
+        }
+
+        [class~=export-button] {
+            margin-top: 0;
         }
 
         #speed-record th {
             border-bottom-color: #969696;
         }
 
-        #speed-record th {
-            border-image: none;
+        [class~=export-button] {
+            float: right;
         }
 
-        #speed-record,
         [class~=export-button] {
-            border-top-width: .0625pc;
+            background: #67c567;
         }
 
         [class~=export-button],
         #speed-record {
+            border-radius: .03125in;
+        }
+
+        #speed-record {
+            margin-top: 30px;
+        }
+
+        #speed-record {
+            width: 75%;
+        }
+
+        #speed-record {
+            visibility: hidden;
+        }
+
+        [class~=export-button] {
+            border-left-width: .010416667in;
+        }
+
+        #speed-record {
+            border-spacing: 0;
+        }
+
+        #speed-record th {
+            border-image: none;
+        }
+
+        #speed-record {
+            overflow: hidden;
+        }
+
+        [class~=export-button] {
+            border-right-width: .010416667in;
+        }
+
+        [class~=export-button],
+        #speed-record {
+            border-top-width: .010416667in;
+        }
+
+        [class~=export-button] {
+            border-left-style: solid;
+        }
+
+        #speed-record,
+        [class~=export-button] {
             border-top-style: solid;
         }
 
@@ -1455,21 +1425,17 @@
             border-image: none;
         }
 
-        #speed-record,
-        [class~=export-button] {
-            border-left-width: .010416667in;
-        }
-
-        [class~=export-button] {
-            margin-right: .208333333in;
+        [class~=export-button],
+        #speed-record {
+            border-right-style: solid;
         }
 
         #speed-record td {
-            border-bottom-width: .010416667in;
+            border-bottom-width: .75pt;
         }
 
-        #speed-record tr:hover {
-            background: #c8c8ff;
+        #speed-record {
+            border-left-width: .010416667in;
         }
 
         #speed-record td {
@@ -1480,44 +1446,15 @@
             border-bottom-color: #969696;
         }
 
-        #speed-record td {
-            border-image: none;
-        }
-
-        [class~=export-button] {
-            margin-top: 0;
-        }
-
-        #speed-record th {
-            background: #ffdc46;
-        }
-
-        #speed-record,
-        [class~=export-button] {
+        #speed-record {
             border-left-style: solid;
         }
 
         [class~=export-button] {
-            float: right;
+            border-left-color: #204d20;
         }
 
-        [class~=export-button] {
-            background: #67c567;
-        }
-
-        #speed-record th {
-            border-bottom-width: .0625pc;
-        }
-
-        #speed-record th {
-            border-bottom-style: solid;
-        }
-
-        #speed-record th {
-            border-bottom-color: #969600;
-        }
-
-        #speed-record th {
+        #speed-record td {
             border-image: none;
         }
 
@@ -1525,18 +1462,12 @@
             border-left-color: #969696;
         }
 
-        #speed-record th {
-            font-weight: 300;
+        #speed-record {
+            border-right-width: .010416667in;
         }
 
-        [class~=export-button],
-        #speed-record {
-            border-right-width: .75pt;
-        }
-
-        [class~=export-button],
-        #speed-record {
-            border-right-style: solid;
+        [class~=export-button] {
+            border-bottom-color: #204d20;
         }
 
         #speed-record {
@@ -1547,24 +1478,12 @@
             background: white;
         }
 
-        #speed-record {
-            font-family: "Nunito";
-        }
-
-        #speed-record {
-            text-align: center;
-        }
-
-        [class~=export-button] {
-            border-left-color: #204d20;
-        }
-
-        [class~=export-button] {
-            border-bottom-color: #204d20;
-        }
-
         [class~=export-button] {
             border-right-color: #204d20;
+        }
+
+        #speed-record th {
+            background: #ffdc46;
         }
 
         [class~=export-button] {
@@ -1580,7 +1499,7 @@
         }
 
         [class~=export-button] {
-            font-size: .875pc;
+            font-size: 10.5pt;
         }
 
         [class~=export-button] {
@@ -1588,11 +1507,55 @@
         }
 
         [class~=export-button] {
-            letter-spacing: .010416667in;
+            letter-spacing: 1px;
+        }
+
+        #speed-record {
+            font-family: "Nunito";
+        }
+
+        #speed-record {
+            text-align: center;
+        }
+
+        #speed-record th {
+            border-bottom-width: 1px;
+        }
+
+        #speed-record th {
+            border-bottom-style: solid;
+        }
+
+        #speed-record th {
+            border-bottom-color: #969600;
         }
 
         [class~=tr-expor] {
             background: white !important;
+        }
+
+        #speed-record th {
+            border-image: none;
+        }
+
+        #speed-record th {
+            font-weight: 300;
+        }
+
+        [class~=export-button]:hover {
+            background: #77ce77;
+        }
+
+        #speed-record tr:nth-child(odd) {
+            background: #e6e6ff;
+        }
+
+        #speed-record tr[class~=highest] {
+            background: #ffff78;
+        }
+
+        #speed-record tr:hover {
+            background: #c8c8ff;
         }
 
         @media (max-width: 768px) {
@@ -1611,28 +1574,8 @@
             }
 
             #speed-record {
-                font-size: 11px;
+                font-size: 8.25pt;
             }
-        }
-
-        footer {
-            padding-left: 0;
-        }
-
-        footer {
-            padding-bottom: .145833333in;
-        }
-
-        footer {
-            padding-right: 0;
-        }
-
-        footer {
-            padding-top: .145833333in;
-        }
-
-        footer {
-            width: 100%;
         }
 
         footer,
@@ -1641,16 +1584,52 @@
         }
 
         footer {
-            flex-direction: column;
+            padding-left: 0;
         }
 
-        footer,
-        footer ul {
+        footer ul,
+        footer {
             justify-content: center;
         }
 
         footer {
-            gap: .375pc;
+            padding-bottom: 10.5pt;
+        }
+
+        footer {
+            padding-right: 0;
+        }
+
+        footer ul {
+            gap: .25pc;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer a {
+            color: gold;
+        }
+
+        footer {
+            padding-top: 10.5pt;
+        }
+
+        footer {
+            width: 100%;
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+
+        footer {
+            flex-direction: column;
+        }
+
+        footer {
+            gap: .0625in;
         }
 
         footer {
@@ -1658,7 +1637,7 @@
         }
 
         footer {
-            font-size: .75pc;
+            font-size: 9pt;
         }
 
         footer {
@@ -1670,23 +1649,7 @@
         }
 
         footer {
-            text-shadow: 1px .75pt black;
-        }
-
-        footer ul {
-            gap: 4px;
-        }
-
-        footer ul {
-            list-style: none;
-        }
-
-        footer a {
-            color: gold;
-        }
-
-        footer a {
-            text-decoration: none;
+            text-shadow: .010416667in 1px black;
         }
 
         footer a:hover {
@@ -1791,8 +1754,8 @@
     </div>
 
     <!-- Javascript -->
-    <script>function _0x5400() { const _0x553a80 = ['langsung', 'him', 'such', 'tak', 'secara', 'keep', 'seperti', 'sekitar', 'before', 'always', 'juga', 'ayah', 'memang', 'another', 'minuman', 'こういう', 'tapi', 'みんな', 'apa', 'really', 'mile', 'face', 'jumlah', 'mulai', 'pada', 'talk', 'sehingga', 'tetapi', 'sudah', 'our', 'よみます', 'ありません', 'のみません', 'own', 'food', 'orang', 'give', 'dari', 'sedikit', 'kalau', 'make', 'kepala', 'として', 'quickly', 'point', 'them', 'namun', 'hari', 'pulang', 'あなた', 'learn', 'mana', 'spell', 'not', 'supaya', 'もっと', 'two', 'memiliki', 'animal', 'naik', 'bila', 'Indonesia', 'kecuali', 'even', 'head', 'who', 'kelompok', 'jangan', 'people', 'sangat', 'masalah', 'which', 'begin', 'hidup', 'kenapa', 'grow', 'can', 'jalan', 'できる', 'day', 'sekarang', 'seem', 'don\x27t', 'end', 'father', 'home', 'mampu', 'すばらしい', 'found', 'sedang', 'with', 'plaint', 'feet', 'sejak', 'it\x27s', 'been', 'picture', 'tinggi', 'tidur', 'diri', 'skill', 'baru', 'kemudian', 'sebelum', 'might', 'most', 'tahu', 'sampai', 'ketika', 'study', 'pagi', 'girl', 'bisa', 'did', 'kerja', '1087736RUDLeV', 'たくさん', 'ask', 'eye', 'better', 'aku', 'barang', 'its', 'kemarin', 'hingga', 'other', 'sambil', 'cara', 'pula', 'ketiga', 'this', 'very', 'saat', '4108835nbcPAo', 'という', 'antara', 'does', 'dengan', 'sore', 'bahwa', 'makanan', 'tersebut', 'karena', 'yaitu', 'kita', 'year', 'pernah', 'harga', 'world', 'membuat', 'berbagai', 'read', 'segera', 'air', 'boy', 'must', 'eat', 'meet', '1443356IMqQeK', 'melalui', 'these', 'すごい', 'keluar', 'show', 'nama', 'lalu', '24773pIGAys', 'thought', 'then', 'got', 'boleh', 'had', 'きょう', 'about', 'still', 'mencari', 'would', 'setelah', 'being', 'agar', 'way', 'biasa', 'uang', '1500yQAkxM', 'dan', 'their', 'tidak', 'above', 'paper', 'pertama', 'banyak', 'next', 'let', 'sendiri', 'tell', 'melakukan', 'かきます', 'untuk', 'line', 'cepat', 'oil', 'わたし', 'what', 'life', '16627304PtZWfa', 'again', 'great', 'lambat', 'last', 'juta', 'like', 'near', 'hard', 'bersama', 'siang', 'need', 'nanti', 'pusat', 'ibu', 'often', 'put', 'datang', 'page', 'baik', 'you', 'mengatakan', 'lama', 'young', 'begitu', 'now', 'どれか', 'ada', 'how', 'jauh', 'mountain', 'sound', 'khusus', 'over', 'his', 'sementara', 'that', '3230697oZwrCH', 'あります', 'おとうさん', 'makan', 'later', 'termasuk', 'America', 'turun', 'dapat', 'kami', 'sering', 'tentang', 'masuk', 'yang', 'sesuatu', 'water', 'new', 'siapa', 'ところ', 'Indian', 'miss', 'malam', 'why', 'dia', 'hal', 'work', 'tempat', 'kecil', 'belum', 'come', 'find', 'part', 'oleh', 'anak', 'into', 'thing', 'long', 'jenis', 'perlu', 'terhadap', 'akan', 'example', 'besok', 'together', 'sekali', 'three', 'kedua', 'from', 'ingin', 'for', 'selama', 'mata', 'のみます', 'when', 'terus', 'suatu', 'sekalipun', 'try', 'one', 'some', 'salah', 'mudah', 'made', 'itu', 'look', '545190iFSaTl', 'selesai', 'maupun', 'something', 'tengah', 'without', 'different', 'bagi', 'kepada']; _0x5400 = function () { return _0x553a80; }; return _0x5400(); } const _0x258923 = _0x2562; function _0x2562(_0x58fac6, _0x49c91e) { const _0x5400ca = _0x5400(); return _0x2562 = function (_0x256202, _0x1480ee) { _0x256202 = _0x256202 - 0x175; let _0x2ba1ec = _0x5400ca[_0x256202]; return _0x2ba1ec; }, _0x2562(_0x58fac6, _0x49c91e); } (function (_0x33d5ef, _0x265925) { const _0x4ff72c = _0x2562, _0x379fbe = _0x33d5ef(); while (!![]) { try { const _0x57947e = parseInt(_0x4ff72c(0x24b)) / 0x1 + -parseInt(_0x4ff72c(0x18c)) / 0x2 + -parseInt(_0x4ff72c(0x20a)) / 0x3 + -parseInt(_0x4ff72c(0x1b7)) / 0x4 + parseInt(_0x4ff72c(0x19e)) / 0x5 + -parseInt(_0x4ff72c(0x1d0)) / 0x6 * (parseInt(_0x4ff72c(0x1bf)) / 0x7) + parseInt(_0x4ff72c(0x1e5)) / 0x8; if (_0x57947e === _0x265925) break; else _0x379fbe['push'](_0x379fbe['shift']()); } catch (_0x1ea54d) { _0x379fbe['push'](_0x379fbe['shift']()); } } }(_0x5400, 0x8d5c6)); let english = [{ 'kelipatan': 0xe }, [_0x258923(0x255), _0x258923(0x181), _0x258923(0x206), _0x258923(0x209), 'watch', 'said', 'never', 'think', 'of', _0x258923(0x182), _0x258923(0x2a8), _0x258923(0x1c0), _0x258923(0x1df), _0x258923(0x29f), _0x258923(0x1b5), _0x258923(0x1aa), _0x258923(0x228), _0x258923(0x1e4), 'an', _0x258923(0x1f9), _0x258923(0x219), 'sea', _0x258923(0x2a7), _0x258923(0x204), 'see', _0x258923(0x1cd), _0x258923(0x1f7), 'open', 'off', 'hear', _0x258923(0x244), _0x258923(0x220), _0x258923(0x281), _0x258923(0x289), _0x258923(0x288), _0x258923(0x278), _0x258923(0x28e), _0x258923(0x1b2), _0x258923(0x237), 'list', _0x258923(0x298), 'only', _0x258923(0x239), 'around', _0x258923(0x1d5), _0x258923(0x1d8), 'just', _0x258923(0x1db), 'house', _0x258923(0x179), _0x258923(0x23f), 'close', _0x258923(0x2a3), 'by', _0x258923(0x175), _0x258923(0x1b6), 'old', 'on', _0x258923(0x18f), _0x258923(0x1e1), _0x258923(0x1e3), _0x258923(0x193), 'if', 'so', _0x258923(0x27f), _0x258923(0x245), _0x258923(0x1b4), 'write', _0x258923(0x186), _0x258923(0x2ac), 'many', 'know', _0x258923(0x1c2), _0x258923(0x1eb), _0x258923(0x19b), _0x258923(0x207), 'kind', _0x258923(0x2a5), 'should', 'to', _0x258923(0x25c), _0x258923(0x1bc), _0x258923(0x1c1), _0x258923(0x22e), 'same', _0x258923(0x201), _0x258923(0x188), _0x258923(0x1b3), 'us', _0x258923(0x22c), 'night', 'where', _0x258923(0x295), 'earth', 'took', 'are', _0x258923(0x268), _0x258923(0x23b), _0x258923(0x1ec), _0x258923(0x267), _0x258923(0x1b9), _0x258923(0x17d), _0x258923(0x24a), 'as', _0x258923(0x1fe), _0x258923(0x1c9), _0x258923(0x235), _0x258923(0x177), 'set', _0x258923(0x18e), 'few', 'is', _0x258923(0x26d), _0x258923(0x1d9), _0x258923(0x1d2), _0x258923(0x1e9), _0x258923(0x1fc), 'well', _0x258923(0x286), _0x258923(0x24e), 'mother', _0x258923(0x256), 'group', _0x258923(0x27c), _0x258923(0x269), _0x258923(0x251), _0x258923(0x1f4), 'quick', 'until', _0x258923(0x275), _0x258923(0x280), _0x258923(0x1e7), 'almost', 'and', 'move', _0x258923(0x25d), _0x258923(0x29b), _0x258923(0x259), 'those', _0x258923(0x248), 'big', _0x258923(0x1f5), _0x258923(0x19c), _0x258923(0x1b0), _0x258923(0x293), 'all', _0x258923(0x21e), _0x258923(0x227), _0x258923(0x28c), _0x258923(0x2a0), _0x258923(0x271), 'be', _0x258923(0x223), 'here', _0x258923(0x2a9), 'we', _0x258923(0x1f0), 'question', _0x258923(0x21d), _0x258923(0x210), _0x258923(0x20e), _0x258923(0x1c6), _0x258923(0x29c), _0x258923(0x1c4), _0x258923(0x1d4), _0x258923(0x196), _0x258923(0x276), _0x258923(0x250), _0x258923(0x1a1), _0x258923(0x1e6), 'letter', _0x258923(0x2af), _0x258923(0x233), 'do', 'change', _0x258923(0x1ed), 'want', _0x258923(0x1c7), _0x258923(0x261), 'me', 'more', _0x258923(0x243), _0x258923(0x1cb), 'he', _0x258923(0x2ae), 'she', _0x258923(0x18a), _0x258923(0x21a), _0x258923(0x294), _0x258923(0x229), 'any', _0x258923(0x22d), _0x258923(0x2a6), _0x258923(0x203), _0x258923(0x178), 'or', _0x258923(0x1ad), 'live', 'go', _0x258923(0x190)]], indonesia = [{ 'kelipatan': 0xb }, [_0x258923(0x1de), 'memberikan', _0x258923(0x17e), _0x258923(0x253), _0x258923(0x1fa), _0x258923(0x202), _0x258923(0x264), _0x258923(0x1a2), _0x258923(0x195), _0x258923(0x184), 'paling', _0x258923(0x246), _0x258923(0x21f), _0x258923(0x1bd), 'memberi', _0x258923(0x25a), _0x258923(0x29e), _0x258923(0x221), _0x258923(0x232), _0x258923(0x1cf), _0x258923(0x1a5), _0x258923(0x262), _0x258923(0x17b), 'ini', _0x258923(0x236), _0x258923(0x222), _0x258923(0x1af), 'sini', _0x258923(0x2a4), _0x258923(0x1ee), _0x258923(0x22f), _0x258923(0x247), _0x258923(0x200), _0x258923(0x277), 'telah', _0x258923(0x17c), _0x258923(0x24f), _0x258923(0x217), _0x258923(0x257), _0x258923(0x224), _0x258923(0x258), _0x258923(0x290), _0x258923(0x23c), _0x258923(0x287), _0x258923(0x249), _0x258923(0x22b), _0x258923(0x192), _0x258923(0x1d6), _0x258923(0x185), _0x258923(0x20f), _0x258923(0x260), _0x258923(0x1ab), _0x258923(0x180), _0x258923(0x1d1), 'bukan', _0x258923(0x299), _0x258923(0x19d), 'waktu', _0x258923(0x1f2), _0x258923(0x27d), _0x258923(0x1ca), _0x258923(0x17a), _0x258923(0x292), _0x258923(0x1e0), 'ku', _0x258923(0x230), 'maka', 'jadi', _0x258923(0x2a1), 'akibat', _0x258923(0x226), _0x258923(0x197), _0x258923(0x213), _0x258923(0x23a), _0x258923(0x18b), 'siap', 'harus', 'punya', 'lagi', _0x258923(0x28f), _0x258923(0x21b), 'mau', _0x258923(0x1b2), 'selalu', _0x258923(0x1b8), _0x258923(0x26f), _0x258923(0x252), _0x258923(0x1dc), 'merupakan', _0x258923(0x1da), _0x258923(0x218), _0x258923(0x1ea), _0x258923(0x1a7), _0x258923(0x1ac), _0x258923(0x1c3), _0x258923(0x26e), _0x258923(0x266), _0x258923(0x20d), _0x258923(0x1ce), _0x258923(0x1c8), _0x258923(0x1a0), 'anda', _0x258923(0x1f8), _0x258923(0x29d), _0x258923(0x231), 'sebuah', _0x258923(0x214), _0x258923(0x26b), 'mungkin', 'sesuai', _0x258923(0x25e), _0x258923(0x23d), _0x258923(0x270), 'hati', 'terlalu', _0x258923(0x27b), _0x258923(0x22a), _0x258923(0x215), _0x258923(0x282), _0x258923(0x2ad), _0x258923(0x27a), _0x258923(0x1d7), _0x258923(0x242), _0x258923(0x241), 'bagian', 'menurut', _0x258923(0x284), _0x258923(0x17f), 'tiba', 'kamu', _0x258923(0x283), _0x258923(0x183), _0x258923(0x189), 'bagus', 'setiap', _0x258923(0x28d), _0x258923(0x208), _0x258923(0x240), _0x258923(0x297), _0x258923(0x238), _0x258923(0x19a), 'kini', _0x258923(0x2aa), 'jelas', 'sama', _0x258923(0x1ae), _0x258923(0x26c), _0x258923(0x176), _0x258923(0x254), 'di', _0x258923(0x1f6), _0x258923(0x29a), _0x258923(0x1d3), _0x258923(0x1f1), _0x258923(0x216), 'bahkan', 'menjadi', _0x258923(0x1a8), 'kali', _0x258923(0x279), _0x258923(0x212), _0x258923(0x191), _0x258923(0x25b), _0x258923(0x1a6), 'ia', 'luar', 'benar', 'cukup', _0x258923(0x1a9), _0x258923(0x205), _0x258923(0x199), 'kembali', _0x258923(0x211), _0x258923(0x1b1), _0x258923(0x291), _0x258923(0x1ef), _0x258923(0x187), _0x258923(0x1a3), _0x258923(0x1a4), _0x258923(0x1be), _0x258923(0x25f), _0x258923(0x1f3), _0x258923(0x1fb), _0x258923(0x1e8), _0x258923(0x24d), 'mereka', 'besar', _0x258923(0x225), 'ke', _0x258923(0x198), _0x258923(0x234), _0x258923(0x194), _0x258923(0x1cc), _0x258923(0x28a), _0x258923(0x24c), 'jarang', _0x258923(0x1bb), _0x258923(0x26a), _0x258923(0x296), _0x258923(0x1fd)]], nihon = [{ 'kelipatan': 0x9 }, ['なに', 'だれ', 'どこ', 'いつ', 'と', 'から', 'に', _0x258923(0x285), 'いいえ', _0x258923(0x1ff), _0x258923(0x1dd), 'ききます', 'はい', _0x258923(0x1e2), 'の', _0x258923(0x20b), _0x258923(0x273), 'たべます', 'みます', _0x258923(0x23e), _0x258923(0x272), 'あさ', 'それ', 'これ', 'また', 'ただ', 'よる', _0x258923(0x28b), _0x258923(0x1c5), 'あした', _0x258923(0x20c), _0x258923(0x18d), _0x258923(0x19f), _0x258923(0x265), _0x258923(0x2a2), _0x258923(0x21c), 'へ', 'ちよつと', _0x258923(0x1ba), 'その', 'しかし', 'ください', _0x258923(0x27e), 'でも', _0x258923(0x2ab), _0x258923(0x263), 'ない', 'ている', 'もう', 'きれいな', 'なら', _0x258923(0x274), 'たべません', 'ので', 'より', 'くれる', 'です', 'めて', 'まて', 'ここ']];</script>
-    <script>const _0x229861 = _0xbe7e; (function (_0x1184c2, _0x11631a) { const _0x1a7958 = _0xbe7e, _0x1d7841 = _0x1184c2(); while (!![]) { try { const _0x1b4341 = parseInt(_0x1a7958(0x242)) / 0x1 + -parseInt(_0x1a7958(0x1d1)) / 0x2 * (-parseInt(_0x1a7958(0x1e2)) / 0x3) + parseInt(_0x1a7958(0x227)) / 0x4 + -parseInt(_0x1a7958(0x243)) / 0x5 + parseInt(_0x1a7958(0x1e8)) / 0x6 * (parseInt(_0x1a7958(0x203)) / 0x7) + parseInt(_0x1a7958(0x231)) / 0x8 * (parseInt(_0x1a7958(0x1d3)) / 0x9) + -parseInt(_0x1a7958(0x23c)) / 0xa; if (_0x1b4341 === _0x11631a) break; else _0x1d7841['push'](_0x1d7841['shift']()); } catch (_0x53470e) { _0x1d7841['push'](_0x1d7841['shift']()); } } }(_0xe502, 0x414ce), $(document)[_0x229861(0x219)](function () { const _0x11d01a = _0x229861; $(_0x11d01a(0x1cc))[_0x11d01a(0x1e9)](); }), $(document)['on'](_0x229861(0x1d5), function (_0x24f5f8) { const _0x1cda80 = _0x229861; _0x24f5f8[_0x1cda80(0x22a)] && _0x24f5f8[_0x1cda80(0x228)] == '\x20'[_0x1cda80(0x205)](0x0) && RESET[_0x1cda80(0x1f1)](); })); function getCookie(_0x46c5f6) { const _0x3ce97e = _0x229861, _0x265145 = ';\x20' + document[_0x3ce97e(0x20e)], _0x4704d5 = _0x265145[_0x3ce97e(0x23e)](';\x20' + _0x46c5f6 + '='); return _0x4704d5[_0x3ce97e(0x241)]()[_0x3ce97e(0x23e)](';')[_0x3ce97e(0x1f6)](); } const KURVA = document[_0x229861(0x1e4)](_0x229861(0x23f)); function updateKurva(_0x56ef02) { const _0x1ea1e4 = _0x229861; google['charts']['load']('current', { 'packages': [_0x1ea1e4(0x1e6)] }), google[_0x1ea1e4(0x208)][_0x1ea1e4(0x1f9)](_0x5dd225); function _0x5dd225() { const _0x31f3ca = _0x1ea1e4; var _0x28af68 = google[_0x31f3ca(0x200)][_0x31f3ca(0x1fa)](_0x56ef02), _0x41807f = new google[(_0x31f3ca(0x200))][(_0x31f3ca(0x1dc))](document[_0x31f3ca(0x1e4)](_0x31f3ca(0x23f))), _0x540f09 = { 'title': '', 'curveType': _0x31f3ca(0x211), 'legend': { 'position': _0x31f3ca(0x24b) } }; _0x41807f[_0x31f3ca(0x1f7)](_0x28af68, _0x540f09); } KURVA[_0x1ea1e4(0x1ef)][_0x1ea1e4(0x245)] = _0x1ea1e4(0x209); } let stats_data = [[_0x229861(0x229), _0x229861(0x22b), 'Bahasa\x20Indonesia', 'Bahasa\x20Jepang']]; if (getCookie(_0x229861(0x221))) { let data_kpm = getCookie(_0x229861(0x221))['split'](',,')['slice'](0x1); data_kpm['forEach'](_0x33e2e5 => { const _0x538276 = _0x229861; _0x33e2e5 = _0x33e2e5['split'](','), stats_data[_0x538276(0x238)](['', Number(_0x33e2e5[0x0]), Number(_0x33e2e5[0x1]), Number(_0x33e2e5[0x2])]); }), updateKurva(stats_data), document[_0x229861(0x20e)] = _0x229861(0x1d6) + stats_data; } const TABEL = document[_0x229861(0x1e4)](_0x229861(0x24d)); let speed_record = ''; function updateTabel() { const _0x5b8ac7 = _0x229861; let _0x1d4ae3 = speed_record[_0x5b8ac7(0x23e)]('#')['filter'](_0x106629 => _0x106629)['map'](_0xc6bca8 => _0xc6bca8[_0x5b8ac7(0x23e)](',')), _0x58f589 = ''; _0x1d4ae3[_0x5b8ac7(0x1da)]((_0x4ef1b4, _0x8230c2) => { const _0x2ab926 = _0x5b8ac7; _0x58f589 += _0x2ab926(0x1ce) + (_0x8230c2 + 0x1) + _0x2ab926(0x20b) + _0x4ef1b4[0x0] + _0x2ab926(0x1cd) + _0x4ef1b4[0x1] + _0x2ab926(0x20b) + _0x4ef1b4[0x2] + _0x2ab926(0x207) + _0x4ef1b4[0x3] + _0x2ab926(0x20b) + _0x4ef1b4[0x4] + _0x2ab926(0x20b) + _0x4ef1b4[0x5] + '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>'; }), TABEL['innerHTML'] = _0x5b8ac7(0x21e) + _0x58f589 + _0x5b8ac7(0x1fd), TABEL[_0x5b8ac7(0x1ef)][_0x5b8ac7(0x245)] = _0x5b8ac7(0x209); } getCookie('speed_record') && (speed_record = getCookie(_0x229861(0x210)), updateTabel()); const INPUT = document['querySelector'](_0x229861(0x1ec)), RESET = document[_0x229861(0x1e4)](_0x229861(0x23d)), MENIT = document[_0x229861(0x1e4)](_0x229861(0x215)), DETIK = document[_0x229861(0x1e4)](_0x229861(0x233)), RESULT = document['querySelector']('.result'); let word = [], kelipatan, language = _0x229861(0x1e1); function _0xe502() { const _0x340762 = ['change', 'block', 'shift', 'draw', 'nihon_last_wpm=', 'setOnLoadCallback', 'arrayToDataTable', 'join', 'Januari', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20class=\x22tr-expor\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20colspan=\x227\x22><button\x20class=\x22export-button\x22\x20onclick=\x22exportData(\x27xlsx\x27)\x22\x20title=\x22Klik\x20untuk\x20mengexport\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini\x22><i\x20class=\x22fa\x20fa-book\x22></i>\x20Export\x20Data</button></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>', 'Juni', 'getMonth', 'visualization', 'selected_language=', 'random', '384664bfPHCF', 'color', 'charCodeAt', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>', '%</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'charts', 'visible', 'getDate', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'nihon', 'getFullYear', 'cookie', 'speed_record=', 'speed_record', 'function', 'November', 'charAt', 'September', '#minute', 'title', '.nihon', 'querySelectorAll', 'ready', 'indonesia_last_kpm', '\x27\x20style=\x22display:none;\x22>', '</span>)\x20<span\x20class=\x27keystrokes\x27>', '.kata-', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>#</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Waktu</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Bahasa</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Akurasi</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20benar</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20salah</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kecepatan</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', 'innerHTML', 'getHours', 'data_kpm', 'April', '.timer', 'input', '.time-countdown', '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>', '1905056mnNhYR', 'keyCode', 'WPM', 'ctrlKey', 'Bahasa\x20Inggris', 'Waktu\x20mengetik\x20telah\x20habis!', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', 'toFixed', '</span>', '785000KWbgiI', 'floor', '#second', 'display', 'writeFile', 'nihon_last_wpm', 'Anda\x20tidak\x20memiliki\x20data\x20untuk\x20diekspor!', 'push', 'transparent', 'selected_language', 'Klik\x20untuk\x20menampilkan\x20hitungan\x20mundur', '6597990rKiYpi', '.reset-btn', 'split', '#curve_chart', 'english_last_wpm', 'pop', '421285NhUiyN', '1316275qLJtqV', 'addEventListener', 'visibility', 'Mei', '</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Penekanan\x20huruf</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>', 'Desember', 'utils', 'Juli', 'bottom', '<div\x20class=\x27word-row-', '#speed-record', 'hidden-timer', 'slice', 'kelipatan', 'rgb(215,\x20215,\x20215)', 'classList', 'indonesia', '.words', '.word-row-', 'Klik\x20untuk\x20menyembunyikan\x20hitungan\x20mundur', 'value', 'write', '語/分#', '#loading', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Bahasa\x20', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'Data\x20hasil\x20latihan\x20mengetik\x20', 'add', '4VazXhm', '<span\x20class=\x27kata-', '9VPnqyI', 'background', 'keydown', 'data_kpm=', 'getMinutes', 'Oktober', 'rotate', 'forEach', 'length', 'LineChart', 'sheet1', 'rgb(255,\x2089,\x2089)', 'includes', 'KPM#', 'inggris', '44991rtDGqa', '</div>', 'querySelector', 'map', 'corechart', 'base64', '18XUfCWK', 'remove', 'last_result', '.word-row-2', '.word-input', 'KPM', 'rgb(0,\x20182,\x200)', 'style', 'english_last_wpm=', 'click', 'toUpperCase', 'jepang']; _0xe502 = function () { return _0x340762; }; return _0xe502(); } function lang(_0xf5b93) { const _0x21a631 = _0x229861; document['querySelectorAll'](_0x21a631(0x217))[_0x21a631(0x1da)](_0x1739fb => _0x1739fb['classList'][_0x21a631(0x1e9)](_0x21a631(0x20c))); if (_0xf5b93 === _0x21a631(0x1e1)) kelipatan = english[0x0]['kelipatan'], word = english[0x1]; else { if (_0xf5b93 === _0x21a631(0x1c5)) kelipatan = indonesia[0x0][_0x21a631(0x250)], word = indonesia[0x1]; else _0xf5b93 === _0x21a631(0x1f3) && (INPUT['classList'][_0x21a631(0x1d0)]('nihon'), document[_0x21a631(0x1e4)](_0x21a631(0x1c6))['classList'][_0x21a631(0x1d0)](_0x21a631(0x20c)), kelipatan = nihon[0x0][_0x21a631(0x250)], word = nihon[0x1]); } } lang(language); const Timer = 0x3c; let menit = Math[_0x229861(0x232)](Timer / 0x3c), detik = Timer - menit * 0x3c; function resetTimer() { const _0x593027 = _0x229861; menit = Math[_0x593027(0x232)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x593027(0x21f)] = menit, DETIK[_0x593027(0x21f)] = '00', INPUT['focus'](); } function _0xbe7e(_0x4b279f, _0x535031) { const _0xe5020e = _0xe502(); return _0xbe7e = function (_0xbe7ed4, _0x16b7f8) { _0xbe7ed4 = _0xbe7ed4 - 0x1c3; let _0x149cc8 = _0xe5020e[_0xbe7ed4]; return _0x149cc8; }, _0xbe7e(_0x4b279f, _0x535031); } function updateResult(_0x2b2f39, _0x316086, _0x12db1a, _0x268916, _0x91050d) { const _0x276a72 = _0x229861; RESULT[_0x276a72(0x21f)] = _0x276a72(0x22e) + Math['floor']((_0x316086 + _0x12db1a) / 0x5 / Math[_0x276a72(0x232)](Timer / 0x3c)) + '\x20' + (_0x2b2f39 == 'indonesia' ? _0x276a72(0x1ed) : _0x2b2f39 == 'jepang' ? '語/分' : _0x276a72(0x229)) + _0x276a72(0x247) + _0x316086 + _0x276a72(0x22d) + _0x12db1a + _0x276a72(0x21c) + (_0x316086 + _0x12db1a) + _0x276a72(0x226) + (_0x316086 / (_0x316086 + _0x12db1a + _0x91050d) * 0x64)[_0x276a72(0x22f)](0x2) + _0x276a72(0x206) + _0x268916 + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>' + _0x91050d + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>', RESULT['style'][_0x276a72(0x234)] = 'block'; } if (getCookie(_0x229861(0x1ea))) { let data = getCookie(_0x229861(0x1ea))[_0x229861(0x23e)]('#')[_0x229861(0x1e5)](_0x2d0668 => _0x2d0668 == Number(_0x2d0668) ? Number(_0x2d0668) : _0x2d0668); updateResult(data[0x0], data[0x1], data[0x2], data[0x3], data[0x4]); } let hidden = ![]; document[_0x229861(0x1e4)](_0x229861(0x225))['addEventListener']('click', function () { const _0x18cbd5 = _0x229861; !hidden ? (this['title'] = _0x18cbd5(0x23b), hidden = !![]) : (this[_0x18cbd5(0x216)] = _0x18cbd5(0x1c8), hidden = ![]), document[_0x18cbd5(0x218)](_0x18cbd5(0x223))[_0x18cbd5(0x1da)](_0x28d3bd => _0x28d3bd[_0x18cbd5(0x1c4)]['toggle'](_0x18cbd5(0x24e))); }); let typingTest = ![]; const jumlah_kata = 0xc8; function resetWords() { const _0x29c705 = _0x229861; index = 0x0; let _0x12e6c2 = []; for (let _0x38ae73 = 0x0; _0x38ae73 <= jumlah_kata; _0x38ae73++) { let _0x301b5f = word[parseInt(Math[_0x29c705(0x202)]() * word[_0x29c705(0x1db)])]; _0x12e6c2[_0x29c705(0x238)](_0x301b5f ? _0x301b5f : ''); } _0x12e6c2 = _0x12e6c2['filter'](_0x192d59 => _0x192d59 != '')[_0x29c705(0x1e5)]((_0x23880a, _0x5b1276) => _0x29c705(0x1d2) + _0x5b1276 + '\x27>' + _0x23880a + _0x29c705(0x230)); let _0x6d369b = 0x0, _0x54905e = []; for (let _0x42a321 = 0x0; _0x42a321 < jumlah_kata; _0x42a321++) { _0x42a321 % kelipatan == kelipatan - 0x1 && (_0x54905e['push'](_0x12e6c2[_0x29c705(0x24f)](_0x6d369b, [_0x42a321 + 0x1])), _0x6d369b += kelipatan); } _0x54905e[_0x29c705(0x1da)]((_0xdea024, _0xfca72d) => { const _0x47e6d9 = _0x29c705; _0x54905e[_0xfca72d] = _0x47e6d9(0x24c) + (_0xfca72d + 0x1) + _0x47e6d9(0x21b) + _0xdea024[_0x47e6d9(0x1fb)]('\x20') + _0x47e6d9(0x1e3); }), document[_0x29c705(0x1e4)](_0x29c705(0x1c6))[_0x29c705(0x21f)] = _0x54905e[_0x29c705(0x1fb)]('\x20'), document[_0x29c705(0x1e4)]('.word-row-1')[_0x29c705(0x1ef)]['display'] = _0x29c705(0x1f5), document[_0x29c705(0x1e4)](_0x29c705(0x1eb))[_0x29c705(0x1ef)][_0x29c705(0x234)] = _0x29c705(0x1f5), document['querySelector']('.kata-0')[_0x29c705(0x1ef)]['background'] = _0x29c705(0x1c3), typingTest = ![], resetTimer(), document['querySelector']('.reset-btn\x20i')['classList'][_0x29c705(0x1d0)](_0x29c705(0x1d9)), setTimeout(() => { const _0x4bf058 = _0x29c705; document[_0x4bf058(0x1e4)]('.reset-btn\x20i')[_0x4bf058(0x1c4)][_0x4bf058(0x1e9)](_0x4bf058(0x1d9)); }, 0x190); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_kpm = 0x0, english_last_wpm = 0x0, nihon_last_wpm = 0x0; getCookie(_0x229861(0x21a)) && (indonesia_last_kpm = getCookie(_0x229861(0x21a))); getCookie('english_last_wpm') && (english_last_wpm = getCookie('english_last_wpm')); getCookie(_0x229861(0x236)) && (nihon_last_wpm = getCookie(_0x229861(0x236))); function start() { const _0x515c4c = _0x229861; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT[_0x515c4c(0x244)]('input', function () { const _0x205b5f = _0x515c4c; if (language === _0x205b5f(0x1c5) || language === _0x205b5f(0x1e1)) { if (this[_0x205b5f(0x1c9)] == document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x21f)] + '\x20') document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x1ef)][_0x205b5f(0x204)] = _0x205b5f(0x1ee), document[_0x205b5f(0x1e4)]('.kata-' + index)[_0x205b5f(0x1ef)][_0x205b5f(0x1d4)] = _0x205b5f(0x239), this[_0x205b5f(0x1c9)] = '', correctWords++, correctChar += document[_0x205b5f(0x1e4)]('.kata-' + index)[_0x205b5f(0x21f)][_0x205b5f(0x1db)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector'](_0x205b5f(0x1c7) + wrIndex)[_0x205b5f(0x1e9)](), wrIndex++, document[_0x205b5f(0x1e4)]('.word-row-' + (wrIndex + 0x1))[_0x205b5f(0x1ef)][_0x205b5f(0x234)] = _0x205b5f(0x1f5)), index++, document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)['style']['background'] = _0x205b5f(0x1c3); else { if (this[_0x205b5f(0x1c9)]['split']('\x20')[_0x205b5f(0x1fb)]('') <= 0x1) this[_0x205b5f(0x1c9)] = ''; else this[_0x205b5f(0x1c9)] != document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x21f)][_0x205b5f(0x24f)](0x0, this[_0x205b5f(0x1c9)][_0x205b5f(0x1db)]) ? document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x1ef)]['background'] = _0x205b5f(0x1de) : document['querySelector'](_0x205b5f(0x21d) + index)['style']['background'] = 'rgb(215,\x20215,\x20215)'; } } else { if (language === _0x205b5f(0x1f3)) { if (this[_0x205b5f(0x1c9)] == document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x21f)] + '\u3000') document[_0x205b5f(0x1e4)]('.kata-' + index)['style'][_0x205b5f(0x204)] = _0x205b5f(0x1ee), document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)['style']['background'] = _0x205b5f(0x239), this[_0x205b5f(0x1c9)] = '', correctWords++, correctChar += document[_0x205b5f(0x1e4)]('.kata-' + index)[_0x205b5f(0x21f)]['length'] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x205b5f(0x1e4)](_0x205b5f(0x1c7) + wrIndex)[_0x205b5f(0x1e9)](), wrIndex++, document[_0x205b5f(0x1e4)](_0x205b5f(0x1c7) + (wrIndex + 0x1))[_0x205b5f(0x1ef)][_0x205b5f(0x234)] = _0x205b5f(0x1f5)), index++, document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)['style']['background'] = _0x205b5f(0x1c3); else { if (this[_0x205b5f(0x1c9)][_0x205b5f(0x23e)]('\u3000')[_0x205b5f(0x1fb)]('') <= 0x1) this[_0x205b5f(0x1c9)] = ''; else this['value'] != document['querySelector']('.kata-' + index)[_0x205b5f(0x21f)][_0x205b5f(0x24f)](0x0, this['value'][_0x205b5f(0x1db)]) ? document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x1ef)]['background'] = _0x205b5f(0x1de) : document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x1ef)][_0x205b5f(0x1d4)] = _0x205b5f(0x1c3); } } } ([...this[_0x205b5f(0x1c9)]][_0x205b5f(0x1df)]('\x20') || [...this[_0x205b5f(0x1c9)]][_0x205b5f(0x1df)]('\u3000')) && (document[_0x205b5f(0x1e4)]('.kata-' + index)[_0x205b5f(0x1ef)][_0x205b5f(0x1d4)] = _0x205b5f(0x239), document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x1ef)][_0x205b5f(0x204)] = _0x205b5f(0x1de), this[_0x205b5f(0x1c9)] = '', wrongWords++, wrongChar += document[_0x205b5f(0x1e4)]('.kata-' + index)[_0x205b5f(0x21f)][_0x205b5f(0x1db)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x205b5f(0x1e4)](_0x205b5f(0x1c7) + wrIndex)[_0x205b5f(0x1e9)](), wrIndex++, document[_0x205b5f(0x1e4)](_0x205b5f(0x1c7) + (wrIndex + 0x1))[_0x205b5f(0x1ef)][_0x205b5f(0x234)] = 'block'), index++, document[_0x205b5f(0x1e4)](_0x205b5f(0x21d) + index)[_0x205b5f(0x1ef)]['background'] = _0x205b5f(0x1c3)); }); let _0x19786c = setInterval(() => { const _0xcf1462 = _0x515c4c; if (typingTest == ![]) return clearInterval(_0x19786c), INPUT['value'] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK[_0xcf1462(0x21f)] = '' + (detik < 0xa ? '0' : '') + detik; else { if (menit >= 0x1) menit--, MENIT[_0xcf1462(0x21f)] = menit, detik = 0x3b, DETIK['innerHTML'] = '' + (detik < 0xa ? '0' : '') + detik; else { clearInterval(_0x19786c), resetWords(), INPUT[_0xcf1462(0x1c9)] = '', alert(_0xcf1462(0x22c)); if (language === 'indonesia') stats_data[_0xcf1462(0x238)](['', english_last_wpm, Math[_0xcf1462(0x232)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)), nihon_last_wpm]), document['cookie'] = 'indonesia_last_kpm=' + Math[_0xcf1462(0x232)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)), indonesia_last_kpm = getCookie(_0xcf1462(0x21a)); else { if (language === _0xcf1462(0x1e1)) stats_data[_0xcf1462(0x238)](['', Math[_0xcf1462(0x232)]((correctChar + wrongChar) / 0x5 / Math[_0xcf1462(0x232)](Timer / 0x3c)), indonesia_last_kpm, nihon_last_wpm]), document['cookie'] = _0xcf1462(0x1f0) + Math[_0xcf1462(0x232)]((correctChar + wrongChar) / 0x5 / Math[_0xcf1462(0x232)](Timer / 0x3c)), english_last_wpm = getCookie(_0xcf1462(0x240)); else language === _0xcf1462(0x1f3) && (stats_data['push'](['', english_last_wpm, indonesia_last_kpm, Math[_0xcf1462(0x232)]((correctChar + wrongChar) / 0x5 / Math[_0xcf1462(0x232)](Timer / 0x3c))]), document[_0xcf1462(0x20e)] = _0xcf1462(0x1f8) + Math[_0xcf1462(0x232)]((correctChar + wrongChar) / 0x5 / Math[_0xcf1462(0x232)](Timer / 0x3c)), nihon_last_wpm = getCookie('nihon_last_wpm')); } updateKurva(stats_data), document[_0xcf1462(0x20e)] = 'data_kpm=' + stats_data, updateResult(language, correctChar, wrongChar, correctWords, wrongWords), document[_0xcf1462(0x20e)] = 'last_result=' + language + '#' + correctChar + '#' + wrongChar + '#' + correctWords + '#' + wrongWords, speed_record += '' + (new Date()[_0xcf1462(0x220)]() < 0xa ? '0' : '') + new Date()[_0xcf1462(0x220)]() + ':' + (new Date()[_0xcf1462(0x1d7)]() < 0xa ? '0' : '') + new Date()['getMinutes']() + ',' + language[_0xcf1462(0x213)](0x0)[_0xcf1462(0x1f2)]() + language[_0xcf1462(0x24f)](0x1) + ',' + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)[_0xcf1462(0x22f)](0x2) + ',' + correctWords + ',' + wrongWords + ',' + Math['floor']((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)) + '\x20' + (language == _0xcf1462(0x1c5) ? _0xcf1462(0x1e0) : language == _0xcf1462(0x1f3) ? _0xcf1462(0x1cb) : 'WPM#'), document[_0xcf1462(0x20e)] = _0xcf1462(0x20f) + speed_record, updateTabel(); } } } }, 0x3e8); } } INPUT[_0x229861(0x244)](_0x229861(0x224), function () { start(Timer); }), RESET[_0x229861(0x244)](_0x229861(0x1f1), function () { resetWords(); }), document[_0x229861(0x1e4)]('#language-select')[_0x229861(0x244)](_0x229861(0x1f4), function () { const _0xac31d9 = _0x229861; language = this['value'], document[_0xac31d9(0x20e)] = _0xac31d9(0x201) + language, lang(language), resetWords(); }); getCookie(_0x229861(0x23a)) && (document[_0x229861(0x1e4)]('#language-select')[_0x229861(0x1c9)] = getCookie(_0x229861(0x23a)), language = getCookie(_0x229861(0x23a)), lang(language)); resetWords(); const Bulan = [_0x229861(0x1fc), 'Februari', 'Maret', _0x229861(0x222), _0x229861(0x246), _0x229861(0x1fe), _0x229861(0x24a), 'Agustus', _0x229861(0x214), _0x229861(0x1d8), _0x229861(0x212), _0x229861(0x248)]; function exportData(_0x38fa08) { const _0xf2293f = _0x229861; if (confirm('Export\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini?')) { if (speed_record[_0xf2293f(0x1db)] <= 0x0) return alert(_0xf2293f(0x237)), ![]; let _0x25ca52 = _0xf2293f(0x1cf) + new Date()[_0xf2293f(0x20a)]() + '\x20' + Bulan[new Date()[_0xf2293f(0x1ff)]()] + '\x20' + new Date()[_0xf2293f(0x20d)](); document['querySelector']('.tr-expor')[_0xf2293f(0x1e9)](); let _0x319963 = TABEL, _0x4e720d = XLSX[_0xf2293f(0x249)]['table_to_book'](_0x319963, { 'sheet': _0xf2293f(0x1dd) }); XLSX[_0xf2293f(0x1ca)](_0x4e720d, { 'bookType': _0x38fa08, 'bookSST': !![], 'type': _0xf2293f(0x1e7) }), XLSX[_0xf2293f(0x235)](_0x4e720d, _0x25ca52 + '.' + _0x38fa08), updateTabel(); } }</script>
+    <script>function _0x602d() { const _0x3ecbf6 = ['think', 'page', 'close', 'selesai', '2634950armyBM', 'terus', 'had', 'lalu', 'mudah', 'namun', 'cepat', 'mampu', 'ask', 'mencari', 'bukan', 'みんな', 'sering', 'their', 'のみます', 'our', 'thing', 'with', 'sea', 'melalui', 'other', 'termasuk', 'long', 'live', 'does', 'ちよつと', 'tiba', 'about', '33414ejNzPa', 'spell', 'where', 'すごい', 'きょう', 'benar', 'dari', 'big', 'show', 'few', 'paper', 'oil', 'for', '139272jDWVvi', 'ありません', 'seem', 'even', 'きれいな', 'baik', 'luar', 'いいえ', 'diri', '1668JNvgdx', 'hal', 'another', 'datang', 'give', 'kini', 'ききます', 'mile', 'どれか', 'paling', 'seperti', 'kemudian', 'him', 'selama', 'group', 'sudah', 'into', 'jumlah', 'read', 'eat', 'mengatakan', 'above', 'dia', 'really', 'tell', 'jarang', 'mau', 'like', 'tentang', 'sangat', 'those', 'makanan', 'mata', 'still', 'come', 'Indian', 'feet', 'miss', 'here', 'own', 'did', 'biasa', 'great', 'minuman', 'として', 'would', 'head', 'ketiga', 'different', 'anda', '4zADqlC', 'Indonesia', 'house', 'his', 'ketika', 'sesuai', 'know', 'mana', 'jalan', 'selalu', 'sedikit', 'just', 'tempat', 'don\x27t', 'example', 'last', 'kita', 'hard', 'then', '132hlATZX', 'melakukan', 'girl', 'besar', 'who', 'all', 'tidak', 'yaitu', 'must', 'sound', 'bagi', 'あした', 'that', 'jadi', 'begin', 'orang', 'she', 'khusus', 'menjadi', 'year', 'わたし', 'work', 'siang', 'later', 'sampai', 'kind', 'ada', 'kelompok', 'tahu', 'tengah', 'salah', 'sesuatu', 'animal', 'ini', 'almost', 'karena', 'nanti', 'skill', 'can', 'maka', 'see', 'thought', 'tersebut', 'again', 'memberikan', 'sendiri', 'better', 'picture', 'segera', 'langsung', 'siapa', 'need', 'any', 'move', 'eye', 'air', 'list', 'かきます', 'turun', 'grow', 'あります', 'kamu', 'memberi', 'find', 'harga', 'tetapi', '428346YmAhdH', 'jenis', 'look', 'tinggi', 'well', 'ibu', 'yang', 'suatu', 'before', 'most', 'ayah', 'question', 'hidup', 'two', 'untuk', 'barang', 'mereka', 'masuk', 'boy', '8oVNkVE', '659791Kjqifo', 'make', 'set', 'one', 'bersama', '161PYmasZ', 'sedang', 'letter', 'without', 'are', 'sambil', 'aku', 'kepala', 'pertama', 'pula', 'こういう', 'young', 'off', 'bagus', 'kedua', 'hear', 'begitu', 'people', 'point', 'できる', 'juta', 'masalah', 'akan', 'next', '2617569iczYOp', 'found', 'pada', 'got', 'antara', 'kami', 'around', 'belum', 'this', 'akibat', 'bahwa', 'together', 'food', 'part', 'said', 'kecil', 'apa', 'made', 'water', 'bila', 'bisa', 'くれる', 'supaya', 'jauh', 'anak', 'try', 'might', 'which', 'not', 'earth', 'sejak', '5350kZjUGF', 'waktu', 'sekalipun', 'juga', 'sini', 'すばらしい', 'itu', 'banyak', 'want', 'keluar', 'ところ', 'night', 'cukup', 'keep', 'write', 'over', 'siap', 'みます', 'memang', 'now', 'nama', 'sore', 'oleh', 'sebuah', 'tapi', 'took', 'ingin', 'lambat', 'talk', 'tidur', 'face', 'baru', 'more', 'harus', 'しかし', 'boleh', 'sekitar', 'たくさん', 'cara', 'its', 'old', 'three', 'merupakan', 'makan', 'malam', 'being']; _0x602d = function () { return _0x3ecbf6; }; return _0x602d(); } const _0x281b05 = _0x5120; (function (_0x582a72, _0x4ef5c4) { const _0x115bdf = _0x5120, _0x4f8a88 = _0x582a72(); while (!![]) { try { const _0x3113c2 = parseInt(_0x115bdf(0xac)) / 0x1 * (-parseInt(_0x115bdf(0xe7)) / 0x2) + -parseInt(_0x115bdf(0x13c)) / 0x3 + parseInt(_0x115bdf(0xb5)) / 0x4 * (parseInt(_0x115bdf(0x18c)) / 0x5) + parseInt(_0x115bdf(0x9f)) / 0x6 * (parseInt(_0x115bdf(0x155)) / 0x7) + -parseInt(_0x115bdf(0x14f)) / 0x8 * (parseInt(_0x115bdf(0x16d)) / 0x9) + -parseInt(_0x115bdf(0x1be)) / 0xa + -parseInt(_0x115bdf(0x150)) / 0xb * (-parseInt(_0x115bdf(0xfa)) / 0xc); if (_0x3113c2 === _0x4ef5c4) break; else _0x4f8a88['push'](_0x4f8a88['shift']()); } catch (_0x98a259) { _0x4f8a88['push'](_0x4f8a88['shift']()); } } }(_0x602d, 0x3f166)); function _0x5120(_0x2f540f, _0x515c2f) { const _0x602df1 = _0x602d(); return _0x5120 = function (_0x512051, _0x5a1f41) { _0x512051 = _0x512051 - 0x8e; let _0x44c0dc = _0x602df1[_0x512051]; return _0x44c0dc; }, _0x5120(_0x2f540f, _0x515c2f); } let english = [{ 'kelipatan': 0xe }, [_0x281b05(0xc1), _0x281b05(0x187), _0x281b05(0x19b), _0x281b05(0x106), 'watch', _0x281b05(0x17b), 'never', _0x281b05(0x1ba), 'of', _0x281b05(0x145), 'father', _0x281b05(0x123), 'line', _0x281b05(0x135), _0x281b05(0xc8), _0x281b05(0x10d), _0x281b05(0x139), 'life', 'an', 'you', _0x281b05(0x17f), _0x281b05(0x95), 'end', _0x281b05(0x103), _0x281b05(0x122), 'way', _0x281b05(0x1bb), 'open', _0x281b05(0x161), _0x281b05(0x164), _0x281b05(0x153), 'why', 'them', _0x281b05(0x189), _0x281b05(0xa0), _0x281b05(0xb9), _0x281b05(0x11a), _0x281b05(0x131), _0x281b05(0x1b5), _0x281b05(0x132), _0x281b05(0x166), 'only', 'from', _0x281b05(0x173), _0x281b05(0xa9), _0x281b05(0x16c), _0x281b05(0xf2), _0x281b05(0xcd), _0x281b05(0xe9), _0x281b05(0x129), 'when', _0x281b05(0x1bc), 'day', 'by', _0x281b05(0xd9), 'meet', _0x281b05(0x1b4), 'on', _0x281b05(0x130), _0x281b05(0xaa), 'what', _0x281b05(0x1b3), 'if', 'so', 'quickly', 'some', _0x281b05(0x102), _0x281b05(0x19a), 'study', _0x281b05(0x16e), 'many', _0x281b05(0xed), _0x281b05(0x170), _0x281b05(0xd0), _0x281b05(0x175), _0x281b05(0xea), _0x281b05(0x113), _0x281b05(0xae), 'should', 'to', _0x281b05(0x144), _0x281b05(0xa7), _0x281b05(0xf9), _0x281b05(0x99), 'same', 'how', _0x281b05(0xfc), _0x281b05(0x14e), 'us', _0x281b05(0xc5), _0x281b05(0x197), _0x281b05(0xa1), _0x281b05(0xfe), _0x281b05(0x18a), _0x281b05(0x1a5), _0x281b05(0x159), _0x281b05(0xbc), _0x281b05(0xab), 'near', _0x281b05(0xcc), 'these', _0x281b05(0x11f), _0x281b05(0x13e), 'as', _0x281b05(0x19f), _0x281b05(0xe2), _0x281b05(0x178), 'it\x27s', _0x281b05(0x152), _0x281b05(0x1c6), _0x281b05(0xa8), 'is', _0x281b05(0x1a8), 'let', _0x281b05(0x90), _0x281b05(0xf6), _0x281b05(0x160), _0x281b05(0x140), 'learn', 'something', 'mother', 'such', _0x281b05(0xc3), _0x281b05(0x151), _0x281b05(0x1aa), _0x281b05(0xe5), 'often', 'quick', 'until', _0x281b05(0xdc), _0x281b05(0x167), _0x281b05(0xdf), _0x281b05(0x11c), 'and', _0x281b05(0x12f), 'always', _0x281b05(0x188), _0x281b05(0x199), _0x281b05(0xd3), _0x281b05(0x17e), _0x281b05(0xa6), 'put', 'very', _0x281b05(0xc7), _0x281b05(0xaf), _0x281b05(0xff), _0x281b05(0xda), _0x281b05(0xd7), _0x281b05(0x149), _0x281b05(0x120), _0x281b05(0x92), 'be', _0x281b05(0x10f), _0x281b05(0xdb), 'home', 'we', _0x281b05(0x12d), _0x281b05(0x147), _0x281b05(0xd8), 'America', _0x281b05(0x111), _0x281b05(0x9e), _0x281b05(0x108), _0x281b05(0x1c0), _0x281b05(0xca), _0x281b05(0x97), _0x281b05(0x179), _0x281b05(0x158), _0x281b05(0x9b), _0x281b05(0x125), _0x281b05(0x157), 'plaint', _0x281b05(0xf5), 'do', 'change', _0x281b05(0xf8), _0x281b05(0x194), _0x281b05(0xd6), _0x281b05(0xb7), 'me', _0x281b05(0x1ac), _0x281b05(0x186), _0x281b05(0x1b9), 'he', _0x281b05(0x94), _0x281b05(0x10a), _0x281b05(0xdd), 'new', _0x281b05(0xe3), _0x281b05(0x17a), _0x281b05(0x12e), _0x281b05(0x93), _0x281b05(0xf4), 'mountain', 'been', 'or', 'world', _0x281b05(0x9a), 'go', _0x281b05(0x128)]], indonesia = [{ 'kelipatan': 0xb }, [_0x281b05(0x14a), _0x281b05(0x126), _0x281b05(0x1ab), 'kepada', _0x281b05(0xc9), _0x281b05(0x184), _0x281b05(0x1a4), 'dengan', 'hingga', _0x281b05(0x112), _0x281b05(0xbe), _0x281b05(0x118), _0x281b05(0x1b8), _0x281b05(0x1a0), _0x281b05(0x138), _0x281b05(0xbf), 'kenapa', _0x281b05(0xcb), _0x281b05(0x16b), 'uang', _0x281b05(0xd4), _0x281b05(0xe0), _0x281b05(0x1a9), _0x281b05(0x11b), 'sekali', _0x281b05(0xb6), 'berbagai', _0x281b05(0x190), 'sekarang', _0x281b05(0x154), _0x281b05(0x13d), _0x281b05(0x1c2), _0x281b05(0x114), _0x281b05(0x109), 'telah', _0x281b05(0xb4), _0x281b05(0x117), _0x281b05(0x142), 'tak', _0x281b05(0xf3), 'secara', _0x281b05(0x180), _0x281b05(0xc2), _0x281b05(0xee), _0x281b05(0x192), _0x281b05(0x185), _0x281b05(0x14b), _0x281b05(0x15d), _0x281b05(0xeb), _0x281b05(0x98), _0x281b05(0x19e), 'pernah', 'sebelum', 'dan', _0x281b05(0x1c8), _0x281b05(0xd2), 'saat', _0x281b05(0x18d), 'pusat', _0x281b05(0x15c), 'setelah', _0x281b05(0x13f), 'kecuali', _0x281b05(0x1c4), 'ku', 'perlu', _0x281b05(0x121), _0x281b05(0x107), _0x281b05(0xef), _0x281b05(0x176), _0x281b05(0x174), _0x281b05(0x15a), _0x281b05(0x172), _0x281b05(0x1a6), 'kerja', _0x281b05(0x19c), _0x281b05(0x1ad), 'punya', 'lagi', 'naik', _0x281b05(0x12c), _0x281b05(0xcf), _0x281b05(0x131), _0x281b05(0xf0), _0x281b05(0x96), _0x281b05(0x13b), _0x281b05(0x104), _0x281b05(0xfb), _0x281b05(0x1b6), _0x281b05(0x127), _0x281b05(0x119), _0x281b05(0x169), _0x281b05(0x11d), _0x281b05(0x13a), _0x281b05(0x1af), 'sehingga', _0x281b05(0x17d), _0x281b05(0x1b7), _0x281b05(0xde), _0x281b05(0x1c7), _0x281b05(0x171), _0x281b05(0xe6), _0x281b05(0xb1), _0x281b05(0x148), 'terhadap', _0x281b05(0x1a3), _0x281b05(0x8f), 'mulai', 'mungkin', _0x281b05(0xec), _0x281b05(0x18f), _0x281b05(0xd5), _0x281b05(0xc4), 'hati', 'terlalu', 'kalau', _0x281b05(0x1a2), _0x281b05(0xd1), _0x281b05(0x1c3), _0x281b05(0x156), _0x281b05(0xf1), _0x281b05(0x193), _0x281b05(0x18e), _0x281b05(0x143), 'bagian', 'menurut', 'pulang', _0x281b05(0xc0), _0x281b05(0x9d), _0x281b05(0x137), 'hari', _0x281b05(0x116), _0x281b05(0x181), _0x281b05(0x162), 'setiap', 'memiliki', 'sementara', _0x281b05(0x1bf), 'jangan', _0x281b05(0x163), _0x281b05(0xe4), _0x281b05(0xba), _0x281b05(0x1c5), 'jelas', 'sama', 'membuat', _0x281b05(0x16f), _0x281b05(0x18b), _0x281b05(0x12b), 'di', _0x281b05(0xb8), _0x281b05(0x16a), _0x281b05(0x100), _0x281b05(0x11e), _0x281b05(0x14d), 'bahkan', _0x281b05(0x10c), _0x281b05(0x101), 'kali', _0x281b05(0xa5), 'dapat', _0x281b05(0x15b), _0x281b05(0x1b0), _0x281b05(0x124), 'ia', _0x281b05(0xb2), _0x281b05(0xa4), _0x281b05(0x198), _0x281b05(0xf7), _0x281b05(0x10b), _0x281b05(0x15e), 'kembali', _0x281b05(0x134), _0x281b05(0x12a), _0x281b05(0xe8), _0x281b05(0x110), 'pagi', _0x281b05(0x1a1), _0x281b05(0x177), _0x281b05(0x1c1), _0x281b05(0x146), _0x281b05(0x141), 'lama', _0x281b05(0x1a7), 'maupun', _0x281b05(0x14c), _0x281b05(0xfd), _0x281b05(0x17c), 'ke', _0x281b05(0x1b2), 'besok', 'kemarin', 'agar', _0x281b05(0x183), _0x281b05(0x1bd), _0x281b05(0xce), _0x281b05(0x195), _0x281b05(0xc6), _0x281b05(0x115), _0x281b05(0x165)]], nihon = [{ 'kelipatan': 0x9 }, ['なに', 'だれ', 'どこ', 'いつ', 'と', 'から', 'に', 'あなた', _0x281b05(0xb3), _0x281b05(0xbd), _0x281b05(0x133), _0x281b05(0xbb), 'はい', _0x281b05(0x10e), 'の', _0x281b05(0x136), _0x281b05(0xad), 'たべます', _0x281b05(0x19d), _0x281b05(0x91), 'よみます', 'あさ', 'それ', 'これ', 'また', 'ただ', 'よる', 'もっと', _0x281b05(0xa3), _0x281b05(0x105), _0x281b05(0x1b1), 'という', _0x281b05(0x8e), _0x281b05(0x168), _0x281b05(0x196), 'へ', _0x281b05(0x9c), _0x281b05(0xa2), 'その', _0x281b05(0x1ae), 'ください', _0x281b05(0xe1), 'でも', _0x281b05(0x191), _0x281b05(0x15f), 'ない', 'ている', 'もう', _0x281b05(0xb0), 'なら', 'ので', 'より', _0x281b05(0x182), 'です', 'めて', 'まて', 'ここ']];</script>
+    <script>const _0x1e75b2 = _0x321e; (function (_0x2c5de1, _0x27b258) { const _0x1b2c66 = _0x321e, _0x26837b = _0x2c5de1(); while (!![]) { try { const _0x3585f2 = -parseInt(_0x1b2c66(0x205)) / 0x1 + parseInt(_0x1b2c66(0x237)) / 0x2 * (parseInt(_0x1b2c66(0x1ed)) / 0x3) + parseInt(_0x1b2c66(0x1ea)) / 0x4 * (-parseInt(_0x1b2c66(0x253)) / 0x5) + parseInt(_0x1b2c66(0x25b)) / 0x6 + -parseInt(_0x1b2c66(0x25a)) / 0x7 + -parseInt(_0x1b2c66(0x1fe)) / 0x8 * (-parseInt(_0x1b2c66(0x21b)) / 0x9) + parseInt(_0x1b2c66(0x216)) / 0xa * (-parseInt(_0x1b2c66(0x229)) / 0xb); if (_0x3585f2 === _0x27b258) break; else _0x26837b['push'](_0x26837b['shift']()); } catch (_0x1ae9a0) { _0x26837b['push'](_0x26837b['shift']()); } } }(_0x3a04, 0x71b03), $(document)[_0x1e75b2(0x247)](function () { $('#loading')['remove'](); }), $(document)['on'](_0x1e75b2(0x21f), function (_0x403a3a) { const _0x7779ec = _0x1e75b2; _0x403a3a['ctrlKey'] && _0x403a3a[_0x7779ec(0x231)] == '\x20'[_0x7779ec(0x21e)](0x0) && RESET[_0x7779ec(0x1d7)](); })); function getCookie(_0x47b0ec) { const _0x121e62 = _0x1e75b2, _0x65d06 = ';\x20' + document[_0x121e62(0x24e)], _0x1fa84d = _0x65d06[_0x121e62(0x25c)](';\x20' + _0x47b0ec + '='); return _0x1fa84d[_0x121e62(0x249)]()['split'](';')[_0x121e62(0x222)](); } const KURVA = document[_0x1e75b2(0x22f)](_0x1e75b2(0x20a)); function updateKurva(_0x561096) { const _0x14b7c7 = _0x1e75b2; google[_0x14b7c7(0x1da)][_0x14b7c7(0x1d5)](_0x14b7c7(0x1ff), { 'packages': [_0x14b7c7(0x246)] }), google[_0x14b7c7(0x1da)][_0x14b7c7(0x255)](_0x4c8b86); function _0x4c8b86() { const _0x5eea0a = _0x14b7c7; var _0x2171d2 = google[_0x5eea0a(0x250)]['arrayToDataTable'](_0x561096), _0x9e56d2 = new google[(_0x5eea0a(0x250))]['LineChart'](document[_0x5eea0a(0x22f)]('#curve_chart')), _0x2d637c = { 'title': '', 'curveType': _0x5eea0a(0x1f7), 'legend': { 'position': _0x5eea0a(0x209) } }; _0x9e56d2[_0x5eea0a(0x1df)](_0x2171d2, _0x2d637c); } KURVA[_0x14b7c7(0x1fb)][_0x14b7c7(0x1e4)] = 'visible'; } function _0x3a04() { const _0x4b39aa = ['function', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20class=\x22tr-expor\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20colspan=\x227\x22><button\x20class=\x22export-button\x22\x20onclick=\x22exportData(\x27xlsx\x27)\x22\x20title=\x22Klik\x20untuk\x20mengexport\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini\x22><i\x20class=\x22fa\x20fa-book\x22></i>\x20Export\x20Data</button></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>', 'nihon_last_wpm', 'inggris', 'style', 'title', '語/分#', '13848Cqxqys', 'current', '</span>', 'value', 'data_kpm=', '.words', 'transparent', '441276lgJkMy', 'Desember', 'classList', 'querySelectorAll', 'bottom', '#curve_chart', 'November', 'Waktu\x20mengetik\x20telah\x20habis!', 'Bahasa\x20Inggris', 'join', '.result', '.reset-btn\x20i', 'floor', 'rgb(0,\x20182,\x200)', '.reset-btn', 'getFullYear', 'rgb(255,\x2089,\x2089)', '1680740PLddLA', 'rotate', '.kata-', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>', 'includes', '1746yydafe', 'toFixed', 'Data\x20latihan\x20mengetik\x20', 'charCodeAt', 'keydown', 'addEventListener', 'getMonth', 'shift', 'add', 'slice', 'speed_record=', 'Export\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini?', 'background', '>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', '11scwVFP', 'Juli', 'getDate', 'indonesia_last_kpm', '#second', 'input', 'querySelector', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>', 'keyCode', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>#</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Waktu</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Bahasa</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Akurasi</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20benar</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20salah</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kecepatan</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', 'last_result', 'block', 'Agustus', '.word-row-2', '4QYoole', 'Juni', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Bahasa\x20', '%</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'Oktober', '.kata-0', 'color', 'length', 'Bahasa\x20Indonesia', 'english_last_wpm=', 'forEach', '</div>', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>', '.word-row-1', 'visible', 'corechart', 'ready', 'innerHTML', 'pop', 'push', '.timer', '#language-select', '.tr-expor', 'cookie', 'speed_record', 'visualization', '\x27\x20style=\x22display:none;\x22>', '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>', '5LMlKnc', 'WPM', 'setOnLoadCallback', 'indonesia', 'display', 'remove', '.nihon', '3577539eWZTah', '5063850FkZpIB', 'split', 'Januari', 'getMinutes', 'highest_speed=', 'indonesia_last_kpm=', 'highest_speed', '<span\x20class=\x27kata-', '.word-input', 'english_last_wpm', 'change', 'Maret', 'selected_language', 'rgb(215,\x20215,\x20215)', 'Anda\x20tidak\x20memiliki\x20data\x20untuk\x20diekspor!', 'WPM#', 'load', 'kelipatan', 'click', 'jepang', 'data_kpm', 'charts', 'toUpperCase', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>', 'draw', 'table_to_book', 'writeFile', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', 'nihon_last_wpm=', 'visibility', '#minute', 'Klik\x20untuk\x20menyembunyikan\x20hitungan\x20mundur', 'selected_language=', 'random', '<div\x20class=\x27word-row-', '1037876qLFNYu', 'nihon', '.word-row-', '998661CDtIHJ', 'map', 'filter', 'getHours', 'sheet1', 'Mei', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'base64', 'focus', 'utils']; _0x3a04 = function () { return _0x4b39aa; }; return _0x3a04(); } let stats_data = [[_0x1e75b2(0x254), _0x1e75b2(0x20d), _0x1e75b2(0x23f), 'Bahasa\x20Jepang']]; if (getCookie(_0x1e75b2(0x1d9))) { let data_kpm = getCookie(_0x1e75b2(0x1d9))[_0x1e75b2(0x25c)](',,')['slice'](0x1); data_kpm[_0x1e75b2(0x241)](_0x5d7f54 => { const _0x496e7b = _0x1e75b2; _0x5d7f54 = _0x5d7f54[_0x496e7b(0x25c)](','), stats_data[_0x496e7b(0x24a)](['', Number(_0x5d7f54[0x0]), Number(_0x5d7f54[0x1]), Number(_0x5d7f54[0x2])]); }), updateKurva(stats_data), document[_0x1e75b2(0x24e)] = 'data_kpm=' + stats_data; } const TABEL = document[_0x1e75b2(0x22f)]('#speed-record'); let speed_record = '', speed_tertinggi = 0x0; getCookie(_0x1e75b2(0x261)) && (speed_tertinggi = parseInt(getCookie(_0x1e75b2(0x261)))); function _0x321e(_0x38e8b3, _0x58cbe8) { const _0x3a0427 = _0x3a04(); return _0x321e = function (_0x321e94, _0x319602) { _0x321e94 = _0x321e94 - 0x1cf; let _0x47ffdb = _0x3a0427[_0x321e94]; return _0x47ffdb; }, _0x321e(_0x38e8b3, _0x58cbe8); } function updateTabel() { const _0x6703b = _0x1e75b2; let _0x7ed27d = speed_record[_0x6703b(0x25c)]('#')[_0x6703b(0x1ef)](_0x1eccb5 => _0x1eccb5)['map'](_0x223c4b => _0x223c4b[_0x6703b(0x25c)](',')), _0x1fba01 = ''; _0x7ed27d[_0x6703b(0x241)]((_0x5dc5be, _0x1459d7) => { const _0x55c813 = _0x6703b; _0x1fba01 += _0x55c813(0x1dc) + (_0x5dc5be[0x5]['split']('\x20')[0x0] >= speed_tertinggi ? 'class=\x22highest\x22' : '') + _0x55c813(0x228) + (_0x1459d7 + 0x1) + _0x55c813(0x1f3) + _0x5dc5be[0x0] + _0x55c813(0x239) + _0x5dc5be[0x1] + _0x55c813(0x1f3) + _0x5dc5be[0x2] + _0x55c813(0x23a) + _0x5dc5be[0x3] + _0x55c813(0x1f3) + _0x5dc5be[0x4] + _0x55c813(0x1f3) + _0x5dc5be[0x5] + _0x55c813(0x219); }), TABEL[_0x6703b(0x248)] = _0x6703b(0x232) + _0x1fba01 + _0x6703b(0x1f8), TABEL['style']['visibility'] = _0x6703b(0x245); } getCookie(_0x1e75b2(0x24f)) && (speed_record = getCookie(_0x1e75b2(0x24f)), updateTabel()); const INPUT = document[_0x1e75b2(0x22f)](_0x1e75b2(0x263)), RESET = document[_0x1e75b2(0x22f)](_0x1e75b2(0x213)), MENIT = document[_0x1e75b2(0x22f)](_0x1e75b2(0x1e5)), DETIK = document[_0x1e75b2(0x22f)](_0x1e75b2(0x22d)), RESULT = document[_0x1e75b2(0x22f)](_0x1e75b2(0x20f)); let word = [], kelipatan, language = _0x1e75b2(0x1fa); function lang(_0x42eac6) { const _0x9c324a = _0x1e75b2; document[_0x9c324a(0x208)](_0x9c324a(0x259))['forEach'](_0x5a10c9 => _0x5a10c9['classList'][_0x9c324a(0x258)](_0x9c324a(0x1eb))); if (_0x42eac6 === 'inggris') kelipatan = english[0x0][_0x9c324a(0x1d6)], word = english[0x1]; else { if (_0x42eac6 === _0x9c324a(0x256)) kelipatan = indonesia[0x0][_0x9c324a(0x1d6)], word = indonesia[0x1]; else _0x42eac6 === _0x9c324a(0x1d8) && (INPUT[_0x9c324a(0x207)]['add'](_0x9c324a(0x1eb)), document[_0x9c324a(0x22f)](_0x9c324a(0x203))[_0x9c324a(0x207)][_0x9c324a(0x223)](_0x9c324a(0x1eb)), kelipatan = nihon[0x0][_0x9c324a(0x1d6)], word = nihon[0x1]); } } lang(language); const Timer = 0x3c; let menit = Math[_0x1e75b2(0x211)](Timer / 0x3c), detik = Timer - menit * 0x3c; function resetTimer() { const _0x3fe6a = _0x1e75b2; menit = Math['floor'](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x3fe6a(0x248)] = menit, DETIK[_0x3fe6a(0x248)] = '00', INPUT[_0x3fe6a(0x1f5)](); } function updateResult(_0x53b02f, _0xc5f865, _0x543721, _0x32abe4, _0x22c7d6) { const _0x5f2e6d = _0x1e75b2; RESULT[_0x5f2e6d(0x248)] = _0x5f2e6d(0x1e2) + Math[_0x5f2e6d(0x211)]((_0xc5f865 + _0x543721) / 0x5 / Math[_0x5f2e6d(0x211)](Timer / 0x3c)) + '\x20' + (_0x53b02f == _0x5f2e6d(0x256) ? 'KPM' : _0x53b02f == _0x5f2e6d(0x1d8) ? '語/分' : _0x5f2e6d(0x254)) + '</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Penekanan\x20huruf</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>' + _0xc5f865 + _0x5f2e6d(0x230) + _0x543721 + '</span>)\x20<span\x20class=\x27keystrokes\x27>' + (_0xc5f865 + _0x543721) + _0x5f2e6d(0x252) + (_0xc5f865 / (_0xc5f865 + _0x543721 + _0x22c7d6) * 0x64)['toFixed'](0x2) + _0x5f2e6d(0x1de) + _0x32abe4 + _0x5f2e6d(0x243) + _0x22c7d6 + _0x5f2e6d(0x1dd), RESULT[_0x5f2e6d(0x1fb)][_0x5f2e6d(0x257)] = 'block'; } if (getCookie(_0x1e75b2(0x233))) { let data = getCookie('last_result')['split']('#')['map'](_0x27ec01 => _0x27ec01 == Number(_0x27ec01) ? Number(_0x27ec01) : _0x27ec01); updateResult(data[0x0], data[0x1], data[0x2], data[0x3], data[0x4]); } let hidden = ![]; document[_0x1e75b2(0x22f)]('.time-countdown')[_0x1e75b2(0x220)](_0x1e75b2(0x1d7), function () { const _0x20f301 = _0x1e75b2; !hidden ? (this[_0x20f301(0x1fc)] = 'Klik\x20untuk\x20menampilkan\x20hitungan\x20mundur', hidden = !![]) : (this['title'] = _0x20f301(0x1e6), hidden = ![]), document['querySelectorAll'](_0x20f301(0x24b))['forEach'](_0x535983 => _0x535983['classList']['toggle']('hidden-timer')); }); let typingTest = ![]; const jumlah_kata = 0xc8; function resetWords() { const _0x492c7b = _0x1e75b2; index = 0x0; let _0x4d4635 = []; for (let _0x4fdd81 = 0x0; _0x4fdd81 <= jumlah_kata; _0x4fdd81++) { let _0x53f68a = word[parseInt(Math[_0x492c7b(0x1e8)]() * word[_0x492c7b(0x23e)])]; _0x4d4635[_0x492c7b(0x24a)](_0x53f68a ? _0x53f68a : ''); } _0x4d4635 = _0x4d4635[_0x492c7b(0x1ef)](_0x53a146 => _0x53a146 != '')[_0x492c7b(0x1ee)]((_0x6ac6f6, _0x3bd326) => _0x492c7b(0x262) + _0x3bd326 + '\x27>' + _0x6ac6f6 + _0x492c7b(0x200)); let _0xace638 = 0x0, _0x1e967f = []; for (let _0x1c3185 = 0x0; _0x1c3185 < jumlah_kata; _0x1c3185++) { _0x1c3185 % kelipatan == kelipatan - 0x1 && (_0x1e967f[_0x492c7b(0x24a)](_0x4d4635['slice'](_0xace638, [_0x1c3185 + 0x1])), _0xace638 += kelipatan); } _0x1e967f['forEach']((_0x341c36, _0x5cc16d) => { const _0x6adb44 = _0x492c7b; _0x1e967f[_0x5cc16d] = _0x6adb44(0x1e9) + (_0x5cc16d + 0x1) + _0x6adb44(0x251) + _0x341c36[_0x6adb44(0x20e)]('\x20') + _0x6adb44(0x242); }), document[_0x492c7b(0x22f)](_0x492c7b(0x203))['innerHTML'] = _0x1e967f[_0x492c7b(0x20e)]('\x20'), document[_0x492c7b(0x22f)](_0x492c7b(0x244))[_0x492c7b(0x1fb)][_0x492c7b(0x257)] = _0x492c7b(0x234), document['querySelector'](_0x492c7b(0x236))[_0x492c7b(0x1fb)][_0x492c7b(0x257)] = _0x492c7b(0x234), document[_0x492c7b(0x22f)](_0x492c7b(0x23c))['style'][_0x492c7b(0x227)] = _0x492c7b(0x1d2), typingTest = ![], resetTimer(), document['querySelector'](_0x492c7b(0x210))[_0x492c7b(0x207)][_0x492c7b(0x223)](_0x492c7b(0x217)), setTimeout(() => { const _0x4467b3 = _0x492c7b; document['querySelector'](_0x4467b3(0x210))['classList'][_0x4467b3(0x258)]('rotate'); }, 0x190); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_kpm = 0x0, english_last_wpm = 0x0, nihon_last_wpm = 0x0; getCookie(_0x1e75b2(0x22c)) && (indonesia_last_kpm = getCookie(_0x1e75b2(0x22c))); getCookie(_0x1e75b2(0x264)) && (english_last_wpm = getCookie(_0x1e75b2(0x264))); getCookie(_0x1e75b2(0x1f9)) && (nihon_last_wpm = getCookie(_0x1e75b2(0x1f9))); function start() { const _0x5d8859 = _0x1e75b2; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT['addEventListener'](_0x5d8859(0x22e), function () { const _0x4f9874 = _0x5d8859; if (language === 'indonesia' || language === _0x4f9874(0x1fa)) { if (this[_0x4f9874(0x201)] == document[_0x4f9874(0x22f)]('.kata-' + index)['innerHTML'] + '\x20') document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)][_0x4f9874(0x23d)] = _0x4f9874(0x212), document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)['style'][_0x4f9874(0x227)] = 'transparent', this[_0x4f9874(0x201)] = '', correctWords++, correctChar += document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x248)][_0x4f9874(0x23e)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x4f9874(0x22f)]('.word-row-' + wrIndex)[_0x4f9874(0x258)](), wrIndex++, document[_0x4f9874(0x22f)]('.word-row-' + (wrIndex + 0x1))[_0x4f9874(0x1fb)][_0x4f9874(0x257)] = 'block'), index++, document[_0x4f9874(0x22f)]('.kata-' + index)[_0x4f9874(0x1fb)][_0x4f9874(0x227)] = _0x4f9874(0x1d2); else { if (this[_0x4f9874(0x201)]['split']('\x20')[_0x4f9874(0x20e)]('') <= 0x1) this[_0x4f9874(0x201)] = ''; else this['value'] != document[_0x4f9874(0x22f)]('.kata-' + index)[_0x4f9874(0x248)][_0x4f9874(0x224)](0x0, this[_0x4f9874(0x201)][_0x4f9874(0x23e)]) ? document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)][_0x4f9874(0x227)] = _0x4f9874(0x215) : document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)][_0x4f9874(0x227)] = 'rgb(215,\x20215,\x20215)'; } } else { if (language === _0x4f9874(0x1d8)) { if (this[_0x4f9874(0x201)] == document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x248)] + '\u3000') document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)]['color'] = 'rgb(0,\x20182,\x200)', document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)][_0x4f9874(0x227)] = _0x4f9874(0x204), this['value'] = '', correctWords++, correctChar += document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x248)][_0x4f9874(0x23e)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x4f9874(0x22f)](_0x4f9874(0x1ec) + wrIndex)['remove'](), wrIndex++, document[_0x4f9874(0x22f)](_0x4f9874(0x1ec) + (wrIndex + 0x1))[_0x4f9874(0x1fb)][_0x4f9874(0x257)] = _0x4f9874(0x234)), index++, document[_0x4f9874(0x22f)]('.kata-' + index)[_0x4f9874(0x1fb)]['background'] = _0x4f9874(0x1d2); else { if (this[_0x4f9874(0x201)][_0x4f9874(0x25c)]('\u3000')[_0x4f9874(0x20e)]('') <= 0x1) this[_0x4f9874(0x201)] = ''; else this['value'] != document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x248)][_0x4f9874(0x224)](0x0, this[_0x4f9874(0x201)][_0x4f9874(0x23e)]) ? document[_0x4f9874(0x22f)]('.kata-' + index)[_0x4f9874(0x1fb)]['background'] = _0x4f9874(0x215) : document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)][_0x4f9874(0x227)] = _0x4f9874(0x1d2); } } } ([...this[_0x4f9874(0x201)]][_0x4f9874(0x21a)]('\x20') || [...this[_0x4f9874(0x201)]]['includes']('\u3000')) && (document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)][_0x4f9874(0x227)] = 'transparent', document[_0x4f9874(0x22f)]('.kata-' + index)['style'][_0x4f9874(0x23d)] = _0x4f9874(0x215), this[_0x4f9874(0x201)] = '', wrongWords++, wrongChar += document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x248)]['length'] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x4f9874(0x22f)](_0x4f9874(0x1ec) + wrIndex)[_0x4f9874(0x258)](), wrIndex++, document[_0x4f9874(0x22f)](_0x4f9874(0x1ec) + (wrIndex + 0x1))[_0x4f9874(0x1fb)][_0x4f9874(0x257)] = 'block'), index++, document[_0x4f9874(0x22f)](_0x4f9874(0x218) + index)[_0x4f9874(0x1fb)][_0x4f9874(0x227)] = _0x4f9874(0x1d2)); }); let _0x4c8fca = setInterval(() => { const _0x560fe4 = _0x5d8859; if (typingTest == ![]) return clearInterval(_0x4c8fca), INPUT[_0x560fe4(0x201)] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK[_0x560fe4(0x248)] = '' + (detik < 0xa ? '0' : '') + detik; else { if (menit >= 0x1) menit--, MENIT['innerHTML'] = menit, detik = 0x3b, DETIK[_0x560fe4(0x248)] = '' + (detik < 0xa ? '0' : '') + detik; else { clearInterval(_0x4c8fca), resetWords(), INPUT[_0x560fe4(0x201)] = '', alert(_0x560fe4(0x20c)); if (language === _0x560fe4(0x256)) stats_data['push'](['', english_last_wpm, Math[_0x560fe4(0x211)]((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c)), nihon_last_wpm]), document[_0x560fe4(0x24e)] = _0x560fe4(0x260) + Math['floor']((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c)), indonesia_last_kpm = getCookie('indonesia_last_kpm'); else { if (language === _0x560fe4(0x1fa)) stats_data[_0x560fe4(0x24a)](['', Math[_0x560fe4(0x211)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)), indonesia_last_kpm, nihon_last_wpm]), document['cookie'] = _0x560fe4(0x240) + Math[_0x560fe4(0x211)]((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c)), english_last_wpm = getCookie('english_last_wpm'); else language === _0x560fe4(0x1d8) && (stats_data[_0x560fe4(0x24a)](['', english_last_wpm, indonesia_last_kpm, Math[_0x560fe4(0x211)]((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c))]), document[_0x560fe4(0x24e)] = _0x560fe4(0x1e3) + Math[_0x560fe4(0x211)]((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c)), nihon_last_wpm = getCookie('nihon_last_wpm')); } updateKurva(stats_data), document[_0x560fe4(0x24e)] = _0x560fe4(0x202) + stats_data, updateResult(language, correctChar, wrongChar, correctWords, wrongWords), document[_0x560fe4(0x24e)] = 'last_result=' + language + '#' + correctChar + '#' + wrongChar + '#' + correctWords + '#' + wrongWords, Math['floor']((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c)) > speed_tertinggi && (speed_tertinggi = Math[_0x560fe4(0x211)]((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c)), document[_0x560fe4(0x24e)] = _0x560fe4(0x25f) + speed_tertinggi), speed_record += '' + (new Date()[_0x560fe4(0x1f0)]() < 0xa ? '0' : '') + new Date()[_0x560fe4(0x1f0)]() + ':' + (new Date()['getMinutes']() < 0xa ? '0' : '') + new Date()[_0x560fe4(0x25e)]() + ',' + language['charAt'](0x0)[_0x560fe4(0x1db)]() + language[_0x560fe4(0x224)](0x1) + ',' + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)[_0x560fe4(0x21c)](0x2) + ',' + correctWords + ',' + wrongWords + ',' + Math[_0x560fe4(0x211)]((correctChar + wrongChar) / 0x5 / Math[_0x560fe4(0x211)](Timer / 0x3c)) + '\x20' + (language == 'indonesia' ? 'KPM#' : language == _0x560fe4(0x1d8) ? _0x560fe4(0x1fd) : _0x560fe4(0x1d4)), document[_0x560fe4(0x24e)] = _0x560fe4(0x225) + speed_record, updateTabel(); } } } }, 0x3e8); } } INPUT[_0x1e75b2(0x220)](_0x1e75b2(0x22e), function () { start(Timer); }), RESET[_0x1e75b2(0x220)](_0x1e75b2(0x1d7), function () { resetWords(); }), document[_0x1e75b2(0x22f)](_0x1e75b2(0x24c))[_0x1e75b2(0x220)](_0x1e75b2(0x1cf), function () { const _0x949b46 = _0x1e75b2; language = this[_0x949b46(0x201)], document[_0x949b46(0x24e)] = _0x949b46(0x1e7) + language, lang(language), resetWords(); }); getCookie(_0x1e75b2(0x1d1)) && (document[_0x1e75b2(0x22f)](_0x1e75b2(0x24c))['value'] = getCookie(_0x1e75b2(0x1d1)), language = getCookie(_0x1e75b2(0x1d1)), lang(language)); resetWords(); const Bulan = [_0x1e75b2(0x25d), 'Februari', _0x1e75b2(0x1d0), 'April', _0x1e75b2(0x1f2), _0x1e75b2(0x238), _0x1e75b2(0x22a), _0x1e75b2(0x235), 'September', _0x1e75b2(0x23b), _0x1e75b2(0x20b), _0x1e75b2(0x206)]; function exportData(_0x1138e6) { const _0x54fe85 = _0x1e75b2; if (confirm(_0x54fe85(0x226))) { if (speed_record[_0x54fe85(0x23e)] <= 0x0) return alert(_0x54fe85(0x1d3)), ![]; let _0x466983 = _0x54fe85(0x21d) + new Date()[_0x54fe85(0x22b)]() + '\x20' + Bulan[new Date()[_0x54fe85(0x221)]()] + '\x20' + new Date()[_0x54fe85(0x214)](); document[_0x54fe85(0x22f)](_0x54fe85(0x24d))['remove'](); let _0x36eccd = TABEL, _0x44b23a = XLSX[_0x54fe85(0x1f6)][_0x54fe85(0x1e0)](_0x36eccd, { 'sheet': _0x54fe85(0x1f1) }); XLSX['write'](_0x44b23a, { 'bookType': _0x1138e6, 'bookSST': !![], 'type': _0x54fe85(0x1f4) }), XLSX[_0x54fe85(0x1e1)](_0x44b23a, _0x466983 + '.' + _0x1138e6), updateTabel(); } }</script>
 </body>
 
 </html>
