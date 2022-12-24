@@ -13,13 +13,13 @@
         @import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-        #loading,
-        #header {
-            position: fixed;
+        #language-select:hover {
+            background: #77ce77;
         }
 
-        * {
-            padding-left: 0;
+        #header,
+        #loading {
+            position: fixed;
         }
 
         #loading {
@@ -35,60 +35,119 @@
         }
 
         #loading {
-            overflow: hidden;
-        }
-
-        #loading {
             background: rgba(255, 255, 255, .4);
         }
 
+        #loading img {
+            margin-left: auto;
+        }
+
+        [class~=vertical-center],
         #header {
-            z-index: 99;
-        }
-
-        #header {
-            padding-left: .3125in;
-        }
-
-        #header {
-            padding-bottom: 10.5pt;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        #header {
-            padding-right: .3125in;
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-
-        #header {
-            padding-top: 10.5pt;
-        }
-
-        #header,
-        [class~=vertical-center] {
             display: flex;
-        }
-
-        #header {
-            width: 100%;
         }
 
         [class~=vertical-center] {
             flex-direction: column;
         }
 
+        [class~=vertical-center] {
+            justify-content: center;
+        }
+
         #header {
-            gap: 10.5pt;
+            z-index: 99;
+        }
+
+        #loading img {
+            margin-bottom: 0;
+        }
+
+        * {
+            padding-left: 0;
+        }
+
+        #header {
+            padding-left: 1.875pc;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        [class~=header-text] {
+            font-family: "Nerko One";
+        }
+
+        #header {
+            padding-bottom: .875pc;
+        }
+
+        #loading img {
+            margin-right: auto;
+        }
+
+        #loading img {
+            margin-top: 0;
+        }
+
+        #loading img {
+            width: 40px;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        [class~=header-text] {
+            font-size: 1.375pc;
+        }
+
+        *,
+        #language-select {
+            padding-bottom: 0;
+        }
+
+        #header {
+            padding-right: 1.875pc;
+        }
+
+        #header {
+            padding-top: .875pc;
+        }
+
+        [class~=header-text] {
+            color: #ffdc1e;
+        }
+
+        #header {
+            width: 100%;
+        }
+
+        #header p {
+            font-size: .135416667in;
+        }
+
+        * {
+            padding-right: 0;
+        }
+
+        #language-select,
+        #header p {
+            color: white;
+        }
+
+        #header {
+            gap: .1875in;
         }
 
         #header {
             background: rgba(0, 0, 0, .6);
+        }
+
+        *,
+        #language-select {
+            padding-top: 0;
         }
 
         #header {
@@ -107,8 +166,8 @@
             border-image: none;
         }
 
-        #loading img {
-            margin-left: auto;
+        #header {
+            backdrop-filter: blur(4px);
         }
 
         #language-select {
@@ -119,43 +178,28 @@
             position: absolute;
         }
 
-        [class~=vertical-center] {
-            justify-content: center;
+        #language-select {
+            right: 22.5pt;
         }
 
         #language-select {
-            right: 1.875pc;
-        }
-
-        *,
-        #loading img {
-            margin-bottom: 0;
-        }
-
-        *,
-        #language-select {
-            padding-bottom: 0;
+            padding-left: .625pc;
         }
 
         #language-select {
-            padding-left: .104166667in;
+            padding-right: 2.5pc;
         }
 
         #language-select {
-            padding-right: 33.75pt;
+            height: 60%;
         }
 
         [class~=header-text] {
-            font-family: "Nerko One";
+            text-shadow: .0625pc .010416667in black;
         }
 
-        #language-select,
         * {
-            padding-top: 0;
-        }
-
-        #language-select {
-            height: 55%;
+            margin-left: 0;
         }
 
         #language-select {
@@ -167,35 +211,23 @@
         }
 
         #language-select {
-            border-radius: 3px;
+            border-radius: .1875pc;
         }
 
         #language-select {
-            border-left-width: .0625pc;
-        }
-
-        * {
-            padding-right: 0;
+            border-left-width: .75pt;
         }
 
         #language-select {
-            border-bottom-width: .0625pc;
-        }
-
-        #loading img {
-            margin-right: auto;
+            border-bottom-width: .75pt;
         }
 
         #language-select {
-            border-right-width: .0625pc;
+            border-right-width: .75pt;
         }
 
         #language-select {
-            border-top-width: .0625pc;
-        }
-
-        [class~=header-text] {
-            font-size: 1.375pc;
+            border-top-width: .75pt;
         }
 
         #language-select {
@@ -214,12 +246,12 @@
             border-top-style: solid;
         }
 
-        body {
-            background: linear-gradient(rgba(190, 230, 250, .5), rgba(190, 230, 250, .5)), url("https://t3.ftcdn.net/jpg/02/11/13/88/360_F_211138825_O4kGnfs1vGQqQ4Cba5rhsAVDXFuYa5Tp.jpg");
-        }
-
         #language-select {
             border-left-color: #204d20;
+        }
+
+        * {
+            margin-bottom: 0;
         }
 
         #language-select {
@@ -228,6 +260,10 @@
 
         #language-select {
             border-right-color: #204d20;
+        }
+
+        body {
+            background: linear-gradient(rgba(190, 230, 250, .8), rgba(190, 230, 250, .8)), url("img/background-pattern.jpg");
         }
 
         #language-select {
@@ -246,6 +282,10 @@
             appearance: none;
         }
 
+        * {
+            margin-right: 0;
+        }
+
         #language-select {
             background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") !important;
         }
@@ -255,25 +295,15 @@
         }
 
         #language-select {
-            background-position: right .104166667in center !important;
+            background-position: right 10px center !important;
         }
 
         body {
             font-family: "Roboto";
         }
 
-        *,
-        #loading img {
-            margin-top: 0;
-        }
-
         #language-select {
-            background-size: 1.3em !important;
-        }
-
-        #language-select,
-        #header p {
-            color: white;
+            background-size: 1.2em !important;
         }
 
         #language-select {
@@ -281,80 +311,48 @@
         }
 
         #language-select {
-            font-size: .875pc;
+            font-size: .145833333in;
         }
 
         #language-select {
-            letter-spacing: .7px;
-        }
-
-        #loading img {
-            width: .416666667in;
+            letter-spacing: .008333333in;
         }
 
         #language-select * {
             background: white;
         }
 
+        * {
+            margin-top: 0;
+        }
+
         #language-select * {
             color: black;
-        }
-
-        [class~=header-text] {
-            color: #ffdc1e;
-        }
-
-        * {
-            margin-left: 0;
-        }
-
-        #header p {
-            font-size: .135416667in;
-        }
-
-        [class~=header-text] {
-            text-shadow: .5px .010416667in black;
-        }
-
-        [class~=header-text] {
-            letter-spacing: .125pc;
-        }
-
-        [class~=header-text] {
-            text-decoration: none;
-        }
-
-        #language-select:hover {
-            background: #77ce77;
-        }
-
-        #header p {
-            letter-spacing: .003125in;
-        }
-
-        #header p {
-            text-shadow: .375pt .375pt black;
-        }
-
-        * {
-            margin-right: 0;
         }
 
         * {
             box-sizing: border-box;
         }
 
-        @media (max-width: 768px) {
-            #header p {
-                display: none;
-            }
+        [class~=header-text] {
+            letter-spacing: 2px;
+        }
 
+        #header p {
+            letter-spacing: .2px;
+        }
+
+        [class~=header-text] {
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
             #header {
                 padding-left: 1.5625pc;
             }
 
             #header {
-                padding-bottom: 8px;
+                padding-bottom: .5pc;
             }
 
             #header {
@@ -362,15 +360,19 @@
             }
 
             #header {
-                padding-top: 8px;
+                padding-top: .5pc;
             }
 
             #language-select {
-                right: 25px;
+                right: 1.5625pc;
             }
 
             #language-select {
                 height: 70%;
+            }
+
+            #header p {
+                display: none;
             }
         }
 
@@ -391,12 +393,8 @@
                 left: 0;
             }
 
-            #header p {
-                display: block;
-            }
-
             #language-select {
-                padding-left: .083333333in;
+                padding-left: 8px;
             }
 
             #language-select {
@@ -408,15 +406,19 @@
             }
 
             #language-select {
-                padding-top: 3pt;
+                padding-top: .041666667in;
             }
 
             #language-select {
                 margin-left: 0;
             }
 
+            #header p {
+                display: block;
+            }
+
             #language-select {
-                margin-bottom: 4px;
+                margin-bottom: 3pt;
             }
 
             #language-select {
@@ -424,32 +426,28 @@
             }
 
             #language-select {
-                margin-top: 8px;
+                margin-top: .083333333in;
             }
 
             #language-select {
-                background-position: right .083333333in center !important;
+                background-position: right .5pc center !important;
             }
         }
 
         #display {
-            position: relative;
+            padding-left: .083333333in;
         }
 
         #display {
-            padding-left: 7.5pt;
+            padding-bottom: .5pc;
         }
 
         #display {
-            padding-bottom: 15pt;
+            padding-right: .083333333in;
         }
 
         #display {
-            padding-right: 7.5pt;
-        }
-
-        #display {
-            padding-top: 65px;
+            padding-top: .677083333in;
         }
 
         #display {
@@ -470,7 +468,7 @@
             }
 
             #display {
-                padding-bottom: .208333333in;
+                padding-bottom: 15pt;
             }
 
             #display {
@@ -478,7 +476,7 @@
             }
 
             #display {
-                padding-top: 3.4375pc;
+                padding-top: .572916667in;
             }
 
             #display {
@@ -504,69 +502,78 @@
             }
         }
 
-        [class~=words] span,
-        #main {
+        [class~=word-request],
+        [class~=words] {
+            margin-left: auto;
+        }
+
+        #main,
+        [class~=words] span {
             padding-left: 0;
         }
 
+        [class~=words] span,
         #main {
-            padding-bottom: 9pt;
-        }
-
-        [class~=word-request] {
-            margin-left: auto;
+            padding-bottom: 0;
         }
 
         #main {
             padding-right: 0;
         }
 
-        #main {
-            padding-top: 9pt;
+        [class~=words],
+        [class~=word-request] {
+            margin-bottom: 0;
         }
 
-        #main,
-        #request-words-key {
+        #main {
+            padding-top: .5pc;
+        }
+
+        #request-words-key,
+        #main {
             width: 100%;
         }
 
-        [class~=word-request],
-        #main {
-            display: flex;
-        }
-
+        #main,
         [class~=word-request] {
-            margin-bottom: 0;
+            display: flex;
         }
 
         #main {
             flex-direction: column;
         }
 
-        [class~=word-request] {
+        #main {
+            gap: .083333333in;
+        }
+
+        [class~=word-request],
+        [class~=words] {
             margin-right: auto;
         }
 
-        #main {
-            gap: 12px;
-        }
-
         #request-words-key {
-            padding-left: .0625in;
+            padding-left: .375pc;
         }
 
-        #request-words-key,
-        #request-words-button {
+        #request-words-button,
+        #request-words-key {
             padding-bottom: .25pc;
-        }
-
-        #request-words-key {
-            padding-right: .0625in;
         }
 
         [class~=word-request],
         [class~=words] {
             margin-top: 0;
+        }
+
+        #request-words-key {
+            padding-right: .375pc;
+        }
+
+        [class~=word-request],
+        [class~=words] {
+            width: 90%;
         }
 
         #request-words-button,
@@ -575,36 +582,76 @@
         }
 
         [class~=word-request] {
-            width: 90%;
+            font-family: "Nunito";
         }
 
-        [class~=words] span {
-            padding-bottom: 0;
+        #request-words-button:hover {
+            background: #4d92ce;
+        }
+
+        [class~=words] {
+            user-select: none;
+        }
+
+        [class~=words] {
+            padding-left: .625pc;
+        }
+
+        [class~=words] {
+            padding-bottom: .375pc;
+        }
+
+        #request-words-key {
+            border-top-left-radius: .03125in;
+        }
+
+        #request-words-key {
+            border-bottom-left-radius: .03125in;
+        }
+
+        [class~=words],
+        #request-words-key {
+            border-left-width: .010416667in;
         }
 
         #request-words-key,
-        #request-words-button {
-            border-radius: .1875pc;
+        [class~=words] {
+            border-bottom-width: .010416667in;
         }
 
         #request-words-key {
-            border-left-width: .75pt;
+            border-right-width: medium;
+        }
+
+        #request-words-key,
+        [class~=words] {
+            border-top-width: .010416667in;
+        }
+
+        #request-words-key,
+        [class~=words] {
+            border-left-style: solid;
+        }
+
+        [class~=words],
+        #request-words-key {
+            border-bottom-style: solid;
         }
 
         #request-words-key {
-            border-bottom-width: .75pt;
-        }
-
-        [class~=word-request] {
-            gap: 4.5pt;
+            border-right-style: none;
         }
 
         #request-words-key {
-            border-right-width: .75pt;
+            border-top-style: solid;
+        }
+
+        [class~=words] {
+            padding-right: .625pc;
         }
 
         #request-words-key {
-            border-top-width: .75pt;
+            border-left-color: #969696;
         }
 
         [class~=words][class~=nihon] span {
@@ -612,39 +659,19 @@
         }
 
         #request-words-key {
-            border-left-style: solid;
-        }
-
-        #request-words-key {
-            border-bottom-style: solid;
-        }
-
-        #request-words-key {
-            border-right-style: solid;
-        }
-
-        [class~=words] {
-            user-select: none;
-        }
-
-        #request-words-key {
-            border-top-style: solid;
-        }
-
-        #request-words-key {
-            border-left-color: #969696;
-        }
-
-        #request-words-key {
             border-bottom-color: #969696;
         }
 
-        #request-words-key {
-            border-right-color: #969696;
+        [class~=words] {
+            padding-top: .375pc;
         }
 
-        [class~=words] {
-            padding-left: .104166667in;
+        [class~=words] span {
+            padding-right: 1.5pt;
+        }
+
+        #request-words-key {
+            border-right-color: currentColor;
         }
 
         #request-words-key {
@@ -656,96 +683,70 @@
         }
 
         #request-words-key {
-            box-shadow: inset .075pt .00625pc .075pt black;
-        }
-
-        #request-words-key {
             outline: none;
         }
 
         #request-words-key {
-            font-size: .145833333in;
-        }
-
-        [class~=words] {
-            padding-bottom: .375pc;
+            font-size: 14px;
         }
 
         #request-words-key {
             color: #303030;
         }
 
-        #request-words-key,
-        #request-words-button {
-            letter-spacing: .0625pc;
+        #request-words-key {
+            letter-spacing: .0375pc;
         }
 
         #request-words-button {
             cursor: pointer;
         }
 
-        #request-words-button:hover {
-            background: #4d92ce;
+        #request-words-button {
+            padding-left: 12pt;
+        }
+
+        #request-words-button {
+            padding-right: 12pt;
+        }
+
+        #request-words-button {
+            border-top-right-radius: .1875pc;
+        }
+
+        #request-words-button {
+            border-bottom-right-radius: .03125in;
         }
 
         [class~=words] {
-            padding-right: .104166667in;
+            border-radius: 3px;
         }
 
         #request-words-button {
-            padding-left: .166666667in;
+            border-left-width: .0625pc;
         }
 
         #request-words-button {
-            padding-right: .166666667in;
-        }
-
-        [class~=words] span {
-            padding-right: .041666667in;
-        }
-
-        [class~=words] {
-            padding-top: .375pc;
-        }
-
-        [class~=words],
-        #request-words-button {
-            border-left-width: .75pt;
-        }
-
-        [class~=words] {
-            margin-left: auto;
-        }
-
-        [class~=words],
-        #request-words-button {
-            border-bottom-width: .75pt;
-        }
-
-        [class~=words] {
-            margin-bottom: 0;
-        }
-
-        [class~=words],
-        #request-words-button {
-            border-right-width: .75pt;
-        }
-
-        [class~=words],
-        #request-words-button {
-            border-top-width: .75pt;
-        }
-
-        [class~=words] {
-            margin-right: auto;
+            border-bottom-width: .0625pc;
         }
 
         #request-words-button,
         [class~=words] {
+            border-right-width: .0625pc;
+        }
+
+        #request-words-button {
+            border-top-width: .0625pc;
+        }
+
+        #request-words-button {
             border-left-style: solid;
         }
 
-        [class~=words],
+        [class~=words] span {
+            padding-top: 0;
+        }
+
         #request-words-button {
             border-bottom-style: solid;
         }
@@ -755,13 +756,9 @@
             border-right-style: solid;
         }
 
-        [class~=words],
-        #request-words-button {
+        #request-words-button,
+        [class~=words] {
             border-top-style: solid;
-        }
-
-        [class~=words] span {
-            padding-top: 0;
         }
 
         #request-words-button {
@@ -772,20 +769,16 @@
             border-bottom-color: #224d74;
         }
 
+        [class~=words] span {
+            font-family: serif;
+        }
+
         #request-words-button {
             border-right-color: #224d74;
         }
 
-        [class~=words] {
-            width: 90%;
-        }
-
         #request-words-button {
             border-top-color: #224d74;
-        }
-
-        [class~=words] {
-            border-radius: 2.25pt;
         }
 
         #request-words-button {
@@ -801,31 +794,19 @@
         }
 
         #request-words-button {
-            font-weight: 600;
-        }
-
-        #request-words-button {
-            font-family: "Nunito";
-        }
-
-        #request-words-button {
-            text-shadow: .5px .005208333in black;
+            letter-spacing: .0125pc;
         }
 
         [class~=words] {
             border-left-color: #8cc8fa;
         }
 
-        [class~=words] span {
-            font-family: serif;
-        }
-
-        [class~=words][class~=nihon] span {
-            font-size: 1.125pc;
-        }
-
         [class~=words] {
             border-bottom-color: #8cc8fa;
+        }
+
+        [class~=words] span {
+            font-size: 1.5pc;
         }
 
         [class~=words] {
@@ -840,53 +821,61 @@
             border-image: none;
         }
 
-        [class~=words] span {
-            font-size: 18pt;
-        }
-
         [class~=words] {
             background: white;
+        }
+
+        [class~=words] span {
+            letter-spacing: .025pc;
         }
 
         [class~=words] {
             word-spacing: .375pc;
         }
 
-        [class~=words] span {
-            color: #202020;
-        }
-
-        [class~=words] span {
-            letter-spacing: .03125pc;
+        [class~=words][class~=nihon] span {
+            font-size: 1.125pc;
         }
 
         @media (max-width: 480px) {
-            [class~=words] {
-                width: 95%;
-            }
-
             [class~=words] span {
                 font-size: 1.375pc;
             }
+
+            [class~=words] {
+                width: 95%;
+            }
+        }
+
+        #mengetik {
+            padding-left: 0;
         }
 
         [class~=word-input] {
-            padding-left: .625pc;
+            padding-left: .5pc;
         }
 
-        [class~=time-countdown],
+        [class~=word-input][class~=nihon] {
+            font-family: "Noto Sans JP";
+        }
+
+        #mengetik {
+            padding-bottom: 4.5pt;
+        }
+
         [class~=word-input],
+        [class~=time-countdown],
         [class~=share-btn],
         [class~=reset-btn] {
             padding-bottom: 0;
         }
 
         [class~=word-input] {
-            padding-right: .625pc;
+            padding-right: .5pc;
         }
 
-        [class~=time-countdown],
         [class~=word-input],
+        [class~=time-countdown],
         [class~=share-btn],
         [class~=reset-btn] {
             padding-top: 0;
@@ -896,67 +885,63 @@
             width: 50%;
         }
 
-        [class~=word-input],
-        [class~=time-countdown],
+        #mengetik {
+            padding-right: 0;
+        }
+
+        [class~=share-btn],
         [class~=reset-btn],
-        [class~=share-btn] {
+        [class~=word-input],
+        [class~=time-countdown] {
             border-radius: 3px;
         }
 
         [class~=word-input] {
-            border-left-width: .75pt;
+            border-left-width: medium;
         }
 
         [class~=word-input] {
-            border-bottom-width: .75pt;
+            border-bottom-width: medium;
         }
 
         [class~=word-input] {
-            border-right-width: .75pt;
+            border-right-width: medium;
         }
 
         [class~=word-input] {
-            border-top-width: .75pt;
-        }
-
-        [class~=word-input][class~=nihon] {
-            font-family: "Noto Sans JP";
-        }
-
-        [class~=word-input][class~=nihon] {
-            font-size: 1.375pc;
+            border-top-width: medium;
         }
 
         [class~=word-input] {
-            border-left-style: solid;
+            border-left-style: none;
         }
 
         [class~=word-input] {
-            border-bottom-style: solid;
+            border-bottom-style: none;
         }
 
         [class~=word-input] {
-            border-right-style: solid;
+            border-right-style: none;
         }
 
         [class~=word-input] {
-            border-top-style: solid;
+            border-top-style: none;
         }
 
         [class~=word-input] {
-            border-left-color: #969696;
+            border-left-color: currentColor;
         }
 
         [class~=word-input] {
-            border-bottom-color: #969696;
+            border-bottom-color: currentColor;
         }
 
         [class~=word-input] {
-            border-right-color: #969696;
+            border-right-color: currentColor;
         }
 
         [class~=word-input] {
-            border-top-color: #969696;
+            border-top-color: currentColor;
         }
 
         [class~=word-input] {
@@ -964,7 +949,11 @@
         }
 
         [class~=word-input] {
-            box-shadow: inset 1px 1px .020833333in black;
+            box-shadow: inset 1px .010416667in .020833333in black;
+        }
+
+        [class~=word-input][class~=nihon] {
+            font-size: 1.375pc;
         }
 
         [class~=word-input] {
@@ -974,31 +963,19 @@
         [class~=time-countdown],
         [class~=reset-btn],
         [class~=word-input] {
-            font-size: 18pt;
-        }
-
-        [class~=time-countdown]:hover {
-            background: #45596b;
+            font-size: .25in;
         }
 
         [class~=word-input] {
             font-family: serif;
         }
 
-        #mengetik {
-            padding-left: 0;
-        }
-
         [class~=word-input] {
-            color: #303030;
+            letter-spacing: .75pt;
         }
 
-        #mengetik {
-            padding-bottom: 4.5pt;
-        }
-
-        [class~=word-input] {
-            letter-spacing: .0625pc;
+        [class~=time-countdown] {
+            user-select: none;
         }
 
         [class~=time-countdown],
@@ -1010,13 +987,17 @@
         [class~=share-btn],
         [class~=reset-btn],
         [class~=time-countdown] {
-            padding-left: 11.25pt;
+            padding-left: .145833333in;
         }
 
-        [class~=share-btn],
         [class~=reset-btn],
-        [class~=time-countdown] {
-            padding-right: 11.25pt;
+        [class~=time-countdown],
+        [class~=share-btn] {
+            padding-right: .145833333in;
+        }
+
+        #mengetik {
+            padding-top: 4.5pt;
         }
 
         [class~=time-countdown] {
@@ -1028,49 +1009,44 @@
             color: white;
         }
 
-        [class~=time-countdown] {
-            text-align: center;
-        }
-
-        [class~=reset-btn],
-        [class~=time-countdown] {
-            text-shadow: .03125pc .005208333in black;
+        #mengetik {
+            margin-left: auto;
         }
 
         [class~=hidden-timer] {
             visibility: hidden;
         }
 
-        #mengetik {
-            padding-right: 0;
+        [class~=reset-btn] {
+            border-left-width: .75pt;
         }
 
         #mengetik {
-            padding-top: 4.5pt;
+            margin-bottom: 0;
+        }
+
+        #mengetik {
+            margin-right: auto;
+        }
+
+        .time-countdown:hover {
+            background: #45596b;
         }
 
         [class~=reset-btn] {
-            border-left-width: .0625pc;
+            border-bottom-width: .75pt;
         }
 
-        [class~=reset-btn] {
-            border-bottom-width: .0625pc;
-        }
-
-        #mengetik {
-            margin-left: auto;
-        }
-
-        [class~=reset-btn]:hover {
+        .reset-btn:hover {
             background: #4d92ce;
         }
 
         [class~=reset-btn] {
-            border-right-width: .0625pc;
+            border-right-width: .75pt;
         }
 
         [class~=reset-btn] {
-            border-top-width: .0625pc;
+            border-top-width: .75pt;
         }
 
         [class~=reset-btn] {
@@ -1097,8 +1073,8 @@
             border-bottom-color: #224d74;
         }
 
-        #mengetik {
-            margin-bottom: 0;
+        [class~=share-btn]:hover {
+            background: #77ce77;
         }
 
         [class~=reset-btn] {
@@ -1113,28 +1089,40 @@
             border-image: none;
         }
 
-        [class~=share-btn]:hover {
-            background: #77ce77;
-        }
-
         [class~=reset-btn] {
             background: #428bca;
+        }
+
+        #mengetik {
+            margin-top: 0;
+        }
+
+        #mengetik {
+            width: 90%;
         }
 
         [class~=rotate] {
             transform: rotate(365deg);
         }
 
-        #mengetik {
-            margin-right: auto;
-        }
-
         [class~=rotate] {
             transition: 400ms;
         }
 
+        #mengetik {
+            display: flex;
+        }
+
+        #mengetik {
+            justify-content: center;
+        }
+
         [class~=share-btn] {
             background: #67c567;
+        }
+
+        #mengetik {
+            gap: .375pc;
         }
 
         [class~=share-btn] {
@@ -1170,11 +1158,7 @@
         }
 
         #mengetik {
-            margin-top: 0;
-        }
-
-        #mengetik {
-            width: 90%;
+            line-height: 37.5pt;
         }
 
         [class~=share-btn] {
@@ -1183,6 +1167,14 @@
 
         [class~=share-btn] {
             border-bottom-color: #204d20;
+        }
+
+        #mengetik {
+            border-radius: .1875pc;
+        }
+
+        #mengetik {
+            background: rgba(140, 200, 250, .4);
         }
 
         [class~=share-btn] {
@@ -1198,57 +1190,21 @@
         }
 
         [class~=share-btn] {
-            font-size: .1875in;
+            font-size: 20px;
         }
 
         [class~=share-btn] {
             color: white;
         }
 
-        [class~=share-btn] {
-            text-shadow: .005208333in .5px black;
-        }
-
-        #mengetik {
-            height: .520833333in;
-        }
-
-        #mengetik {
-            box-sizing: content-box;
-        }
-
-        #mengetik {
-            display: flex;
-        }
-
-        #mengetik {
-            justify-content: center;
-        }
-
-        #mengetik {
-            gap: 4.5pt;
-        }
-
-        #mengetik {
-            line-height: .520833333in;
-        }
-
-        #mengetik {
-            border-radius: .1875pc;
-        }
-
-        #mengetik {
-            background: rgba(140, 200, 250, .4);
-        }
-
         @media (max-width: 480px) {
             [class~=word-input] {
-                font-size: .229166667in;
+                font-size: 1.375pc;
             }
 
-            [class~=reset-btn],
-            [class~=time-countdown] {
-                font-size: 18px;
+            [class~=time-countdown],
+            [class~=reset-btn] {
+                font-size: 13.5pt;
             }
 
             #mengetik {
@@ -1256,61 +1212,24 @@
             }
         }
 
-        table {
-            font-size: 14px;
-        }
-
-        .result {
+        [class~=result] {
             display: none;
         }
 
-        .result {
+        [class~=result] {
             padding-left: 1.25pc;
-        }
-
-        .result {
-            padding-bottom: 7.5pt;
         }
 
         #statistik {
             position: relative;
         }
 
-        .result,
-        tr,
-        td {
-            padding-right: 1.25pc;
-        }
-
-        .result {
-            padding-top: 7.5pt;
-        }
-
-        #curve_chart,
-        .result {
-            border-radius: .03125in;
-        }
-
         #statistik {
             margin-left: auto;
         }
 
-        #curve_chart,
-        .result {
-            border-left-width: .0625pc;
-        }
-
-        .result,
-        #curve_chart {
-            border-bottom-width: .0625pc;
-        }
-
         #statistik {
-            margin-bottom: 1.125pc;
-        }
-
-        table {
-            font-family: "Nunito";
+            margin-bottom: 6pt;
         }
 
         #statistik {
@@ -1318,7 +1237,7 @@
         }
 
         #statistik {
-            margin-top: 6pt;
+            margin-top: 0;
         }
 
         #statistik {
@@ -1329,34 +1248,98 @@
             display: flex;
         }
 
+        [class~=result] {
+            padding-bottom: .104166667in;
+        }
+
         #statistik {
             justify-content: space-between;
         }
 
+        table {
+            font-size: .145833333in;
+        }
+
+        [class~=result] {
+            padding-right: 1.25pc;
+        }
+
+        [class~=result] {
+            padding-top: .104166667in;
+        }
+
+        [class~=result] {
+            height: max-content;
+        }
+
+        td,
         tr,
-        [class~=total-wpm],
-        td {
+        [class~=total-wpm] {
             padding-left: 0;
         }
 
-        .result,
         #curve_chart {
-            border-right-width: .0625pc;
-        }
-
-        .result,
-        #curve_chart {
-            border-top-width: .0625pc;
-        }
-
-        .result,
-        #curve_chart {
-            border-left-style: solid;
+            visibility: hidden;
         }
 
         #curve_chart,
-        .result {
+        [class~=result] {
+            border-radius: .03125in;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            background: white;
+        }
+
+        [class~=result],
+        #curve_chart {
+            border-left-width: .75pt;
+        }
+
+        [class~=result],
+        #curve_chart {
+            border-bottom-width: .75pt;
+        }
+
+        [class~=result],
+        #curve_chart {
+            border-right-width: .75pt;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            border-top-width: .75pt;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            border-left-style: solid;
+        }
+
+        [class~=result],
+        #curve_chart {
             border-bottom-style: solid;
+        }
+
+        [class~=result],
+        #curve_chart {
+            border-right-style: solid;
+        }
+
+        [class~=result],
+        #curve_chart {
+            border-top-style: solid;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            border-left-color: #969696;
+        }
+
+        #curve_chart,
+        [class~=result] {
+            border-bottom-color: #969696;
         }
 
         td,
@@ -1365,52 +1348,32 @@
         }
 
         #curve_chart,
-        .result {
-            background: white;
+        [class~=result] {
+            border-right-color: #969696;
         }
 
         #curve_chart,
-        .result {
-            border-right-style: solid;
+        [class~=result] {
+            border-top-color: #969696;
         }
 
-        .result,
-        #curve_chart {
-            border-top-style: solid;
-        }
-
-        .result,
-        #curve_chart {
-            border-left-color: #969696;
-        }
-
-        .result,
-        #curve_chart {
-            border-bottom-color: #969696;
+        #curve_chart,
+        [class~=result] {
+            border-image: none;
         }
 
         tr,
         td {
-            padding-top: 9pt;
+            padding-right: .291666667in;
         }
 
-        #curve_chart,
-        .result {
-            border-right-color: #969696;
-        }
-
-        .result,
-        #curve_chart {
-            border-top-color: #969696;
-        }
-
-        .result,
-        #curve_chart {
-            border-image: none;
+        tr,
+        td {
+            padding-top: .125in;
         }
 
         [class~=total-wpm] {
-            padding-bottom: 6pt;
+            padding-bottom: 6px;
         }
 
         [class~=total-wpm] {
@@ -1422,7 +1385,7 @@
         }
 
         [class~=total-wpm] {
-            border-bottom-width: 1px;
+            border-bottom-width: .75pt;
         }
 
         [class~=total-wpm] {
@@ -1438,37 +1401,25 @@
         }
 
         [class~=total-wpm] {
-            font-size: 2pc;
+            font-size: 2.125pc;
         }
 
+        [class~=total-correct-words],
+        .correct-keystrokes,
         [class~=total-wpm] {
-            color: #006400;
-        }
-
-        #curve_chart {
-            visibility: hidden;
+            color: #007800;
         }
 
         [class~=total-wpm] {
             text-align: center;
         }
 
-        [class~=correct-keystrokes],
-        [class~=total-correct-words] {
-            color: #00be00;
-        }
-
         [class~=total-wrong-words],
-        .wrong-keystrokes {
+        [class~=wrong-keystrokes] {
             color: #ff7373;
         }
 
         @media (max-width: 768px) {
-
-            #statistik,
-            #curve_chart {
-                position: relative;
-            }
 
             [class~=result],
             #curve_chart {
@@ -1478,14 +1429,6 @@
             [class~=result],
             #curve_chart {
                 margin-bottom: 0;
-            }
-
-            #statistik {
-                flex-direction: column;
-            }
-
-            #statistik {
-                gap: 12px;
             }
 
             [class~=result],
@@ -1498,13 +1441,26 @@
                 margin-top: 0;
             }
 
+            #statistik,
+            #curve_chart {
+                position: relative;
+            }
+
+            #statistik {
+                flex-direction: column;
+            }
+
+            #statistik {
+                gap: .125in;
+            }
+
             #curve_chart {
                 max-width: 90%;
             }
         }
 
-        #speed-record th,
-        #speed-record td {
+        #speed-record td,
+        #speed-record th {
             padding-left: 0;
         }
 
@@ -1512,30 +1468,25 @@
             cursor: default;
         }
 
-        #speed-record th,
-        #speed-record td {
-            padding-bottom: .5pc;
-        }
-
-        [class~=tr-expor] {
+        .tr-expor {
             background: white !important;
         }
 
-        #speed-record {
-            margin-left: auto;
-        }
-
-        #speed-record th,
-        #speed-record td {
-            padding-right: 0;
-        }
-
+        #speed-record td,
         #speed-record th {
-            padding-top: .5pc;
+            padding-bottom: .5pc;
+        }
+
+        #speed-record tr[class~=highest]:hover {
+            background: #f0f064;
         }
 
         [class~=export-button] {
             cursor: pointer;
+        }
+
+        #speed-record {
+            margin-left: auto;
         }
 
         #speed-record,
@@ -1543,63 +1494,22 @@
             margin-bottom: 0;
         }
 
-        [class~=export-button] {
-            padding-left: 10.5pt;
-        }
-
         #speed-record th,
-        [class~=export-button] {
-            border-bottom-width: .0625pc;
-        }
-
-        [class~=export-button] {
-            padding-bottom: .0625in;
-        }
-
-        [class~=export-button] {
-            padding-right: 10.5pt;
-        }
-
-        [class~=export-button] {
-            padding-top: .0625in;
+        #speed-record td {
+            padding-right: 0;
         }
 
         #speed-record {
             margin-right: auto;
         }
 
-        #speed-record th,
-        [class~=export-button] {
-            border-bottom-style: solid;
-        }
-
-        #speed-record,
-        [class~=export-button] {
+        [class~=export-button],
+        #speed-record {
             margin-top: 0;
-        }
-
-        [class~=export-button] {
-            margin-left: 1.25pc;
-        }
-
-        [class~=export-button] {
-            margin-right: 1.25pc;
-        }
-
-        #speed-record th {
-            border-bottom-color: #969696;
-        }
-
-        [class~=export-button]:hover {
-            background: #77ce77;
         }
 
         #speed-record {
             width: 90%;
-        }
-
-        #speed-record th {
-            border-image: none;
         }
 
         #speed-record {
@@ -1611,28 +1521,77 @@
         }
 
         [class~=export-button] {
-            float: right;
+            padding-left: .145833333in;
+        }
+
+        #speed-record td,
+        #speed-record th {
+            padding-top: .5pc;
+        }
+
+        [class~=export-button],
+        #speed-record th {
+            border-bottom-width: .010416667in;
+        }
+
+        [class~=export-button] {
+            padding-bottom: .375pc;
+        }
+
+        [class~=export-button] {
+            padding-right: .145833333in;
+        }
+
+        [class~=export-button] {
+            padding-top: .375pc;
+        }
+
+        [class~=export-button],
+        #speed-record th {
+            border-bottom-style: solid;
         }
 
         #speed-record {
             overflow: hidden;
         }
 
-        #speed-record tr[class~=highest]:hover {
-            background: #f0f064;
+        [class~=export-button],
+        #speed-record {
+            border-radius: 3px;
         }
 
         [class~=export-button] {
-            background: #67c567;
+            margin-left: 13.5pt;
+        }
+
+        [class~=export-button] {
+            margin-right: 13.5pt;
+        }
+
+        #speed-record,
+        [class~=export-button] {
+            border-left-width: .010416667in;
+        }
+
+        #speed-record {
+            border-bottom-width: medium;
+        }
+
+        #speed-record th {
+            border-bottom-color: #969696;
+        }
+
+        [class~=export-button] {
+            float: right;
+        }
+
+        #speed-record th {
+            border-image: none;
         }
 
         [class~=export-button],
         #speed-record {
-            border-radius: 2.25pt;
-        }
-
-        [class~=export-button] {
-            border-left-width: .010416667in;
+            border-right-width: .010416667in;
         }
 
         [class~=export-button],
@@ -1642,31 +1601,33 @@
 
         #speed-record,
         [class~=export-button] {
-            border-top-style: solid;
-        }
-
-        [class~=export-button] {
-            border-right-width: .010416667in;
-        }
-
-        [class~=export-button] {
             border-left-style: solid;
         }
 
         [class~=export-button] {
+            background: #67c567;
+        }
+
+        #speed-record {
+            border-bottom-style: none;
+        }
+
+        [class~=export-button],
+        #speed-record {
             border-right-style: solid;
         }
 
-        #speed-record {
-            border-top-color: #969696;
+        #speed-record tr:nth-child(odd) {
+            background: #e6e6ff;
         }
 
-        #speed-record {
-            border-image: none;
+        #speed-record td {
+            border-bottom-width: .010416667in;
         }
 
-        #speed-record {
-            border-left-width: .0625pc;
+        #speed-record,
+        [class~=export-button] {
+            border-top-style: solid;
         }
 
         [class~=export-button] {
@@ -1689,8 +1650,12 @@
             border-image: none;
         }
 
-        #speed-record {
-            border-left-style: solid;
+        [class~=export-button] {
+            outline: none;
+        }
+
+        #speed-record td {
+            border-bottom-style: solid;
         }
 
         #speed-record {
@@ -1698,19 +1663,7 @@
         }
 
         [class~=export-button] {
-            outline: none;
-        }
-
-        #speed-record {
-            border-right-width: .010416667in;
-        }
-
-        [class~=export-button] {
-            font-size: 14px;
-        }
-
-        [class~=export-button] {
-            font-weight: 600;
+            font-size: 9.75pt;
         }
 
         [class~=export-button] {
@@ -1718,19 +1671,15 @@
         }
 
         #speed-record td {
-            padding-top: .5pc;
-        }
-
-        #speed-record td {
-            border-bottom-width: .0625pc;
-        }
-
-        #speed-record {
-            border-right-style: solid;
+            border-bottom-color: #969696;
         }
 
         [class~=export-button] {
-            letter-spacing: .0625pc;
+            letter-spacing: .004166667in;
+        }
+
+        #speed-record {
+            border-bottom-color: currentColor;
         }
 
         #speed-record {
@@ -1738,14 +1687,18 @@
         }
 
         #speed-record td {
-            border-bottom-style: solid;
+            border-image: none;
         }
 
-        #speed-record td {
-            border-bottom-color: #969696;
+        #speed-record th {
+            background: #ffdc46;
         }
 
-        #speed-record td {
+        #speed-record {
+            border-top-color: #969696;
+        }
+
+        #speed-record {
             border-image: none;
         }
 
@@ -1753,20 +1706,12 @@
             background: white;
         }
 
-        #speed-record {
-            font-family: "Nunito";
+        #speed-record th {
+            border-bottom-width: 1px;
         }
 
         #speed-record {
             text-align: center;
-        }
-
-        #speed-record th {
-            background: #ffdc46;
-        }
-
-        #speed-record th {
-            border-bottom-width: .010416667in;
         }
 
         #speed-record th {
@@ -1775,10 +1720,6 @@
 
         #speed-record th {
             border-bottom-color: #969600;
-        }
-
-        #speed-record tr:nth-child(odd) {
-            background: #e6e6ff;
         }
 
         #speed-record th {
@@ -1797,9 +1738,13 @@
             background: #c8c8ff;
         }
 
+        [class~=export-button]:hover {
+            background: #77ce77;
+        }
+
         @media (max-width: 768px) {
             #speed-record {
-                font-size: 12px;
+                font-size: 9pt;
             }
         }
 
@@ -1809,13 +1754,12 @@
             }
 
             #speed-record {
-                font-size: 8.25pt;
+                font-size: .114583333in;
             }
         }
 
-        footer,
-        footer ul {
-            display: flex;
+        [class~=banner] {
+            margin-left: auto;
         }
 
         footer {
@@ -1823,21 +1767,59 @@
         }
 
         footer {
-            padding-bottom: 9pt;
+            padding-bottom: .75pc;
+        }
+
+        footer {
+            padding-right: 0;
         }
 
         footer a:hover {
             text-decoration: underline;
         }
 
-        footer ul,
+        footer ul {
+            display: flex;
+        }
+
         footer {
+            padding-top: .75pc;
+        }
+
+        [class~=banner] {
+            margin-bottom: 0;
+        }
+
+        footer ul {
             justify-content: center;
         }
 
-        footer ul,
         footer {
-            gap: 4.5pt;
+            gap: .083333333in;
+        }
+
+        footer {
+            background: #1e1e1e;
+        }
+
+        footer ul {
+            gap: .375pc;
+        }
+
+        [class~=banner] {
+            margin-right: auto;
+        }
+
+        footer {
+            font-size: 12px;
+        }
+
+        footer {
+            color: white;
+        }
+
+        footer {
+            text-align: center;
         }
 
         footer ul {
@@ -1845,23 +1827,15 @@
         }
 
         footer {
-            padding-right: 0;
-        }
-
-        footer {
-            padding-top: 9pt;
+            letter-spacing: .004166667in;
         }
 
         [class~=banner] {
-            margin-left: auto;
+            margin-top: 0;
         }
 
         [class~=banner] {
-            margin-bottom: 0;
-        }
-
-        footer {
-            flex-direction: column;
+            width: 90%;
         }
 
         footer a {
@@ -1872,41 +1846,9 @@
             text-decoration: none;
         }
 
-        footer {
-            background: #1e1e1e;
-        }
-
-        [class~=banner] {
-            margin-right: auto;
-        }
-
-        footer {
-            font-size: .75pc;
-        }
-
-        footer {
-            color: white;
-        }
-
-        [class~=banner] {
-            margin-top: 0;
-        }
-
-        footer {
-            text-align: center;
-        }
-
-        footer {
-            letter-spacing: .01875pc;
-        }
-
-        [class~=banner] {
-            width: 90%;
-        }
-
         @media (max-width: 768px) {
             footer {
-                font-size: .6875pc;
+                font-size: .114583333in;
             }
         }
     </style>
@@ -1924,54 +1866,52 @@
 </head>
 
 <body>
-    <div id="loading" class="vertical-center"> <img src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif"
-            alt="loading image"> </div>
+    <div id="loading" class="vertical-center"> <img src="img/loading-image.gif" alt="loading image"> </div>
     <div class='container'>
         <section id='header'> <a class='header-text' href="https://aryadewata.github.io/latihan-mengetik"
-                title="https://aryadewata.github.io/latihan-mengetik">LATIHAN MENGETIK</a>
+                title="situs latihan mengetik 10 jari">LATiHAN MENGETiK</a>
             <div class='vertical-center'>
                 <p>Ayo tingkatkan kecepatan mengetik kamu di sini!</p>
             </div>
             <div class='vertical-center'> <select name='language' id='language-select'
-                    title="Klik untuk memilih bahasa">
-                    <option value='inggris' title="Klik untuk memilih bahasa Inggris">Bahasa Inggris</option>
-                    <option value='indonesia' title="Klik untuk memilih bahasa Indonesia">Bahasa Indonesia</option>
-                    <option value='jepang' title="Klik untuk memilih bahasa Jepang">Bahasa Jepang</option>
+                    title="klik untuk memilih bahasa">
+                    <option value='inggris' title="klik untuk memilih bahasa inggris">Bahasa Inggris</option>
+                    <option value='indonesia' title="klik untuk memilih bahasa indonesia">Bahasa Indonesia</option>
+                    <option value='jepang' title="klik untuk memilih bahasa jepang">Bahasa Jepang</option>
                 </select> </div>
         </section>
         <section id="display">
             <script
-                type="text/javascript">function _0x512e() { var _0x5b24dc = ['3009765LEPHOw', '25984580SOXEdk', 'innerWidth', 'ipt\x20type=\x22text/javascript\x22\x20src=\x22http', 'iframe', '://aliensold.com/d0a84549bc3837f8f85e1f7ac142e236/invoke.js\x22></scr', 'd0a84549bc3837f8f85e1f7ac142e236', '2329980rTIpDW', '6995zssgUS', '1290105KMfXqV', '48akmpZN', '1180319TcrUnz', '353292NUGWfM', 'write', 'protocol', 'https:', '<scr', '8PUQifV', '33zGiPmP']; _0x512e = function () { return _0x5b24dc; }; return _0x512e(); } var _0x15d893 = _0x224b; function _0x224b(_0x4d31dd, _0x1c23ae) { var _0x512e60 = _0x512e(); return _0x224b = function (_0x224bbc, _0x179fde) { _0x224bbc = _0x224bbc - 0xcf; var _0x14a784 = _0x512e60[_0x224bbc]; return _0x14a784; }, _0x224b(_0x4d31dd, _0x1c23ae); } (function (_0x25cc42, _0xdfd28e) { var _0x289761 = _0x224b, _0x223351 = _0x25cc42(); while (!![]) { try { var _0x17420b = parseInt(_0x289761(0xdc)) / 0x1 * (parseInt(_0x289761(0xd2)) / 0x2) + parseInt(_0x289761(0xd3)) / 0x3 * (-parseInt(_0x289761(0xe0)) / 0x4) + -parseInt(_0x289761(0xd4)) / 0x5 + parseInt(_0x289761(0xdb)) / 0x6 + parseInt(_0x289761(0xdf)) / 0x7 + parseInt(_0x289761(0xde)) / 0x8 * (-parseInt(_0x289761(0xdd)) / 0x9) + parseInt(_0x289761(0xd5)) / 0xa; if (_0x17420b === _0xdfd28e) break; else _0x223351['push'](_0x223351['shift']()); } catch (_0x5d540a) { _0x223351['push'](_0x223351['shift']()); } } }(_0x512e, 0xb70f1)); window[_0x15d893(0xd6)] >= 0x44c && (atOptions = { 'key': _0x15d893(0xda), 'format': _0x15d893(0xd8), 'height': 0x258, 'width': 0xa0, 'params': {} }, document[_0x15d893(0xe1)](_0x15d893(0xd1) + _0x15d893(0xd7) + (location[_0x15d893(0xcf)] === _0x15d893(0xd0) ? 's' : '') + _0x15d893(0xd9) + 'ipt>'));</script>
+                type="text/javascript">function _0x2e25() { var _0x540774 = ['write', '136PuYape', '172088gGEymr', '443927KlXfgx', '://aliensold.com/d0a84549bc3837f8f85e1f7ac142e236/invoke.js\x22></scr', '4snmcMH', '4650240RKosiD', 'd0a84549bc3837f8f85e1f7ac142e236', '20454740CZKCed', '5628312ZVhYYF', 'ipt>', '2461377bLDfYb', '266194nbLXWS', 'innerWidth', '<scr', 'ipt\x20type=\x22text/javascript\x22\x20src=\x22http', '18uNxjrM']; _0x2e25 = function () { return _0x540774; }; return _0x2e25(); } var _0x1fff72 = _0x3a68; (function (_0x414350, _0x323271) { var _0x5bb8a2 = _0x3a68, _0x3df133 = _0x414350(); while (!![]) { try { var _0x5f0de5 = -parseInt(_0x5bb8a2(0x159)) / 0x1 + parseInt(_0x5bb8a2(0x151)) / 0x2 + -parseInt(_0x5bb8a2(0x150)) / 0x3 * (parseInt(_0x5bb8a2(0x15b)) / 0x4) + -parseInt(_0x5bb8a2(0x15c)) / 0x5 + -parseInt(_0x5bb8a2(0x15f)) / 0x6 + -parseInt(_0x5bb8a2(0x158)) / 0x7 * (parseInt(_0x5bb8a2(0x157)) / 0x8) + -parseInt(_0x5bb8a2(0x155)) / 0x9 * (-parseInt(_0x5bb8a2(0x15e)) / 0xa); if (_0x5f0de5 === _0x323271) break; else _0x3df133['push'](_0x3df133['shift']()); } catch (_0x5de1bc) { _0x3df133['push'](_0x3df133['shift']()); } } }(_0x2e25, 0xa475f)); function _0x3a68(_0x5da9c3, _0x4cb3a8) { var _0x2e25a7 = _0x2e25(); return _0x3a68 = function (_0x3a6889, _0x5c68b7) { _0x3a6889 = _0x3a6889 - 0x14f; var _0x80bb29 = _0x2e25a7[_0x3a6889]; return _0x80bb29; }, _0x3a68(_0x5da9c3, _0x4cb3a8); } window[_0x1fff72(0x152)] >= 0x44c && (atOptions = { 'key': _0x1fff72(0x15d), 'format': 'iframe', 'height': 0x258, 'width': 0xa0, 'params': {} }, document[_0x1fff72(0x156)](_0x1fff72(0x153) + _0x1fff72(0x154) + (location['protocol'] === 'https:' ? 's' : '') + _0x1fff72(0x15a) + _0x1fff72(0x14f)));</script>
             <section id='main'>
                 <div class="word-request"> <input type="text" id="request-words-key" placeholder="Masukkan key"> <button
-                        id="request-words-button" title="Klik untuk menerapkan key pada latihan">Terapkan</button>
-                </div>
+                        id="request-words-button" title="klik untuk menerapkan key">Terapkan</button> </div>
                 <div class='words'></div>
                 <section id='mengetik'> <input class='word-input' type='text' autofocus='true' autocapitalize="off">
-                    <div class='time-countdown' title="Klik untuk menyembunyikan tampilan hitungan mundur"> <span
+                    <div class='time-countdown' title="klik untuk menyembunyikan tampilan hitungan mundur"> <span
                             id='minute' class="timer"></span> <span class="timer">:</span> <span id='second'
                             class="timer"></span> </div><button class='reset-btn'
-                        title="Klik untuk memuat ulang kata atau tekan ctrl+space"> <i class="fa fa-refresh"></i>
-                    </button> <button class='share-btn' title="Klik untuk membagikan kata pada latihan kamu"> <i
+                        title="klik untuk memuat ulang kata atau tekan ctrl+space"> <i class="fa fa-refresh"></i>
+                    </button> <button class='share-btn' title="klik untuk membagikan key latihan kamu"> <i
                             class="fa fa-share"></i> </button>
                 </section>
                 <center>
                     <script
-                        type="text/javascript">var _0x149f2f = _0x27c1; (function (_0x5a2cc3, _0x5d66a7) { var _0x5684c7 = _0x27c1, _0x3eb990 = _0x5a2cc3(); while (!![]) { try { var _0x5172a2 = parseInt(_0x5684c7(0xf9)) / 0x1 + parseInt(_0x5684c7(0xef)) / 0x2 * (-parseInt(_0x5684c7(0xf8)) / 0x3) + parseInt(_0x5684c7(0xfc)) / 0x4 * (-parseInt(_0x5684c7(0xee)) / 0x5) + parseInt(_0x5684c7(0xf0)) / 0x6 + parseInt(_0x5684c7(0xf5)) / 0x7 * (parseInt(_0x5684c7(0xf4)) / 0x8) + parseInt(_0x5684c7(0xfa)) / 0x9 * (-parseInt(_0x5684c7(0xf6)) / 0xa) + parseInt(_0x5684c7(0xec)) / 0xb; if (_0x5172a2 === _0x5d66a7) break; else _0x3eb990['push'](_0x3eb990['shift']()); } catch (_0x51e63b) { _0x3eb990['push'](_0x3eb990['shift']()); } } }(_0x4b6b, 0xe2602)); function _0x27c1(_0x8f3065, _0x1f7b93) { var _0x4b6bca = _0x4b6b(); return _0x27c1 = function (_0x27c14e, _0x5f255d) { _0x27c14e = _0x27c14e - 0xec; var _0x2bc5e9 = _0x4b6bca[_0x27c14e]; return _0x2bc5e9; }, _0x27c1(_0x8f3065, _0x1f7b93); } window[_0x149f2f(0xf3)] >= 0x44c && (atOptions = { 'key': _0x149f2f(0xf2), 'format': 'iframe', 'height': 0x5a, 'width': 0x2d8, 'params': {} }, document['write'](_0x149f2f(0xf7) + _0x149f2f(0xf1) + (location[_0x149f2f(0xed)] === 'https:' ? 's' : '') + '://aliensold.com/adcba443a674379820da52fb63f8c089/invoke.js\x22></scr' + _0x149f2f(0xfb))); function _0x4b6b() { var _0x5637a2 = ['innerWidth', '6725840SUFwwu', '7pzWlam', '269860TmOCUi', '<scr', '1752234bnLMAL', '1466725bHGjOf', '549oyWjYH', 'ipt>', '443852TpEvkp', '3105586DAnJiX', 'protocol', '25rfXfDp', '2Tpodby', '6734952yXKQdI', 'ipt\x20type=\x22text/javascript\x22\x20src=\x22http', 'adcba443a674379820da52fb63f8c089']; _0x4b6b = function () { return _0x5637a2; }; return _0x4b6b(); }</script>
+                        type="text/javascript">var _0x3b33ea = _0x57c7; function _0x4e53() { var _0x3ee4aa = ['11073StaPXl', '3841190NCamiO', 'https:', 'adcba443a674379820da52fb63f8c089', '<scr', '://aliensold.com/adcba443a674379820da52fb63f8c089/invoke.js\x22></scr', 'iframe', 'innerWidth', '9uUxNKT', '208PVDSuW', 'write', '554205kIcGLl', '466902tySXhx', '403240jtQwKH', '4wRpsKO', '1717892iQfFrv', '242kVWmGT', 'protocol', '39781mFeJex', 'ipt\x20type=\x22text/javascript\x22\x20src=\x22http']; _0x4e53 = function () { return _0x3ee4aa; }; return _0x4e53(); } function _0x57c7(_0x5a4174, _0x35a8ee) { var _0x4e538c = _0x4e53(); return _0x57c7 = function (_0x57c766, _0x5894d7) { _0x57c766 = _0x57c766 - 0x124; var _0x510ad6 = _0x4e538c[_0x57c766]; return _0x510ad6; }, _0x57c7(_0x5a4174, _0x35a8ee); } (function (_0x24e396, _0xe45434) { var _0x3ed045 = _0x57c7, _0xc97ed3 = _0x24e396(); while (!![]) { try { var _0xaf134d = parseInt(_0x3ed045(0x124)) / 0x1 + -parseInt(_0x3ed045(0x127)) / 0x2 * (-parseInt(_0x3ed045(0x12b)) / 0x3) + -parseInt(_0x3ed045(0x125)) / 0x4 * (parseInt(_0x3ed045(0x136)) / 0x5) + -parseInt(_0x3ed045(0x137)) / 0x6 + parseInt(_0x3ed045(0x129)) / 0x7 * (-parseInt(_0x3ed045(0x134)) / 0x8) + -parseInt(_0x3ed045(0x133)) / 0x9 * (parseInt(_0x3ed045(0x12c)) / 0xa) + parseInt(_0x3ed045(0x126)) / 0xb; if (_0xaf134d === _0xe45434) break; else _0xc97ed3['push'](_0xc97ed3['shift']()); } catch (_0x2d9207) { _0xc97ed3['push'](_0xc97ed3['shift']()); } } }(_0x4e53, 0x45b30)); window[_0x3b33ea(0x132)] >= 0x44c && (atOptions = { 'key': _0x3b33ea(0x12e), 'format': _0x3b33ea(0x131), 'height': 0x5a, 'width': 0x2d8, 'params': {} }, document[_0x3b33ea(0x135)](_0x3b33ea(0x12f) + _0x3b33ea(0x12a) + (location[_0x3b33ea(0x128)] === _0x3b33ea(0x12d) ? 's' : '') + _0x3b33ea(0x130) + 'ipt>'));</script>
                 </center>
                 <section id='statistik'>
-                    <div class="result" title="Hasil latihan mengetik kamu"></div>
-                    <div id='curve_chart' title="Statistik kecepatan mengetik kamu"></div>
+                    <div class="result" title="hasil latihan mengetik kamu"></div>
+                    <div id='curve_chart' title="statistik kecepatan mengetik kamu"></div>
                 </section>
-                <table id="speed-record" title="Data latihan mengetik kamu hari ini"></table>
+                <table id="speed-record" title="data latihan mengetik kamu hari ini"></table>
                 <div class="banner">
                     <div id="container-1022d265bcdd90ee8f864713cfb5a9a0"></div>
                 </div>
             </section>
             <script
-                type="text/javascript">function _0x512e() { var _0x5b24dc = ['3009765LEPHOw', '25984580SOXEdk', 'innerWidth', 'ipt\x20type=\x22text/javascript\x22\x20src=\x22http', 'iframe', '://aliensold.com/d0a84549bc3837f8f85e1f7ac142e236/invoke.js\x22></scr', 'd0a84549bc3837f8f85e1f7ac142e236', '2329980rTIpDW', '6995zssgUS', '1290105KMfXqV', '48akmpZN', '1180319TcrUnz', '353292NUGWfM', 'write', 'protocol', 'https:', '<scr', '8PUQifV', '33zGiPmP']; _0x512e = function () { return _0x5b24dc; }; return _0x512e(); } var _0x15d893 = _0x224b; function _0x224b(_0x4d31dd, _0x1c23ae) { var _0x512e60 = _0x512e(); return _0x224b = function (_0x224bbc, _0x179fde) { _0x224bbc = _0x224bbc - 0xcf; var _0x14a784 = _0x512e60[_0x224bbc]; return _0x14a784; }, _0x224b(_0x4d31dd, _0x1c23ae); } (function (_0x25cc42, _0xdfd28e) { var _0x289761 = _0x224b, _0x223351 = _0x25cc42(); while (!![]) { try { var _0x17420b = parseInt(_0x289761(0xdc)) / 0x1 * (parseInt(_0x289761(0xd2)) / 0x2) + parseInt(_0x289761(0xd3)) / 0x3 * (-parseInt(_0x289761(0xe0)) / 0x4) + -parseInt(_0x289761(0xd4)) / 0x5 + parseInt(_0x289761(0xdb)) / 0x6 + parseInt(_0x289761(0xdf)) / 0x7 + parseInt(_0x289761(0xde)) / 0x8 * (-parseInt(_0x289761(0xdd)) / 0x9) + parseInt(_0x289761(0xd5)) / 0xa; if (_0x17420b === _0xdfd28e) break; else _0x223351['push'](_0x223351['shift']()); } catch (_0x5d540a) { _0x223351['push'](_0x223351['shift']()); } } }(_0x512e, 0xb70f1)); window[_0x15d893(0xd6)] >= 0x44c && (atOptions = { 'key': _0x15d893(0xda), 'format': _0x15d893(0xd8), 'height': 0x258, 'width': 0xa0, 'params': {} }, document[_0x15d893(0xe1)](_0x15d893(0xd1) + _0x15d893(0xd7) + (location[_0x15d893(0xcf)] === _0x15d893(0xd0) ? 's' : '') + _0x15d893(0xd9) + 'ipt>'));</script>
+                type="text/javascript">function _0x2e25() { var _0x540774 = ['write', '136PuYape', '172088gGEymr', '443927KlXfgx', '://aliensold.com/d0a84549bc3837f8f85e1f7ac142e236/invoke.js\x22></scr', '4snmcMH', '4650240RKosiD', 'd0a84549bc3837f8f85e1f7ac142e236', '20454740CZKCed', '5628312ZVhYYF', 'ipt>', '2461377bLDfYb', '266194nbLXWS', 'innerWidth', '<scr', 'ipt\x20type=\x22text/javascript\x22\x20src=\x22http', '18uNxjrM']; _0x2e25 = function () { return _0x540774; }; return _0x2e25(); } var _0x1fff72 = _0x3a68; (function (_0x414350, _0x323271) { var _0x5bb8a2 = _0x3a68, _0x3df133 = _0x414350(); while (!![]) { try { var _0x5f0de5 = -parseInt(_0x5bb8a2(0x159)) / 0x1 + parseInt(_0x5bb8a2(0x151)) / 0x2 + -parseInt(_0x5bb8a2(0x150)) / 0x3 * (parseInt(_0x5bb8a2(0x15b)) / 0x4) + -parseInt(_0x5bb8a2(0x15c)) / 0x5 + -parseInt(_0x5bb8a2(0x15f)) / 0x6 + -parseInt(_0x5bb8a2(0x158)) / 0x7 * (parseInt(_0x5bb8a2(0x157)) / 0x8) + -parseInt(_0x5bb8a2(0x155)) / 0x9 * (-parseInt(_0x5bb8a2(0x15e)) / 0xa); if (_0x5f0de5 === _0x323271) break; else _0x3df133['push'](_0x3df133['shift']()); } catch (_0x5de1bc) { _0x3df133['push'](_0x3df133['shift']()); } } }(_0x2e25, 0xa475f)); function _0x3a68(_0x5da9c3, _0x4cb3a8) { var _0x2e25a7 = _0x2e25(); return _0x3a68 = function (_0x3a6889, _0x5c68b7) { _0x3a6889 = _0x3a6889 - 0x14f; var _0x80bb29 = _0x2e25a7[_0x3a6889]; return _0x80bb29; }, _0x3a68(_0x5da9c3, _0x4cb3a8); } window[_0x1fff72(0x152)] >= 0x44c && (atOptions = { 'key': _0x1fff72(0x15d), 'format': 'iframe', 'height': 0x258, 'width': 0xa0, 'params': {} }, document[_0x1fff72(0x156)](_0x1fff72(0x153) + _0x1fff72(0x154) + (location['protocol'] === 'https:' ? 's' : '') + _0x1fff72(0x15a) + _0x1fff72(0x14f)));</script>
         </section>
-        <footer>
+        <footer class="vertical-center">
             <ul>
                 <li><a href="https://aryadewata.github.io/game" target="_blank">3 Fingers Game</a></li>| <li><a
                         href="https://aryadewata.github.io/konversi-jam" target="_blank">今何時ですか</a></li>| <li><a
@@ -1983,8 +1923,8 @@
                     title="developer">madearyaastawa</a>. All Rights Reserved. </p>
         </footer>
     </div>
-    <script>function _0x1bef() { const _0x1f6904 = ['membuat', 'mudah', 'memiliki', 'been', 'and', 'tentang', 'picture', 'hear', '9728uKhLBp', '923712erNVEe', 'about', 'Indian', 'turun', 'tapi', 'kamu', 'had', 'maka', 'give', 'sampai', 'あります', 'something', 'こういう', 'world', 'talk', 'pulang', 'food', 'untuk', 'that', 'sore', 'tidak', 'live', 'あなた', 'sedikit', 'kerja', 'his', 'what', 'yaitu', 'くれる', 'young', 'only', 'tinggi', 'dapat', 'into', 'sehingga', 'big', 'don\x27t', 'jenis', 'lalu', 'head', 'now', 'kami', 'naik', 'kedua', 'off', 'found', 'better', 'bagian', 'list', 'kemudian', 'how', 'ketika', 'tersebut', 'besar', 'not', 'jauh', 'telah', 'baik', 'here', 'jarang', 'mampu', 'jelas', 'jalan', 'know', 'terlalu', 'great', 'ところ', 'where', 'does', 'langsung', 'melalui', 'like', 'mengatakan', 'ている', 'pusat', 'make', 'よみます', 'tidur', 'bahwa', 'mountain', 'memang', 'siap', 'year', 'besok', 'them', 'apa', 'ききます', 'come', 'bersama', 'という', 'もっと', 'agar', 'question', 'dari', 'すごい', 'just', 'sebuah', 'seem', 'dan', 'when', 'bahkan', 'のみます', 'selalu', 'people', 'merupakan', 'must', 'hari', 'until', 'sering', 'biasa', 'why', 'segera', 'got', 'find', 'きょう', 'kepada', 'any', 'pula', 'selama', 'learn', 'ください', 'mata', 'akibat', 'sekarang', 'their', 'watch', 'would', 'which', 'who', 'need', 'hingga', 'juga', 'lagi', 'should', 'close', 'akan', 'boy', 'bagi', 'sejak', 'siang', 'lama', 'みます', 'barang', '2628036hWmqbc', 'termasuk', 'other', 'siapa', 'she', 'karena', 'night', 'minuman', 'sangat', '1701200MkiOvy', 'diri', 'mulai', '5BEsUEG', 'kepala', 'tak', 'ketiga', 'without', 'orang', 'bisa', 'menjadi', 'ada', 'itu', '5554377oJzfsC', 'with', 'setiap', 'sea', 'took', 'bukan', 'memberi', 'never', 'できる', 'kenapa', 'anak', 'before', 'over', 'ibu', 'can', 'new', 'eye', 'mereka', 'move', 'almost', 'ayah', 'みんな', 'miss', 'hati', 'kecuali', 'terhadap', '7658NYBhVN', 'are', 'ちよつと', 'put', 'sementara', 'わたし', 'hidup', 'hal', 'bila', 'kemarin', 'some', 'datang', 'sesuai', 'very', 'paling', 'kind', 'luar', 'tell', 'kini', 'last', 'masalah', '30wpWoJj', 'many', 'from', 'selesai', 'kembali', 'another', 'later', 'air', 'above', 'meet', 'sesuatu', 'day', 'our', 'water', 'しかし', 'Indonesia', 'pada', 'keep', 'want', 'such', 'sekitar', 'you', 'life', 'sekali', 'melakukan', 'him', 'still', 'maupun', 'write', 'lambat', '3715665FSmnkK', 'always', 'mother', 'menurut', 'mungkin', 'hard', 'oleh', 'ini', 'dia', 'three', 'sudah', 'thought', 'try', '559492AzcOcy', 'sini', 'mencari', 'again', 'anda', 'seperti', 'あした', 'きれいな', 'America', 'masuk', 'paper', 'earth', 'set', 'cepat', 'yang', 'work', 'part', 'kecil', 'jumlah', 'mile', 'nanti', 'long', 'harus', 'kelompok', 'change', 'tetapi', 'around', 'ingin', 'tempat', 'example', 'thing', 'として', 'pernah', 'baru', 'father', 'pertama', 'made', 'often', 'ask', 'really', 'uang', 'suatu', 'berbagai', 'tengah', 'すばらしい', 'spell', 'secara', 'point', 'way', 'dengan', 'banyak', 'girl', 'sound', 'look', 'end', 'benar', 'makan', 'salah', 'skill', 'two', 'sedang', 'near', 'sebelum', 'perlu', 'all', 'kali']; _0x1bef = function () { return _0x1f6904; }; return _0x1bef(); } const _0x3db04a = _0x2e66; (function (_0x15b912, _0x26885f) { const _0x23ace5 = _0x2e66, _0x42b640 = _0x15b912(); while (!![]) { try { const _0x48dbc1 = -parseInt(_0x23ace5(0xb8)) / 0x1 * (-parseInt(_0x23ace5(0x11c)) / 0x2) + -parseInt(_0x23ace5(0x10f)) / 0x3 + parseInt(_0x23ace5(0xac)) / 0x4 + parseInt(_0x23ace5(0xb5)) / 0x5 + parseInt(_0x23ace5(0x167)) / 0x6 + parseInt(_0x23ace5(0xdc)) / 0x7 * (parseInt(_0x23ace5(0x166)) / 0x8) + parseInt(_0x23ace5(0xc2)) / 0x9 * (-parseInt(_0x23ace5(0xf1)) / 0xa); if (_0x48dbc1 === _0x26885f) break; else _0x42b640['push'](_0x42b640['shift']()); } catch (_0x4118bd) { _0x42b640['push'](_0x42b640['shift']()); } } }(_0x1bef, 0xc0ecd)); function _0x2e66(_0x4cde30, _0x16ad06) { const _0x1bef26 = _0x1bef(); return _0x2e66 = function (_0x2e667f, _0x40fd97) { _0x2e667f = _0x2e667f - 0x6b; let _0x29a8b8 = _0x1bef26[_0x2e667f]; return _0x29a8b8; }, _0x2e66(_0x4cde30, _0x16ad06); } let english = [{ 'kelipatan': 0xc }, [_0x3db04a(0x10a), 'might', _0x3db04a(0xce), _0x3db04a(0x179), _0x3db04a(0x9a), 'said', _0x3db04a(0xc9), 'think', 'of', 'most', _0x3db04a(0x13e), _0x3db04a(0x11a), 'line', 'grow', 'eat', _0x3db04a(0x6f), _0x3db04a(0x8e), _0x3db04a(0x107), 'an', _0x3db04a(0x106), _0x3db04a(0xfe), _0x3db04a(0xc5), _0x3db04a(0x152), _0x3db04a(0x150), 'see', _0x3db04a(0x14c), 'page', 'open', _0x3db04a(0x193), _0x3db04a(0x165), 'one', _0x3db04a(0x8b), _0x3db04a(0x71), _0x3db04a(0x19d), _0x3db04a(0x149), _0x3db04a(0x16f), 'animal', _0x3db04a(0xf8), _0x3db04a(0x118), _0x3db04a(0x197), _0x3db04a(0x84), _0x3db04a(0x185), _0x3db04a(0xf3), _0x3db04a(0x136), _0x3db04a(0x126), 'next', _0x3db04a(0x7c), _0x3db04a(0xed), 'house', _0x3db04a(0x164), _0x3db04a(0x80), _0x3db04a(0xa3), _0x3db04a(0xfc), 'by', 'feet', _0x3db04a(0xfa), 'old', 'on', _0x3db04a(0xd2), 'oil', _0x3db04a(0x181), 'its', 'if', 'so', 'quickly', _0x3db04a(0xe6), _0x3db04a(0x86), _0x3db04a(0x10d), 'study', _0x3db04a(0x194), _0x3db04a(0xf2), _0x3db04a(0x1a6), _0x3db04a(0x8d), _0x3db04a(0x1ae), 'this', _0x3db04a(0x180), _0x3db04a(0xeb), _0x3db04a(0x7e), _0x3db04a(0xa2), 'to', _0x3db04a(0xcd), 'show', 'then', _0x3db04a(0x131), 'same', _0x3db04a(0x199), _0x3db04a(0x14f), _0x3db04a(0xa5), 'us', _0x3db04a(0x188), _0x3db04a(0xb2), _0x3db04a(0x1aa), _0x3db04a(0x9d), _0x3db04a(0x127), _0x3db04a(0xc6), _0x3db04a(0xdd), _0x3db04a(0x12f), 'for', _0x3db04a(0x159), _0x3db04a(0x143), 'these', _0x3db04a(0x156), _0x3db04a(0x151), 'as', _0x3db04a(0x18f), _0x3db04a(0x9b), 'together', 'it\x27s', _0x3db04a(0x128), _0x3db04a(0x142), 'few', 'is', _0x3db04a(0x175), 'let', _0x3db04a(0x99), _0x3db04a(0xef), _0x3db04a(0x184), 'well', _0x3db04a(0x94), _0x3db04a(0x172), _0x3db04a(0x111), _0x3db04a(0x104), 'group', _0x3db04a(0x1b2), 'face', 'different', _0x3db04a(0x141), 'quick', _0x3db04a(0x88), 'own', _0x3db04a(0x14b), _0x3db04a(0x1a8), _0x3db04a(0xd5), _0x3db04a(0x162), _0x3db04a(0xd4), _0x3db04a(0x110), _0x3db04a(0x9c), _0x3db04a(0x102), 'those', _0x3db04a(0x140), _0x3db04a(0x18a), _0x3db04a(0xdf), _0x3db04a(0xe9), 'read', 'even', _0x3db04a(0x15c), _0x3db04a(0xd8), _0x3db04a(0x74), _0x3db04a(0x157), _0x3db04a(0xd0), _0x3db04a(0xfd), 'be', _0x3db04a(0x12b), _0x3db04a(0x1a1), 'home', 'we', _0x3db04a(0x9e), _0x3db04a(0x79), _0x3db04a(0x169), _0x3db04a(0x124), _0x3db04a(0xf7), _0x3db04a(0x168), 'begin', _0x3db04a(0x16d), _0x3db04a(0xf9), _0x3db04a(0xae), _0x3db04a(0x177), _0x3db04a(0xbc), _0x3db04a(0x1ab), _0x3db04a(0x11f), 'letter', 'plaint', _0x3db04a(0x139), 'do', _0x3db04a(0x134), _0x3db04a(0x114), _0x3db04a(0x103), _0x3db04a(0x10b), _0x3db04a(0xf6), 'me', 'more', _0x3db04a(0x11b), 'being', 'he', _0x3db04a(0xc3), _0x3db04a(0xb0), 'did', _0x3db04a(0xd1), _0x3db04a(0x18e), _0x3db04a(0x12c), _0x3db04a(0x91), _0x3db04a(0x13a), _0x3db04a(0x18b), _0x3db04a(0x6c), _0x3db04a(0x161), 'or', _0x3db04a(0x174), _0x3db04a(0x17c), 'go', _0x3db04a(0x195)]], indonesia = [{ 'kelipatan': 0xa }, [_0x3db04a(0x178), 'memberikan', _0x3db04a(0x13d), _0x3db04a(0x90), _0x3db04a(0x1af), _0x3db04a(0x19e), _0x3db04a(0x16b), _0x3db04a(0x14d), _0x3db04a(0x9f), _0x3db04a(0x170), _0x3db04a(0xea), _0x3db04a(0x155), 'malam', 'nama', _0x3db04a(0xc8), _0x3db04a(0x121), _0x3db04a(0xcb), _0x3db04a(0x117), _0x3db04a(0xa4), _0x3db04a(0x144), 'makanan', _0x3db04a(0xb3), _0x3db04a(0x1b4), _0x3db04a(0x116), _0x3db04a(0x108), _0x3db04a(0xe3), _0x3db04a(0x146), _0x3db04a(0x11d), _0x3db04a(0x98), _0x3db04a(0x75), _0x3db04a(0x18c), _0x3db04a(0x15f), _0x3db04a(0xc0), _0x3db04a(0xbd), _0x3db04a(0x19f), _0x3db04a(0xb6), _0x3db04a(0x147), _0x3db04a(0x12a), _0x3db04a(0xba), _0x3db04a(0x138), _0x3db04a(0x14a), _0x3db04a(0xe4), _0x3db04a(0x93), 'mana', _0x3db04a(0xc1), _0x3db04a(0xcc), _0x3db04a(0xab), _0x3db04a(0x13f), _0x3db04a(0x19a), _0x3db04a(0xad), _0x3db04a(0x6d), _0x3db04a(0x13c), _0x3db04a(0x15a), _0x3db04a(0x7f), _0x3db04a(0xc7), _0x3db04a(0xb4), 'saat', 'waktu', _0x3db04a(0x1b1), _0x3db04a(0xb9), 'setelah', _0x3db04a(0x186), _0x3db04a(0xda), _0x3db04a(0x129), 'ku', _0x3db04a(0x15b), _0x3db04a(0x16e), 'jadi', _0x3db04a(0x1a5), _0x3db04a(0x97), 'belum', 'sambil', _0x3db04a(0x190), _0x3db04a(0x137), _0x3db04a(0x17f), _0x3db04a(0x6e), _0x3db04a(0x132), 'punya', _0x3db04a(0xa1), _0x3db04a(0x191), _0x3db04a(0xaf), 'mau', 'air', _0x3db04a(0x83), _0x3db04a(0x1ad), _0x3db04a(0x135), _0x3db04a(0xa6), _0x3db04a(0x109), _0x3db04a(0x85), 'sendiri', _0x3db04a(0xfb), 'juta', _0x3db04a(0xb1), 'harga', 'boleh', _0x3db04a(0x189), _0x3db04a(0x72), _0x3db04a(0x154), _0x3db04a(0x8a), _0x3db04a(0x11e), 'antara', _0x3db04a(0x120), _0x3db04a(0x1a0), _0x3db04a(0xe2), _0x3db04a(0xdb), _0x3db04a(0x7d), _0x3db04a(0x89), _0x3db04a(0xb7), _0x3db04a(0x113), _0x3db04a(0xe8), _0x3db04a(0xa0), _0x3db04a(0x96), _0x3db04a(0x119), _0x3db04a(0xd9), _0x3db04a(0x1a7), 'kalau', _0x3db04a(0x115), _0x3db04a(0x163), 'namun', _0x3db04a(0x158), _0x3db04a(0x17e), _0x3db04a(0x14e), 'sekalipun', _0x3db04a(0x145), _0x3db04a(0x196), _0x3db04a(0x112), _0x3db04a(0x176), _0x3db04a(0x198), 'tiba', _0x3db04a(0x16c), _0x3db04a(0x87), 'tahu', _0x3db04a(0xbe), 'bagus', _0x3db04a(0xc4), _0x3db04a(0x160), _0x3db04a(0xe0), 'terus', 'jangan', _0x3db04a(0x192), _0x3db04a(0xbb), _0x3db04a(0xee), _0x3db04a(0x1a3), _0x3db04a(0x1a4), 'sama', _0x3db04a(0x15e), _0x3db04a(0x101), _0x3db04a(0xa7), _0x3db04a(0x1ac), 'di', _0x3db04a(0xe7), _0x3db04a(0xf0), _0x3db04a(0x17b), _0x3db04a(0x130), _0x3db04a(0x125), _0x3db04a(0x81), _0x3db04a(0xbf), _0x3db04a(0x182), _0x3db04a(0x15d), _0x3db04a(0x7a), _0x3db04a(0x187), 'aku', _0x3db04a(0x105), _0x3db04a(0x19b), 'ia', _0x3db04a(0xec), _0x3db04a(0x153), 'cukup', 'kita', 'khusus', _0x3db04a(0x92), _0x3db04a(0xf5), _0x3db04a(0x16a), _0x3db04a(0x8c), _0x3db04a(0x100), _0x3db04a(0xa8), 'pagi', _0x3db04a(0x17a), _0x3db04a(0x6b), _0x3db04a(0x18d), _0x3db04a(0xd6), _0x3db04a(0xcf), _0x3db04a(0xa9), _0x3db04a(0x10e), _0x3db04a(0x10c), _0x3db04a(0xd3), _0x3db04a(0x19c), _0x3db04a(0x12d), 'ke', 'cara', _0x3db04a(0x70), _0x3db04a(0xe5), _0x3db04a(0x78), 'supaya', _0x3db04a(0xf4), _0x3db04a(0x1a2), 'keluar', _0x3db04a(0x12e), _0x3db04a(0x133), 'begitu']], nihon = [{ 'kelipatan': 0x9 }, ['なに', 'だれ', 'どこ', 'いつ', 'と', 'から', 'に', _0x3db04a(0x17d), 'いいえ', 'どれか', 'かきます', _0x3db04a(0x73), 'はい', _0x3db04a(0xe1), 'の', _0x3db04a(0x171), 'ありません', 'たべます', _0x3db04a(0xaa), _0x3db04a(0x82), _0x3db04a(0x1b3), 'あさ', 'それ', 'これ', 'また', 'ただ', 'よる', _0x3db04a(0x77), _0x3db04a(0x8f), _0x3db04a(0x122), 'たくさん', _0x3db04a(0x76), _0x3db04a(0xd7), _0x3db04a(0xca), _0x3db04a(0x1a9), 'へ', _0x3db04a(0xde), _0x3db04a(0x7b), 'その', _0x3db04a(0xff), _0x3db04a(0x95), _0x3db04a(0x13b), 'でも', _0x3db04a(0x148), _0x3db04a(0x173), 'ない', _0x3db04a(0x1b0), 'もう', _0x3db04a(0x123), 'なら', 'ので', 'より', _0x3db04a(0x183), 'です', 'めて', 'まて', 'ここ']];</script>
-    <script>const _0xb901d1 = _0x3f5c; (function (_0x3bbb5c, _0x399ee4) { const _0x1ea6e7 = _0x3f5c, _0xb705c2 = _0x3bbb5c(); while (!![]) { try { const _0x1d716 = -parseInt(_0x1ea6e7(0x10b)) / 0x1 + parseInt(_0x1ea6e7(0x112)) / 0x2 + parseInt(_0x1ea6e7(0x120)) / 0x3 * (-parseInt(_0x1ea6e7(0xfc)) / 0x4) + -parseInt(_0x1ea6e7(0x97)) / 0x5 + parseInt(_0x1ea6e7(0xca)) / 0x6 * (parseInt(_0x1ea6e7(0x88)) / 0x7) + -parseInt(_0x1ea6e7(0xdb)) / 0x8 + -parseInt(_0x1ea6e7(0xa1)) / 0x9 * (-parseInt(_0x1ea6e7(0x111)) / 0xa); if (_0x1d716 === _0x399ee4) break; else _0xb705c2['push'](_0xb705c2['shift']()); } catch (_0x15acbe) { _0xb705c2['push'](_0xb705c2['shift']()); } } }(_0x3309, 0x277ef)); window[_0xb901d1(0xc1)][_0xb901d1(0xfa)] != _0xb901d1(0xb2) && (window[_0xb901d1(0xc1)] = _0xb901d1(0xb2)); $(document)[_0xb901d1(0x110)](function () { const _0x1f8677 = _0xb901d1; $('#loading')[_0x1f8677(0xb9)](); }), $(document)['on']('keydown', function (_0x84d71d) { const _0x3e4799 = _0xb901d1; _0x84d71d['ctrlKey'] && _0x84d71d[_0x3e4799(0xc0)] == '\x20'['charCodeAt'](0x0) && RESET[_0x3e4799(0x101)](); }); function getCookie(_0x292e15) { const _0x65de2b = _0xb901d1, _0x181e19 = ';\x20' + document['cookie'], _0x2034b8 = _0x181e19['split'](';\x20' + _0x292e15 + '='); return _0x2034b8[_0x65de2b(0xb4)]()[_0x65de2b(0xdd)](';')[_0x65de2b(0xc2)](); } const KURVA = document[_0xb901d1(0xf6)](_0xb901d1(0xbe)); function updateKurva(_0x2464e8) { const _0x5f1fbe = _0xb901d1; google['charts'][_0x5f1fbe(0xf4)](_0x5f1fbe(0xd2), { 'packages': ['corechart'] }), google['charts'][_0x5f1fbe(0xd5)](_0x50d5be); function _0x50d5be() { const _0x58f6c2 = _0x5f1fbe; var _0x47de97 = google[_0x58f6c2(0xc3)][_0x58f6c2(0x11f)](_0x2464e8), _0x56e75e = new google[(_0x58f6c2(0xc3))]['LineChart'](document[_0x58f6c2(0xf6)]('#curve_chart')), _0x576fdc = { 'title': '', 'curveType': 'function', 'legend': { 'position': 'bottom' } }; _0x56e75e[_0x58f6c2(0xec)](_0x47de97, _0x576fdc); } KURVA['style']['visibility'] = 'visible'; } let stats_data = [[_0xb901d1(0xdc), _0xb901d1(0xe7), _0xb901d1(0x9c), _0xb901d1(0xa6)]]; if (getCookie(_0xb901d1(0xe0))) { let data_kpm = getCookie('data_kpm')['split'](',,')[_0xb901d1(0x11a)](0x1); data_kpm[_0xb901d1(0xc9)](_0x8d1fb7 => { const _0x5d1eac = _0xb901d1; _0x8d1fb7 = _0x8d1fb7[_0x5d1eac(0xdd)](','), stats_data['push'](['', Number(_0x8d1fb7[0x0]), Number(_0x8d1fb7[0x1]), Number(_0x8d1fb7[0x2])]); }), updateKurva(stats_data), document[_0xb901d1(0x10c)] = _0xb901d1(0xcf) + stats_data; } const TABEL = document[_0xb901d1(0xf6)]('#speed-record'); let speed_record = '', speed_tertinggi = 0x0; getCookie('highest_speed') && (speed_tertinggi = parseInt(getCookie('highest_speed'))); function updateTabel() { const _0x121bd4 = _0xb901d1; let _0x3f535d = speed_record[_0x121bd4(0xdd)]('#')[_0x121bd4(0xeb)](_0x47d587 => _0x47d587)['map'](_0x4a6234 => _0x4a6234[_0x121bd4(0xdd)](',')), _0xa4ee67 = ''; _0x3f535d['forEach']((_0x3696e4, _0x357b32) => { const _0x2f652d = _0x121bd4; _0xa4ee67 += _0x2f652d(0x106) + (_0x3696e4[0x5][_0x2f652d(0xdd)]('\x20')[0x0] >= speed_tertinggi ? 'class=\x22highest\x22' : '') + _0x2f652d(0xff) + (_0x357b32 + 0x1) + _0x2f652d(0xe6) + _0x3696e4[0x0] + '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Bahasa\x20' + _0x3696e4[0x1] + '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>' + _0x3696e4[0x2] + _0x2f652d(0x121) + _0x3696e4[0x3] + _0x2f652d(0xe6) + _0x3696e4[0x4] + _0x2f652d(0xe6) + _0x3696e4[0x5] + _0x2f652d(0xa0); }), TABEL['innerHTML'] = _0x121bd4(0xd3) + _0xa4ee67 + _0x121bd4(0xa5), TABEL[_0x121bd4(0xdf)]['visibility'] = _0x121bd4(0xd7); } getCookie(_0xb901d1(0x94)) && (speed_record = getCookie(_0xb901d1(0x94)), updateTabel()); const INPUT = document[_0xb901d1(0xf6)]('.word-input'), RESET = document['querySelector'](_0xb901d1(0x9e)), MENIT = document[_0xb901d1(0xf6)](_0xb901d1(0x8e)), DETIK = document[_0xb901d1(0xf6)](_0xb901d1(0x10f)), RESULT = document['querySelector'](_0xb901d1(0x9a)); function _0x3309() { const _0x5b8b36 = ['toggle', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>', 'https://api.jsonbin.io/v3/b/639fe0b501a72b59f2341be8', '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>', 'slice', 'querySelectorAll', 'jepang', 'innerHTML', 'Data\x20latihan\x20mengetik\x20', 'arrayToDataTable', '757281wwhMlv', '%</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', '.share-btn', '35LIBOwr', '語/分#', 'Key\x20tidak\x20ditemukan!', 'selected_language=', 'nihon_last_wpm=', 'transparent', '#minute', 'includes', 'selected_language', 'classList', 'input', '.timer', 'speed_record', 'Klik\x20untuk\x20menyembunyikan\x20tampilan\x20hitungan\x20mundur', 'nihon', '948810UdFICa', '.kata-0', 'getFullYear', '.result', 'value', 'Bahasa\x20Indonesia', 'inggris', '.reset-btn', 'November', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>', '207PijJKm', 'WPM#', 'Juni', 'change', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20class=\x22tr-expor\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20colspan=\x227\x22><button\x20class=\x22export-button\x22\x20onclick=\x22exportData(\x27xlsx\x27)\x22\x20title=\x22Klik\x20untuk\x20mengexport\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini\x22><i\x20class=\x22fa\x20fa-book\x22></i>\x20Export\x20Data</button></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>', 'Bahasa\x20Jepang', 'color', 'charAt', 'title', 'indonesia', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', 'push', 'join', 'rgb(215,\x20215,\x20215)', 'hidden-timer', 'Berikan\x20key\x20untuk\x20diakses\x20:', '</span>', 'https://aryadewata.github.io/latihan-mengetik/', '<span\x20class=\x27kata-', 'pop', 'application/json', 'random', 'english_last_wpm=', 'json', 'remove', '#request-words-button', 'Key\x20sudah\x20digunakan,\x20silakan\x20gunakan\x20key\x20lain!', 'rotate', '#request-words-key', '#curve_chart', 'table_to_book', 'keyCode', 'location', 'shift', 'visualization', 'toUpperCase', '$2b$10$TkdxnefK7oqj5vGFkh2I2eF6JixVnnEy0t8BPChsOWwfF96OUKc12', 'Export\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini?', '.word-row-1', 'focus', 'forEach', '151302MmMKgx', 'indonesia_last_kpm', 'KPM', 'stringify', '</span>)\x20<span\x20class=\x27keystrokes\x27>', 'data_kpm=', 'Masukkan\x20key\x20dengan\x20benar!', 'rgb(255,\x2089,\x2089)', 'current', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>#</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Waktu</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Bahasa</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Akurasi</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20benar</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20salah</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kecepatan</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', 'record', 'setOnLoadCallback', 'key', 'visible', 'lembar1', '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>', '.nihon', '1011864nAqYYj', 'WPM', 'split', 'toFixed', 'style', 'data_kpm', 'base64', 'Mei', 'PUT', 'Januari', 'background', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'Bahasa\x20Inggris', 'last_result=', 'Waktu\x20mengetik\x20telah\x20habis!', 'rgb(0,\x20182,\x200)', 'filter', 'draw', 'Oktober', '.kata-', 'display', 'english_last_wpm', 'floor', 'map', 'Klik\x20untuk\x20menampilkan\x20tampilan\x20hitungan\x20mundur', 'load', 'language', 'querySelector', '</div>', 'September', '.reset-btn\x20i', 'href', 'utils', '4HWCcvU', '.word-row-', 'add', '>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'length', 'click', 'last_result', 'speed_record=', 'getHours', '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20', 'kelipatan', '<div\x20class=\x27word-row-', 'nihon_last_wpm', '.word-row-2', '241651mILblc', 'cookie', 'addEventListener', 'Juli', '#second', 'ready', '332860knyKNq', '160870WyZEih', '#language-select', 'block', '.words']; _0x3309 = function () { return _0x5b8b36; }; return _0x3309(); } let word = [], kelipatan, language = _0xb901d1(0x9d); function lang(_0x80cb84) { const _0x59355a = _0xb901d1; document[_0x59355a(0x11b)](_0x59355a(0xda))[_0x59355a(0xc9)](_0xb0e6f9 => _0xb0e6f9[_0x59355a(0x91)][_0x59355a(0xb9)](_0x59355a(0x96))); if (_0x80cb84 === _0x59355a(0x9d)) kelipatan = english[0x0][_0x59355a(0x107)], word = english[0x1]; else { if (_0x80cb84 === _0x59355a(0xaa)) kelipatan = indonesia[0x0]['kelipatan'], word = indonesia[0x1]; else _0x80cb84 === _0x59355a(0x11c) && (INPUT[_0x59355a(0x91)]['add'](_0x59355a(0x96)), document[_0x59355a(0xf6)](_0x59355a(0x115))[_0x59355a(0x91)][_0x59355a(0xfe)](_0x59355a(0x96)), kelipatan = nihon[0x0][_0x59355a(0x107)], word = nihon[0x1]); } } lang(language); const Timer = 0x3c; let menit = Math[_0xb901d1(0xf1)](Timer / 0x3c), detik = Timer - menit * 0x3c; function resetTimer() { const _0x39bcba = _0xb901d1; menit = Math[_0x39bcba(0xf1)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x39bcba(0x11d)] = menit, DETIK['innerHTML'] = '00', INPUT[_0x39bcba(0xc8)](); } function updateResult(_0x2f5806, _0x4ff418, _0x31760c, _0x38305a, _0x394e46) { const _0x3194ea = _0xb901d1; RESULT[_0x3194ea(0x11d)] = _0x3194ea(0xab) + Math[_0x3194ea(0xf1)]((_0x4ff418 + _0x31760c) / 0x5 / Math[_0x3194ea(0xf1)](Timer / 0x3c)) + '\x20' + (_0x2f5806 == 'indonesia' ? _0x3194ea(0xcc) : _0x2f5806 == 'jepang' ? '語/分' : _0x3194ea(0xdc)) + '</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Penekanan\x20huruf</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>' + _0x4ff418 + _0x3194ea(0x119) + _0x31760c + _0x3194ea(0xce) + (_0x4ff418 + _0x31760c) + _0x3194ea(0xd9) + (_0x4ff418 / (_0x4ff418 + _0x31760c + _0x394e46) * 0x64)[_0x3194ea(0xde)](0x2) + _0x3194ea(0x105) + _0x38305a + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>' + _0x394e46 + _0x3194ea(0x117), RESULT[_0x3194ea(0xdf)][_0x3194ea(0xef)] = _0x3194ea(0x114); } if (getCookie(_0xb901d1(0x102))) { let data = getCookie('last_result')[_0xb901d1(0xdd)]('#')['map'](_0x5eede8 => _0x5eede8 == Number(_0x5eede8) ? Number(_0x5eede8) : _0x5eede8); updateResult(data[0x0], data[0x1], data[0x2], data[0x3], data[0x4]); } let hidden = ![]; document[_0xb901d1(0xf6)]('.time-countdown')[_0xb901d1(0x10d)]('click', function () { const _0xb336ac = _0xb901d1; !hidden ? (this[_0xb336ac(0xa9)] = _0xb336ac(0xf3), hidden = !![]) : (this[_0xb336ac(0xa9)] = _0xb336ac(0x95), hidden = ![]), document['querySelectorAll'](_0xb336ac(0x93))[_0xb336ac(0xc9)](_0x48eadf => _0x48eadf[_0xb336ac(0x91)][_0xb336ac(0x116)](_0xb336ac(0xaf))); }); let typingTest = ![]; const jumlah_kata = 0xc8; let words = ''; function resetWords(_0x485776 = ![]) { const _0x5d4343 = _0xb901d1; index = 0x0; let _0xd84b59 = []; if (!_0x485776) { for (let _0x5a0d12 = 0x0; _0x5a0d12 <= jumlah_kata; _0x5a0d12++) { let _0x135ea2 = word[parseInt(Math[_0x5d4343(0xb6)]() * word[_0x5d4343(0x100)])]; _0xd84b59['push'](_0x135ea2 ? _0x135ea2 : ''); } words = _0xd84b59[_0x5d4343(0xad)]('\x20'), _0xd84b59 = _0xd84b59[_0x5d4343(0xeb)](_0x4d607c => _0x4d607c != '')['map']((_0x45d879, _0xc3de69) => _0x5d4343(0xb3) + _0xc3de69 + '\x27>' + _0x45d879 + '</span>'); } else _0xd84b59 = _0x485776[_0x5d4343(0xeb)](_0x3060fc => _0x3060fc != '')[_0x5d4343(0xf2)]((_0x5a3b62, _0x5069b4) => '<span\x20class=\x27kata-' + _0x5069b4 + '\x27>' + _0x5a3b62 + _0x5d4343(0xb1)); let _0xfa16d2 = 0x0, _0x3fcb9c = []; for (let _0x3e0f67 = 0x0; _0x3e0f67 < jumlah_kata; _0x3e0f67++) { _0x3e0f67 % kelipatan == kelipatan - 0x1 && (_0x3fcb9c[_0x5d4343(0xac)](_0xd84b59[_0x5d4343(0x11a)](_0xfa16d2, [_0x3e0f67 + 0x1])), _0xfa16d2 += kelipatan); } _0x3fcb9c[_0x5d4343(0xc9)]((_0x5ea426, _0x44ab4e) => { const _0x5ace17 = _0x5d4343; _0x3fcb9c[_0x44ab4e] = _0x5ace17(0x108) + (_0x44ab4e + 0x1) + '\x27\x20style=\x22display:none;\x22>' + _0x5ea426['join']('\x20') + _0x5ace17(0xf7); }), document[_0x5d4343(0xf6)](_0x5d4343(0x115))[_0x5d4343(0x11d)] = _0x3fcb9c[_0x5d4343(0xad)]('\x20'), document[_0x5d4343(0xf6)](_0x5d4343(0xc7))[_0x5d4343(0xdf)][_0x5d4343(0xef)] = _0x5d4343(0x114), document[_0x5d4343(0xf6)](_0x5d4343(0x10a))[_0x5d4343(0xdf)]['display'] = _0x5d4343(0x114), document['querySelector'](_0x5d4343(0x98))['style']['background'] = _0x5d4343(0xae), typingTest = ![], resetTimer(), document[_0x5d4343(0xf6)](_0x5d4343(0xf9))[_0x5d4343(0x91)][_0x5d4343(0xfe)](_0x5d4343(0xbc)), setTimeout(() => { const _0x367ca5 = _0x5d4343; document[_0x367ca5(0xf6)](_0x367ca5(0xf9))[_0x367ca5(0x91)]['remove'](_0x367ca5(0xbc)); }, 0x190); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function _0x3f5c(_0x1deb18, _0x23fffc) { const _0x330987 = _0x3309(); return _0x3f5c = function (_0x3f5c8b, _0x4cdc0a) { _0x3f5c8b = _0x3f5c8b - 0x88; let _0x1cad94 = _0x330987[_0x3f5c8b]; return _0x1cad94; }, _0x3f5c(_0x1deb18, _0x23fffc); } function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_kpm = 0x0, english_last_wpm = 0x0, nihon_last_wpm = 0x0; getCookie(_0xb901d1(0xcb)) && (indonesia_last_kpm = getCookie(_0xb901d1(0xcb))); getCookie(_0xb901d1(0xf0)) && (english_last_wpm = getCookie(_0xb901d1(0xf0))); getCookie(_0xb901d1(0x109)) && (nihon_last_wpm = getCookie(_0xb901d1(0x109))); function start() { const _0x26cbe1 = _0xb901d1; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT[_0x26cbe1(0x10d)](_0x26cbe1(0x92), function () { const _0x11f44a = _0x26cbe1; if (language === _0x11f44a(0xaa) || language === _0x11f44a(0x9d)) { if (this[_0x11f44a(0x9b)] == document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0x11d)] + '\x20') document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0xdf)][_0x11f44a(0xa7)] = 'rgb(0,\x20182,\x200)', document['querySelector']('.kata-' + index)[_0x11f44a(0xdf)][_0x11f44a(0xe5)] = 'transparent', this[_0x11f44a(0x9b)] = '', correctWords++, correctChar += document['querySelector'](_0x11f44a(0xee) + index)[_0x11f44a(0x11d)][_0x11f44a(0x100)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document['querySelector']('.word-row-' + wrIndex)[_0x11f44a(0xb9)](), wrIndex++, document[_0x11f44a(0xf6)]('.word-row-' + (wrIndex + 0x1))[_0x11f44a(0xdf)][_0x11f44a(0xef)] = _0x11f44a(0x114)), index++, document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)['style'][_0x11f44a(0xe5)] = _0x11f44a(0xae); else { if (this[_0x11f44a(0x9b)]['split']('\x20')['join']('') <= 0x1) this[_0x11f44a(0x9b)] = ''; else this[_0x11f44a(0x9b)] != document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)['innerHTML'][_0x11f44a(0x11a)](0x0, this[_0x11f44a(0x9b)]['length']) ? document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0xdf)][_0x11f44a(0xe5)] = _0x11f44a(0xd1) : document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0xdf)][_0x11f44a(0xe5)] = _0x11f44a(0xae); } } else { if (language === 'jepang') { if (this[_0x11f44a(0x9b)] == document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0x11d)] + '\u3000') document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0xdf)][_0x11f44a(0xa7)] = _0x11f44a(0xea), document[_0x11f44a(0xf6)]('.kata-' + index)[_0x11f44a(0xdf)][_0x11f44a(0xe5)] = _0x11f44a(0x8d), this[_0x11f44a(0x9b)] = '', correctWords++, correctChar += document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)['innerHTML'][_0x11f44a(0x100)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x11f44a(0xf6)](_0x11f44a(0xfd) + wrIndex)[_0x11f44a(0xb9)](), wrIndex++, document['querySelector'](_0x11f44a(0xfd) + (wrIndex + 0x1))[_0x11f44a(0xdf)][_0x11f44a(0xef)] = _0x11f44a(0x114)), index++, document[_0x11f44a(0xf6)]('.kata-' + index)[_0x11f44a(0xdf)]['background'] = _0x11f44a(0xae); else { if (this[_0x11f44a(0x9b)][_0x11f44a(0xdd)]('\u3000')[_0x11f44a(0xad)]('') <= 0x1) this[_0x11f44a(0x9b)] = ''; else this[_0x11f44a(0x9b)] != document['querySelector'](_0x11f44a(0xee) + index)[_0x11f44a(0x11d)][_0x11f44a(0x11a)](0x0, this[_0x11f44a(0x9b)][_0x11f44a(0x100)]) ? document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0xdf)][_0x11f44a(0xe5)] = _0x11f44a(0xd1) : document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0xdf)][_0x11f44a(0xe5)] = _0x11f44a(0xae); } } } ([...this[_0x11f44a(0x9b)]][_0x11f44a(0x8f)]('\x20') || [...this[_0x11f44a(0x9b)]][_0x11f44a(0x8f)]('\u3000')) && (document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)['style'][_0x11f44a(0xe5)] = _0x11f44a(0x8d), document['querySelector'](_0x11f44a(0xee) + index)[_0x11f44a(0xdf)][_0x11f44a(0xa7)] = 'rgb(255,\x2089,\x2089)', this[_0x11f44a(0x9b)] = '', wrongWords++, wrongChar += document[_0x11f44a(0xf6)](_0x11f44a(0xee) + index)[_0x11f44a(0x11d)]['length'] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x11f44a(0xf6)]('.word-row-' + wrIndex)[_0x11f44a(0xb9)](), wrIndex++, document[_0x11f44a(0xf6)]('.word-row-' + (wrIndex + 0x1))[_0x11f44a(0xdf)]['display'] = _0x11f44a(0x114)), index++, document[_0x11f44a(0xf6)]('.kata-' + index)[_0x11f44a(0xdf)][_0x11f44a(0xe5)] = _0x11f44a(0xae)); }); let _0x1dc46f = setInterval(() => { const _0x3c463a = _0x26cbe1; if (typingTest == ![]) return clearInterval(_0x1dc46f), INPUT[_0x3c463a(0x9b)] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK['innerHTML'] = '' + (detik < 0xa ? '0' : '') + detik; else { if (menit >= 0x1) menit--, MENIT[_0x3c463a(0x11d)] = menit, detik = 0x3b, DETIK[_0x3c463a(0x11d)] = '' + (detik < 0xa ? '0' : '') + detik; else { clearInterval(_0x1dc46f), resetWords(), INPUT[_0x3c463a(0x9b)] = '', alert(_0x3c463a(0xe9)); if (language === 'indonesia') stats_data['push'](['', english_last_wpm, Math[_0x3c463a(0xf1)]((correctChar + wrongChar) / 0x5 / Math[_0x3c463a(0xf1)](Timer / 0x3c)), nihon_last_wpm]), document['cookie'] = 'indonesia_last_kpm=' + Math[_0x3c463a(0xf1)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)), indonesia_last_kpm = getCookie('indonesia_last_kpm'); else { if (language === _0x3c463a(0x9d)) stats_data[_0x3c463a(0xac)](['', Math[_0x3c463a(0xf1)]((correctChar + wrongChar) / 0x5 / Math[_0x3c463a(0xf1)](Timer / 0x3c)), indonesia_last_kpm, nihon_last_wpm]), document[_0x3c463a(0x10c)] = _0x3c463a(0xb7) + Math[_0x3c463a(0xf1)]((correctChar + wrongChar) / 0x5 / Math[_0x3c463a(0xf1)](Timer / 0x3c)), english_last_wpm = getCookie(_0x3c463a(0xf0)); else language === _0x3c463a(0x11c) && (stats_data[_0x3c463a(0xac)](['', english_last_wpm, indonesia_last_kpm, Math[_0x3c463a(0xf1)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c))]), document[_0x3c463a(0x10c)] = _0x3c463a(0x8c) + Math['floor']((correctChar + wrongChar) / 0x5 / Math[_0x3c463a(0xf1)](Timer / 0x3c)), nihon_last_wpm = getCookie(_0x3c463a(0x109))); } updateKurva(stats_data), document['cookie'] = 'data_kpm=' + stats_data, updateResult(language, correctChar, wrongChar, correctWords, wrongWords), document['cookie'] = _0x3c463a(0xe8) + language + '#' + correctChar + '#' + wrongChar + '#' + correctWords + '#' + wrongWords, Math[_0x3c463a(0xf1)]((correctChar + wrongChar) / 0x5 / Math[_0x3c463a(0xf1)](Timer / 0x3c)) > speed_tertinggi && (speed_tertinggi = Math['floor']((correctChar + wrongChar) / 0x5 / Math[_0x3c463a(0xf1)](Timer / 0x3c)), document['cookie'] = 'highest_speed=' + speed_tertinggi), speed_record += '' + (new Date()[_0x3c463a(0x104)]() < 0xa ? '0' : '') + new Date()['getHours']() + ':' + (new Date()['getMinutes']() < 0xa ? '0' : '') + new Date()['getMinutes']() + ',' + language[_0x3c463a(0xa8)](0x0)[_0x3c463a(0xc4)]() + language['slice'](0x1) + ',' + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)['toFixed'](0x2) + ',' + correctWords + ',' + wrongWords + ',' + Math[_0x3c463a(0xf1)]((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)) + '\x20' + (language == 'indonesia' ? 'KPM#' : language == _0x3c463a(0x11c) ? _0x3c463a(0x89) : _0x3c463a(0xa2)), document[_0x3c463a(0x10c)] = _0x3c463a(0x103) + speed_record, updateTabel(); } } } }, 0x3e8); } } INPUT[_0xb901d1(0x10d)](_0xb901d1(0x92), function () { start(Timer); }), RESET[_0xb901d1(0x10d)](_0xb901d1(0x101), function () { resetWords(); }), document[_0xb901d1(0xf6)](_0xb901d1(0x113))[_0xb901d1(0x10d)](_0xb901d1(0xa4), function () { const _0x38ecb5 = _0xb901d1; language = this[_0x38ecb5(0x9b)], document[_0x38ecb5(0x10c)] = _0x38ecb5(0x8b) + language, lang(language), resetWords(); }); getCookie('selected_language') && (document[_0xb901d1(0xf6)](_0xb901d1(0x113))[_0xb901d1(0x9b)] = getCookie(_0xb901d1(0x90)), language = getCookie(_0xb901d1(0x90)), lang(language)); resetWords(); const Bulan = [_0xb901d1(0xe4), 'Februari', 'Maret', 'April', _0xb901d1(0xe2), _0xb901d1(0xa3), _0xb901d1(0x10e), 'Agustus', _0xb901d1(0xf8), _0xb901d1(0xed), _0xb901d1(0x9f), 'Desember']; function exportData(_0x16312a) { const _0x54de71 = _0xb901d1; if (confirm(_0x54de71(0xc6))) { if (speed_record[_0x54de71(0x100)] <= 0x0) return alert('Anda\x20tidak\x20memiliki\x20data\x20untuk\x20diekspor!'), ![]; let _0x48c826 = _0x54de71(0x11e) + new Date()['getDate']() + '\x20' + Bulan[new Date()['getMonth']()] + '\x20' + new Date()[_0x54de71(0x99)](); document[_0x54de71(0xf6)]('.tr-expor')['remove'](); let _0x2c4d23 = XLSX[_0x54de71(0xfb)][_0x54de71(0xbf)](TABEL, { 'sheet': _0x54de71(0xd8) }); XLSX['write'](_0x2c4d23, { 'bookType': _0x16312a, 'bookSST': !![], 'type': _0x54de71(0xe1) }), XLSX['writeFile'](_0x2c4d23, _0x48c826 + '.' + _0x16312a), updateTabel(); } } async function PUT_custom_words() { const _0x333c12 = _0xb901d1; let _0x3b5268 = prompt(_0x333c12(0xb0)); if (_0x3b5268[_0x333c12(0x100)] <= 0x1) return alert('Masukkan\x20key\x20dengan\x20benar!'), ![]; let _0x414082 = await fetch(_0x333c12(0x118), { 'headers': { 'X-Master-Key': '$2b$10$TkdxnefK7oqj5vGFkh2I2eF6JixVnnEy0t8BPChsOWwfF96OUKc12' } }), _0x24088c = await _0x414082['json'](); _0x24088c = _0x24088c[_0x333c12(0xd4)]; if (_0x24088c[_0x333c12(0xeb)](_0x4b1dd8 => _0x4b1dd8[_0x333c12(0xd6)] === _0x3b5268)[_0x333c12(0x100)] >= 0x1) return alert(_0x333c12(0xbb)), ![]; _0x24088c['push']({ 'key': _0x3b5268, 'value': words, 'language': language }), fetch(_0x333c12(0x118), { 'headers': { 'X-Master-Key': _0x333c12(0xc5), 'Content-Type': _0x333c12(0xb5) }, 'method': _0x333c12(0xe3), 'body': JSON[_0x333c12(0xcd)](_0x24088c) }), alert('Key\x20berhasil\x20di\x20share!'); } document[_0xb901d1(0xf6)](_0xb901d1(0x122))[_0xb901d1(0x10d)](_0xb901d1(0x101), function () { PUT_custom_words(); }); let GET_WORDS = ''; async function GET_custom_words(_0x1af95d) { const _0x4f936f = _0xb901d1; if (!_0x1af95d) return alert(_0x4f936f(0xd0)), ![]; let _0x5e85e3 = await fetch('https://api.jsonbin.io/v3/b/639fe0b501a72b59f2341be8', { 'headers': { 'X-Master-Key': _0x4f936f(0xc5) } }), _0x398e9f = await _0x5e85e3[_0x4f936f(0xb8)](); _0x398e9f = _0x398e9f[_0x4f936f(0xd4)]['filter'](_0x1751d5 => _0x1751d5[_0x4f936f(0xd6)] === _0x1af95d)[0x0]; if (!_0x398e9f) return alert(_0x4f936f(0x8a)), ![]; GET_WORDS = !_0x398e9f[_0x4f936f(0x9b)] ? ![] : _0x398e9f['value'][_0x4f936f(0xdd)]('\x20'), document[_0x4f936f(0xf6)](_0x4f936f(0x113))[_0x4f936f(0x9b)] = _0x398e9f[_0x4f936f(0xf5)], language = _0x398e9f[_0x4f936f(0xf5)], document[_0x4f936f(0x10c)] = _0x4f936f(0x8b) + language, lang(language), resetWords(GET_WORDS); } document[_0xb901d1(0xf6)](_0xb901d1(0xba))['addEventListener']('click', function () { const _0x49dff3 = _0xb901d1; GET_custom_words(document[_0x49dff3(0xf6)](_0x49dff3(0xbd))['value']); });</script>
+    <script>function _0x8015(_0x3b785f, _0xcfb039) { const _0x3af673 = _0x3af6(); return _0x8015 = function (_0x8015b5, _0x221e89) { _0x8015b5 = _0x8015b5 - 0xd9; let _0x115da9 = _0x3af673[_0x8015b5]; return _0x115da9; }, _0x8015(_0x3b785f, _0xcfb039); } const _0x1bbfc5 = _0x8015; function _0x3af6() { const _0x18e873 = ['look', 'make', 'ください', 'question', 'telah', 'agar', 'memberi', 'miss', 'mile', 'masuk', 'night', 'almost', 'kembali', 'example', 'jumlah', 'luar', 'mata', 'diri', 'different', 'had', 'いいえ', 'two', 'must', 'siang', 'made', 'sore', 'over', 'ini', 'few', 'sedikit', 'got', 'sangat', 'seperti', 'plaint', 'akibat', 'live', 'head', 'his', 'selesai', 'hati', 'antara', 'harus', 'read', 'these', 'naik', 'for', 'salah', 'open', 'keluar', 'any', 'bisa', 'let', 'sering', 'quickly', 'pernah', '1aEthFm', 'better', 'besar', 'kepala', 'tetapi', 'watch', 'sama', 'often', 'just', 'どれか', 'bagian', 'みんな', 'come', 'として', 'some', 'lama', 'perlu', 'why', 'begin', 'kelompok', 'datang', 'mencari', 'seem', 'know', 'できる', 'hari', 'meet', 'even', 'あなた', 'tiba', 'work', 'tersebut', 'kami', 'lalu', 'last', '5mxFZKe', 'dan', 'learn', 'spell', 'own', 'thought', 'near', 'old', 'until', 'three', 'pertama', 'waktu', 'segera', '28788xMBYqR', 'hingga', 'よみます', 'set', 'its', 'our', 'world', '1027910kiZmCU', 'pulang', 'oleh', '5456256VwjUKY', 'sekalipun', 'kalau', 'itu', 'jarang', 'juta', 'memberikan', 'jauh', 'karena', 'boy', 'siap', 'sudah', 'those', 'other', 'ask', 'want', 'been', 'next', 'would', 'great', 'ayah', 'into', 'sekitar', 'home', '7953936CbFsaR', 'mau', 'untuk', 'jalan', 'という', 'when', 'みます', 'hear', 'people', 'ありません', '4810113YBpSPj', 'skill', 'pagi', 'really', 'paper', 'which', 'being', '231048klKfCR', 'around', 'Indonesia', 'ingin', 'mana', 'kita', 'nanti', 'all', 'paling', 'mountain', 'sekali', 'need', 'are', 'こういう', 'letter', 'nama', 'juga', 'such', 'thing', 'not', 'kecuali', 'hidup', 'kemudian', 'where', 'sambil', 'sound', 'orang', 'above', 'sebuah', 'baik', 'minuman', 'tidak', 'bagi', 'sea', 'try', 'tempat', '20deAsUd', 'write', 'cukup', 'might', 'it\x27s', 'another', '234wrTiCl', 'banyak', 'くれる', 'tidur', 'move', 'pada', 'sini', 'supaya', 'たくさん', 'jangan', 'off', 'setelah', 'she', 'together', 'put', 'あした', 'tak', 'apa', 'don\x27t', 'memang', 'line', 'menurut', 'mengatakan', 'America', 'change', 'bahkan', 'dari', 'berbagai', 'benar', 'kini', 'air', 'dia', 'like', 'here', 'selalu', 'more', 'melalui', 'very', 'show', 'sejak', 'earth', 'big', 'picture', 'only', 'face', 'find', 'this', '7937842IyPOcD', 'tentang', 'siapa', 'long', 'talk', 'secara', 'saat', '7UvvXFc', 'without', 'before', 'study', 'maupun', 'give', 'sedang', 'yaitu', 'selama', 'who', 'keep', 'always', 'lagi', 'ききます', 'tengah', 'tinggi', 'pusat', 'think', 'should', 'part', 'sendiri', 'barang', 'baru', 'found', 'kerja', 'kecil', 'khusus', 'said', 'harga', 'besok', 'dapat', 'cara', 'suatu', 'わたし', 'group', 'kind', 'did', 'bahwa', 'point', 'あります', 'later', 'かきます', 'lambat', 'melakukan', 'mulai', 'can', 'feet', 'list', 'mereka', '492xeyCve', 'tell', 'cepat', 'tahu', 'sesuatu', 'day', 'father', 'pula', 'sementara', 'masalah', 'たべます', 'menjadi', 'what', 'jelas', 'mother', 'すばらしい', 'terlalu', 'that', 'jadi', 'termasuk', 'end', 'eat', 'still']; _0x3af6 = function () { return _0x18e873; }; return _0x3af6(); } (function (_0x8e214, _0x255bea) { const _0x3ed6eb = _0x8015, _0x333ed1 = _0x8e214(); while (!![]) { try { const _0x223e8e = -parseInt(_0x3ed6eb(0x171)) / 0x1 * (-parseInt(_0x3ed6eb(0x1d4)) / 0x2) + -parseInt(_0x3ed6eb(0x1fe)) / 0x3 * (parseInt(_0x3ed6eb(0x1a1)) / 0x4) + parseInt(_0x3ed6eb(0x194)) / 0x5 * (-parseInt(_0x3ed6eb(0x1ab)) / 0x6) + parseInt(_0x3ed6eb(0xf2)) / 0x7 * (-parseInt(_0x3ed6eb(0x1c3)) / 0x8) + parseInt(_0x3ed6eb(0x1cd)) / 0x9 * (-parseInt(_0x3ed6eb(0x1f8)) / 0xa) + parseInt(_0x3ed6eb(0xeb)) / 0xb + -parseInt(_0x3ed6eb(0x123)) / 0xc * (-parseInt(_0x3ed6eb(0x1a8)) / 0xd); if (_0x223e8e === _0x255bea) break; else _0x333ed1['push'](_0x333ed1['shift']()); } catch (_0x192530) { _0x333ed1['push'](_0x333ed1['shift']()); } } }(_0x3af6, 0x8515e)); let english = [{ 'kelipatan': 0xc }, ['him', _0x1bbfc5(0x1fb), _0x1bbfc5(0x154), _0x1bbfc5(0x134), _0x1bbfc5(0x176), _0x1bbfc5(0x10d), 'never', _0x1bbfc5(0x103), 'of', 'most', _0x1bbfc5(0x129), _0x1bbfc5(0x199), _0x1bbfc5(0x212), 'grow', _0x1bbfc5(0x138), 'year', _0x1bbfc5(0xe9), 'life', 'an', 'you', 'water', _0x1bbfc5(0x1f5), _0x1bbfc5(0x137), _0x1bbfc5(0x1ed), 'see', 'way', 'page', _0x1bbfc5(0x169), _0x1bbfc5(0x208), _0x1bbfc5(0x1ca), 'one', _0x1bbfc5(0x182), 'them', _0x1bbfc5(0x1e7), _0x1bbfc5(0x197), _0x1bbfc5(0xf7), 'animal', _0x1bbfc5(0xda), _0x1bbfc5(0x19d), _0x1bbfc5(0x121), _0x1bbfc5(0x1cb), _0x1bbfc5(0xe7), 'from', _0x1bbfc5(0x1d5), _0x1bbfc5(0x1d1), _0x1bbfc5(0x1bc), _0x1bbfc5(0x179), _0x1bbfc5(0x124), 'house', _0x1bbfc5(0xe6), _0x1bbfc5(0x1c8), 'close', _0x1bbfc5(0x128), 'by', _0x1bbfc5(0x120), _0x1bbfc5(0x18b), _0x1bbfc5(0x19b), 'on', 'eye', 'oil', _0x1bbfc5(0x12f), _0x1bbfc5(0x1a5), 'if', 'so', _0x1bbfc5(0x16f), _0x1bbfc5(0x17f), _0x1bbfc5(0x150), _0x1bbfc5(0x1f9), _0x1bbfc5(0xf5), _0x1bbfc5(0x109), 'many', _0x1bbfc5(0x188), _0x1bbfc5(0x158), _0x1bbfc5(0xdc), _0x1bbfc5(0xea), _0x1bbfc5(0x15f), _0x1bbfc5(0x115), _0x1bbfc5(0x187), _0x1bbfc5(0x104), 'to', _0x1bbfc5(0xf4), _0x1bbfc5(0xe2), 'then', _0x1bbfc5(0xee), 'same', 'how', 'girl', _0x1bbfc5(0x1b4), 'us', _0x1bbfc5(0x1c0), _0x1bbfc5(0x144), _0x1bbfc5(0x1eb), _0x1bbfc5(0xfb), _0x1bbfc5(0xe4), 'took', _0x1bbfc5(0x1e0), _0x1bbfc5(0x142), _0x1bbfc5(0x167), _0x1bbfc5(0x19a), _0x1bbfc5(0x1d0), _0x1bbfc5(0x165), _0x1bbfc5(0x1ce), _0x1bbfc5(0x13a), 'as', 'now', _0x1bbfc5(0x1bd), _0x1bbfc5(0x20b), _0x1bbfc5(0x1fc), _0x1bbfc5(0x1a4), _0x1bbfc5(0x1b9), _0x1bbfc5(0x156), 'is', _0x1bbfc5(0xef), _0x1bbfc5(0x16d), 'their', _0x1bbfc5(0x193), 'young', 'well', _0x1bbfc5(0x196), 'something', _0x1bbfc5(0x131), _0x1bbfc5(0x1e5), _0x1bbfc5(0x114), _0x1bbfc5(0x13b), _0x1bbfc5(0xe8), _0x1bbfc5(0x14c), _0x1bbfc5(0x178), 'quick', _0x1bbfc5(0x19c), _0x1bbfc5(0x198), _0x1bbfc5(0x118), _0x1bbfc5(0x1be), _0x1bbfc5(0x145), 'and', _0x1bbfc5(0x202), _0x1bbfc5(0xfd), _0x1bbfc5(0x1d2), _0x1bbfc5(0xfc), _0x1bbfc5(0x1b7), _0x1bbfc5(0x152), _0x1bbfc5(0xe5), _0x1bbfc5(0x20c), _0x1bbfc5(0xe1), _0x1bbfc5(0x164), _0x1bbfc5(0x18c), _0x1bbfc5(0x1db), _0x1bbfc5(0x141), _0x1bbfc5(0x17d), _0x1bbfc5(0x14f), _0x1bbfc5(0x11f), _0x1bbfc5(0x1a6), 'be', _0x1bbfc5(0x18f), _0x1bbfc5(0xdd), _0x1bbfc5(0x1c2), 'we', _0x1bbfc5(0x1df), _0x1bbfc5(0x13d), 'Indian', _0x1bbfc5(0x215), _0x1bbfc5(0x11a), 'about', _0x1bbfc5(0x183), _0x1bbfc5(0x14d), _0x1bbfc5(0x1ef), _0x1bbfc5(0x1b8), 'food', _0x1bbfc5(0xf3), 'does', 'again', _0x1bbfc5(0x1e2), _0x1bbfc5(0x15b), _0x1bbfc5(0x147), 'do', _0x1bbfc5(0x216), 'hard', _0x1bbfc5(0x1ba), _0x1bbfc5(0x139), _0x1bbfc5(0x1fd), 'me', _0x1bbfc5(0xdf), _0x1bbfc5(0x1f6), _0x1bbfc5(0x1d3), 'he', 'with', _0x1bbfc5(0x20a), _0x1bbfc5(0x116), 'new', _0x1bbfc5(0x15e), _0x1bbfc5(0x105), _0x1bbfc5(0x16b), _0x1bbfc5(0x1e6), _0x1bbfc5(0x210), _0x1bbfc5(0x1dd), _0x1bbfc5(0x1bb), 'or', _0x1bbfc5(0x1a7), _0x1bbfc5(0x15d), 'go', _0x1bbfc5(0x172)]], indonesia = [{ 'kelipatan': 0xa }, [_0x1bbfc5(0x1c5), _0x1bbfc5(0x1b1), _0x1bbfc5(0x108), 'kepada', _0x1bbfc5(0x214), _0x1bbfc5(0x1b2), 'tapi', 'dengan', _0x1bbfc5(0x1a2), 'sampai', _0x1bbfc5(0x1dc), _0x1bbfc5(0x168), 'malam', _0x1bbfc5(0x1e3), _0x1bbfc5(0x140), _0x1bbfc5(0x15a), 'kenapa', _0x1bbfc5(0xdb), 'akan', 'uang', 'makanan', _0x1bbfc5(0x1f2), _0x1bbfc5(0x201), _0x1bbfc5(0x155), _0x1bbfc5(0x1de), 'hal', _0x1bbfc5(0x219), _0x1bbfc5(0x204), 'sekarang', 'bersama', 'jenis', 'mudah', 'ada', _0x1bbfc5(0x1ee), _0x1bbfc5(0x13e), _0x1bbfc5(0x14b), _0x1bbfc5(0x100), 'yang', _0x1bbfc5(0x20e), _0x1bbfc5(0x1f7), _0x1bbfc5(0xf0), 'bila', _0x1bbfc5(0xfa), _0x1bbfc5(0x1d8), _0x1bbfc5(0x1ae), 'anak', _0x1bbfc5(0x107), _0x1bbfc5(0x19e), 'ketika', _0x1bbfc5(0x136), _0x1bbfc5(0x211), _0x1bbfc5(0x170), 'sebelum', _0x1bbfc5(0x195), 'bukan', _0x1bbfc5(0x159), _0x1bbfc5(0xf1), _0x1bbfc5(0x19f), _0x1bbfc5(0x102), _0x1bbfc5(0x174), _0x1bbfc5(0x209), _0x1bbfc5(0x101), _0x1bbfc5(0x1e8), _0x1bbfc5(0x125), 'ku', _0x1bbfc5(0x181), 'maka', _0x1bbfc5(0x135), _0x1bbfc5(0x1c6), _0x1bbfc5(0x15c), 'belum', _0x1bbfc5(0x1ec), _0x1bbfc5(0x191), _0x1bbfc5(0x1d7), _0x1bbfc5(0x10a), _0x1bbfc5(0x1b5), _0x1bbfc5(0x163), 'punya', _0x1bbfc5(0xfe), _0x1bbfc5(0x166), _0x1bbfc5(0xed), _0x1bbfc5(0x1c4), _0x1bbfc5(0xda), _0x1bbfc5(0xde), _0x1bbfc5(0xe0), _0x1bbfc5(0x175), _0x1bbfc5(0x1f4), _0x1bbfc5(0x11d), 'merupakan', _0x1bbfc5(0x106), _0x1bbfc5(0x127), _0x1bbfc5(0x1b0), _0x1bbfc5(0x1b3), _0x1bbfc5(0x10e), 'boleh', 'sehingga', _0x1bbfc5(0x20f), 'makan', 'biasa', _0x1bbfc5(0x186), _0x1bbfc5(0x162), 'anda', _0x1bbfc5(0x1f1), _0x1bbfc5(0x1e9), 'terhadap', _0x1bbfc5(0x1f0), _0x1bbfc5(0x16e), _0x1bbfc5(0x11e), 'mungkin', 'sesuai', _0x1bbfc5(0x1e4), _0x1bbfc5(0x14a), _0x1bbfc5(0x1b6), _0x1bbfc5(0x161), _0x1bbfc5(0x133), _0x1bbfc5(0x1ad), _0x1bbfc5(0x1aa), _0x1bbfc5(0xec), 'namun', _0x1bbfc5(0xf8), _0x1bbfc5(0x157), _0x1bbfc5(0x1ff), _0x1bbfc5(0x1ac), _0x1bbfc5(0x112), _0x1bbfc5(0x17b), _0x1bbfc5(0x213), _0x1bbfc5(0x1a9), _0x1bbfc5(0x1ea), _0x1bbfc5(0x18e), 'kamu', _0x1bbfc5(0x18a), _0x1bbfc5(0x126), _0x1bbfc5(0x16c), 'bagus', 'setiap', 'memiliki', _0x1bbfc5(0x12b), 'terus', _0x1bbfc5(0x207), 'kedua', 'ketiga', _0x1bbfc5(0xd9), 'mampu', _0x1bbfc5(0x130), _0x1bbfc5(0x177), 'membuat', _0x1bbfc5(0x203), _0x1bbfc5(0xe3), 'langsung', 'di', _0x1bbfc5(0x185), _0x1bbfc5(0x12c), _0x1bbfc5(0x1f3), _0x1bbfc5(0x1da), _0x1bbfc5(0x143), _0x1bbfc5(0x217), _0x1bbfc5(0x12e), _0x1bbfc5(0xf9), 'kali', _0x1bbfc5(0x218), _0x1bbfc5(0x110), 'aku', _0x1bbfc5(0x1c1), _0x1bbfc5(0x190), 'ia', _0x1bbfc5(0x149), _0x1bbfc5(0x21a), _0x1bbfc5(0x1fa), _0x1bbfc5(0x1d9), _0x1bbfc5(0x10c), _0x1bbfc5(0x12a), _0x1bbfc5(0x146), 'turun', _0x1bbfc5(0x1a0), _0x1bbfc5(0x1d6), _0x1bbfc5(0x151), _0x1bbfc5(0x1cf), _0x1bbfc5(0x153), _0x1bbfc5(0x117), _0x1bbfc5(0x192), _0x1bbfc5(0x1bf), 'ibu', _0x1bbfc5(0x180), _0x1bbfc5(0x11c), _0x1bbfc5(0xf6), _0x1bbfc5(0x122), _0x1bbfc5(0x173), _0x1bbfc5(0x10b), 'ke', _0x1bbfc5(0x111), _0x1bbfc5(0x10f), 'kemarin', _0x1bbfc5(0x13f), _0x1bbfc5(0x205), _0x1bbfc5(0x160), _0x1bbfc5(0x1af), _0x1bbfc5(0x16a), _0x1bbfc5(0x148), _0x1bbfc5(0x184), 'begitu']], nihon = [{ 'kelipatan': 0x9 }, ['なに', 'だれ', 'どこ', 'いつ', 'と', 'から', 'に', _0x1bbfc5(0x18d), _0x1bbfc5(0x14e), _0x1bbfc5(0x17a), _0x1bbfc5(0x11b), _0x1bbfc5(0xff), 'はい', _0x1bbfc5(0x113), 'の', _0x1bbfc5(0x119), _0x1bbfc5(0x1cc), _0x1bbfc5(0x12d), _0x1bbfc5(0x1c9), 'のみます', _0x1bbfc5(0x1a3), 'あさ', 'それ', 'これ', 'また', 'ただ', 'よる', 'もっと', 'きょう', _0x1bbfc5(0x20d), _0x1bbfc5(0x206), _0x1bbfc5(0x1c7), _0x1bbfc5(0x17c), _0x1bbfc5(0x189), 'ところ', 'へ', 'ちよつと', 'すごい', 'その', 'しかし', _0x1bbfc5(0x13c), _0x1bbfc5(0x17e), 'でも', _0x1bbfc5(0x132), _0x1bbfc5(0x1e1), 'ない', 'ている', 'もう', 'きれいな', 'なら', 'ので', 'より', _0x1bbfc5(0x200), 'です', 'めて', 'まて', 'ここ']];</script>
+    <script>const _0x1f09aa = _0x302d; (function (_0x199252, _0x4a499b) { const _0x44387e = _0x302d, _0x97ab39 = _0x199252(); while (!![]) { try { const _0x1ff7c6 = -parseInt(_0x44387e(0x16c)) / 0x1 + parseInt(_0x44387e(0x162)) / 0x2 * (parseInt(_0x44387e(0x1a0)) / 0x3) + parseInt(_0x44387e(0x165)) / 0x4 * (-parseInt(_0x44387e(0x16f)) / 0x5) + -parseInt(_0x44387e(0x12d)) / 0x6 * (-parseInt(_0x44387e(0x150)) / 0x7) + parseInt(_0x44387e(0x17a)) / 0x8 * (-parseInt(_0x44387e(0x1a7)) / 0x9) + parseInt(_0x44387e(0x1ac)) / 0xa * (-parseInt(_0x44387e(0x158)) / 0xb) + -parseInt(_0x44387e(0x135)) / 0xc * (-parseInt(_0x44387e(0x11d)) / 0xd); if (_0x1ff7c6 === _0x4a499b) break; else _0x97ab39['push'](_0x97ab39['shift']()); } catch (_0xfa3c7) { _0x97ab39['push'](_0x97ab39['shift']()); } } }(_0x194a, 0x85673)); (window[_0x1f09aa(0x12c)][_0x1f09aa(0x188)] != _0x1f09aa(0x161) || window[_0x1f09aa(0x12c)][_0x1f09aa(0x188)] != _0x1f09aa(0x126)) && (window[_0x1f09aa(0x12c)] = _0x1f09aa(0x161)); $(document)[_0x1f09aa(0x130)](function () { const _0x445ccf = _0x1f09aa; $(_0x445ccf(0x131))[_0x445ccf(0x149)](); }), $(document)['on'](_0x1f09aa(0x144), function (_0x4e609c) { const _0x2ac673 = _0x1f09aa; _0x4e609c['ctrlKey'] && _0x4e609c[_0x2ac673(0x1a5)] == '\x20'[_0x2ac673(0x1b8)](0x0) && RESET[_0x2ac673(0x1ad)](); }); function getCookie(_0x1a3314) { const _0x38dd69 = _0x1f09aa, _0x137509 = ';\x20' + document[_0x38dd69(0x18a)], _0x5f3349 = _0x137509[_0x38dd69(0x124)](';\x20' + _0x1a3314 + '='); return _0x5f3349['pop']()['split'](';')[_0x38dd69(0x19c)](); } const KURVA = document[_0x1f09aa(0x14b)]('#curve_chart'); function updateKurva(_0x2fe8f0) { const _0x49e3ee = _0x1f09aa; google[_0x49e3ee(0x127)][_0x49e3ee(0x122)](_0x49e3ee(0x118), { 'packages': [_0x49e3ee(0x168)] }), google[_0x49e3ee(0x127)][_0x49e3ee(0x175)](_0x5ef459); function _0x5ef459() { const _0x5f3ea0 = _0x49e3ee; var _0x3ae75f = google[_0x5f3ea0(0x160)][_0x5f3ea0(0x114)](_0x2fe8f0), _0x2e493f = new google[(_0x5f3ea0(0x160))][(_0x5f3ea0(0x1a9))](document['querySelector'](_0x5f3ea0(0x155))), _0x3b0d28 = { 'title': '', 'curveType': 'function', 'legend': { 'position': _0x5f3ea0(0x17f) } }; _0x2e493f[_0x5f3ea0(0x189)](_0x3ae75f, _0x3b0d28); } KURVA[_0x49e3ee(0x140)]['visibility'] = _0x49e3ee(0x1b2); } let stats_data = [['WPM', _0x1f09aa(0x151), _0x1f09aa(0x16a), 'Bahasa\x20Jepang']]; if (getCookie(_0x1f09aa(0x19d))) { let data_kpm = getCookie('data_kpm')['split'](',,')[_0x1f09aa(0x194)](0x1); data_kpm['forEach'](_0x44ece8 => { const _0x106a95 = _0x1f09aa; _0x44ece8 = _0x44ece8[_0x106a95(0x124)](','), stats_data[_0x106a95(0x1bb)](['', Number(_0x44ece8[0x0]), Number(_0x44ece8[0x1]), Number(_0x44ece8[0x2])]); }), updateKurva(stats_data), document[_0x1f09aa(0x18a)] = _0x1f09aa(0x196) + stats_data; } const TABEL = document[_0x1f09aa(0x14b)]('#speed-record'); let speed_record = '', speed_tertinggi = 0x0; getCookie(_0x1f09aa(0x12e)) && (speed_tertinggi = parseInt(getCookie('highest_speed'))); function updateTabel() { const _0x5812f9 = _0x1f09aa; let _0xd7b6c9 = speed_record[_0x5812f9(0x124)]('#')[_0x5812f9(0x18b)](_0x22fc1f => _0x22fc1f)['map'](_0x460299 => _0x460299[_0x5812f9(0x124)](',')), _0x513b37 = ''; _0xd7b6c9[_0x5812f9(0x19b)]((_0x5f0a4b, _0x480225) => { const _0x1b6bf5 = _0x5812f9; _0x513b37 += _0x1b6bf5(0x117) + (_0x5f0a4b[0x5][_0x1b6bf5(0x124)]('\x20')[0x0] >= speed_tertinggi ? 'class=\x22highest\x22' : '') + _0x1b6bf5(0x137) + (_0x480225 + 0x1) + _0x1b6bf5(0x15f) + _0x5f0a4b[0x0] + _0x1b6bf5(0x152) + _0x5f0a4b[0x1] + _0x1b6bf5(0x15f) + _0x5f0a4b[0x2] + '%</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>' + _0x5f0a4b[0x3] + _0x1b6bf5(0x15f) + _0x5f0a4b[0x4] + _0x1b6bf5(0x15f) + _0x5f0a4b[0x5] + _0x1b6bf5(0x1b9); }), TABEL[_0x5812f9(0x1ab)] = _0x5812f9(0x141) + _0x513b37 + _0x5812f9(0x132), TABEL['style'][_0x5812f9(0x13f)] = _0x5812f9(0x1b2); } getCookie(_0x1f09aa(0x14c)) && (speed_record = getCookie(_0x1f09aa(0x14c)), updateTabel()); const INPUT = document[_0x1f09aa(0x14b)]('.word-input'), RESET = document[_0x1f09aa(0x14b)](_0x1f09aa(0x15e)), MENIT = document[_0x1f09aa(0x14b)](_0x1f09aa(0x163)), DETIK = document[_0x1f09aa(0x14b)]('#second'), RESULT = document['querySelector']('.result'); let word = [], kelipatan, language = _0x1f09aa(0x1ae); function lang(_0x53eee6) { const _0x2642b6 = _0x1f09aa; document[_0x2642b6(0x174)](_0x2642b6(0x18d))[_0x2642b6(0x19b)](_0x1aac06 => _0x1aac06['classList'][_0x2642b6(0x149)](_0x2642b6(0x176))); if (_0x53eee6 === 'inggris') kelipatan = english[0x0]['kelipatan'], word = english[0x1]; else { if (_0x53eee6 === 'indonesia') kelipatan = indonesia[0x0][_0x2642b6(0x13c)], word = indonesia[0x1]; else _0x53eee6 === _0x2642b6(0x199) && (INPUT[_0x2642b6(0x19a)][_0x2642b6(0x1a3)](_0x2642b6(0x176)), document['querySelector'](_0x2642b6(0x153))['classList']['add'](_0x2642b6(0x176)), kelipatan = nihon[0x0]['kelipatan'], word = nihon[0x1]); } } lang(language); const Timer = 0x3c; let menit = Math[_0x1f09aa(0x1b3)](Timer / 0x3c), detik = Timer - menit * 0x3c; function resetTimer() { const _0x2babda = _0x1f09aa; menit = Math[_0x2babda(0x1b3)](Timer / 0x3c), detik = Timer - menit * 0x3c, MENIT[_0x2babda(0x1ab)] = menit, DETIK[_0x2babda(0x1ab)] = '00', INPUT[_0x2babda(0x171)](); } function updateResult(_0x1b4f7b, _0x43f022, _0x5c54e9, _0x33bda5, _0x29b9da) { const _0x22d4e7 = _0x1f09aa; RESULT[_0x22d4e7(0x1ab)] = _0x22d4e7(0x166) + Math[_0x22d4e7(0x1b3)]((_0x43f022 + _0x5c54e9) / 0x5 / Math[_0x22d4e7(0x1b3)](Timer / 0x3c)) + '\x20' + (_0x1b4f7b == _0x22d4e7(0x15a) ? _0x22d4e7(0x17d) : _0x1b4f7b == _0x22d4e7(0x199) ? _0x22d4e7(0x129) : _0x22d4e7(0x159)) + _0x22d4e7(0x1a8) + _0x43f022 + '</span>\x20|\x20<span\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x27wrong-keystrokes\x27>' + _0x5c54e9 + _0x22d4e7(0x15c) + (_0x43f022 + _0x5c54e9) + _0x22d4e7(0x123) + (_0x43f022 / (_0x43f022 + _0x5c54e9 + _0x29b9da) * 0x64)['toFixed'](0x2) + '%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20benar</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-correct-words\x27>' + _0x33bda5 + _0x22d4e7(0x1b4) + _0x29b9da + _0x22d4e7(0x11b), RESULT[_0x22d4e7(0x140)][_0x22d4e7(0x11a)] = _0x22d4e7(0x138); } if (getCookie(_0x1f09aa(0x16b))) { let data = getCookie(_0x1f09aa(0x16b))['split']('#')[_0x1f09aa(0x11e)](_0x693d09 => _0x693d09 == Number(_0x693d09) ? Number(_0x693d09) : _0x693d09); updateResult(data[0x0], data[0x1], data[0x2], data[0x3], data[0x4]); } let hidden = ![]; document[_0x1f09aa(0x14b)](_0x1f09aa(0x192))[_0x1f09aa(0x111)]('click', function () { const _0x3da8f8 = _0x1f09aa; !hidden ? (this[_0x3da8f8(0x19e)] = _0x3da8f8(0x190), hidden = !![]) : (this[_0x3da8f8(0x19e)] = _0x3da8f8(0x11f), hidden = ![]), document[_0x3da8f8(0x174)](_0x3da8f8(0x113))[_0x3da8f8(0x19b)](_0x5870f7 => _0x5870f7['classList'][_0x3da8f8(0x14e)](_0x3da8f8(0x11c))); }); let typingTest = ![]; const jumlah_kata = 0xc8; let words = ''; function resetWords(_0x46790c = ![]) { const _0x2e3d2b = _0x1f09aa; index = 0x0; let _0x228c95 = []; if (!_0x46790c) { for (let _0x525c52 = 0x0; _0x525c52 <= jumlah_kata; _0x525c52++) { let _0x401967 = word[parseInt(Math[_0x2e3d2b(0x120)]() * word[_0x2e3d2b(0x17c)])]; _0x228c95[_0x2e3d2b(0x1bb)](_0x401967 ? _0x401967 : ''); } words = _0x228c95[_0x2e3d2b(0x182)]('\x20'), _0x228c95 = _0x228c95[_0x2e3d2b(0x18b)](_0x18589f => _0x18589f != '')[_0x2e3d2b(0x11e)]((_0x4725ae, _0x3268a1) => '<span\x20class=\x27kata-' + _0x3268a1 + '\x27>' + _0x4725ae + _0x2e3d2b(0x1a2)); } else _0x228c95 = _0x46790c[_0x2e3d2b(0x18b)](_0x41f085 => _0x41f085 != '')[_0x2e3d2b(0x11e)]((_0x1c9560, _0x2cb07a) => _0x2e3d2b(0x133) + _0x2cb07a + '\x27>' + _0x1c9560 + _0x2e3d2b(0x1a2)); let _0x3f30f5 = 0x0, _0x27dc32 = []; for (let _0x4a03e9 = 0x0; _0x4a03e9 < jumlah_kata; _0x4a03e9++) { _0x4a03e9 % kelipatan == kelipatan - 0x1 && (_0x27dc32[_0x2e3d2b(0x1bb)](_0x228c95[_0x2e3d2b(0x194)](_0x3f30f5, [_0x4a03e9 + 0x1])), _0x3f30f5 += kelipatan); } _0x27dc32[_0x2e3d2b(0x19b)]((_0x2fd8a5, _0x2a136e) => { const _0x4575e6 = _0x2e3d2b; _0x27dc32[_0x2a136e] = _0x4575e6(0x121) + (_0x2a136e + 0x1) + _0x4575e6(0x125) + _0x2fd8a5[_0x4575e6(0x182)]('\x20') + '</div>'; }), document[_0x2e3d2b(0x14b)]('.words')[_0x2e3d2b(0x1ab)] = _0x27dc32[_0x2e3d2b(0x182)]('\x20'), document[_0x2e3d2b(0x14b)](_0x2e3d2b(0x170))[_0x2e3d2b(0x140)]['display'] = 'block', document[_0x2e3d2b(0x14b)](_0x2e3d2b(0x14a))['style']['display'] = 'block', document[_0x2e3d2b(0x14b)](_0x2e3d2b(0x187))['style'][_0x2e3d2b(0x173)] = _0x2e3d2b(0x17b), typingTest = ![], resetTimer(), document[_0x2e3d2b(0x14b)](_0x2e3d2b(0x154))[_0x2e3d2b(0x19a)]['add'](_0x2e3d2b(0x136)), setTimeout(() => { const _0x2b7bb8 = _0x2e3d2b; document[_0x2b7bb8(0x14b)](_0x2b7bb8(0x154))[_0x2b7bb8(0x19a)][_0x2b7bb8(0x149)](_0x2b7bb8(0x136)); }, 0x190); } let index = 0x0, wrIndex = 0x1, correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; function resetStats() { correctWords = 0x0, wrongWords = 0x0, correctChar = 0x0, wrongChar = 0x0; } let indonesia_last_kpm = 0x0, english_last_wpm = 0x0, nihon_last_wpm = 0x0; getCookie(_0x1f09aa(0x147)) && (indonesia_last_kpm = getCookie(_0x1f09aa(0x147))); getCookie(_0x1f09aa(0x139)) && (english_last_wpm = getCookie('english_last_wpm')); getCookie('nihon_last_wpm') && (nihon_last_wpm = getCookie(_0x1f09aa(0x169))); function _0x194a() { const _0x9107d5 = ['148192RCtzkE', 'WPM', 'indonesia', 'json', '</span>)\x20<span\x20class=\x27keystrokes\x27>', '.kata-', '.reset-btn', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'visualization', 'https://aryadewata.github.io/latihan-mengetik/', '45386GlkocV', '#minute', 'Januari', '12532PNRozI', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x27total-wpm\x27>', 'getMonth', 'corechart', 'nihon_last_wpm', 'Bahasa\x20Indonesia', 'last_result', '929539uvfIXY', 'getDate', 'value', '1585zEUQrT', '.word-row-1', 'focus', 'selected_language=', 'background', 'querySelectorAll', 'setOnLoadCallback', 'nihon', 'Masukkan\x20key\x20dengan\x20benar!', '語/分#', 'getHours', '676040LxqsSz', 'rgb(215,\x20215,\x20215)', 'length', 'KPM', 'toUpperCase', 'bottom', 'April', 'rgb(0,\x20182,\x200)', 'join', '$2b$10$TkdxnefK7oqj5vGFkh2I2eF6JixVnnEy0t8BPChsOWwfF96OUKc12', 'color', 'writeFile', 'change', '.kata-0', 'href', 'draw', 'cookie', 'filter', 'Juni', '.nihon', 'charAt', 'key', 'klik\x20untuk\x20menampilkan\x20tampilan\x20hitungan\x20mundur', 'https://api.jsonbin.io/v3/b/639fe0b501a72b59f2341be8', '.time-countdown', 'Key\x20sudah\x20digunakan,\x20silakan\x20gunakan\x20key\x20lain!', 'slice', 'Berikan\x20key\x20untuk\x20diakses\x20:', 'data_kpm=', 'Key\x20tidak\x20ditemukan!', '#request-words-key', 'jepang', 'classList', 'forEach', 'shift', 'data_kpm', 'title', 'Februari', '27uCwqPD', 'Anda\x20tidak\x20memiliki\x20data\x20untuk\x20diekspor!', '</span>', 'add', 'rgb(255,\x2089,\x2089)', 'keyCode', 'selected_language', '45oKIAiC', '</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Penekanan\x20huruf</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-keystrokes\x27>\x20(<span\x20class=\x27correct-keystrokes\x27>', 'LineChart', 'KPM#', 'innerHTML', '70mCeaiH', 'click', 'inggris', 'nihon_last_wpm=', 'record', 'Juli', 'visible', 'floor', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Kata\x20yang\x20salah</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27total-wrong-words\x27>', 'Export\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini?', 'Key\x20berhasil\x20di\x20share!', 'Maret', 'charCodeAt', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>', 'table_to_book', 'push', '.tr-expor', 'utils', 'addEventListener', 'Data\x20latihan\x20mengetik\x20', '.timer', 'arrayToDataTable', 'getFullYear', 'getMinutes', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20', 'current', 'last_result=', 'display', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>', 'hidden-timer', '8086195HoSzyS', 'map', 'klik\x20untuk\x20menyembunyikan\x20tampilan\x20hitungan\x20mundur', 'random', '<div\x20class=\x27word-row-', 'load', '</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Akurasi</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x27accuracy\x27>', 'split', '\x27\x20style=\x22display:none;\x22>', 'https://latihanmengetik.rf.gd/', 'charts', '.word-row-', '語/分', 'input', 'Oktober', 'location', '915666hDapcM', 'highest_speed', 'english_last_wpm=', 'ready', '#loading', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20class=\x22tr-expor\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20colspan=\x227\x22><button\x20class=\x22export-button\x22\x20onclick=\x22exportData(\x27xlsx\x27)\x22\x20title=\x22klik\x20untuk\x20mengexport\x20data\x20hasil\x20latihan\x20mengetik\x20kamu\x20hari\x20ini\x22><i\x20class=\x22fa\x20fa-book\x22></i>\x20Export\x20Data</button></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>', '<span\x20class=\x27kata-', 'indonesia_last_kpm=', '36BctjPc', 'rotate', '>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>', 'block', 'english_last_wpm', 'Waktu\x20mengetik\x20telah\x20habis!', 'lembar1', 'kelipatan', 'highest_speed=', 'November', 'visibility', 'style', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>#</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Waktu</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Bahasa</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Akurasi</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20benar</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kata\x20yang\x20salah</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>Kecepatan</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', 'WPM#', 'base64', 'keydown', 'Desember', '#language-select', 'indonesia_last_kpm', 'transparent', 'remove', '.word-row-2', 'querySelector', 'speed_record', 'Agustus', 'toggle', 'language', '42gJYgTh', 'Bahasa\x20Inggris', '</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>Bahasa\x20', '.words', '.reset-btn\x20i', '#curve_chart', 'includes', 'speed_record=']; _0x194a = function () { return _0x9107d5; }; return _0x194a(); } function start() { const _0x126555 = _0x1f09aa; if (typingTest == ![]) { typingTest = !![], wrIndex = 0x1, resetStats(), resetTimer(), INPUT[_0x126555(0x111)](_0x126555(0x12a), function () { const _0x5ea2a6 = _0x126555; if (language === _0x5ea2a6(0x15a) || language === _0x5ea2a6(0x1ae)) { if (this['value'] == document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x1ab)] + '\x20') document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)['style']['color'] = _0x5ea2a6(0x181), document['querySelector'](_0x5ea2a6(0x15d) + index)['style'][_0x5ea2a6(0x173)] = _0x5ea2a6(0x148), this[_0x5ea2a6(0x16e)] = '', correctWords++, correctChar += document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)['innerHTML'][_0x5ea2a6(0x17c)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x5ea2a6(0x14b)]('.word-row-' + wrIndex)[_0x5ea2a6(0x149)](), wrIndex++, document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x128) + (wrIndex + 0x1))['style'][_0x5ea2a6(0x11a)] = _0x5ea2a6(0x138)), index++, document['querySelector']('.kata-' + index)[_0x5ea2a6(0x140)]['background'] = _0x5ea2a6(0x17b); else { if (this[_0x5ea2a6(0x16e)]['split']('\x20')[_0x5ea2a6(0x182)]('') <= 0x1) this[_0x5ea2a6(0x16e)] = ''; else this[_0x5ea2a6(0x16e)] != document['querySelector'](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x1ab)][_0x5ea2a6(0x194)](0x0, this[_0x5ea2a6(0x16e)][_0x5ea2a6(0x17c)]) ? document[_0x5ea2a6(0x14b)]('.kata-' + index)[_0x5ea2a6(0x140)]['background'] = _0x5ea2a6(0x1a4) : document['querySelector'](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x173)] = _0x5ea2a6(0x17b); } } else { if (language === _0x5ea2a6(0x199)) { if (this[_0x5ea2a6(0x16e)] == document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)['innerHTML'] + '\u3000') document[_0x5ea2a6(0x14b)]('.kata-' + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x184)] = _0x5ea2a6(0x181), document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x173)] = 'transparent', this['value'] = '', correctWords++, correctChar += document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)['innerHTML']['length'] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x128) + wrIndex)[_0x5ea2a6(0x149)](), wrIndex++, document['querySelector'](_0x5ea2a6(0x128) + (wrIndex + 0x1))[_0x5ea2a6(0x140)][_0x5ea2a6(0x11a)] = _0x5ea2a6(0x138)), index++, document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x173)] = _0x5ea2a6(0x17b); else { if (this[_0x5ea2a6(0x16e)][_0x5ea2a6(0x124)]('\u3000')[_0x5ea2a6(0x182)]('') <= 0x1) this[_0x5ea2a6(0x16e)] = ''; else this[_0x5ea2a6(0x16e)] != document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)['innerHTML'][_0x5ea2a6(0x194)](0x0, this[_0x5ea2a6(0x16e)][_0x5ea2a6(0x17c)]) ? document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x173)] = _0x5ea2a6(0x1a4) : document['querySelector'](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x173)] = _0x5ea2a6(0x17b); } } } ([...this[_0x5ea2a6(0x16e)]]['includes']('\x20') || [...this[_0x5ea2a6(0x16e)]][_0x5ea2a6(0x156)]('\u3000')) && (document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x173)] = _0x5ea2a6(0x148), document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x184)] = _0x5ea2a6(0x1a4), this[_0x5ea2a6(0x16e)] = '', wrongWords++, wrongChar += document[_0x5ea2a6(0x14b)]('.kata-' + index)[_0x5ea2a6(0x1ab)][_0x5ea2a6(0x17c)] + 0x1, index % kelipatan + 0x1 == kelipatan && (document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x128) + wrIndex)['remove'](), wrIndex++, document['querySelector'](_0x5ea2a6(0x128) + (wrIndex + 0x1))[_0x5ea2a6(0x140)][_0x5ea2a6(0x11a)] = 'block'), index++, document[_0x5ea2a6(0x14b)](_0x5ea2a6(0x15d) + index)[_0x5ea2a6(0x140)][_0x5ea2a6(0x173)] = 'rgb(215,\x20215,\x20215)'); }); let _0x213bec = setInterval(() => { const _0x5939d1 = _0x126555; if (typingTest == ![]) return clearInterval(_0x213bec), INPUT[_0x5939d1(0x16e)] = '', resetTimer(), ![]; if (menit != -0x1) { if (detik > 0x1) detik--, DETIK[_0x5939d1(0x1ab)] = '' + (detik < 0xa ? '0' : '') + detik; else { if (menit >= 0x1) menit--, MENIT[_0x5939d1(0x1ab)] = menit, detik = 0x3b, DETIK[_0x5939d1(0x1ab)] = '' + (detik < 0xa ? '0' : '') + detik; else { clearInterval(_0x213bec), resetWords(), INPUT[_0x5939d1(0x16e)] = '', alert(_0x5939d1(0x13a)); if (language === 'indonesia') stats_data[_0x5939d1(0x1bb)](['', english_last_wpm, Math['floor']((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)), nihon_last_wpm]), document[_0x5939d1(0x18a)] = _0x5939d1(0x134) + Math[_0x5939d1(0x1b3)]((correctChar + wrongChar) / 0x5 / Math[_0x5939d1(0x1b3)](Timer / 0x3c)), indonesia_last_kpm = getCookie('indonesia_last_kpm'); else { if (language === _0x5939d1(0x1ae)) stats_data['push'](['', Math[_0x5939d1(0x1b3)]((correctChar + wrongChar) / 0x5 / Math[_0x5939d1(0x1b3)](Timer / 0x3c)), indonesia_last_kpm, nihon_last_wpm]), document[_0x5939d1(0x18a)] = _0x5939d1(0x12f) + Math[_0x5939d1(0x1b3)]((correctChar + wrongChar) / 0x5 / Math[_0x5939d1(0x1b3)](Timer / 0x3c)), english_last_wpm = getCookie(_0x5939d1(0x139)); else language === _0x5939d1(0x199) && (stats_data[_0x5939d1(0x1bb)](['', english_last_wpm, indonesia_last_kpm, Math[_0x5939d1(0x1b3)]((correctChar + wrongChar) / 0x5 / Math[_0x5939d1(0x1b3)](Timer / 0x3c))]), document[_0x5939d1(0x18a)] = _0x5939d1(0x1af) + Math[_0x5939d1(0x1b3)]((correctChar + wrongChar) / 0x5 / Math[_0x5939d1(0x1b3)](Timer / 0x3c)), nihon_last_wpm = getCookie('nihon_last_wpm')); } updateKurva(stats_data), document[_0x5939d1(0x18a)] = _0x5939d1(0x196) + stats_data, updateResult(language, correctChar, wrongChar, correctWords, wrongWords), document[_0x5939d1(0x18a)] = _0x5939d1(0x119) + language + '#' + correctChar + '#' + wrongChar + '#' + correctWords + '#' + wrongWords, Math[_0x5939d1(0x1b3)]((correctChar + wrongChar) / 0x5 / Math[_0x5939d1(0x1b3)](Timer / 0x3c)) > speed_tertinggi && (speed_tertinggi = Math[_0x5939d1(0x1b3)]((correctChar + wrongChar) / 0x5 / Math[_0x5939d1(0x1b3)](Timer / 0x3c)), document[_0x5939d1(0x18a)] = _0x5939d1(0x13d) + speed_tertinggi), speed_record += '' + (new Date()[_0x5939d1(0x179)]() < 0xa ? '0' : '') + new Date()[_0x5939d1(0x179)]() + ':' + (new Date()[_0x5939d1(0x116)]() < 0xa ? '0' : '') + new Date()[_0x5939d1(0x116)]() + ',' + language[_0x5939d1(0x18e)](0x0)[_0x5939d1(0x17e)]() + language['slice'](0x1) + ',' + (correctChar / (correctChar + wrongChar + wrongWords) * 0x64)['toFixed'](0x2) + ',' + correctWords + ',' + wrongWords + ',' + Math['floor']((correctChar + wrongChar) / 0x5 / Math['floor'](Timer / 0x3c)) + '\x20' + (language == _0x5939d1(0x15a) ? _0x5939d1(0x1aa) : language == _0x5939d1(0x199) ? _0x5939d1(0x178) : _0x5939d1(0x142)), document[_0x5939d1(0x18a)] = _0x5939d1(0x157) + speed_record, updateTabel(); } } } }, 0x3e8); } } function _0x302d(_0x259ca8, _0x170f92) { const _0x194a81 = _0x194a(); return _0x302d = function (_0x302d44, _0x578c48) { _0x302d44 = _0x302d44 - 0x10f; let _0x3e68f6 = _0x194a81[_0x302d44]; return _0x3e68f6; }, _0x302d(_0x259ca8, _0x170f92); } INPUT[_0x1f09aa(0x111)](_0x1f09aa(0x12a), function () { start(Timer); }), RESET[_0x1f09aa(0x111)](_0x1f09aa(0x1ad), function () { resetWords(); }), document[_0x1f09aa(0x14b)]('#language-select')['addEventListener'](_0x1f09aa(0x186), function () { const _0x4e0510 = _0x1f09aa; language = this['value'], document[_0x4e0510(0x18a)] = _0x4e0510(0x172) + language, lang(language), resetWords(); }); getCookie(_0x1f09aa(0x1a6)) && (document[_0x1f09aa(0x14b)](_0x1f09aa(0x146))[_0x1f09aa(0x16e)] = getCookie('selected_language'), language = getCookie('selected_language'), lang(language)); resetWords(); const Bulan = [_0x1f09aa(0x164), _0x1f09aa(0x19f), _0x1f09aa(0x1b7), _0x1f09aa(0x180), 'Mei', _0x1f09aa(0x18c), _0x1f09aa(0x1b1), _0x1f09aa(0x14d), 'September', _0x1f09aa(0x12b), _0x1f09aa(0x13e), _0x1f09aa(0x145)]; function exportData(_0x476aeb) { const _0x269963 = _0x1f09aa; if (confirm(_0x269963(0x1b5))) { if (speed_record[_0x269963(0x17c)] <= 0x0) return alert(_0x269963(0x1a1)), ![]; let _0xe2f2c = _0x269963(0x112) + new Date()[_0x269963(0x16d)]() + '\x20' + Bulan[new Date()[_0x269963(0x167)]()] + '\x20' + new Date()[_0x269963(0x115)](); document[_0x269963(0x14b)](_0x269963(0x10f))['remove'](); let _0x329d97 = XLSX[_0x269963(0x110)][_0x269963(0x1ba)](TABEL, { 'sheet': _0x269963(0x13b) }); XLSX['write'](_0x329d97, { 'bookType': _0x476aeb, 'bookSST': !![], 'type': _0x269963(0x143) }), XLSX[_0x269963(0x185)](_0x329d97, _0xe2f2c + '.' + _0x476aeb), updateTabel(); } } async function PUT_custom_words() { const _0x4e4869 = _0x1f09aa; let _0x5979a6 = prompt(_0x4e4869(0x195)); if (_0x5979a6[_0x4e4869(0x17c)] <= 0x1) return alert(_0x4e4869(0x177)), ![]; let _0xfd87c0 = await fetch(_0x4e4869(0x191), { 'headers': { 'X-Master-Key': '$2b$10$TkdxnefK7oqj5vGFkh2I2eF6JixVnnEy0t8BPChsOWwfF96OUKc12' } }), _0x125543 = await _0xfd87c0[_0x4e4869(0x15b)](); _0x125543 = _0x125543[_0x4e4869(0x1b0)]; if (_0x125543[_0x4e4869(0x18b)](_0x31fe97 => _0x31fe97[_0x4e4869(0x18f)] === _0x5979a6)[_0x4e4869(0x17c)] >= 0x1) return alert(_0x4e4869(0x193)), ![]; _0x125543[_0x4e4869(0x1bb)]({ 'key': _0x5979a6, 'value': words, 'language': language }), fetch(_0x4e4869(0x191), { 'headers': { 'X-Master-Key': _0x4e4869(0x183), 'Content-Type': 'application/json' }, 'method': 'PUT', 'body': JSON['stringify'](_0x125543) }), alert(_0x4e4869(0x1b6)); } document[_0x1f09aa(0x14b)]('.share-btn')['addEventListener']('click', function () { PUT_custom_words(); }); let GET_WORDS = ''; async function GET_custom_words(_0x4d61e9) { const _0x542b97 = _0x1f09aa; if (!_0x4d61e9) return alert(_0x542b97(0x177)), ![]; let _0x23f552 = await fetch(_0x542b97(0x191), { 'headers': { 'X-Master-Key': _0x542b97(0x183) } }), _0x16e057 = await _0x23f552[_0x542b97(0x15b)](); _0x16e057 = _0x16e057[_0x542b97(0x1b0)][_0x542b97(0x18b)](_0x829994 => _0x829994[_0x542b97(0x18f)] === _0x4d61e9)[0x0]; if (!_0x16e057) return alert(_0x542b97(0x197)), ![]; GET_WORDS = !_0x16e057['value'] ? ![] : _0x16e057[_0x542b97(0x16e)]['split']('\x20'), document[_0x542b97(0x14b)](_0x542b97(0x146))[_0x542b97(0x16e)] = _0x16e057['language'], language = _0x16e057[_0x542b97(0x14f)], document[_0x542b97(0x18a)] = _0x542b97(0x172) + language, lang(language), resetWords(GET_WORDS); } document[_0x1f09aa(0x14b)]('#request-words-button')[_0x1f09aa(0x111)](_0x1f09aa(0x1ad), function () { const _0x3abde8 = _0x1f09aa; GET_custom_words(document[_0x3abde8(0x14b)](_0x3abde8(0x198))[_0x3abde8(0x16e)]); });</script>
 </body>
 
 </html>
